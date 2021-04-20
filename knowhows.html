@@ -13119,13 +13119,6 @@ div#notebook {
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Jupyter Notebook 執行版：<a href="https://mybinder.org/v2/gh/nandemoi/test/HEAD">https://mybinder.org/v2/gh/nandemoi/test/HEAD</a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>先定義一個 dictionary</p>
 
 </div>
@@ -13326,7 +13319,7 @@ c 3
     <span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="c1"># 開始搜尋的時間點</span>
     <span class="k">for</span> <span class="n">stNo</span><span class="p">,</span> <span class="n">stats</span> <span class="ow">in</span> <span class="n">ubikes</span><span class="o">.</span><span class="n">items</span> <span class="p">():</span>
         <span class="k">if</span> <span class="n">stats</span> <span class="p">[</span><span class="s1">&#39;sna&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">stName</span><span class="p">:</span>
-            <span class="nb">print</span> <span class="p">(</span><span class="n">stName</span> <span class="o">+</span> <span class="s2">&quot;: &quot;</span> <span class="o">+</span> <span class="n">stats</span> <span class="p">[</span><span class="s1">&#39;bemp&#39;</span><span class="p">])</span>
+            <span class="nb">print</span> <span class="p">(</span><span class="n">stName</span> <span class="o">+</span> <span class="s2">&quot;: &quot;</span> <span class="o">+</span> <span class="n">stats</span> <span class="p">[</span><span class="s1">&#39;sbi&#39;</span><span class="p">])</span>
             <span class="k">return</span> <span class="nb">int</span> <span class="p">((</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">)</span>
     <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;站名錯誤&quot;</span><span class="p">)</span>
     <span class="k">return</span> <span class="nb">int</span> <span class="p">((</span><span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">start_time</span><span class="p">)</span><span class="o">*</span><span class="mf">1e6</span><span class="p">)</span>
@@ -13366,9 +13359,9 @@ c 3
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>植物園: 15
---- 搜尋使用 393 微秒 ---
-重慶南海路口: 18
---- 搜尋使用 168 微秒 ---
+--- 搜尋使用 201 微秒 ---
+重慶南海路口: 10
+--- 搜尋使用 210 微秒 ---
 </pre>
 </div>
 </div>
@@ -13411,7 +13404,7 @@ c 3
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>站名錯誤
---- 搜尋使用 141 微秒 ---
+--- 搜尋使用 108 微秒 ---
 </pre>
 </div>
 </div>
@@ -13476,7 +13469,7 @@ c 3
     <span class="k">try</span><span class="p">:</span>
         <span class="n">stNo</span> <span class="o">=</span> <span class="n">name2no</span> <span class="p">[</span> <span class="n">stName</span> <span class="p">]</span> <span class="c1"># 查站名 stName 所對應的站號</span>
         <span class="n">stats</span> <span class="o">=</span> <span class="n">ubikes</span> <span class="p">[</span> <span class="n">stNo</span> <span class="p">]</span>    <span class="c1"># 查站號 no 的站況</span>
-        <span class="nb">print</span> <span class="p">(</span><span class="n">stName</span> <span class="o">+</span> <span class="s2">&quot;: &quot;</span> <span class="o">+</span> <span class="n">stats</span> <span class="p">[</span><span class="s1">&#39;bemp&#39;</span><span class="p">])</span>
+        <span class="nb">print</span> <span class="p">(</span><span class="n">stName</span> <span class="o">+</span> <span class="s2">&quot;: &quot;</span> <span class="o">+</span> <span class="n">stats</span> <span class="p">[</span><span class="s1">&#39;sbi&#39;</span><span class="p">])</span>
         <span class="c1"># 比較厲害的寫法，上面 3 行寫成 1 行</span>
         <span class="c1"># print (stName + &quot;: &quot; + ubikes [ name2no [ stName ] ][&#39;bemp&#39;]) </span>
     <span class="k">except</span><span class="p">:</span> <span class="c1"># key error</span>
@@ -13519,9 +13512,9 @@ c 3
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>植物園: 15
---- 搜尋使用 114 微秒 ---
-重慶南海路口: 18
---- 搜尋使用 139 微秒 ---
+--- 搜尋使用 79 微秒 ---
+重慶南海路口: 10
+--- 搜尋使用 132 微秒 ---
 </pre>
 </div>
 </div>
@@ -13564,7 +13557,7 @@ c 3
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>站名錯誤
---- 搜尋使用 95 微秒 ---
+--- 搜尋使用 86 微秒 ---
 </pre>
 </div>
 </div>
@@ -13673,10 +13666,80 @@ c 3
     
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>植物園: 14
---- 搜尋使用 79 微秒 ---
+<pre>重慶南海路口: 10
+--- 搜尋使用 83 微秒 ---
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+  </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>較進階的做法：互動網頁</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">wgts</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="n">button</span> <span class="o">=</span> <span class="n">wgts</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;點擊看所選站最新車數&quot;</span><span class="p">)</span>
+<span class="n">output</span> <span class="o">=</span> <span class="n">wgts</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">button</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">on_button_clicked</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">output</span><span class="p">:</span>
+        <span class="n">prBikeNum1</span> <span class="p">(</span><span class="n">stName</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+
+<span class="n">button</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">on_button_clicked</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
 </div>
 
 </div>
