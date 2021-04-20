@@ -13119,7 +13119,9 @@ div#notebook {
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>先定義一個 dictionary</p>
+<h4>Copyright 2020 Elton Huang<br></h4>
+<p><br>
+先定義一個 dictionary</p>
 
 </div>
 </div>
@@ -13141,13 +13143,6 @@ div#notebook {
 </div>
 
   </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>一一檢視 dictionary 內容的方法方法 1:</p>
-
-</div>
-</div>
-</div>
 
   
 
@@ -13185,6 +13180,13 @@ c 3
 </div>
 
   </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>一一檢視 dictionary 內容的方法方法 1:</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>一一檢視 dictionary 內容的方法方法 2:</p>
@@ -13448,7 +13450,10 @@ c 3
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>連同原來的 ubikes，現在有 2 個表<br>
 <img src="http://nandemoi.github.io/tables.png" height="600px"><br>
-之後查車數查表 2 次就有答案了。 O (1) + O (1) = O (1)</p>
+之後查車數查表 2 次就有答案了。 O (1) + O (1) = O (1)<br>
+<br>
+註：Python dictionary 查表這類的做法通常是使用雜湊 (hash)，嚴格說起來在理想的狀況
+才能像陣列查表那樣做到 O (1)，最壞的狀況是 O (n)，效能的技巧在於好的 hashing function，請參考 <a href="https://www.jessicayung.com/how-python-implements-dictionaries/">https://www.jessicayung.com/how-python-implements-dictionaries/</a></p>
 
 </div>
 </div>
