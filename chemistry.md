@@ -1,8 +1,11 @@
 # Chemistry/Zumdahl
+
 ## Chap 1: Foundations
+
 ### 1.1 Overview
 * matter consists of individual atoms
 * macroscopic/microscopic worlds
+  
 ### 1.2 Scientific Methods
 ![](https://i.imgur.com/uzxJett.png)
 1. making observations: qualitative/quantitative (measurement)
