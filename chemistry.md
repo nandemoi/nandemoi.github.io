@@ -29,6 +29,7 @@ a *possible* explanation of *why* nature behaves in a particular way
     * educated guesses; 
     continue to experiment/refine → consistent with new knowledge → approach a more nearly complete understanding of nature
 3. natural law
+    * a summary of observed (measurable) behavior
 
 ### 1.9 Classification of Matter (p.26)
 

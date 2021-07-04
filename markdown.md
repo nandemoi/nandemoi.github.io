@@ -1,0 +1,1 @@
+shd101wyy.markdown-preview-enhanced interferes image resizing
