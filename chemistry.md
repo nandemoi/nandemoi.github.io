@@ -36,21 +36,37 @@ a *possible* explanation of *why* nature behaves in a particular way
 | summarizes what happens | attempts to explain why it happens |
 
 * Focus/Diversity dilemma
-    * hypotheses are couched in the language of the theory
-    * may limit our ability to see other possible explanations
+  * hypotheses are couched in the language of the theory
+  * may limit our ability to see other possible explanations
 * Scientists are human
-    * prejudices
-    * misinterpre data
-    * emotionally attached to their theories and thus lose objectivity
-    * play politics
+  * prejudices
+  * misinterpret data
+  * emotionally attached to their theories and thus lose objectivity
+  * play politics
 
 ### 1.3 Units of Measurement
 
-* SI system (le Systeme International)
+* SI system (*le Systéme International*)
+<br/>&nbsp;
+* Mass: a measure of the resistance of an object to a change in its state of motion
+* Weight: the force that gravity exerts on an object to measure its mass
+
+### 1.4 Uncertainty of Measurement
+
+* significant figures
+* Precision/Accuracy
+
+| random error                                                          | systematic error                       |
+| --------------------------------------------------------------------- | -------------------------------------- |
+| intermediate error                                                    | determinate error                      |
+| equal opportunity of being high or low                                | occurs in the same direction each time |
+| occurs in estimating the the value of the last digit of a measurement |                                        |
+
+![Fig 1.10](https://cdn.scribbr.com/wp-content/uploads/2021/05/precision-vs-accuracy.png)
 
 ### 1.9 Classification of Matter (p.26)
 
 * Matter: occupying space, having mass
-* Matter exists in 3 States: 
+* Matter exists in 3 States:
   * solid: rigid, fixed volume and shape
   * liquid, gas
