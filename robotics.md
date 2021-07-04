@@ -6,7 +6,7 @@
 2. sudo raspi-config
    1. System: hostname (respberrypi -> eltonpi), autologins, preference: desktop pix
    2. Interface: ssh, vnc, Remote GPIO
-   3. (Advanced: Expand Filesystem, Display: resolution)
+   3. (Display: resolution 1280x1024, Advanced: Expand Filesystem)
 3. change browser srch engine, 
 "mega.nz download” → Desktop Apps: Raspbian 10 (32 bits), apt install gdebi, sudo gdebi …
    1. apt install code (python, verilog ![verilog1](https://i.imgur.com/3a5QbtN.png =20x20)![verilog2](https://i.imgur.com/2zUvdSz.png =20x20), teros, wavetrace), iverilog, yosys
