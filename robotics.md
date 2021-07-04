@@ -16,7 +16,7 @@
 5. [MQTT](https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-mosquitto-mqtt-broker-iot-integration/)
 6. [OpenCV](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html)
 7. [Backup](https://www.raspberrypi.org/documentation/linux/filesystem/backup.md)
-   
+
 ## [Industry 4.0 Middleware](https://mediatum.ub.tum.de/doc/1470362/1470362.pdf)
 
 1. ROS/DDS
