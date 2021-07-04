@@ -14,7 +14,7 @@
 4. [Miniconda3](https://www.anegron.site/2020/06/18/how-to-install-conda-and-docker-on-your-raspberry-pi/)
     * [b4 install python=3.6](https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv%E8%88%87jupyter-%E9%80%8F%E9%81%8Econda%E6%96%B9%E6%B3%95-d0752743478): sudo chown -R pi miniconda3
 5. [MQTT](https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-mosquitto-mqtt-broker-iot-integration/)
-6. [OpenCV](https://www.anegron.site/2020/06/18/how-to-install-conda-and-docker-on-your-raspberry-pi/)
+6. [OpenCV](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/) (Step 2+)
    * [Using a standard USB webcam](https://www.raspberrypi.org/documentation/usage/webcams/)
    * [Working with Webcam using OpenCV](https://subscription.packtpub.com/book/hardware_and_creative/9781785285066/7/ch07lvl1sec41/working-with-webcam-using-opencv)
 1. [Backup](https://www.raspberrypi.org/documentation/linux/filesystem/backup.md)
