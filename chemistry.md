@@ -26,7 +26,7 @@ a *possible* explanation of *why* nature behaves in a particular way
     * inevitably change as more information becomes available
     * human inventions,
     attempts to explain observed natural behavior in terms of human experiences
-    * educated guesses;
+    * educated guesses; 
     continue to experiment/refine → consistent with new knowledge → approach a more nearly complete understanding of nature
 3. natural law
     * a summary of observed (measurable) behavior
@@ -35,9 +35,22 @@ a *possible* explanation of *why* nature behaves in a particular way
 | ----------------------- | ---------------------------------- |
 | summarizes what happens | attempts to explain why it happens |
 
+* Focus/Diversity dilemma
+    * hypotheses are couched in the language of the theory
+    * may limit our ability to see other possible explanations
+* Scientists are human
+    * prejudices
+    * misinterpre data
+    * emotionally attached to their theories and thus lose objectivity
+    * play politics
+
+### 1.3 Units of Measurement
+
+* SI system (le Systeme International)
+
 ### 1.9 Classification of Matter (p.26)
 
 * Matter: occupying space, having mass
-* Matter exists in 3 States:
+* Matter exists in 3 States: 
   * solid: rigid, fixed volume and shape
   * liquid, gas
