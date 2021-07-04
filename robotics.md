@@ -7,7 +7,7 @@
    3. (Advanced: Expand Filesystem, Display: resolution)
 3. change browser srch engine, 
 "mega.nz download” → Desktop Apps: Raspbian 10 (32 bits), apt install gdebi, sudo gdebi …
-   1. apt install code (python, verilog ![](https://i.imgur.com/3a5QbtN.png =20x20)![](https://i.imgur.com/2zUvdSz.png =20x20), teros, wavetrace), iverilog, yosys
+   1. apt install code (python, verilog <img src="https://i.imgur.com/3a5QbtN.png" width="20" height="20")![](https://i.imgur.com/2zUvdSz.png =20x20), teros, wavetrace), iverilog, yosys
    2. ps1, alias ls=‘ls -GFh —color=auto’
 4. [Minconda3](https://www.anegron.site/2020/06/18/how-to-install-conda-and-docker-on-your-raspberry-pi/)
     * [b4 install python=3.6](https://medium.com/linux-on-raspberry-pi4/raspberry-pi%E5%AE%89%E8%A3%9Dopencv%E8%88%87jupyter-%E9%80%8F%E9%81%8Econda%E6%96%B9%E6%B3%95-d0752743478): sudo chown -R pi miniconda3
