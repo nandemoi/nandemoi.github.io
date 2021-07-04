@@ -8,7 +8,7 @@
 1. making observations: qualitative/quantitative (measurement)
 2. formulating hypotheses: a *possible* explanation for an observation
 3. Performing experiments: test a hypothesis
-* A theory (model): a set of tested hypotheses that gives an overall explanation of some natural phenonmenon
+* A theory (model): a set of tested hypotheses that gives an overall explanation of some natural phenomenon
 
 1. observations
     * witnessed
