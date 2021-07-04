@@ -26,7 +26,7 @@ a *possible* explanation of *why* nature behaves in a particular way
     * inevitably change as more information becomes available
     * human inventions,
     attempts to explain observed natural behavior in terms of human experiences
-    * educated guesses; 
+    * educated guesses;
     continue to experiment/refine → consistent with new knowledge → approach a more nearly complete understanding of nature
 3. natural law
     * a summary of observed (measurable) behavior
@@ -38,6 +38,6 @@ a *possible* explanation of *why* nature behaves in a particular way
 ### 1.9 Classification of Matter (p.26)
 
 * Matter: occupying space, having mass
-* Matter exists in 3 States: 
+* Matter exists in 3 States:
   * solid: rigid, fixed volume and shape
   * liquid, gas
