@@ -30,9 +30,10 @@ a *possible* explanation of *why* nature behaves in a particular way
     continue to experiment/refine → consistent with new knowledge → approach a more nearly complete understanding of nature
 3. natural law
     * a summary of observed (measurable) behavior
-| a law | a theory (model) |
-| -------- | -------- |
-| summarizes what happens     | attmps to explain why it happens     |
+
+| a law                   | a theory (model)                   |
+| ----------------------- | ---------------------------------- |
+| summarizes what happens | attempts to explain why it happens |
 
 ### 1.9 Classification of Matter (p.26)
 
