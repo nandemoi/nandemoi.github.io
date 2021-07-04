@@ -16,9 +16,8 @@
 5. [MQTT](https://blog.gtwang.org/iot/raspberry-pi/raspberry-pi-mosquitto-mqtt-broker-iot-integration/)
 6. [OpenCV](https://www.anegron.site/2020/06/18/how-to-install-conda-and-docker-on-your-raspberry-pi/)
    * [Using a standard USB webcam](https://www.raspberrypi.org/documentation/usage/webcams/)
-   * [Accessing the Raspberry Pi Camera with OpenCV and Python
-](https://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/) (Step 4+, [swapsize](https://medium.com/ching-i/%E6%A8%B9%E8%8E%93%E6%B4%BE%E5%AE%89%E8%A3%9D-opencv-4-4-0-606900caf370))
-7. [Backup](https://www.raspberrypi.org/documentation/linux/filesystem/backup.md)
+   * [Working with Webcam using OpenCV](https://subscription.packtpub.com/book/hardware_and_creative/9781785285066/7/ch07lvl1sec41/working-with-webcam-using-opencv)
+1. [Backup](https://www.raspberrypi.org/documentation/linux/filesystem/backup.md)
 
 ## [Industry 4.0 Middleware](https://mediatum.ub.tum.de/doc/1470362/1470362.pdf)
 
