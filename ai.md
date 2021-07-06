@@ -9,7 +9,7 @@
   * [ezLabel](https://www.aicreda.com//filemanagement/image/1)
 
 * Edge Computing
-  * ![Edge Computing](https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.6435-9/119559851_798031517635130_7351056869438429750_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=825194&_nc_ohc=Yy5sv95NEXwAX-0jrNj&_nc_ht=scontent.ftpe8-1.fna&oh=c9774204819eb6d106a531283ae84898&oe=60E9518B)
+  ![Edge Computing](https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.6435-9/119559851_798031517635130_7351056869438429750_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=825194&_nc_ohc=Yy5sv95NEXwAX-0jrNj&_nc_ht=scontent.ftpe8-1.fna&oh=c9774204819eb6d106a531283ae84898&oe=60E9518B)
 
 * Fintech
   * 三大金融領域：保險、證券、銀行
