@@ -31,6 +31,3 @@
 ### Mechanisms
 
 * [船用螺旋槳](https://www.facebook.com/groups/194618724476829/permalink/856265831645445/)
-
-* [![船用螺旋槳]({})]({https://www.facebook.com/groups/194618724476829/permalink/856265831645445/} "Link Title")
-
