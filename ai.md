@@ -8,6 +8,8 @@
   * [ezLabel](https://www.aicreda.com//filemanagement/image/1)
 
 * Fintech
+  * 三大金融領域：保險、證券、銀行
+<br/>&nbsp;
   * AI
   * Blockchain
   * Cloud
