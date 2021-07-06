@@ -7,6 +7,8 @@
 * [人工智慧普適研究中心PAIR Labs](https://www.youtube.com/channel/UC36TMyt9wl7SZrh9uWC7Ruw/videos)
   * [ezLabel](https://www.aicreda.com//filemanagement/image/1)
 
+* ![Edge Computing](https://m.facebook.com/groups/2603355889951761?view=info&refid=18)
+
 * Fintech
   * 三大金融領域：保險、證券、銀行
 <br/>&nbsp;
