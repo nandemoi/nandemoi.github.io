@@ -27,11 +27,3 @@
 ## Jetson Nano
 
 * [YOLOv4 on Jetson Nano](https://jkjung-avt.github.io/yolov4/)
-  * [Yolo-Tiny](https://www.pyimagesearch.com/2020/01/27/yolo-and-tiny-yolo-object-detection-on-the-raspberry-pi-and-movidius-ncs/)
-    * [Object detection with Raspberry Pi and Python](https://medium.datadriveninvestor.com/object-detection-with-raspberry-pi-and-python-bc6b3a1d4972)
-      * [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md) 
-      * [Hosted models | TensorFlow Lite](https://www.tensorflow.org/lite/guide/hosted_models)
-      * [Model Zoo](https://modelzoo.co/)
-   * [YOLO-fastest + NCNN on Raspberry Pi 4 教學](https://medium.com/ching-i/yolo-fastest-ncnn-on-raspberry-pi-4-f44143b44e45)
-   * [OpenVINO, OpenCV, and Movidius NCS on the Raspberry Pi](https://www.pyimagesearch.com/2019/04/08/openvino-opencv-and-movidius-ncs-on-the-raspberry-pi/)
-
