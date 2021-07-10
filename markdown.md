@@ -1,1 +1,1 @@
-shd101wyy.markdown-preview-enhanced interferes image resizing
+shd101wyy.markdown-preview-enhanced exerts hard line breaks but interferes image resizing
