@@ -54,5 +54,5 @@
 
 ## System Programming
 
-* [Xv6](https://www.facebook.com/groups/programmerMagazine/permalink/4672041946145818/)
+* [Xv6](https://www.facebook.com/groups/programmerMagazine/permalink/4672041946145818/), [Nand to Tetris](https://www.nand2tetris.org/software)
 * [jserv](https://hackmd.io/@sysprog/linux2021-summer/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FSyM7Y6e6u)
