@@ -2,6 +2,8 @@
 
 * 相關性
 
+* [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)
+
 * [Teachable Machine](https://teachablemachine.withgoogle.com/)
   * [ML with iOS](https://medium.com/firebase-developers/ml-with-ios-f6551ebfc6f0)
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
