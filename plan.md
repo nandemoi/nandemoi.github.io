@@ -23,7 +23,7 @@
 
 * Synthesis: yosys
 * Formal Verification: yosys, ebmc
-* FPGA, coureses with Quartus, Wifiboy, [Xylinx PyNQ-Z2](https://youtu.be/RGqStx-Ml7U)
+* FPGA, courses with Quartus, Wifiboy, [Xylinx PyNQ-Z2](https://youtu.be/RGqStx-Ml7U)
 
 ## Robotics
 
@@ -33,7 +33,7 @@
 * MQtt, mcslite
 * Biomimetic mechanisms
 * Jetson nano, Pi 4
-* Fundalmentals in mechanics
+* Fundamentals in mechanics
 
 ## Fundamentals
 
@@ -42,7 +42,7 @@
 * Chemistry
 * Physics
 * Maths, Engineering Math, Linear Algebra, Calculus
-* Fundalmentals in mechanics
+* Fundamentals in mechanics
 
 ## Apps
 
