@@ -11,10 +11,14 @@
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
   * [Edge Impulse](https://studio.edgeimpulse.com/studio/39030)
 
-* [人工智慧普適研究中心PAIR Labs](https://www.youtube.com/channel/UC36TMyt9wl7SZrh9uWC7Ruw/videos)
+## [人工智慧普適研究中心PAIR Labs](https://www.youtube.com/channel/UC36TMyt9wl7SZrh9uWC7Ruw/videos)
   * [ezLabel](https://www.aicreda.com//filemanagement/image/1)
 
-* Edge Computing
+### [Robotic One-shot Learning](https://www.youtube.com/watch?v=a0EUgXQWPLw)
+
+* 
+
+## Edge Computing
   ![Edge Computing](https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.6435-9/119559851_798031517635130_7351056869438429750_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=825194&_nc_ohc=Yy5sv95NEXwAX-0jrNj&_nc_ht=scontent.ftpe8-1.fna&oh=c9774204819eb6d106a531283ae84898&oe=60E9518B)
 
 * Fintech
