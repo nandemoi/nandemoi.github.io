@@ -7,6 +7,7 @@
 * [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)
 * sklearn.train_test_split 要換行的話括弧先打或用 line continuation
 * [深度學習：使用激勵函數的目的、如何選擇激勵函數](https://mropengate.blogspot.com/2017/02/deep-learning-role-of-activation.html)
+* 算力、算法、領域知識、資料集
 * [Teachable Machine](https://teachablemachine.withgoogle.com/)
   * [ML with iOS](https://medium.com/firebase-developers/ml-with-ios-f6551ebfc6f0)
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
