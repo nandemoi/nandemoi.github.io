@@ -3,9 +3,8 @@
 * 相關性
 
 * [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)
-
+* sklearn.train_test_split 要換行的話括弧先打或用 line continuation
 * [深度學習：使用激勵函數的目的、如何選擇激勵函數](https://mropengate.blogspot.com/2017/02/deep-learning-role-of-activation.html)
-
 * [Teachable Machine](https://teachablemachine.withgoogle.com/)
   * [ML with iOS](https://medium.com/firebase-developers/ml-with-ios-f6551ebfc6f0)
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
@@ -19,7 +18,8 @@
 * 
 
 ## Edge Computing
-  ![Edge Computing](https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.6435-9/119559851_798031517635130_7351056869438429750_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=825194&_nc_ohc=Yy5sv95NEXwAX-0jrNj&_nc_ht=scontent.ftpe8-1.fna&oh=c9774204819eb6d106a531283ae84898&oe=60E9518B)
+  ![Edge Computing](https://i.imgur.com/q1qSbAe.png)
+)
 
 * Fintech
   * 三大金融領域：保險、證券、銀行
