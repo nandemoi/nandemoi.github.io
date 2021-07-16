@@ -1,0 +1,63 @@
+
+# CK110
+
+## 遞迴 Recursion
+
+---
+
+### 複習
+
+* (基本) 程式設計流程控制結構：*循序結構*、選擇結構、重複結構  
+
+---
+
+### 複習
+
+* 函式 function (功能)  
+  1. 重複的步驟  
+  2. 抽象結構 abstract encapsulation  
+
+```python
+# Python
+def fun():
+    print ("hi")
+    return
+
+fun()
+fun()
+fun()
+```
+
+```C++
+// C++
+void fun () {
+    cout << "hi" << endl;
+    return;
+}
+
+int main () {
+    fun();
+    fun();
+    fun();
+    return 0;
+}
+```
+
+函式中```return ```使程式的執行回到原來呼叫程式的*接續*程式指令
+
+---
+
+![Action](https://i.imgur.com/H7c9QGn.gif)
+
+---
+
+### 遞迴
+
+```python
+def fun():
+    print ("hi")
+    fun()
+    return
+
+fun()
+```
