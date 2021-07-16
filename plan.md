@@ -2,7 +2,7 @@
 
 ## Water Color
 
-## Machine Learning
+## Machine Learning / Deep Learning
 
 * The thick book
 * TinyML
