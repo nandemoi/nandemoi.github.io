@@ -30,4 +30,8 @@ pip3 install mariadb
 
 [Day04 使用樹莓派架設伺服器 Part1](https://ithelp.ithome.com.tw/articles/10213753)
 
+[How to connect Python programs to MariaDB](https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/)  
+
 [How to convert SQL Query result to PANDAS Data Structure?](https://stackoverflow.com/questions/12047193/how-to-convert-sql-query-result-to-pandas-data-structure)  
+
+[How do I stop web server on my pi?](chrome-extension://noogafoofpebimajpfpamcfhoaifemoa/suspended.html#ttl=How%20do%20I%20stop%20web%20server%20on%20my%20pi%3F%20-%20HELP%20-%20Raspberry%20Pi%20Forums&pos=0&uri=https://www.raspberrypi.org/forums/viewtopic.php?t=64895)  
