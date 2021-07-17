@@ -8,6 +8,14 @@
 
 [Where is the index.html on OSX 10.9 (Mavericks) Apache setup?](https://apple.stackexchange.com/questions/146235/where-is-the-index-html-on-osx-10-9-mavericks-apache-setup)  
 
+[How to Connect to a Remote MySQL Database in Python](https://www.thepythoncode.com/article/connect-to-a-remote-mysql-server-in-python)  
+
+[Importing data from a MySQL database into Pandas data frame](https://medium.com/analytics-vidhya/importing-data-from-a-mysql-database-into-pandas-data-frame-a06e392d27d7) (writes to DB)  
+
+[Working efficiently with Large Data in pandas and MySQL](https://medium.com/analytics-vidhya/working-efficiently-with-large-data-in-pandas-and-mysql-or-any-other-rdbms-1d7376936763)  
+
+[phpmyadmin連線MySQL8.0報錯#2054 - The server requested authentication method unknown to the client](https://www.itread01.com/content/1546243084.html)  
+
 ## Raspberry Pi
 
 [Raspberry Pi 筆記(61)：安裝MySQL(MariaDB)資料庫及管理工具Adminer](https://atceiling.blogspot.com/2020/03/raspberry-pi-61mysqlmariadb.html)  
