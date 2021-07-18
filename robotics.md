@@ -1,5 +1,9 @@
 # Robotics
 
+## 課程規劃
+
+* Boston Dynamicxs, (FRC), 格鬥; movies?; AV, 倉儲
+
 ## Raspberry Pi
 
 1. [System](https://www.raspberrypi.org/software/)
