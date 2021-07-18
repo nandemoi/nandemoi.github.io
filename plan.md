@@ -41,7 +41,7 @@
 * Kicad/Eagle
 * Chemistry
 * Physics
-* Maths, Engineering Math, Linear Algebra, Calculus
+* Maths, Engineering Math, Linear Algebra, Calculus, Discrte Math
 * Fundamentals in mechanics
 
 ## Apps
