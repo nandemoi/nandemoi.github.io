@@ -1,4 +1,4 @@
-# linux 2021: nandemoi
+# Linux 2021: nandemoi
 
 ## γ - 1
 
