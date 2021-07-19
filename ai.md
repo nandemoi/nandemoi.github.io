@@ -4,7 +4,11 @@
 
 * 相關性
 
-* [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)
+* 鴻海教育基金會出版的 <人工智慧導論> (2019)  
+  [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)  
+  [李宏毅老師課程](https://www.youtube.com/c/HungyiLeeNTU/videos)  
+  [林軒田老師課程](https://www.youtube.com/c/hsuantien/videos)
+
 * sklearn.train_test_split 要換行的話括弧先打或用 line continuation
 * [深度學習：使用激勵函數的目的、如何選擇激勵函數](https://mropengate.blogspot.com/2017/02/deep-learning-role-of-activation.html)
 * 算力、算法、領域知識、資料集
@@ -15,21 +19,25 @@
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
   * [Edge Impulse](https://studio.edgeimpulse.com/studio/39030)
 
-## [人工智慧普適研究中心PAIR Labs](https://www.youtube.com/channel/UC36TMyt9wl7SZrh9uWC7Ruw/videos)
-  * [ezLabel](https://www.aicreda.com//filemanagement/image/1)
+## [人工智慧普適研究中心PAIR Labs](https://www.youtube.com/channel/UC36TMyt9wl7SZrh9uWC7Ruw/videos)  
 
-  * [Robotic One-shot Learning](https://www.youtube.com/watch?v=a0EUgXQWPLw): Trial and Error, Reinforcement, Imitation
+* [ezLabel](https://www.aicreda.com//filemanagement/image/1)
 
-## Edge Computing
-  ![Edge Computing](https://i.imgur.com/q1qSbAe.png)
+* [Robotic One-shot Learning](https://www.youtube.com/watch?v=a0EUgXQWPLw): Trial and Error, Reinforcement, Imitation
 
-## Fintech
-  * 三大金融領域：保險、證券、銀行
-<br/>&nbsp;
-  * AI
-  * Blockchain
-  * Cloud
-  * Data
+## Edge Computing  
+
+  ![Edge Computing](https://i.imgur.com/q1qSbAe.png)  
+
+## Fintech  
+
+* 三大金融領域：保險、證券、銀行  
+
+* ABCD  
+  * AI  
+  * Blockchain  
+  * Cloud  
+  * Data  
 
 * Big Data
   * structured data (database)
@@ -47,4 +55,5 @@
       * 啤酒尿布
 
 ## Tools
-  * [JSONPath](https://jsonpath.com/)
+
+* [JSONPath](https://jsonpath.com/)
