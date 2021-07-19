@@ -28,6 +28,7 @@
 ## Robotics
 
 * Pi: OpenCV, GPIO
+* Yolo, MediaPipe
 * Onshape designs
 * ESP32 Cam
 * MQtt, mcslite
