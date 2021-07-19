@@ -3,6 +3,7 @@
 ## 課程規劃
 
 * 相關性
+  * Colab: 編輯 → 筆記本設定：硬體加速
 
 * 鴻海教育基金會出版的 <人工智慧導論> (2019)  
   [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)  
