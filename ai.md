@@ -13,6 +13,7 @@
 * sklearn.train_test_split 要換行的話括弧先打或用 line continuation
 * [深度學習：使用激勵函數的目的、如何選擇激勵函數](https://mropengate.blogspot.com/2017/02/deep-learning-role-of-activation.html)
 * 算力、算法、領域知識、資料集
+* 結構光、雷射測距：3D 檢測，AI 算角度
 * [【Edge AI社聚#1】 Edge AI人臉辨識技術剖析（Jack）](https://www.youtube.com/watch?v=rk04N_-RBYI&t=2166s)
 * [Google推出可自動化品質控制流程的視覺檢測解決方案Visual Inspection AI](https://www.ithome.com.tw/news/145189)
 * [Teachable Machine](https://teachablemachine.withgoogle.com/)
