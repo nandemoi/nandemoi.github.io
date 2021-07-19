@@ -1,6 +1,10 @@
 # Web Server  
 
-## [Mac](https://discussions.apple.com/docs/DOC-3083)
+## Mac
+
+### [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/)  
+
+### [MySQL/PHP/Apache](https://discussions.apple.com/docs/DOC-3083)
 
 [Apache HTTP Server上常會遇到的亂碼問題](https://www.itread01.com/content/1549338675.html)  
 
@@ -10,11 +14,18 @@
 
 [How to Connect to a Remote MySQL Database in Python](https://www.thepythoncode.com/article/connect-to-a-remote-mysql-server-in-python)  
 
-[Importing data from a MySQL database into Pandas data frame](https://medium.com/analytics-vidhya/importing-data-from-a-mysql-database-into-pandas-data-frame-a06e392d27d7) (writes to DB)  
+[Importing data from a MySQL database into Pandas data frame](https://medium.com/analytics-vidhya/importing-data-from-a-mysql-database-into-pandas-data-frame-a06e392d27d7)  
 
-[Working efficiently with Large Data in pandas and MySQL](https://medium.com/analytics-vidhya/working-efficiently-with-large-data-in-pandas-and-mysql-or-any-other-rdbms-1d7376936763)  
+[Pandas Dataframe to MySQL](https://www.coder.work/article/3962142)  
 
 [phpmyadmin連線MySQL8.0報錯#2054 - The server requested authentication method unknown to the client](https://www.itread01.com/content/1546243084.html)  
+
+### [Flask](https://topherpedersen.blog/2019/12/28/how-to-setup-a-new-flask-app-on-a-mac/)
+
+[Flask access from different devices](https://stackoverflow.com/questions/62499969/flask-access-from-different-devices)  
+
+[ngrok forwarding, Flask Mega Tutorial at Bottom](https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-python-and-flask-development-environment)  
+[Apache at port 80](https://www.google.com/search?q=apache+which+port&oq=apache+which+port&aqs=chrome..69i57.2850j0j1&sourceid=chrome&ie=UTF-8)  
 
 ## Raspberry Pi
 
@@ -43,3 +54,8 @@ pip3 install mariadb
 [How to convert SQL Query result to PANDAS Data Structure?](https://stackoverflow.com/questions/12047193/how-to-convert-sql-query-result-to-pandas-data-structure)  
 
 [How do I stop web server on my pi?](chrome-extension://noogafoofpebimajpfpamcfhoaifemoa/suspended.html#ttl=How%20do%20I%20stop%20web%20server%20on%20my%20pi%3F%20-%20HELP%20-%20Raspberry%20Pi%20Forums&pos=0&uri=https://www.raspberrypi.org/forums/viewtopic.php?t=64895)  
+
+## [PyQt](https://build-system.fman.io/pyqt5-tutorial)    
+
+[PyQt5 Tutorial - How to Use Qt Designer](https://youtu.be/FVpho_UiDAY?t=521): pyuic5 -x untitled.ui -o ui.py  
+[Python GUI Development with Qt - QtDesigner's Signal-Slot Editor, Tab Order Management - Video 12](https://youtu.be/u0zhLEHHZBU?t=392)  
