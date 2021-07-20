@@ -1,11 +1,13 @@
-# Web Server  
+# Server  
 
-## Mac
-
-### [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/)  
+## [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/)  
 
 * accept() *blocks* and waits for an incoming connection.  
   When a client connects, it returns a new socket object, *distinct* from the listening socket that the server is using to accept new connections.
+
+* [Raspberry Pi: Cannot connect to socket server](https://www.raspberrypi.org/forums/viewtopic.php?t=62108)  
+  
+## Mac  
 
 ### [MySQL/PHP/Apache Setup](https://discussions.apple.com/docs/DOC-3083)
 
@@ -33,7 +35,7 @@
 
 [Day04 使用樹莓派架設伺服器 Part1](https://ithelp.ithome.com.tw/articles/10213753)
 
-### MaraDB on Pi
+### MariaDB on Pi
 
 * [Raspberry Pi 筆記(61)：安裝MySQL(MariaDB)資料庫及管理工具Adminer](https://atceiling.blogspot.com/2020/03/raspberry-pi-61mysqlmariadb.html)  
 * [Executing Scripts with Maria-db Command Line](https://www.syspanda.com/index.php/2017/09/07/executing-scripts-maria-db-command-line/)  
