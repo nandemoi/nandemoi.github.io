@@ -4,6 +4,9 @@
 
 ### [Socket Programming in Python (Guide)](https://realpython.com/python-sockets/)  
 
+* accept() *blocks* and waits for an incoming connection.  
+  When a client connects, it returns a new socket object, *distinct* from the listening socket that the server is using to accept new connections.
+
 ### [MySQL/PHP/Apache](https://discussions.apple.com/docs/DOC-3083)
 
 [Apache HTTP Server上常會遇到的亂碼問題](https://www.itread01.com/content/1549338675.html)  
@@ -29,18 +32,19 @@
 
 ## Raspberry Pi
 
-[Raspberry Pi 筆記(61)：安裝MySQL(MariaDB)資料庫及管理工具Adminer](https://atceiling.blogspot.com/2020/03/raspberry-pi-61mysqlmariadb.html)  
+### MaraDB on Pi
 
-[Executing Scripts with Maria-db Command Line](https://www.syspanda.com/index.php/2017/09/07/executing-scripts-maria-db-command-line/)  
+* [Raspberry Pi 筆記(61)：安裝MySQL(MariaDB)資料庫及管理工具Adminer](https://atceiling.blogspot.com/2020/03/raspberry-pi-61mysqlmariadb.html)  
+* [Executing Scripts with Maria-db Command Line](https://www.syspanda.com/index.php/2017/09/07/executing-scripts-maria-db-command-line/)  
+* [Import CSV File | MariaDB Tutorial for Beginners](https://www.youtube.com/watch?v=3hXk9sXBgt8)  
+* [How to import CSV files to MySQL/MariaDB table](https://www.simplified.guide/mysql-mariadb/import-csv)  
 
-[Import CSV File | MariaDB Tutorial for Beginners](https://www.youtube.com/watch?v=3hXk9sXBgt8)  
-
-[How to import CSV files to MySQL/MariaDB table](https://www.simplified.guide/mysql-mariadb/import-csv)  
-
+### Mount Pi on Mac
 sshfs pi@eltonpi.local:/home/pi/pi-works/att ~/eltonpi  
 sudo diskutil unmount force ~/eltonpi  
 [mount_macfuse: the file system is not available (1) #791](https://github.com/osxfuse/osxfuse/issues/791)  
 
+### MariaDB on Mac
 brew install mariadb  
 pip3 install mariadb  
 
