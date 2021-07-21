@@ -26,11 +26,6 @@
 
 [Flask access from different devices](https://stackoverflow.com/questions/62499969/flask-access-from-different-devices)  
 
-### ngrok HTTP forwarding
-
-[ngrok forwarding, Flask Mega Tutorial at Bottom](https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-python-and-flask-development-environment)  
-[Apache at port 80](https://www.google.com/search?q=apache+which+port&oq=apache+which+port&aqs=chrome..69i57.2850j0j1&sourceid=chrome&ie=UTF-8)  
-
 ## Raspberry Pi
 
 [Day04 使用樹莓派架設伺服器 Part1](https://ithelp.ithome.com.tw/articles/10213753)
@@ -62,3 +57,8 @@ pip3 install mariadb
 
 * [PyQt5 Tutorial - How to Use Qt Designer](https://youtu.be/FVpho_UiDAY?t=521): pyuic5 -x untitled.ui -o ui.py  
 * [Python GUI Development with Qt - QtDesigner's Signal-Slot Editor, Tab Order Management - Video 12](https://youtu.be/u0zhLEHHZBU?t=392)  
+
+## ngrok HTTP forwarding
+
+[ngrok forwarding, Flask Mega Tutorial at Bottom](https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-python-and-flask-development-environment)  
+[Apache at port 80](https://www.google.com/search?q=apache+which+port&oq=apache+which+port&aqs=chrome..69i57.2850j0j1&sourceid=chrome&ie=UTF-8)  
