@@ -2,8 +2,14 @@
 
 ## 課程規劃
 
+* 「向量」：一組*有序排列*的數字
+  * vector or tensor (張量)
+
 * 相關性
   * Colab: 編輯 → 筆記本設定：硬體加速
+
+* One-hot encoding
+  * pandas.get_dummies (): dummies 櫥窗模特兒們
 
 * 鴻海教育基金會出版的 <人工智慧導論> (2019)  
   [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)  
