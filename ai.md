@@ -8,6 +8,9 @@
 * 相關性
   * Colab: 編輯 → 筆記本設定：硬體加速  
 
+* [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro)
+  * [Neural Network Playgournd](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.80884&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
 * Normal Distribution: $平均值$、$變異數$ ($標準差^2$)  
   * $\sigma$ is its standard deviation. The variance $\sigma^2$.
 
