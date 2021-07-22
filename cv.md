@@ -18,3 +18,5 @@
 
 * [US 7103198 B2](https://www.google.ch/patents/US7103198) Method for determining an adjacency relation (美國)  
   581972 判斷鄰近關係之方法 (台灣)
+
+### [部分作品](https://www.flickr.com/photos/nandemoi)  
