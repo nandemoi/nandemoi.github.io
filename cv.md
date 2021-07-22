@@ -17,8 +17,9 @@ TOEFL PBT 640 CEFR C1 金色證書
 
 ### 演算法專利發明  
 
-US 7103198 B2 Method for determining an adjacency relation (美國)   	                  
+[US 7103198 B2](https://www.google.ch/patents/US7103198) Method for determining an adjacency relation (美國)   	                  
 581972 判斷鄰近關係之方法 (台灣)
 
 ---
 
+test  
