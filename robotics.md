@@ -3,6 +3,8 @@
 ## 課程規劃
 
 * Boston Dynamicxs, (FRC), 格鬥; movies?; AV, 倉儲
+* [Machine Vision 機械視覺：Automatic Optical Inspection 自動光學檢測](https://drive.google.com/drive/folders/1zU2HMmcTTuFISprpHuXCQCRPoVyJwP27?usp=sharing)  
+  * Siamese network
 
 ## Raspberry Pi
 
