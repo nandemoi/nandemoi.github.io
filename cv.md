@@ -11,7 +11,7 @@
 
 ### [學歷與語言認證](https://drive.google.com/drive/folders/1oxuUlZny47ZJlBzSSfIkAcZiLxoHdYHk?usp=sharing)
 
-[Syracuse University](https://www.syracuse.edu/) [電腦工程碩士](https://eng-cs.syr.edu/program/computer-engineering/?degree=masters_program)  
+[Syracuse University](https://www.syracuse.edu/) [電腦工程](https://eng-cs.syr.edu/program/computer-engineering/?degree=masters_program)[碩士](https://drive.google.com/file/d/1ck9vugKDrVwRbcvKGrJvrOsiJUwLbB1h/view?usp=sharing)  
 [TOEFL PBT 640 CEFR C1 金色證書](https://drive.google.com/file/d/1-MZJSjlLrwcv2_N0f1Qwob6eAMG9kcmv/view?usp=sharing)
 
 ### 演算法專利發明  
