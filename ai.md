@@ -6,17 +6,26 @@
   * vector or tensor (張量)
 
 * 相關性
-  * Colab: 編輯 → 筆記本設定：硬體加速
+  * Colab: 編輯 → 筆記本設定：硬體加速  
+
+* Normal Distribution: $平均值$、$變異數$ ($標準差^2$)  
+  * $\sigma$ is its standard deviation. The variance $\sigma^2$.
 
 * One-hot encoding
-  * pandas.get_dummies (): dummies 櫥窗模特兒們
+  * ```pandas.get_dummies()```: dummies 櫥窗模特兒們
 
 * 鴻海教育基金會出版的 <人工智慧導論> (2019)  
-  [蔡炎龍老師課程](https://www.facebook.com/groups/yenlung.live)  
+  [蔡炎龍老師課程](https://www.youtube.com/c/iyenlung/videos)  
+  ([Difference Between Backpropagation and Stochastic Gradient Descent](https://machinelearningmastery.com/difference-between-backpropagation-and-stochastic-gradient-descent/))  
   [李宏毅老師課程](https://www.youtube.com/c/HungyiLeeNTU/videos)  
   [林軒田老師課程](https://www.youtube.com/c/hsuantien/videos)
 
-* sklearn.train_test_split 要換行的話括弧先打或用 line continuation
+* Deep Q Learning and 7 Bridge Problem  
+
+* Google MediaPipe, NVidea BodyPoseNet,  
+  [DeepPhys- Video-Based Physiological Measurement Using Convolutional Attention Networks](https://arxiv.org/pdf/1805.07888.pdf)    
+
+* ```sklearn.train_test_split``` 要換行的話括弧先打或用 line continuation
 * [深度學習：使用激勵函數的目的、如何選擇激勵函數](https://mropengate.blogspot.com/2017/02/deep-learning-role-of-activation.html)
 * 算力、算法、領域知識、資料集
 * 結構光、雷射測距：3D 檢測，AI 算角度
