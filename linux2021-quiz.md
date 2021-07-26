@@ -44,4 +44,4 @@ digraph {
 &nbsp;  
 Let's write ``NNN`` as $n$; the number of minus signs printed can be generalized into $n\times2^n$. When $n$ is $12$, it amounts to $49152$.
 
-###### tags: `HackMD` `Linux 2021`  
+###### tags: `Linux 2021`  
