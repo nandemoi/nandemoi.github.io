@@ -6,6 +6,7 @@
   When a client connects, it returns a new socket object, *distinct* from the listening socket that the server is using to accept new connections.
 
 * [Raspberry Pi: Cannot connect to socket server](https://www.raspberrypi.org/forums/viewtopic.php?t=62108)  
+* Ping time-out: check the Wifi router that it connects to
   
 ## Mac  
 
