@@ -4,7 +4,7 @@
 
 ### 3
 
-
+[Can I use strtok() in a Linux Kernel Module?](https://stackoverflow.com/questions/2246618/can-i-use-strtok-in-a-linux-kernel-module)  
 
 ### 4
 
