@@ -96,12 +96,12 @@ Journal: 在設定一個適合的開發環境花了很多時間：
 
 因為第二週的內容更多，打算先趕進度，有時間再回來看其他沒完成的 quizzes。
 
+[Can I use strtok() in a Linux Kernel Module?](https://stackoverflow.com/questions/2246618/can-i-use-strtok-in-a-linux-kernel-module)  
+
 ## quiz1
 
 ```hidden_proc``` is a linked list created in ```hideproc.ko```. How it relates to the list of processes that ```ps``` checks is still under investigation. I suspect it has to do with the ```/proc``` folder. When a process is hidden with ```/dev/hideproc```, the ```pid``` folder also disappeared in ```/proc```. But the mechanism how the linked list ```hidden_proc``` in ```hideproc.ko``` triggers that to happen is yet unknown to me. 
 
 ## [題目連結](https://hackmd.io/@sysprog/linux2021-summer-quiz1)  
-
-[Can I use strtok() in a Linux Kernel Module?](https://stackoverflow.com/questions/2246618/can-i-use-strtok-in-a-linux-kernel-module)  
 
 ###### tags: `Linux 2021`  
