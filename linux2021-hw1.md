@@ -1,6 +1,6 @@
 # 2021q3 Homework1 (quiz3)
 
-contributed by <nandemoi>
+contributed by nandemoi
 
 ## quiz3-2  
 
