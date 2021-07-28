@@ -14,7 +14,17 @@
 * [Multipass](https://www.techrepublic.com/article/multipass-is-a-new-tool-for-launching-virtual-machines/)  
   * [MacOS: where is vm file location](https://github.com/canonical/multipass/issues/1263)
   * [How to git clone on Ubuntu](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-git-clone-on-Ubuntu-with-GitLab-and-GitHub)  
-  * See ```pr_info()``` outputs with ```dmesg```
+  * ```mp mount ~/mp foo:/home/ubuntu/hw1``` (can't mount home)  
+    ``` mp unmount foo```  
+* See ```pr_info()``` outputs with ```dmesg```
+* shell command - human vs. cpu/build instruction - machine  
+* issue vs. send/receive  
+* ```opendiff``` or ```git difftool```  
+8:47 - 7:30
+* [How to enable access to VirtualBox via SSH NAT ?](https://bobcares.com/blog/virtualbox-ssh-nat/)  
+  * [Ubuntu Linux install OpenSSH server](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)  
+  * ```sshfs -p 2522 nandemoi@127.0.0.1:/home/nandemoi ub```  
+  * [Share folder between MacOS and Ubuntu](https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad)  
 
 ## administrative  
 
