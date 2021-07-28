@@ -1,6 +1,8 @@
-# Linux 2021: nandemoi HW1
+# 2021q3 Homework1 (quiz3)
 
-## 3-2  
+contributed by <nandemoi>
+
+## quiz3-2  
 
 只有完成這半題
 
@@ -82,9 +84,9 @@ static ssize_t device_write(struct file *filep,
 }
 ```
 
-## 1
+## quiz1
 
-
+```hidden_proc``` is a linked list created in ```hideproc.ko```. How it relates to the list of processes that ```ps``` checks is still under investigation. I suspect it has to do with the ```/proc``` folder. When a process is hidden with ```/dev/hideproc```, the ```pid``` folder also disappeared in ```/proc```. But the mechanism how the linked list ```hidden_proc``` in ```hideproc.ko``` triggers that to happen is yet unknown to me. 
 
 ## [題目連結](https://hackmd.io/@sysprog/linux2021-summer-quiz1)  
 
