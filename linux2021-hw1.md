@@ -88,7 +88,7 @@ Journal: 在設定一個適合的開發環境花了很多時間：
 
 1. Ubuntu Virtual Machine 和 Raspbian 都有 EFI 的問題。Raspbian 從 source make 完成後沒有繼續試，先用 multipass。
 
-2. Kernel module development 大概沒有辦法掛 ```gdb``` 做 single-stepping debug，只能用 logging 的 batch flow 來 debug。再加上 memory manipulation、pointers 的使用要很 meticulous，一些 function 的 kernel counter parts 的用法或者不太一樣，或者不熟、我的記憶 got rusty，一出錯 system 就 hang 或者其後的 operations 無法執行或者一樣 hang 住。
+2. Kernel module development 大概沒有辦法掛 ```gdb``` 做 single-stepping debug，只能用 inline message logging 的 batch flow 來 debug。再加上 memory manipulation、pointers 的使用要很 meticulous，一些 function 的 kernel counter parts 的用法或者不太一樣，或者不熟、我的記憶 got rusty，一出錯 system 就 hang 或者其後的 operations 無法執行或者一樣 hang 住。
 
 3. 不想用 ```vi``` 或 ```nano```，一開始還不知道可以用 ```multipass mount``` 而用 ```sshfs```，讓 MacOS 也受到影響，整個拖慢常常要重開機；就想說用 Ubuntu VM 跑 multipass，這樣如果要重開機重開虛擬機就好。結果發現 nested virtualization 不支援。
    
