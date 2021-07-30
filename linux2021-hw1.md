@@ -84,7 +84,28 @@ static ssize_t device_write(struct file *filep,
 }
 ```
 
-Journal: 在設定一個適合的開發環境花了很多時間：
+## quiz1
+
+1. ```_hideproc_init()``` calls ```init_hook()``` where  
+    1. ```find_ge_pid``` looked up with ```kallsyms_lookup_name()``` and both assigned to ```real_find_ge_pid``` and stored in ```hook.org```
+
+2. ```ps``` queries ```procfs``` (```/proc```).  
+
+## quiz4
+
+1. ```hook_find_ge_pid()``` to employ hash search instead?
+
+2. ```init_hook()``` uses ```kallsyms_lookup_name()``` to look up ```find_ge_pid``` and afterward in ```hook_install()``` calls ```hook_resolve_addr()``` where the same thing is performed again except via the ```hook``` fields. ```hook_install()```/```hook_resolve_addr()``` seems to be called only once at the installation/beginning of hideproc so this may be simplified? 
+
+## [題目連結](https://hackmd.io/@sysprog/linux2021-summer-quiz1)  
+
+## Journal: 
+
+1. ```multipass mount```  
+2. multipass VM 如果 hang 住就 ```stop``` 再 ```start``` 就好了  
+3. 不熟的 functions 老老實實寫個小程式測試好確定功能後再用。  
+
+在設定一個適合的開發環境花了很多時間：
 
 1. Ubuntu Virtual Machine 和 Raspbian 都有 EFI 的問題。Raspbian 從 source make 完成後沒有繼續試，先用 multipass。
 
@@ -92,19 +113,8 @@ Journal: 在設定一個適合的開發環境花了很多時間：
 
 3. 不想用 ```vi``` 或 ```nano```，一開始還不知道可以用 ```multipass mount``` 而用 ```sshfs```，讓 MacOS 也受到影響，整個拖慢常常要重開機；就想說用 Ubuntu VM 跑 multipass，這樣如果要重開機重開虛擬機就好。結果發現 nested virtualization 不支援。
    
-知道用 ```multipass mount``` 後，還有 multipass VM 如果 hang 住就 ```stop``` 再 ```start``` 就好了；然後不熟的 functions 老老實實寫個小程式測試好確定功能後再用，後面就比較順了。
-
-因為第二週的內容更多，打算先趕進度，有時間再回來看其他沒完成的 quizzes。
-
 [Can I use strtok() in a Linux Kernel Module?](https://stackoverflow.com/questions/2246618/can-i-use-strtok-in-a-linux-kernel-module)  
 
-## quiz1
 
-1. ```_hideproc_init()``` calls ```init_hook()``` where  
-    1. ```find_ge_pid``` looked up with ```kallsyms_lookup_name()``` and both assigned to ```real_find_ge_pid``` and stored in ```hook.org```
-
-```ps``` queries ```procfs``` (```/proc```).
-
-## [題目連結](https://hackmd.io/@sysprog/linux2021-summer-quiz1)  
 
 ###### tags: `Linux 2021`  
