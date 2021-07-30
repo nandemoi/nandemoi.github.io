@@ -20,11 +20,16 @@
 * shell command - human vs. cpu/build instruction - machine  
 * issue vs. send/receive  
 * ```opendiff``` or ```git difftool```  
-8:47 - 7:30
+8:47 - 7:30  
+[1](https://youtu.be/ykGPShg3uoY?t=1696)  
+[2](blob:https://www.youtube.com/09bcd472-8385-4a88-8646-fddeaf531073)
 * [How to enable access to VirtualBox via SSH NAT ?](https://bobcares.com/blog/virtualbox-ssh-nat/)  
   * [Ubuntu Linux install OpenSSH server](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)  
   * ```sshfs -p 2522 nandemoi@127.0.0.1:/home/nandemoi ub```  
   * [Share folder between MacOS and Ubuntu](https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad)  
+
+## ARM with R/Pi:  
+~/arm-pi  
 
 ## administrative  
 

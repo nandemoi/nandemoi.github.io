@@ -100,7 +100,10 @@ Journal: 在設定一個適合的開發環境花了很多時間：
 
 ## quiz1
 
-```hidden_proc``` is a linked list created in ```hideproc.ko```. How it relates to the list of processes that ```ps``` checks is still under investigation. I suspect it has to do with the ```/proc``` folder. When a process is hidden with ```/dev/hideproc```, the ```pid``` folder also disappeared in ```/proc```. But the mechanism how the linked list ```hidden_proc``` in ```hideproc.ko``` triggers that to happen is yet unknown to me. 
+1. ```_hideproc_init()``` calls ```init_hook()``` where  
+    1. ```find_ge_pid``` looked up with ```kallsyms_lookup_name()``` and both assigned to ```real_find_ge_pid``` and stored in ```hook.org```
+
+```ps``` queries ```procfs``` (```/proc```).
 
 ## [題目連結](https://hackmd.io/@sysprog/linux2021-summer-quiz1)  
 
