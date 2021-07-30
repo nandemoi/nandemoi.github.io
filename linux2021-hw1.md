@@ -99,7 +99,7 @@ static ssize_t device_write(struct file *filep,
 
 ## [題目連結](https://hackmd.io/@sysprog/linux2021-summer-quiz1)  
 
-## Journal: 
+## Journal  
 
 1. ```multipass mount```  
 2. multipass VM 如果 hang 住就 ```stop``` 再 ```start``` 就好了  
