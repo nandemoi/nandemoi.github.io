@@ -28,6 +28,16 @@
   * ```sshfs -p 2522 nandemoi@127.0.0.1:/home/nandemoi ub```  
   * [Share folder between MacOS and Ubuntu](https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad)  
 
+8/13 rcu 先看
+xor list
+你所不知道的 C 語言，linker kernel symbols
+bootlin
+rootkit
+sudo pkill -9 hyperkit
+gist qemu apple
+NPTL or M...?
+locking/rt-mutex
+
 ## ARM with R/Pi:  
 ~/arm-pi  
 
