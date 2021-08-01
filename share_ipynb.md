@@ -1,6 +1,6 @@
 # 如何分享 Jupyter Notebook
 
-把 Jupyter Notebook 做為學習歷程的一部分，3 種方式擇 1
+把 Jupyter Notebook 做為學習歷程的一部分，可以以下 3 種方式擇 1 分享：  
 
 ## 1. [轉成 html](https://stackoverflow.com/questions/15998491/how-to-convert-ipython-notebooks-to-pdf-and-html)
 
