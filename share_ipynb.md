@@ -18,18 +18,15 @@
 
 ### [如何有自己的網頁](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5)
 
-目前大概剩下 github.io 提供免費的網頁伺服器服務，點擊[連結](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5)
++ 目前大概剩下 github.io 提供免費的網頁伺服器服務，點擊[教學連結](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5) ...  
 
-## 2. 互動式網頁
+## 2. [互動式網頁](https://www.nbinteract.com/)
 
-這個比較複雜，如果只是想讓 ipywidget 可以用
++ 如果只是想讓 ipywidget 可以點擊[教學連結](https://www.nbinteract.com/) ...  
+  裡面有說這個作法後台互動的伺服器用到 [Binder](https://mybinder.org/) 的服務 (免費但是要設定，小複雜)。
 
-(整理中...)
-
-### [Binder](https://jvns.ca/blog/2017/11/12/binder--an-awesome-tool-for-hosting-jupyter-notebooks/)
-
-這個直接在你的網頁完整執行 Jupyter Notebook 的所有功能
++ 同樣的服務可以讓你的網頁整個像 Google Colab 那樣讓使用者完整操作你的 Jupyter Notebook。點擊[教學連結](https://jvns.ca/blog/2017/11/12/binder--an-awesome-tool-for-hosting-jupyter-notebooks/) ...  
 
 ## 3. Github
 
-Google Colab 可以第 3 個選項開啟
++ Google Colab 可以第 3 個選項開啟  
