@@ -1,8 +1,8 @@
 # 如何分享 Jupyter Notebook
 
-把 Jupyter Notebook 做為學習歷程的一部分
+把 Jupyter Notebook 做為學習歷程的一部分，3 種方式擇 1
 
-## [轉成 html](https://stackoverflow.com/questions/15998491/how-to-convert-ipython-notebooks-to-pdf-and-html)
+## 1. [轉成 html](https://stackoverflow.com/questions/15998491/how-to-convert-ipython-notebooks-to-pdf-and-html)
 
 下載你的 Jupyter Notebook 檔到本機。在命令列 (Windows CMD 或 PowerShell，Mac Terminal) 打
 
@@ -20,7 +20,7 @@
 
 目前大概剩下 github.io 提供免費的網頁伺服器服務，點擊[連結](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5)
 
-## 互動式網頁
+## 2. 互動式網頁
 
 這個比較複雜，如果只是想讓 ipywidget 可以用
 
@@ -30,6 +30,6 @@
 
 這個直接在你的網頁完整執行 Jupyter Notebook 的所有功能
 
-## Github
+## 3. Github
 
 Google Colab 可以第 3 個選項開啟
