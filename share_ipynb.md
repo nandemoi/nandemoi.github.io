@@ -14,7 +14,7 @@
 
   ```pip3 install nbconvert```  
 
-+ 不過這樣分享的 Jupyter Notebook 是一個靜態的，就是讓別人看你的程式碼和最後一次執行抓下來的結果。如果需要互動式的，就要看[下面那段](#互動式網頁)。
++ 不過這樣分享的 Jupyter Notebook 是一個*靜態*的，就是讓別人看你的程式碼和最後一次執行抓下來的結果。如果需要互動式的，就要看[下面那段](#互動式網頁)。
 
 ### [如何有自己的網頁](https://medium.com/@svinkle/publish-and-share-your-own-website-for-free-with-github-2eff049a1cb5)
 
