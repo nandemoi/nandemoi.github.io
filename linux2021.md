@@ -45,13 +45,13 @@ the dinosaur book, Silberschatz, Galvin and Gagne 2018 10th Ed.
 ### Process Scheduling (3.2)
 
 * Process States:  
-  * Ready (queue)  
+  * Ready (queue) till *dispatched* to execution  
   * Execution (in CPU) until it  
     * terminates,  
     * is interrupted, or  
     * or waits for the occurrence of a particular event (e.g. completion of an I/O request)  
   * Wait (queue)  
-
+![Process Scheduling](https://nandemoi.github.io/slides/dino_fig_3_5_proc_sch.png)  
 
 ### Thread (Chap 4)
 
