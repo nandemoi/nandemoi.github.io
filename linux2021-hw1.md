@@ -103,6 +103,7 @@ static ssize_t device_write(struct file *filep,
 
 1. ```multipass mount```  
 2. multipass VM 如果 hang 住就 ```stop``` 再 ```start``` 就好了  
+   ```sudo pkill -9 hyperkit```
 3. 不熟的 functions 老老實實寫個小程式測試好確定功能後再用。  
 
 在設定一個適合的開發環境花了很多時間：
