@@ -38,23 +38,32 @@ gist qemu apple
 NPTL or M...?
 locking/rt-mutex  
 
-## The Dino Book  
-2018 3rd
+## Operating System Concepts  
+
+the dinosaur book, Silberschatz, Galvin and Gagne 2018 10th Ed.
 
 ### Thread (Chap 4)
 
-+ basic unit of CPU utilization  
-+ comprises:  
+* basic unit of CPU utilization  
+* comprises:  
   a thread ID,  
-  a program counter (PC),   
-  a register set,   
+  a program counter (PC),  
+  a register set,  
   and a stack
-+ shares:  
+* shares:  
   code section,  
   data section,  
   and other operating-system resources, such as open files and signals.  
+* Amdahl's law
+
+| asynch | sync |
+|:--|:--|
+|parent/child concurr and independent|parent waits by calling ```pthread_join()``` for all children to terminate b4 resume;<br>children concurr|
+|little data sharing|significant data sharing|
+|server,responsive ui||
 
 ## ARM with R/Pi:  
+
 ~/arm-pi  
 
 ## administrative  
