@@ -11,7 +11,7 @@
   ```<檔名>``` 是你的 Jupyter Notebook 檔名 (不用打 ```<``` 和 ```>``` 符號)，  
   執行之後，在同一個目錄就會有一個 ```<檔名>.html``` 的檔案，可以 publish 到自己的網頁。
 
-+ 如果報錯找不到 ```nbconvert``` 就先安裝：
++ 如果報錯找不到 ```nbconvert``` 就先安裝：  
 
   ```pip3 install nbconvert```  
 

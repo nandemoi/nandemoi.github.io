@@ -16,6 +16,13 @@
 
 ## Water Color
 
+## ASIC Design
+
+* [HDLS](https://www.eettaiwan.com/20170925ta31-digital-hardware-design/)  
+  * Descriptive: sequential vs. parallelism
+  * clocking  
+* [nMigen](https://github.com/m-labs/nmigen)  
+
 ## Machine Learning / Deep Learning
 
 * The thick book
