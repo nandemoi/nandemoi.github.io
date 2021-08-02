@@ -36,7 +36,23 @@ rootkit
 sudo pkill -9 hyperkit
 gist qemu apple
 NPTL or M...?
-locking/rt-mutex
+locking/rt-mutex  
+
+## The Dino Book  
+2018 3rd
+
+### Thread (Chap 4)
+
++ basic unit of CPU utilization  
++ comprises:  
+  a thread ID,  
+  a program counter (PC),   
+  a register set,   
+  and a stack
++ shares:  
+  code section,  
+  data section,  
+  and other operating-system resources, such as open files and signals.  
 
 ## ARM with R/Pi:  
 ~/arm-pi  
