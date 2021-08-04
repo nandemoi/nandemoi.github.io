@@ -28,15 +28,22 @@
   * ```sshfs -p 2522 nandemoi@127.0.0.1:/home/nandemoi ub```  
   * [Share folder between MacOS and Ubuntu](https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad)  
 
-8/13 rcu 先看
-xor list
-你所不知道的 C 語言，linker kernel symbols
-bootlin
-rootkit
-sudo pkill -9 hyperkit
-gist qemu apple
-NPTL or M...?
+8/13 rcu 先看  
+xor list  
+你所不知道的 C 語言，linker kernel symbols  
+bootlin  
+rootkit  
+sudo pkill -9 hyperkit  
+gist qemu apple  
+NPTL or M...?  
 locking/rt-mutex  
+
+CTSS  
+multikernel 8:00  
+priority inversion * ...8:25  
+LL/SC article 8:49  
+8:51 arm manual  
+* 9:13 talk 09:00  
 
 ## Operating System Concepts  
 
@@ -72,6 +79,19 @@ the dinosaur book, Silberschatz, Galvin and Gagne 2018 10th Ed.
 |parent/child concurr and independent|parent waits by calling ```pthread_join()``` for all children to terminate b4 resume;<br>children concurr|
 |little data sharing|significant data sharing|
 |server,responsive ui||
+
+### [Cache](http://www.puppetmastertrading.com/images/hwViewForSwHackers.pdf)  
+
+#### misses
+
+* read
+  * (startup/warmup) cache miss (not in cache):  
+    the CPU will have to wait (or be “stalled”) for hundreds of cycles while the item is fetched from memory.  
+  * capacity miss (cache full)  
+  * associativity miss (hash collision)  
+* write
+  * write miss (during invalidating other CPUs' caches)  
+  * communication miss (invalidated)  
 
 ## ARM with R/Pi:  
 
