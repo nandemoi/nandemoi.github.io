@@ -20,8 +20,6 @@
 
 2. optimal revenue $r_n = max_{1⩽i⩽n}(p_i+r_{n-i})$, with $r_0 = 0$  
 
-3. 
-
 ## Complexity
 
 - [Is log a polynomial?](https://www.quora.com/Is-log-a-polynomial)  
@@ -57,4 +55,25 @@ for i in range (1, len (a)):
         dp [j] = a [i]
     else:
         dp.append (a [i])
+```
+
+- binary (92ms) and sequental (comment, 248ms) search implementations of ```idx()```
+
+```Python
+def idx (dp, p):
+    # for j in range (len (dp)):
+    #     if dp [j] >= p:
+    #         return j
+    # return len (dp)
+    lb = 0
+    ub = len (dp) - 1
+    while (lb <= ub):
+        md = (lb + ub)//2
+        if dp [md] == p:
+            return md
+        elif dp [md] > p:
+            ub = md - 1
+        else:
+            lb = md + 1
+    return lb
 ```
