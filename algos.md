@@ -21,3 +21,8 @@
 2. optimal revenue $r_n = max_{1⩽i⩽n}(p_i+r_{n-i})$, with $r_0 = 0$  
 
 3. 
+
+## Complexity
+
+- [Is log a polynomial?](https://www.quora.com/Is-log-a-polynomial)  
+  no, but it's polynomial bound.  
