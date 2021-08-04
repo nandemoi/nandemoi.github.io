@@ -26,3 +26,35 @@
 
 - [Is log a polynomial?](https://www.quora.com/Is-log-a-polynomial)  
   no, but it's polynomial bound.  
+
+## Solutions
+
+### LIS
+
+LeetCode [300](https://leetcode.com/problems/longest-increasing-subsequence/), [673](https://leetcode.com/problems/number-of-longest-increasing-subsequence/), [1713](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence/)  
+
+#### BF: O ($2^n$)
+
+#### [DP: O ($n^2$)](https://youtu.be/7DKFpWnaxLI?t=630)  
+
+```Python
+lis [k] = 0
+for i in range (k):
+    if a [k] > a [i]:
+        lis [k] = max (lis [k], lis [i] + 1)
+```
+
+#### [DP + Greedy + Bin Srch: O ($n$log$n$)](https://youtu.be/l2rCz7skAlk?t=369)  
+
+```Python
+def idx (dp, p):
+    # return where in dp the element is least but larger than p
+
+dp = [a [0]]
+for i in range (1, len (a)):
+    j = idx (dp, i)
+    if j < len (dp):
+        dp [j] = a [i]
+    else:
+        dp.append (a [i])
+```
