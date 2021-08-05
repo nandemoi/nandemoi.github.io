@@ -11,22 +11,14 @@
   [insmod: ERROR: could not insert module HelloWorld.ko: Operation not permitted](https://askubuntu.com/questions/762254/why-do-i-get-required-key-not-available-when-install-3rd-party-kernel-modules)  
   * (Raspbian 10, VirtualBox/Ubuntu 20.04.2 LTS)```EFI variables are not supported on this system```  
 * [Pi Kernel building](https://www.raspberrypi.org/documentation/linux/kernel/configuring.md):<br>!!! scroll down to "Cross-compiling" !!!  
-* [Multipass](https://www.techrepublic.com/article/multipass-is-a-new-tool-for-launching-virtual-machines/)  
-  * [MacOS: where is vm file location](https://github.com/canonical/multipass/issues/1263)
-  * [How to git clone on Ubuntu](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-git-clone-on-Ubuntu-with-GitLab-and-GitHub)  
-  * ```mp mount ~/mp foo:/home/ubuntu/hw1``` (can't mount home)  
-    ``` mp unmount foo```  
 * See ```pr_info()``` outputs with ```dmesg```
 * shell command - human vs. cpu/build instruction - machine  
 * issue vs. send/receive  
 * ```opendiff``` or ```git difftool```  
+
 8:47 - 7:30  
 [1](https://youtu.be/ykGPShg3uoY?t=1696)  
 [2](blob:https://www.youtube.com/09bcd472-8385-4a88-8646-fddeaf531073)
-* [How to enable access to VirtualBox via SSH NAT ?](https://bobcares.com/blog/virtualbox-ssh-nat/)  
-  * [Ubuntu Linux install OpenSSH server](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)  
-  * ```sshfs -p 2522 nandemoi@127.0.0.1:/home/nandemoi ub```  
-  * [Share folder between MacOS and Ubuntu](https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad)  
 
 8/13 rcu 先看  
 xor list  
@@ -97,6 +89,9 @@ the dinosaur book, Silberschatz, Galvin and Gagne 2018 10th Ed.
 
 ~/arm-pi  
 
+* can't install on mp vm (the very 1st one)  
+* ubuntu/vbox: ok up to ```bitbake rpi-basic-image```
+
 ## administrative  
 
 [Download Gitter Room to a JSON File](https://medium.com/geekculture/download-gitter-room-to-a-json-file-ee69417a6b49)  
@@ -104,6 +99,19 @@ Todo: Compilation Optimization
 [How To Increase Virtualbox Disk Size For Fixed Size Disk](https://www.linuxbabe.com/virtualbox/how-to-increase-virtualbox-disk-size-for-fixed-size-disks)  
 [How do I clear the purgeable area on my disk?](https://apple.stackexchange.com/questions/254676/how-do-i-clear-the-purgeable-area-on-my-disk)  
 [Resizing Partitions with GParted!!](https://www.youtube.com/watch?v=kkhM5XoN9uc)  
+
+### [Multipass](https://multipass.run/)  
+
+* [MacOS: where is vm file location](https://github.com/canonical/multipass/issues/1263)
+* [How to git clone on Ubuntu](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-git-clone-on-Ubuntu-with-GitLab-and-GitHub)  
+* ```mp mount ~/mp foo:/home/ubuntu/hw1``` (can't mount home)  
+  ``` mp unmount foo```  
+
+### [How to enable access to VirtualBox via SSH NAT ?](https://bobcares.com/blog/virtualbox-ssh-nat/)  
+
+* [Ubuntu Linux install OpenSSH server](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)  
+* ```sshfs -p 2522 nandemoi@127.0.0.1:/home/nandemoi ub```  
+* [Share folder between MacOS and Ubuntu](https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad)  
 
 ## [Linux 核心設計: 記憶體管理](https://hackmd.io/@sysprog/linux-memory?type=view)
 
