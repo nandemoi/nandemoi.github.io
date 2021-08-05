@@ -1,5 +1,20 @@
 # ASIC Design
 
+## [COSCUP](https://moptt.tw/p/Tech_Job.M.1627103659.A.B1D)
+
+### [Chisel](https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master)
+
+- [Jupyter Scala Kernel](https://almond.sh/docs/quick-start-install)  
+  ```cs launch --fork almond:0.10.0 --scala 2.12.11 -- --install```  
+  ```jupyter kernelspec list```  
+- download source/* (yet to find out how to download a Binder folder in batch instead by hands)  
+
+### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)  
+
+### [SymbiYosys](http://www.clifford.at/papers/2017/smtbmc-sby/)  
+
+### [EBMC](http://www.cprover.org/ebmc/)  
+
 ## Verilog Simulation
 
 ### [Race Condition](http://www.testbench.in/TB_16_RACE_CONDITION.html)  
