@@ -87,7 +87,7 @@ sequenceDiagram
         loop confirm
             C->>S: 班級/座號
             Note over S: 查名字<br>已簽到(換位)?
-            S->>C: 班級/座號/名字
+            S->>C: 班級/座號/名字/(換位?)
             Note over C: 詢問確認(換位?)<br>更正輸入
         end
         C->>S: 班級/座號/MAC/換位?
