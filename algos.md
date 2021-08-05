@@ -13,12 +13,16 @@
 
 ### Rod-cutting
 
-(Cormen, 3rd Ed.)
-
 1. We can cut up a rod of length $n$ in $2^{n-1}$ different ways:  
   if cut into $n$ pieces, there'd be $n-1$ cuts, for each cut either cut or no cut therefore $2^{n-1}$.  
 
 2. optimal revenue $r_n = max_{1⩽i⩽n}(p_i+r_{n-i})$, with $r_0 = 0$  
+
+### Matrix-chain Multiplication
+
+- If $A_{i...k}$ and $A_{k+1...j}$ are both optimal, then $A_{i...k}\cdot A_{k+1...j}$ is optimal  
+
+- $m_{i...j} = min_{i⩽k<j} (m_{i...k}+m_{k+1...j}+p_{i-1}{p_k}p_j)$
 
 ## Complexity
 
