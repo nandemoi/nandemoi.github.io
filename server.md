@@ -82,17 +82,19 @@ sequenceDiagram
     C->>S: request 班級
     Note over S: 查課(時間)表
     S->>C: 班級/跑班
-    loop (簽錯重)簽到
+    loop 簽到
         Note over C: 輸入(班級)/座號
         loop confirm
             C->>S: 班級/座號
-            Note over S: 查名字<br>已簽到(換位)?
-            S->>C: 班級/座號/名字/(換位?)
-            Note over C: 詢問確認(換位?)<br>更正輸入
+            Note over S: 查名字<br>已簽到 (換位或簽錯)?
+            S->>C: 班級/座號/名字/(換位或簽錯?)
+            Note over C: 詢問確認<br>(換位或簽錯?)<br>更正輸入
         end
         C->>S: 班級/座號/MAC/換位?
         Note over C: 顯示：班級/座號
-        Note over S: log seat and time<br>clr last entry if chg seat
+        Note over S: 登錄座位<br>若非換位, 與簽到時間<br>若換位, 清除原位登錄
+        Note over S: 若該位已登錄 (簽錯重簽),<br>清除原登錄同學之簽到時間
+        Note over C: 簽錯重簽
     end
 ```
 
