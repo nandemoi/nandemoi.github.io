@@ -23,6 +23,11 @@
 [Importing data from a MySQL database into Pandas data frame](https://medium.com/analytics-vidhya/importing-data-from-a-mysql-database-into-pandas-data-frame-a06e392d27d7)  
 [Pandas Dataframe to MySQL](https://www.coder.work/article/3962142)  
 
+### [PHP GET/POST request](https://zetcode.com/php/getpostrequest/)  
+
+* php start at a port not working but specificy filename ok
+* [How can I send a POST request with a web browser?](https://stackoverflow.com/questions/3307379/how-can-i-send-a-post-request-with-a-web-browser/3307401#3307401)  
+
 ### [Flask](https://topherpedersen.blog/2019/12/28/how-to-setup-a-new-flask-app-on-a-mac/)
 
 [Flask access from different devices](https://stackoverflow.com/questions/62499969/flask-access-from-different-devices)  
@@ -63,3 +68,34 @@ pip3 install mariadb
 
 [ngrok forwarding, Flask Mega Tutorial at Bottom](https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-python-and-flask-development-environment)  
 [Apache at port 80](https://www.google.com/search?q=apache+which+port&oq=apache+which+port&aqs=chrome..69i57.2850j0j1&sourceid=chrome&ie=UTF-8)  
+
+## Projects
+
+### Class Mgt
+
+#### Attendance
+
+```mermaid
+sequenceDiagram
+    participant C as Python/PyQt
+    participant S as PHP/MySQL
+    C->>S: request 班級
+    Note over S: 查課(時間)表
+    S->>C: 班級/跑班
+    loop (簽錯重)簽到
+        Note over C: 輸入(班級)/座號
+        loop confirm
+            C->>S: 班級/座號
+            Note over S: 查名字<br>已簽到(換位)?
+            S->>C: 班級/座號/名字
+            Note over C: 詢問確認(換位?)<br>更正輸入
+        end
+        C->>S: 班級/座號/MAC/換位?
+        Note over C: 顯示：班級/座號
+        Note over S: log seat and time<br>clr last entry if chg seat
+    end
+```
+
+#### Grades Checking/Highlihgts
+
+### Bus
