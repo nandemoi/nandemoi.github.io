@@ -2,7 +2,12 @@
 
 ## [COSCUP](https://moptt.tw/p/Tech_Job.M.1627103659.A.B1D)
 
-### [Chisel](https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master)
+### [HDLS](https://www.eettaiwan.com/20170925ta31-digital-hardware-design/)  
+
+  * Descriptive: sequential vs. parallelism
+  * clocking  
+
+#### [Chisel](https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master)
 
 - [Jupyter Scala Kernel](https://almond.sh/docs/quick-start-install)  
   ```cs launch --fork almond:0.10.0 --scala 2.12.11 -- --install```  
@@ -11,9 +16,23 @@
 
 ### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)  
 
-### [SymbiYosys](http://www.clifford.at/papers/2017/smtbmc-sby/)  
+### [nMigen](https://github.com/m-labs/nmigen)  
 
-### [EBMC](http://www.cprover.org/ebmc/)  
+### Formal Verification
+
+#### [SymbiYosys](http://www.clifford.at/papers/2017/smtbmc-sby/)  
+
+#### [EBMC](http://www.cprover.org/ebmc/)  
+
+### FPGA, courses with Quartus, Wifiboy
+
+* [FPGA系統設計實務](https://univ.deltamoocx.net/courses/course-v1:AT+AT_027_1092+2021_02_22/about)  
+* [Xylinx PyNQ-Z2](https://youtu.be/RGqStx-Ml7U)
+
+## Synthesis
+
+* [UTexas](http://users.ece.utexas.edu/~adnan/syn-07/)  
+* [Berkeley](https://people.eecs.berkeley.edu/~brayton/courses/219b/219b.html)  
 
 ## Verilog Simulation
 
