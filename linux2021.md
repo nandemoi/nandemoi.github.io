@@ -37,6 +37,10 @@ LL/SC article 8:49
 8:51 arm manual  
 * 9:13 talk 09:00  
 
+jiffies
+task: proc or thread
+並行: Lock-free - Timothy Harris
+
 ## Operating System Concepts  
 
 the dinosaur book, Silberschatz, Galvin and Gagne 2018 10th Ed.  

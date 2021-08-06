@@ -17,12 +17,13 @@
 
 ## Water Color
 
+Synthesis/Formal Verification
+Bioinfo/Physiology
+ML thick bok
+
 ## ASIC Design
 
-* [HDLS](https://www.eettaiwan.com/20170925ta31-digital-hardware-design/)  
-  * Descriptive: sequential vs. parallelism
-  * clocking  
-* [nMigen](https://github.com/m-labs/nmigen)  
+asic.md
 
 ## Machine Learning / Deep Learning
 
@@ -40,12 +41,6 @@
 * Physiology
 * Molecular Biology/Biochem
 * Bioinfo
-
-## Digital Logic Design
-
-* Synthesis: yosys
-* Formal Verification: yosys, ebmc
-* FPGA, courses with Quartus, Wifiboy, [Xylinx PyNQ-Z2](https://youtu.be/RGqStx-Ml7U)
 
 ## Robotics
 
@@ -69,12 +64,13 @@
 
 ## Apps
 
-* Python Networking
-* PyQt
+server.md
+
 * Android Studio
 * Unity, Unreal Engine
 
 ## System Programming
 
 * [Xv6](https://www.facebook.com/groups/programmerMagazine/permalink/4672041946145818/), ([Nand to Tetris](https://www.nand2tetris.org/software))
+* 向景亘
 * [jserv](https://hackmd.io/@sysprog/linux2021-summer/https%3A%2F%2Fhackmd.io%2F%40sysprog%2FSyM7Y6e6u)  

@@ -81,6 +81,7 @@ sequenceDiagram
     participant S as PHP/MySQL
     C->>S: request 班級
     Note over S: 查課(時間)表
+    Note over S: 若換班時間,<br>新增整班當日簽到紀錄
     S->>C: 班級/跑班
     loop 簽到
         Note over C: 輸入(班級)/座號
@@ -101,3 +102,13 @@ sequenceDiagram
 #### Grades Checking/Highlihgts
 
 ### Bus
+
+```mermaid
+sequenceDiagram
+    participant C as AppInventor
+    participant S as Flask/Python
+    C->>S: Orig/Dest
+    S->>C: lines/stops
+    C->>S: lines/on stop/off stops
+    S->>C: times
+```
