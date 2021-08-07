@@ -37,3 +37,11 @@
 ## Mechanisms
 
 * [船用螺旋槳](https://www.facebook.com/groups/194618724476829/permalink/856265831645445/)
+
+## Micro:bit
+
+* [How to Create a MakeCode Package for Micro:Bit](https://learn.sparkfun.com/tutorials/how-to-create-a-makecode-package-for-microbit/all)  
+  * [typings: command not found](https://github.com/hicsail/ionic-hockeyapp/issues/6)  
+    ```npm install -g ```...  
+* [Using MQTT-SN over BLE with the BBC micro:bit
+Post author](https://blog.benjamin-cabe.com/2017/01/16/using-mqtt-sn-over-ble-with-the-bbc-microbit)  
