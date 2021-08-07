@@ -40,8 +40,11 @@
 
 ## Micro:bit
 
-* [How to Create a MakeCode Package for Micro:Bit](https://learn.sparkfun.com/tutorials/how-to-create-a-makecode-package-for-microbit/all)  
-  * [typings: command not found](https://github.com/hicsail/ionic-hockeyapp/issues/6)  
-    ```npm install -g ```...  
+* [MakeCode for micro:bit - GitHub for Extensions](https://www.youtube.com/watch?v=ztrm4XehfGo)    
 * [Using MQTT-SN over BLE with the BBC micro:bit
 Post author](https://blog.benjamin-cabe.com/2017/01/16/using-mqtt-sn-over-ble-with-the-bbc-microbit)  
+* [Projects with multiple Python files](https://support.microbit.org/support/solutions/articles/19000098018-files-and-modules-in-the-python-editor):  
+  compile with the left most icon then drag the hex to mb  
+* [IMPORTANT NOTE FOR PYCHARM EDU USERS](https://mryslab.github.io/pseudo-microbit/install/)  
+  * Settings is PyCharm -> Preference => click ```pip```
+  
