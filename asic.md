@@ -2,32 +2,32 @@
 
 ## [COSCUP](https://moptt.tw/p/Tech_Job.M.1627103659.A.B1D)
 
-### [HDLS](https://www.eettaiwan.com/20170925ta31-digital-hardware-design/)  
+## [HDLS](https://www.eettaiwan.com/20170925ta31-digital-hardware-design/)  
 
   * Descriptive: sequential vs. parallelism
   * clocking  
 
-#### [Chisel](https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master)
+### [Chisel](https://mybinder.org/v2/gh/freechipsproject/chisel-bootcamp/master)
 
 - [Jupyter Scala Kernel](https://almond.sh/docs/quick-start-install)  
   ```cs launch --fork almond:0.10.0 --scala 2.12.11 -- --install```  
   ```jupyter kernelspec list```  
 - download source/* (yet to find out how to download a Binder folder in batch instead by hands)  
 
-### [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)  
-
 ### [nMigen](https://github.com/m-labs/nmigen)  
 
-### Formal Verification
+## [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)  
 
-#### [SymbiYosys](http://www.clifford.at/papers/2017/smtbmc-sby/)  
+## Formal Verification
 
-#### [EBMC](http://www.cprover.org/ebmc/)  
+* [SymbiYosys](http://www.clifford.at/papers/2017/smtbmc-sby/)  
 
-### FPGA, courses with Quartus, Wifiboy
+* [EBMC](http://www.cprover.org/ebmc/)  
+
+## FPGA, courses with Quartus, Wifiboy
 
 * [FPGA系統設計實務](https://univ.deltamoocx.net/courses/course-v1:AT+AT_027_1092+2021_02_22/about)  
-* [Xylinx PyNQ-Z2](https://youtu.be/RGqStx-Ml7U)
+* [Xylinx PyNQ-Z2](https://youtu.be/RGqStx-Ml7U)  
 
 ## Synthesis
 
