@@ -35,7 +35,8 @@
 * [【Edge AI社聚#1】 Edge AI人臉辨識技術剖析（Jack）](https://www.youtube.com/watch?v=rk04N_-RBYI&t=2166s)
 * [Google推出可自動化品質控制流程的視覺檢測解決方案Visual Inspection AI](https://www.ithome.com.tw/news/145189)
 * [Teachable Machine](https://teachablemachine.withgoogle.com/)
-  * [ML with iOS](https://medium.com/firebase-developers/ml-with-ios-f6551ebfc6f0)
+  * [ML with iOS](https://medium.com/firebase-developers/ml-with-ios-f6551ebfc6f0)  
+  * [Tiny Motion Trainer](https://github.com/googlecreativelab/tiny-motion-trainer/)  
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
   * [Edge Impulse](https://studio.edgeimpulse.com/studio/39030)
 

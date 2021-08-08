@@ -59,7 +59,8 @@ asic.md
 * Kicad/Eagle
 * Chemistry
 * Physics
-* Maths, Engineering Math, Linear Algebra, Calculus, Discrte Math
+* Maths, Engineering Math, Linear Algebra, Calculus, Discrte Math  
+  * [Introduction to Linear Algebra, Fifth Edition (2016)](http://math.mit.edu/~gs/linearalgebra/)  
 * Fundamentals in mechanics
 
 ## Apps

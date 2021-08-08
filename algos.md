@@ -81,3 +81,7 @@ def idx (dp, p):
             lb = md + 1
     return lb
 ```
+
+## 教學
+
+- [Sort Scale](http://163.22.72.196/html5/html5_sort_scale/sort_scale.html)  
