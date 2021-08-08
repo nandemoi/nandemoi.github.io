@@ -106,7 +106,9 @@ Todo: Compilation Optimization
 
 ### [Multipass](https://multipass.run/)  
 
-* [MacOS: where is vm file location](https://github.com/canonical/multipass/issues/1263)
+* [MacOS: where is vm file location](https://github.com/canonical/multipass/issues/1263)  
+  * ```/var/root/Library/Application\ Support/multipassd/vault/instances```  
+  * ```/var/root/Library/Application\ Support/multipassd/virtualbox/vault/instances``` 
 * [How to git clone on Ubuntu](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-git-clone-on-Ubuntu-with-GitLab-and-GitHub)  
 * ```mp mount ~/mp foo:/home/ubuntu/hw1``` (can't mount home)  
   ``` mp unmount foo```  
