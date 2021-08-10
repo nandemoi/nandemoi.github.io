@@ -40,6 +40,8 @@
   * [8 個無程式碼 Machine Learning 平台，讓你把 AI 想法變成實際的 App！](https://www.appcoda.com.tw/no-code-machine-learning-platforms/)
   * [Edge Impulse](https://studio.edgeimpulse.com/studio/39030)
 
+* [國內外經典開源資料大全](https://medium.com/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90%E9%82%A3%E4%BA%9B%E4%BA%8B/%E5%9C%8B%E5%85%A7%E5%A4%96%E7%B6%93%E5%85%B8%E9%96%8B%E6%BA%90%E8%B3%87%E6%96%99%E5%A4%A7%E5%85%A8-976430d29d7d)  
+
 ## [人工智慧普適研究中心PAIR Labs](https://www.youtube.com/channel/UC36TMyt9wl7SZrh9uWC7Ruw/videos)  
 
 * [ezLabel](https://www.aicreda.com//filemanagement/image/1)
