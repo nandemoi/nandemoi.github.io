@@ -41,6 +41,13 @@ jiffies
 task: proc or thread
 並行: Lock-free - Timothy Harris
 
+* hw2: 本質是 strictly ordered linked list 的 lock-free 實作討論，我希望學員探討至少以下議題:
+  1. 針對 strictly ordered linked list 的並行演算法
+  2. 藉由 hazard pointers (HP) 處理 lock-free 演算法的資源釋放 (之後學習 RCU 時，得以呼應)
+  3. atomic 操作和 memory order
+
+[rci1](https://youtu.be/i25ojG2aknQ?t=7795)  
+
 ## Operating System Concepts  
 
 the dinosaur book, Silberschatz, Galvin and Gagne 2018 10th Ed.  
