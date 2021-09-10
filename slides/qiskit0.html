@@ -14256,10 +14256,122 @@ a.anchor-link {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 在 Google Colab 請先執行這塊</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="k">if</span> <span class="s1">&#39;qiskit&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">modules</span><span class="p">:</span>
+    <span class="o">!</span>pip install qiskit
+</pre></div>
 
+     </div>
+</div>
+</div>
+</div>
+
+</div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Qiskit-&#20363;-0"><a href="https://qiskit.org/documentation/intro_tutorial1.html">Qiskit &#20363; 0</a><a class="anchor-link" href="#Qiskit-&#20363;-0">&#182;</a></h1>
+<h1 id="Qiskit-&#20363;-0-Simplified">Qiskit &#20363; 0 Simplified<a class="anchor-link" href="#Qiskit-&#20363;-0-Simplified">&#182;</a></h1>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 這格全部複製後執行</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">qiskit</span> <span class="kn">import</span> <span class="n">QuantumCircuit</span><span class="p">,</span> <span class="n">transpile</span>
+<span class="kn">from</span> <span class="nn">qiskit.providers.aer</span> <span class="kn">import</span> <span class="n">QasmSimulator</span>
+<span class="kn">from</span> <span class="nn">qiskit.visualization</span> <span class="kn">import</span> <span class="n">plot_histogram</span>
+
+<span class="k">def</span> <span class="nf">run</span> <span class="p">(</span><span class="n">ckt</span><span class="p">):</span>
+    <span class="n">simulator</span> <span class="o">=</span> <span class="n">QasmSimulator</span><span class="p">()</span>
+    <span class="n">compiled_circuit</span> <span class="o">=</span> <span class="n">transpile</span> <span class="p">(</span><span class="n">ckt</span><span class="p">,</span> <span class="n">simulator</span><span class="p">)</span>
+    <span class="n">job</span> <span class="o">=</span> <span class="n">simulator</span><span class="o">.</span><span class="n">run</span> <span class="p">(</span><span class="n">compiled_circuit</span><span class="p">,</span> <span class="n">shots</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">)</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">job</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+    <span class="n">counts</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">get_counts</span><span class="p">(</span><span class="n">compiled_circuit</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Results:&quot;</span><span class="p">,</span><span class="n">counts</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">counts</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 這格設計自己的 circuit, </span>
+<span class="c1"># 先說明有幾個 qubits 和傳統bits</span>
+<span class="n">circuit</span> <span class="o">=</span> <span class="n">QuantumCircuit</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># 下面設計自己的 ciruit</span>
+<span class="n">circuit</span><span class="o">.</span><span class="n">h</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">circuit</span><span class="o">.</span><span class="n">cx</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">circuit</span><span class="o">.</span><span class="n">measure</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="c1"># 模擬和繪出結果</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">run</span> <span class="p">(</span><span class="n">circuit</span><span class="p">)</span>
+<span class="n">plot_histogram</span> <span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>
+Results: {&#39;00&#39;: 491, &#39;11&#39;: 509}
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output jp-OutputArea-executeResult">
+<img src="data:image/png;base64,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"
+>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Qiskit-&#20363;-0-Orginal-Modified"><a href="https://qiskit.org/documentation/intro_tutorial1.html">Qiskit &#20363; 0 Orginal Modified</a><a class="anchor-link" href="#Qiskit-&#20363;-0-Orginal-Modified">&#182;</a></h1>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14269,7 +14381,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
