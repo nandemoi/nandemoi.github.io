@@ -188,8 +188,8 @@
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>rate (<span class="dv">1</span><span class="op">/</span>dt)</span></code></pre></div>
 </div>
-<div id="等速運動-2-1" class="slide section level4">
-<h1>等速運動 2</h1>
+<div id="等速運動-3" class="slide section level4">
+<h1>等速運動 3</h1>
 <p><code>while</code> loop 迴圈</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.01</span> <span class="co"># 模擬的時間間隔</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="fl">0.0</span></span>
@@ -197,6 +197,30 @@
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>   rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>   ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>   t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
+</div>
+<div id="等速運動-1-3" class="slide section level4">
+<h1>等速運動 1-3</h1>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 匯入 vpyhton 模組 (在 Glowscript 上不需要)</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> vpython <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 設定畫布背景顏色為白色</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>canvas (background <span class="op">=</span> color.white)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">#畫出 3D 直角座標沿 x,y,z 方向的單位向量</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector (<span class="dv">1</span>,<span class="dv">0</span>,<span class="dv">0</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.green)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">0</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.red)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">1</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.blue)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.05</span>, color <span class="op">=</span> color.yellow, pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>))</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> vector(<span class="fl">1.0</span>,<span class="dv">0</span>,<span class="dv">0</span>)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.01</span> <span class="co"># 模擬的時間間隔</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> t <span class="op">&lt;</span> <span class="dv">2</span>:</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>   rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>   ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>   t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
+<p>練習： 1. 試試看不同的速率、運動軸向、模擬時間間隔 2. 不只一個球、不同速度</p>
 </div>
 <div id="加速運動" class="slide section level4">
 <h1>加速運動</h1>
