@@ -213,14 +213,15 @@
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.05</span>, color <span class="op">=</span> color.yellow, pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>))</span>
 <span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> vector(<span class="fl">1.0</span>,<span class="dv">0</span>,<span class="dv">0</span>)</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> vector (<span class="fl">1.0</span>,<span class="dv">0</span>,<span class="dv">0</span>)</span>
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.01</span> <span class="co"># 模擬的時間間隔</span></span>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="fl">0.0</span></span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> t <span class="op">&lt;</span> <span class="dv">2</span>:</span>
 <span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>   rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
 <span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>   ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
 <span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>   t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
-<p>練習： 1. 試試看不同的速率、運動軸向、模擬時間間隔 2. 不只一個球、不同速度</p>
+<p>練習： 1. 試試看不同的速率、運動軸向、模擬時間間隔 2. 不只一個球、不同速度<br />
+速度可以設定成 <code>sphere</code> 的屬性 <code>python    ball = sphere (radius = 0.05, color = color.yellow, pos = vector (0,0,0), v = vector (1.0,0,0))</code></p>
 </div>
 <div id="加速運動" class="slide section level4">
 <h1>加速運動</h1>
