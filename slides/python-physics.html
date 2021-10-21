@@ -85,7 +85,7 @@
 <div id="python-for-physics" class="title-slide slide section level1">
 <h1>Python for Physics</h1>
 <p>NUK<br />
-2021 (C) 黃敦紀 Elton</p>
+2021 (C) <a href="https://hackmd.io/@nandemoi/SyqndIE7t">黃敦紀</a> Elton</p>
 </div>
 <div id="執行-vpython-的-2-種方式" class="title-slide slide section level2">
 <h1>執行 VPython 的 2 種方式</h1>
@@ -173,7 +173,8 @@
 <h1>等速運動 2</h1>
 <p>任務：用 Python 程式製作一動畫呈現一圓球物體由座標原點出發沿 X 軸做等速運墮</p>
 <p><strong><span class="math inline">\(x = vt\)</span></strong></p>
-<p><span class="math inline">\(x_0 = 0\)</span> <span class="math inline">\(x_1 = x_0 + v\triangle t\)</span> </p>
+<p><span class="math inline">\(x_0 = 0\)</span><br />
+<span class="math inline">\(x_1 = x_0 + v\triangle t\)</span> </p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> vector (<span class="fl">1.0</span>,<span class="dv">0</span>,<span class="dv">0</span>) <span class="co"># 速度向量</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.2</span> <span class="co"># 模擬的時間間隔</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -212,8 +213,8 @@
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">#畫出 3D 直角座標沿 x,y,z 方向的單位向量</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector (<span class="dv">1</span>,<span class="dv">0</span>,<span class="dv">0</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.green)</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">0</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.red)</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">1</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.blue)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">0</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.red)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">1</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.blue)</span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.05</span>, color <span class="op">=</span> color.yellow, pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>))</span>
 <span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
@@ -224,8 +225,14 @@
 <span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>   rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
 <span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>   ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
 <span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>   t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
-<p>練習： 1. 試試看不同的速率、運動軸向、模擬時間間隔 2. 不只一個球、不同速度<br />
-速度可以設定成 <code>sphere</code> 的屬性 <code>python    ball = sphere (radius = 0.05, color = color.yellow, pos = vector (0,0,0), v = vector (1.0,0,0))</code></p>
+<p>練習：</p>
+<ol style="list-style-type: decimal">
+<li><p>試試看不同的速率、運動軸向、模擬時間間隔<br />
+</p></li>
+<li><p>不只一個球、不同速度<br />
+速度可以設定成 <code>sphere</code> 的屬性</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.05</span>, color <span class="op">=</span> color.yellow, pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), v <span class="op">=</span> vector (<span class="fl">1.0</span>,<span class="dv">0</span>,<span class="dv">0</span>))   </span></code></pre></div></li>
+</ol>
 </div>
 
 <div id="加速運動" class="title-slide slide section level2">
@@ -238,8 +245,8 @@
 
 </div>
 
-<div id="section" class="title-slide slide section level2">
-<h1></h1>
+<div id="太陽系" class="title-slide slide section level2">
+<h1>太陽系</h1>
 <ul>
 <li>索引序號從 0 開始</li>
 </ul>
