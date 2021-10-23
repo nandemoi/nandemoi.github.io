@@ -87,8 +87,17 @@
 <p>NUK<br />
 2021 (C) <a href="https://hackmd.io/@nandemoi/SyqndIE7t">黃敦紀</a> Elton</p>
 </div>
-<div id="執行-vpython-的-2-種方式" class="title-slide slide section level2">
-<h1>執行 VPython 的 2 種方式</h1>
+<div id="課程安排" class="title-slide slide section level2">
+<h1>課程安排</h1>
+<ol style="list-style-type: decimal">
+<li>VPython</li>
+<li>數值方法工具</li>
+<li>專題 (環境安裝問題) 或<br />
+量子計算工具</li>
+</ol>
+<ul>
+<li>執行 VPython 的 2 種方式</li>
+</ul>
 <ol style="list-style-type: decimal">
 <li><a href="https://glowscript.org">Glowscript</a><br />
 </li>
@@ -140,6 +149,8 @@
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> arrow (pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), axis <span class="op">=</span> vector (<span class="dv">1</span>,<span class="dv">0</span>,<span class="dv">0</span>), shaftwidth <span class="op">=</span> <span class="fl">0.02</span>, color<span class="op">=</span>color.green)</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> ... <span class="co"># 請將顏色設定為紅色</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> ... <span class="co"># 請將顏色設定為藍色</span></span></code></pre></div>
+<ul class="incremental">
+</ul>
 <ul>
 <li>VPython Canvas 滑鼠操作：
 <ol style="list-style-type: decimal">
@@ -159,14 +170,6 @@
 <p>先畫圓球</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 畫球,球的半徑為 size,顏色為黃色,位置在(0,0,0),速度為(1,0,0)</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.05</span>, color <span class="op">=</span> color.yellow, pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>))</span></code></pre></div>
-<ul>
-<li>參考資料
-<ul>
-<li><a href="https://drive.google.com/file/d/0B7pfgC0XDvVHRWJtdGNZam1fVjg/view?resourcekey=0-9nJ_DOEp3L9A5xlnM1C0Rw">Lecture 1 迴圈與物件控制</a><br />
-</li>
-<li><a href="https://drive.google.com/file/d/0B7pfgC0XDvVHLVYzeTh4SHh3Mkk/view?resourcekey=0-Kb-WSylKP20FhvmMy1LADA">CW1: Simple Start for Vpython, Projectile</a></li>
-</ul></li>
-</ul>
 </div>
 <div id="等速運動-2" class="slide section level3">
 <h1>等速運動 2</h1>
@@ -198,9 +201,9 @@
 <div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.01</span> <span class="co"># 模擬的時間間隔</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="fl">0.0</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> t <span class="op">&lt;</span> <span class="dv">2</span>:</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>   rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>   ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>   t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
 </div>
 <div id="等速運動-1-4" class="slide section level3">
 <h1>等速運動 1-4</h1>
@@ -221,27 +224,51 @@
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.01</span> <span class="co"># 模擬的時間間隔</span></span>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="fl">0.0</span></span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> t <span class="op">&lt;</span> <span class="dv">2</span>:</span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>   rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>   ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>   t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    rate (<span class="dv">1</span><span class="op">/</span>dt)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> v<span class="op">*</span>dt</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    t <span class="op">=</span> t <span class="op">+</span> dt</span></code></pre></div>
 <p>練習：</p>
 <ol style="list-style-type: decimal">
-<li><p>試試看不同的速率、運動軸向、模擬時間間隔<br />
-</p></li>
+<li><p>試試看不同的速率、運動軸向、模擬時間間隔</p>
+<ol style="list-style-type: decimal">
+<li>等加速運動：迴圈執行<em>本體</em>每次執行時<code>v</code>會增加<br />
+</li>
+<li>平拋運動：y 軸等加速落下，x 軸等速運動</li>
+</ol></li>
 <li><p>不只一個球、不同速度<br />
 速度可以設定成 <code>sphere</code> 的屬性</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.05</span>, color <span class="op">=</span> color.yellow, pos <span class="op">=</span> vector (<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>), v <span class="op">=</span> vector (<span class="fl">1.0</span>,<span class="dv">0</span>,<span class="dv">0</span>))   </span></code></pre></div></li>
 </ol>
 </div>
 
-<div id="加速運動" class="title-slide slide section level2">
-<h1>加速運動</h1>
-
+<div id="碰撞-1" class="title-slide slide section level2">
+<h1>碰撞 1</h1>
+<p>任務：用 Python 程式製作一動畫呈現一圓球物體在左右兩面牆之間以等速來回運動 (撞到牆就反彈)</p>
+<p>畫座標軸後畫兩面牆</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>left <span class="op">=</span> box (pos <span class="op">=</span> vector (<span class="op">-</span><span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">0</span>), length <span class="op">=</span> <span class="dv">1</span>, height <span class="op">=</span> <span class="dv">10</span>, width <span class="op">=</span> <span class="dv">1</span>) </span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>rite <span class="op">=</span> ...</span></code></pre></div>
 </div>
 
-<div id="平抛運動" class="title-slide slide section level2">
-<h1>平抛運動</h1>
+<div id="碰撞-2" class="title-slide slide section level2">
+<h1>碰撞 2</h1>
+<p>任務：用 Python 程式製作一動畫呈現一圓球物體在左右兩面牆之間以等速來回運動 (撞到牆就反彈)</p>
+<p>畫球從牆出發，設計迴圈撞到牆後反彈</p>
+<ul class="incremental">
+</ul>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>ball <span class="op">=</span> sphere (radius <span class="op">=</span> <span class="fl">0.5</span>, color <span class="op">=</span> color.red, pos <span class="op">=</span> vector (<span class="op">-</span><span class="dv">20</span>,<span class="dv">0</span>,<span class="dv">0</span>), v <span class="op">=</span> vector (<span class="fl">1.0</span>, <span class="dv">0</span>, <span class="dv">0</span>))</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>dt <span class="op">=</span> <span class="fl">0.1</span> <span class="co"># 模擬的時間間隔</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    rate (<span class="dv">10</span><span class="op">/</span>dt)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    ball.pos <span class="op">=</span> ball.pos <span class="op">+</span> ball.v<span class="op">*</span>dt</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ball.pos.x <span class="op">&gt;</span> <span class="dv">20</span>: <span class="co"># 浮點數的比較</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>        ball.v <span class="op">=</span> vector (<span class="op">-</span><span class="fl">1.0</span>, <span class="dv">0</span>, <span class="dv">0</span>)</span></code></pre></div>
+</div>
 
+<div id="碰撞-n" class="title-slide slide section level2">
+<h1>碰撞 n</h1>
+<p>練習：<br />
+2. 用 Python 程式製作一動畫呈現兩圓球物體各由左右兩面牆以不同速率向彼此等速靠近，碰撞後回彈繼續等速，再碰到牆面後回彈，如此周而復始</p>
 </div>
 
 <div id="section" class="title-slide slide section level2">
@@ -254,10 +281,23 @@
 <div id="參考資料" class="title-slide slide section level2">
 <h1>參考資料</h1>
 <ul>
+<li>VPython
+<ul>
+<li><a href="https://drive.google.com/file/d/0B7pfgC0XDvVHRWJtdGNZam1fVjg/view?resourcekey=0-9nJ_DOEp3L9A5xlnM1C0Rw">Lecture 1 迴圈與物件控制</a>
+<ul>
+<li><a href="https://drive.google.com/file/d/0B7pfgC0XDvVHLVYzeTh4SHh3Mkk/view?resourcekey=0-Kb-WSylKP20FhvmMy1LADA">CW1: Simple Start for Vpython, Projectile</a></li>
+</ul></li>
 <li><a href="https://scholar.dickinson.edu/cgi/viewcontent.cgi?article=1000&amp;context=vpythonphysics">VPython for Introductory Mechanics: Complete Version</a></li>
 <li><a href="https://learningandphysics.wordpress.com/vpython/">Learning Physics: VPython</a></li>
 <li><a href="https://bphilhour.trinket.io/physics-through-glowscript-an-introductory-course#/1-introduction-objects-parameters-and-the-3d-environment/welcome-and-introduction">Physics through Glowscript</a></li>
 <li><a href="https://sites.google.com/site/sams12physics/extra-credit/vpython-tutorial">VPython Tutorial</a></li>
+</ul></li>
+<li>Computational Physics
+<ul>
+<li><a href="http://www.fizika.unios.hr/rf/wp-content/uploads/sites/67/2011/02/CPwP.pdf">Computational Physics With Python</a><br />
+</li>
+<li><a href="http://www-personal.umich.edu/~mejn/computational-physics/">Computational Physics</a></li>
+</ul></li>
 <li>Python 入門推薦：大澤文孝的 <Python 入門教室> (臉譜 2019)</li>
 </ul>
 </div>
