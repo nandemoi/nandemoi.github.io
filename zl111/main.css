@@ -1,3 +1,5 @@
 div {
     white-space: nowrap;
+    overflow: auto; 
+    overflow-y: hidden;
 }
