@@ -3,3 +3,9 @@ div {
     overflow: auto; 
     overflow-y: hidden;
 }
+
+.nowrap {
+    white-space: nowrap;
+    overflow: auto; 
+    overflow-y: hidden;
+}
