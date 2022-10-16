@@ -13,7 +13,7 @@
 | 結構件設計方法與製圖建模技巧 | \* [Onshape 第一課](https://nandemoi.github.io/zl111/Onshape1.pdf) (含交作業指引)  <br>\* [Onshape 第二課](https://nandemoi.github.io/zl111/Onshape2.pdf)  <br>\* [Onshape 第三課](https://nandemoi.github.io/zl111/Onshape3.pdf)  <br>\* [任務示範：盒子](https://nandemoi.github.io/zl111/MissionBox.pdf) |
 | [模擬](https://nandemoi.github.io/zl111/Simulations.pdf) |     |
 | 機構裝置設計方法與製圖建模技巧 |     |
-| 專題設計 | [範例們](https://nandemoi.github.io/zl111/examples.html) |
+| 專題設計 | [範例們](https://app.box.com/s/1j9cpurlypobduekp2rlqwtvm5ce8f8o) |
 | 人工智慧介紹 |     |
 | 人工智慧應用設計 |     |
 | 半導體製造技術認識或[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) |     |
