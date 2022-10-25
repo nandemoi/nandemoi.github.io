@@ -4,7 +4,7 @@
 
 **[點擊看「課程常規」不定期更新](https://nandemoi.github.io/zl111/index.html)**
 
-課程目標：運用工程設計原理，[設計](https://cad.onshape.com/documents/29f77d1e61ff89edff076753/w/cc07af9851e10e5ea7058369/e/1ab1c3e089a868ce1feca1e6?renderMode=0&uiState=630147d0a366dc0353a959e4)製圖、建模、模擬組合[結構件](https://www.facebook.com/hashtag/有條件限制的創意發想才是現實)或[機構裝置](https://drive.google.com/drive/folders/1rOrtEVfyb2V3n8udODtMaCCumZfQbsKy?usp=sharing)，創造專題作品；認識並學習設計人工智慧及應用。
+課程目標：運用工程設計原理，[設計](https://cad.onshape.com/documents/29f77d1e61ff89edff076753/w/cc07af9851e10e5ea7058369/e/1ab1c3e089a868ce1feca1e6?renderMode=0&uiState=630147d0a366dc0353a959e4)製圖、建模、模擬組合[結構件](https://www.facebook.com/hashtag/有條件限制的創意發想才是現實)或[機構裝置](https://drive.google.com/drive/folders/1rOrtEVfyb2V3n8udODtMaCCumZfQbsKy?usp=sharing)，創造專題作品；認識並學習設計大數據應用。
 
 [上課地點](https://nandemoi.github.io/zl111/schedule.pdf)  
 | 課程內容與講義連結 | 學習要點 |
@@ -14,8 +14,7 @@
 | [模擬](https://nandemoi.github.io/zl111/Simulations.pdf) |     |
 | 機構裝置設計方法與製圖建模技巧 |     |
 | 專題設計 | [範例們](https://app.box.com/s/1j9cpurlypobduekp2rlqwtvm5ce8f8o) |
-| 人工智慧介紹 |     |
-| 人工智慧應用設計 |     |
+| [大數據應用](https://nandemoi.github.io/zl111/Python_BigData.pdf) |     |
 | 半導體製造技術認識或[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) |     |
 
 [Onshape.com](https://www.onshape.com/en/)  
