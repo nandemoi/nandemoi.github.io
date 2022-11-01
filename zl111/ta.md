@@ -10,7 +10,7 @@
 | 課程內容與講義連結 | 學習要點 |
 | :-- | :-- |
 | \* 課程介紹  <br>\* [註冊 Onshape](https://nandemoi.github.io/zl111/Onshape_Reg.pdf)  <br>\* [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf)<br><br> | \* 設計原理與製圖建模概念  <br>\* 完成註冊 Onshape 並能順利登入  <br>  <br>\- [工程視圖 (三視圖)](https://nandemoi.github.io/zl111/EngrDrawing.pdf) |
-| 結構件設計方法與製圖建模技巧 | \* [Onshape 第一課](https://nandemoi.github.io/zl111/Onshape1.pdf) (含交作業指引)  <br>\* [Onshape 第二課](https://nandemoi.github.io/zl111/Onshape2.pdf)  <br>\* [Onshape 第三課](https://nandemoi.github.io/zl111/Onshape3.pdf)  <br>\* [任務示範：盒子](https://nandemoi.github.io/zl111/MissionBox.pdf) |
+| 結構件設計方法與製圖建模技巧 | [Onshape 建模](https://nandemoi.github.io/zl111/Onshape1.pdf) (含交作業指引)  <br>\* [Onshape 第二課](https://nandemoi.github.io/zl111/Onshape2.pdf)  <br>\* [Onshape 第三課](https://nandemoi.github.io/zl111/Onshape3.pdf)  <br>\* [任務示範：盒子](https://nandemoi.github.io/zl111/MissionBox.pdf) |
 | [模擬](https://nandemoi.github.io/zl111/Simulations.pdf) |     |
 | 機構裝置設計方法與製圖建模技巧 |     |
 | 專題設計 | [範例們](https://app.box.com/s/1j9cpurlypobduekp2rlqwtvm5ce8f8o) |
