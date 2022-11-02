@@ -2,7 +2,7 @@
 
 中崙高中 / [黃敦紀](https://hackmd.io/@nandemoi/SyqndIE7t)  
 
-**[點擊看「課程常規」不定期更新](https://nandemoi.github.io/zl111/index.html)**
+**點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
 
 課程目標：運用工程設計原理，[設計](https://cad.onshape.com/documents/29f77d1e61ff89edff076753/w/cc07af9851e10e5ea7058369/e/1ab1c3e089a868ce1feca1e6?renderMode=0&uiState=630147d0a366dc0353a959e4)製圖、建模、模擬組合[結構件](https://www.facebook.com/hashtag/有條件限制的創意發想才是現實)或[機構裝置](https://drive.google.com/drive/folders/1rOrtEVfyb2V3n8udODtMaCCumZfQbsKy?usp=sharing)，創造專題作品；認識並學習設計大數據應用。
 
