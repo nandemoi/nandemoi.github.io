@@ -18,7 +18,6 @@
 | 半導體製造技術認識或[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) |     |
 
 [Onshape.com](https://www.onshape.com/en/)  
-Onshape 操作學習可參考趙珩宇等編著 &lt;動手入門 Onshape 3D 繪圖到機構製作&gt; 台科大圖書 2019。  
 
 <b><span style="color:red">
 作業、專題一定要誠實自己做，做了多少就說多少：和這個原則違背的瑕疵是各位在求學過程以及以後的職涯中不能有的
