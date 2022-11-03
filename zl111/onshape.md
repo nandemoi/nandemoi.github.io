@@ -43,9 +43,12 @@
 * 重疊的圖元選擇按右鍵 → 選擇其他
 * 從動尺寸 (灰色)：使用尺寸工具以 Esc 鍵結束
 
-## 第 3 課
+## 第 3 課：[機構設計](https://nandemoi.github.io/zl111/Mech_Design.pdf)
 
 * 其他結合：轉動 (蓋子、機構)、相切 (凸輪)
+    - [thắng 的機構設計](https://www.youtube.com/channel/UCli_RJkGWfZvw4IlDLHNCQg)
+    - Disney's [Computational Design of Mechanical Characters](https://www.youtube.com/watch?v=DfznnKUwywQ)
+    - [grippers](https://www.youtube.com/watch?v=YM2O3TufUlY)
 * 結合連接器的
     - 移動
     - 重新對齊 (零件要先旋轉到大概的角度)
@@ -69,6 +72,7 @@
     2. 有擠出零件後可畫在任何擠出零件的平面
     3. 擠出有「新 」、「移除」等 4 個選項。可以有第二結束位置 (1-6, 1-21)
 * 旋轉、疊層拉伸 (放樣、loft)、[螺紋](https://cad.onshape.com/documents/c008ee8ea8cf3d37d94ef197/w/2c3761f6657c5655b858a0d7/e/59318cb525f0d3f451b6dc0c?renderMode=0&uiState=6361d99c52cea82f364af199)
+    - spring: helix on a cylinder → hide cylinder → sweep with curve (not helix)  
 * [金字塔：(1-21) 3D 配適不規則曲線 （3D fit spline) + 疊層拉伸 (loft)](https://cad.onshape.com/documents/39a652e02f04760b3553b242/w/2e1123d31be357a511c37e43/e/559d40ee06e6a56e4d32811d)
 
 Onshape 操作學習可參考趙珩宇等編著 &lt;動手入門 Onshape 3D 繪圖到機構製作&gt; 台科大圖書 2019。
