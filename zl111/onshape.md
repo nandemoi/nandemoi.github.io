@@ -49,6 +49,9 @@
     - [thắng 的機構設計](https://www.youtube.com/channel/UCli_RJkGWfZvw4IlDLHNCQg)
     - Disney's [Computational Design of Mechanical Characters](https://www.youtube.com/watch?v=DfznnKUwywQ)
     - [grippers](https://www.youtube.com/watch?v=YM2O3TufUlY)
+
+### 其他
+
 * 結合連接器的
     - 移動
     - 重新對齊 (零件要先旋轉到大概的角度)
