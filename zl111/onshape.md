@@ -76,7 +76,7 @@
     3. 擠出有「新 」、「移除」等 4 個選項。可以有第二結束位置 ([1-6](https://cad.onshape.com/documents/9249c2150d122e1502f1ed34/w/a4d15f37f689df1031355301/e/288c812cc62fa31f95ebfe11), [1-21](https://cad.onshape.com/documents/c6b1e35a65795c97c66802b2/w/0ff0667ea435dcce608790cf/e/998a91825e14f91f3e840a64))
 * 旋轉、疊層拉伸 (放樣、loft)、[螺紋](https://cad.onshape.com/documents/c008ee8ea8cf3d37d94ef197/w/2c3761f6657c5655b858a0d7/e/59318cb525f0d3f451b6dc0c?renderMode=0&uiState=6361d99c52cea82f364af199)
     - [spring](https://www.youtube.com/watch?v=kvPe4xL_3tM): helix on a cylinder → hide cylinder → sweep with curve (not helix)  
-    - [my turbine](https://cad.onshape.com/documents/6516990dfb7b111938482bcc/w/4816bf2c26d5c6e1b660a654/e/c9770ba1b9c090db5e21a4e7?renderMode=0&uiState=636476f1e931cd608134074e), [turbine totural](https://www.youtube.com/watch?v=L1OqJp5kW0U), [advanced blade](https://www.youtube.com/watch?v=DIfwAZwuAjE)
+    - [my turbine](https://cad.onshape.com/documents/6516990dfb7b111938482bcc/w/4816bf2c26d5c6e1b660a654/e/c9770ba1b9c090db5e21a4e7?renderMode=0&uiState=636476f1e931cd608134074e) (外圓和內多邊不能在同一個草圖), [turbine totural](https://www.youtube.com/watch?v=L1OqJp5kW0U), [advanced blade](https://www.youtube.com/watch?v=DIfwAZwuAjE)
 * [金字塔：(1-21) 3D 配適不規則曲線 （3D fit spline) + 疊層拉伸 (loft)](https://cad.onshape.com/documents/39a652e02f04760b3553b242/w/2e1123d31be357a511c37e43/e/559d40ee06e6a56e4d32811d)
 
 Onshape 操作學習可參考趙珩宇等編著 &lt;動手入門 Onshape 3D 繪圖到機構製作&gt; 台科大圖書 2019。
