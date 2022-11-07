@@ -15,7 +15,9 @@
 | 機構裝置設計方法與製圖建模技巧 |     |
 | 專題設計 | [範例們](https://app.box.com/s/1j9cpurlypobduekp2rlqwtvm5ce8f8o) |
 | [大數據應用](https://nandemoi.github.io/zl111/Python_BigData.pdf) |     |
-| 半導體製造技術認識或[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) |     |
+| [數位邏輯設計](https://nandemoi.github.io/zl111/DigiLogicDesign.pdf) |     |
+| [半導體製造技術認識](https://nandemoi.github.io/zl111/tsmc.pdf)或[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) |     |
+| [量子計算](https://nandemoi.github.io/zl111/qc.pdf) |     |
 
 [Onshape.com](https://www.onshape.com/en/)  
 
