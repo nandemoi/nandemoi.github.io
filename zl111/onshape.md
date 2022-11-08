@@ -23,6 +23,7 @@
 ### 專題設計要領 ([範例們](https://app.box.com/s/1j9cpurlypobduekp2rlqwtvm5ce8f8o))
 
 * 你如果對要做什麼沒有想法，先從簡單的開始，例如：撲滿、骰子、各種加蓋子。
+* 如果不知道怎麼開始畫草圖，可以先在紙上稍微畫一下輪廓，就會有想法了。
 * 盡量利用重合共點、等長關係的限制條件，盡量不要設定尺寸，這樣要修改設計會比較容易  
 * 美學要領：對稱、[黃金比](https://www.elegantthemes.com/blog/design/the-golden-ratio-the-ultimate-guide-to-understanding-and-using-it) ([費氏數列](https://youtu.be/2tv6Ej6JVhohttps://youtu.be/2tv6Ej6JVho))、質數  
 * 多數的功能都在按滑鼠右鍵下拉的功能表裡例如隱藏/顯示 (所有) 零件、草圖、結合連接器等功能項目都在相應的表單區塊按右鍵下拉功能表中  
