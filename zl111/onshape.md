@@ -54,6 +54,9 @@
     - [thắng 的機構設計](https://www.youtube.com/channel/UCli_RJkGWfZvw4IlDLHNCQg)
     - Disney's [Computational Design of Mechanical Characters](https://www.youtube.com/watch?v=DfznnKUwywQ)
     - [grippers](https://www.youtube.com/watch?v=YM2O3TufUlY)
+* [Onshape How To: Gears](https://www.youtube.com/watch?v=AxCgO_eJocc)
+    - [Gear Generator](https://geargenerator.com/)
+    - [齒輪技術入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf)、[齒輪技術實用篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide2.pdf)
 
 ### 其他
 
