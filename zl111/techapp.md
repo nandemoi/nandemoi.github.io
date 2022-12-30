@@ -15,7 +15,7 @@
 | [機構裝置設計方法與製圖建模技巧](https://nandemoi.github.io/zl111/Mech_Design.pdf) |     |
 | 專題設計 | [範例們](https://app.box.com/s/1j9cpurlypobduekp2rlqwtvm5ce8f8o) |
 | [Arduino 機電整合](https://nandemoi.github.io/zl111/Arduino.pdf) |     |
-| [數位邏輯工程設計極簡體驗](https://nandemoi.github.io/zl111/dld.pdf) |     |
+| [數位邏輯工程設計極簡體驗](https://nandemoi.github.io/zl111/DLD.pdf) |     |
 | [大數據應用](https://nandemoi.github.io/zl111/Python_BigData.pdf) |     |
 | [數位邏輯設計](https://nandemoi.github.io/zl111/DigiLogicDesign.pdf) |     |
 | [半導體製造技術認識](https://nandemoi.github.io/zl111/tsmc.pdf)或[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) |     |
