@@ -1,11 +1,10 @@
 # 機器人專題
 
-## 「機器人」
+## 講義
 
-* Boston Dynamic: humanoid, Spot
-* Tesla Optimus
-* Davinci
-* 倉儲物流
-* FRC, WRO - 機器人格鬥
+* [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)
+* [Python 複習](https://nandemoi.github.io/zl111/Python.pdf)
+* [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
+* ZeroJudge e287 解題
 
-* RoboDK, Drag&bot, Webot, Coppelia
+<!--* RoboDK, Drag&bot, Webot, Coppelia-->
