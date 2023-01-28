@@ -1,6 +1,6 @@
 # 機器人專題
 
-## 「機驗人」
+## 「機器人」
 
 * Boston Dynamic: humanoid, Spot
 * Tesla Optimus
