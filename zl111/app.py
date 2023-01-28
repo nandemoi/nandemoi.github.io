@@ -67,35 +67,7 @@ def callback():
             continue
         if not isinstance(event.message, TextMessage):
             continue
-
-        try:
-            h = int (event.message.text)
-            if h == 0 and os.path.exists ("manstop.txt"):
-                line_bot_api.reply_message(
-                    event.reply_token,
-                    TextSendMessage(text="貓咪 1 小時內回來。")
-                )
-                os.remove ("manstop.txt")
-            elif 1 <= h <= 8:
-                t = datetime.now().hour + h
-                if t > 23:
-                    t = 23
-                with open ("manstop.txt", 'w') as f:
-                    f.write (str (t))
-                a = t % 12
-                if a == 0:
-                    a = 12
-                line_bot_api.reply_message(
-                    event.reply_token,
-                    TextSendMessage(text="貓咪會在 " + str(a) + " 點多回來。或是請您離開時再傳 0 給我。")
-                )
-            else:
-                raise Exception("out of range")
-        except:
-            line_bot_api.reply_message(
-                event.reply_token,
-                TextSendMessage(text="請傳 1~8 的數字為訊息，貓咪會在您傳的數字小時後回來。")
-            )
+        print (event.message.text)
     return 'OK'
 
 
