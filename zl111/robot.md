@@ -7,7 +7,7 @@
 ## 講義
 
 * [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)
-* [Python 複習](https://youtu.be/xLB5MvDkLWY)
+* [Python 複習](https://youtu.be/ae8MomPbnZs)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * ZeroJudge e287 解題
 
