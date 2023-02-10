@@ -4,6 +4,8 @@
 
 **點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
 
+規劃全學期 BYOD (自帶電腦)。如有問題請第一週上課提出。
+
 ## 講義
 
 * [麵包板的拓樸學＋電子電路の工程設計](https://nandemoi.github.io/zl111/BB.pdf)
