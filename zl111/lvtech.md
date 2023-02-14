@@ -11,6 +11,7 @@
 <!--[上課地點](https://nandemoi.github.io/zl111/schedule.pdf)，-->
 
 規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
+需要滑鼠，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠  
   
 講義：  
 * [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf) (課本 1-1 ~ 1-2)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf)  
