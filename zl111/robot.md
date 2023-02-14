@@ -21,5 +21,5 @@
 [陳縕儂老師 OpenAI ChatGPT 驚驗眾人的對話互動式 AI](https://youtu.be/TnGPmlONfI8)  
 [蔡炎龍老師 2021 北一女 Python 人工智慧工作坊](https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE)  
 [How to Train TensorFlow Lite Models Using Google Colab](https://www.youtube.com/watch?v=XZ7FYAMCc4M)  
-DeepMind AI參賽寫程式，AlphaCode擊敗近半數工程師！為何專家說取代人類還很遙遠？(https://www.bnext.com.tw/article/67613/deepmind-alphacode)
+[DeepMind AI參賽寫程式，AlphaCode擊敗近半數工程師！為何專家說取代人類還很遙遠？](https://www.bnext.com.tw/article/67613/deepmind-alphacode)
 
