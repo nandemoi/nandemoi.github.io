@@ -48,7 +48,7 @@
 * 重疊的圖元選擇按右鍵 → 選擇其他 (快捷鍵：鍵盤左上角的 `)
 * 從動尺寸 (灰色)：使用尺寸工具以 Esc 鍵結束
 
-## 第 3 課：[機構設計](https://nandemoi.github.io/zl111/Mech_Design.pdf)
+## 第 3 課：[機構設計 Mechanism Design](https://nandemoi.github.io/zl111/Mech_Design.pdf)
 
 * 其他結合：轉動 (蓋子、機構)、相切 (凸輪)
     - [thắng 的機構設計](https://www.youtube.com/channel/UCli_RJkGWfZvw4IlDLHNCQg)
