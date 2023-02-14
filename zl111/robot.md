@@ -20,4 +20,5 @@
 [李宏毅老師 ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://youtu.be/e0aKI2GGZNg)  
 [陳縕儂老師 OpenAI ChatGPT 驚驗眾人的對話互動式 AI](https://youtu.be/TnGPmlONfI8)  
 [蔡炎龍老師 2021 北一女 Python 人工智慧工作坊](https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE)  
+[How to Train TensorFlow Lite Models Using Google Colab](https://www.youtube.com/watch?v=XZ7FYAMCc4M)  
 
