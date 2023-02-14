@@ -14,3 +14,10 @@
 * ZeroJudge e287 解題
 
 <!--* RoboDK, Drag&bot, Webot, Coppelia-->
+
+## AI
+
+https://youtu.be/e0aKI2GGZNg  
+https://youtu.be/TnGPmlONfI8  
+https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE  
+
