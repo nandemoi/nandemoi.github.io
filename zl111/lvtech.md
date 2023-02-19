@@ -28,7 +28,7 @@
   * [Arduino 機電整合](https://nandemoi.github.io/zl111/Arduino.pdf)
 * [認識工程學系與產業](https://nandemoi.github.io/zl111/engrs.html)、[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) ([如何上傳](https://docs.google.com/presentation/d/1aMvKKsgO2DZWiTfOpt0caiETmFdhGXN1x3cZg6d-ydc/edit#slide=id.p))、[112 大學入學](https://www.cac.edu.tw/cacportal/index.php)  
 
-混成教學時，請<span style="color:red">資訊股長</span>單純就學校指示的作法替遠距上課的同學架好設備，到專科教室上課時也是一樣：將設備帶到專科教室架好。  
+混成教學時，請<span style="color:red">資訊股長</span>單純就學校指示的作法替遠距上課的同學架好設備<!--，到專科教室上課時也是一樣：將設備帶到專科教室架好-->。  
 
 課程中的操作示範如果需要會使用 Google Classroom 中整合的 Meet。  
 
