@@ -13,6 +13,18 @@
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * ZeroJudge e287 解題
 
+## 學期計分方式
+
+* Python 複習刷題 10
+* 上機測驗 50
+    1. 分梯次：每梯次幾人看 Google Classroom 說明
+    2. 帶學生證查核身份
+    3. 解題全程螢幕錄影並登入 Google Meet 分享螢幕畫面
+        * 可以使用 Google 和 ChatGPT 查詢語法使用與技巧和算法與資料結構的討論但不可預存或直接搜尋題解複製解題程式碼
+    4. 解題若通過者繳交螢幕錄影和解題過程中的網頁與搜尋瀏覽紀錄
+* 專題 30
+* 學習態度 10
+
 <!--* RoboDK, Drag&bot, Webot, Coppelia-->
 
 ## AI
