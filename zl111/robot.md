@@ -11,7 +11,7 @@
 * [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)
 * [Python 複習](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
-* ZeroJudge e287 解題
+* [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)
 
 ## 學期計分方式
 
