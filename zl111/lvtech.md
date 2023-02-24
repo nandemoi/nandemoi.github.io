@@ -19,6 +19,7 @@
 * [註冊 Onshape 與 BYOD 設備需求](https://nandemoi.github.io/zl111/Onshape_Reg.pdf)  
   <span style="color:red">註冊 Onshape 驗證電子郵件信箱在行動裝置上無法操作，
   手機不行，使用 iPad 者請在家先用筆電或桌機完成。</span>  
+  <span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：例如寫在筆記本、或是課本內頁。密碼忘記重置同樣無法以手機操作，而且很浪費時間。密碼常常忘記會登記扣分。</span>  
   * [Onshape.com](https://www.onshape.com/en/)  
 * [Onshape 建模與工程設計](https://hackmd.io/@nandemoi/ByjSvP0Es)  
   * [第 1 課：盒子 (包括作業要交什麼)](https://nandemoi.github.io/zl111/Onshape1.pdf)  
