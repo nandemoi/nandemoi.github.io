@@ -9,7 +9,7 @@
 ## 講義
 
 * [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)
-* [Python 複習](https://nandemoi.github.io/zl111/Python.pdf) [(影片)](https://nandemoi.github.io/zl111/Python.html)
+* Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)
 
