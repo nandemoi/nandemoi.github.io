@@ -26,6 +26,12 @@
     4. 解題若通過者繳交螢幕錄影和解題過程中的網頁與搜尋瀏覽紀錄
 * 專題 (分數無上限)
     - 專題如果只有程式碼和執行影片視完整程度與功能最高 10
+    - 評分參考：
+        * 回音 LineBot：2
+        * 計算機 LineBot：3
+        * 串接 ChatGPT LineBot：5
+        * 點餐 LineBot：7
+        * 串接 ChatGPT 但提示經過客製讓 ChatGPT 回應能根據特定需求： 5~12+ 視功能與完整度
 * 學習態度 10
 
 <!--* RoboDK, Drag&bot, Webot, Coppelia-->
