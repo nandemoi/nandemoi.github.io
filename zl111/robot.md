@@ -12,6 +12,7 @@
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)
+* [Googles's NEW INSANE PALM-E](https://youtu.be/2BYC4_MMs8I)
 
 ## 學期計分方式
 
@@ -23,7 +24,7 @@
     3. 解題全程螢幕錄影並登入 Google Meet 分享螢幕畫面
         * 可以使用 Google 和 ChatGPT 查詢語法使用與技巧和算法與資料結構的討論但不可預存或直接搜尋題解複製解題程式碼
     4. 解題若通過者繳交螢幕錄影和解題過程中的網頁與搜尋瀏覽紀錄
-* 專題
+* 專題 (分數無上限)
     - 專題如果只有程式碼和執行影片視完整程度與功能最高 10
 * 學習態度 10
 
