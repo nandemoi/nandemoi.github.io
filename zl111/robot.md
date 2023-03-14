@@ -29,9 +29,9 @@
     - 評分參考：
         * 回音 LineBot：2
         * 計算機 LineBot：3
-        * 串接 ChatGPT LineBot：5
+        * 串接 ChatGPT 的 LineBot：5
         * 點餐 LineBot：7
-        * 串接 ChatGPT 但提示經過客製讓 ChatGPT 回應能根據特定需求： 5~12+ 視功能與完整度
+        * 串接 ChatGPT 的 LineBot 但提示經過客製讓 ChatGPT 回應能根據特定需求：6~12+ 視功能與完整度
 * 學習態度 10
 
 <!--* RoboDK, Drag&bot, Webot, Coppelia-->
