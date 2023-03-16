@@ -8,8 +8,8 @@
 
 ## 講義
 
-* [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)
-* [Python 複習](https://nandemoi.github.io/zl111/Python.html)
+* [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)、[Googles's NEW INSANE PALM-E](https://youtu.be/2BYC4_MMs8I)
+* Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)
 
@@ -18,12 +18,19 @@
 * Python 複習刷題 15
 * 上機測驗 45
     1. 分梯次：每梯次幾人看 Google Classroom 說明
+        * 第一梯次就過的另外加 15，最後一梯次不另加分
     2. 帶學生證查核身份
     3. 解題全程螢幕錄影並登入 Google Meet 分享螢幕畫面
         * 可以使用 Google 和 ChatGPT 查詢語法使用與技巧和算法與資料結構的討論但不可預存或直接搜尋題解複製解題程式碼
     4. 解題若通過者繳交螢幕錄影和解題過程中的網頁與搜尋瀏覽紀錄
-* 專題 50
-    - 專題如果只有程式碼和執行影片視完整程度與功能最高 20
+* 專題 (分數無上限)
+    - 專題如果只有程式碼和執行影片視完整程度與功能最高 10
+    - 評分參考：
+        * 回音 LineBot：2
+        * 計算機 LineBot：3
+        * 串接 ChatGPT 的 LineBot：5
+        * 點餐 LineBot：7
+        * 串接 ChatGPT 的 LineBot 但提示經過客製讓 ChatGPT 回應能根據特定需求：6~12+ 視功能與完整度
 * 學習態度 10
 
 <!--* RoboDK, Drag&bot, Webot, Coppelia-->
