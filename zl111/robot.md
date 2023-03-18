@@ -11,7 +11,8 @@
 * [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)、[Googles's NEW INSANE PALM-E](https://youtu.be/2BYC4_MMs8I)
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
-* [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)
+* [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
+* [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrc.pdf)  
 
 ## 學期計分方式
 
