@@ -11,7 +11,8 @@
 * [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)、[Googles's NEW INSANE PALM-E](https://youtu.be/2BYC4_MMs8I)
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
-* [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)
+* [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
+* [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrc.pdf)  
 
 ## 學期計分方式
 
@@ -37,6 +38,7 @@
 
 ## AI
 
+[大規模視覺基礎模型之機會與挑戰](https://www.youtube.com/watch?v=sRyBsFjyNpE)
 [李宏毅老師 ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://youtu.be/e0aKI2GGZNg)  
 [李宏毅老師【生成式AI】ChatGPT 原理剖析（1/3)一對 ChatGPT 的常見誤解](https://youtu.be/yiY4nPOzJEg)  
 [陳縕儂老師 OpenAI ChatGPT 驚驗眾人的對話互動式 AI](https://youtu.be/TnGPmlONfI8)  
