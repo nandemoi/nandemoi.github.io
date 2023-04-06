@@ -21,7 +21,7 @@
   手機不行，使用 iPad 者請在家先用筆電或桌機完成。</span>  
   <span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：例如寫在筆記本、或是課本內頁。密碼忘記重置同樣無法以手機操作，而且很浪費時間，上課你會跟不上。密碼常常忘記會登記扣分。</span>  
   * [Onshape.com](https://www.onshape.com/en/)  
-* [Onshape 建模與工程設計](https://hackmd.io/@nandemoi/ByjSvP0Es)  
+* [Onshape 建模與工程設計](https://nandemoi.github.io/zl111/onshape)  
   * [第 1 課：盒子 (包括作業要交什麼)](https://nandemoi.github.io/zl111/Onshape1.pdf)  
   * [範例們](https://app.box.com/s/2h1j3wm1niglm4ny5te20254036ekts8)  
   * 機構部分：課本第 4 章：機構。4-2 Ⓑ 四連桿  
