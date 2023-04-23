@@ -13,6 +13,7 @@
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
+* [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf)
 
 ## 學期計分方式
 
