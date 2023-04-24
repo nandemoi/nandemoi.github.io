@@ -13,7 +13,7 @@
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
-* [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf)
+* [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於圖靈測試的敘述或須修改)
 
 ## 學期計分方式
 
