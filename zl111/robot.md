@@ -13,6 +13,7 @@
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
+* [機器學習](https://nandemoi.github.io/zl111/AI.pdf)  
 * [和 AI 做朋友](https://nandemoi.github.io/zl111/AI_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
 
 <!--
@@ -34,7 +35,7 @@
         * 串接 ChatGPT 的 LineBot 但提示經過客製讓 ChatGPT 回應能根據特定需求：6~12+ 視功能與完整度
 * 學習態度 10
 
-<--* RoboDK, Drag&bot, Webot, Coppelia-->
+<--* RoboDK, Drag&bot, Webot, Coppelia>
 
 ## AI
 
@@ -46,3 +47,4 @@
 [蔡炎龍老師 2021 北一女 Python 人工智慧工作坊](https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE)  
 [How to Train TensorFlow Lite Models Using Google Colab](https://www.youtube.com/watch?v=XZ7FYAMCc4M)  
 [DeepMind AI參賽寫程式，AlphaCode擊敗近半數工程師！為何專家說取代人類還很遙遠？](https://www.bnext.com.tw/article/67613/deepmind-alphacode)
+-->
