@@ -23,7 +23,7 @@
   * [Onshape.com](https://www.onshape.com/en/)  
 * [Onshape 建模與工程設計](https://nandemoi.github.io/zl111/onshape)  
   * [第 1 課：盒子 (包括作業要交什麼)](https://nandemoi.github.io/zl111/Onshape1.pdf)  
-  * [範例們](https://app.box.com/s/2h1j3wm1niglm4ny5te20254036ekts8)  
+  <!--* [範例們](https://app.box.com/s/2h1j3wm1niglm4ny5te20254036ekts8)-->  
   * 機構部分：課本第 4 章：機構。4-2 Ⓑ 四連桿  
 * [麵包板的拓樸學＋電子電路の工程設計](https://nandemoi.github.io/zl111/BB.pdf) (課本第 5 章)  
   * [Arduino 機電整合](https://nandemoi.github.io/zl111/Arduino.pdf)
