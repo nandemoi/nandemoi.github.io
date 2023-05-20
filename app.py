@@ -4,6 +4,7 @@ from flask_mysqldb import MySQL
 import MySQLdb.cursors
 import re, getpass
 from flask_socketio import SocketIO
+from flask_login import logout_user
 
 app = Flask(__name__)
 
@@ -15,7 +16,7 @@ app.config['MYSQL_PASSWORD'] = getpass.getpass ('mysql password: ')
 app.config['MYSQL_DB'] = 'test'
 
 mysql = MySQL(app)
-socketio = SocketIO(app)
+# socketio = SocketIO(app)
 
 @app.route('/')
 @app.route('/login', methods=['GET', 'POST'])
@@ -103,7 +104,11 @@ def update():
 		return render_template("update.html", msg=msg)
 	return redirect(url_for('login'))
 
-
+# @socketio.on('disconnect')
+# def disconnect_user():
+#     logout_user()
+#     logout()
+    
 if __name__ == "__main__":
-    socketio.run(app)
-	# app.run(host="localhost", port=int("5000"))
+    # socketio.run(app)
+	app.run(host="localhost", port=int("5000"))
