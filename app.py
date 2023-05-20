@@ -1,5 +1,5 @@
 # Store this code in 'app.py' file
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import Flask, render_template, request, redirect, url_for, session, send_file
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
 import re, getpass
@@ -55,10 +55,18 @@ def logout():
     session.pop('qa', None)
     return redirect(url_for('login'))
 
+@app.route('/display_pdf')
+def display_pdf():
+    return send_file (url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"), mimetype='application/pdf')
+    
 @app.route("/questions")
 def questions():
     if 'loggedin' in session:
-        return render_template("questions.html", name = session ['account']['name'], pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"))
+        return """
+        <script>
+            window.open('/display_pdf', f"{session ['account']['name']}題目");
+        </script>
+        """
     else:
         return redirect(url_for('login'))
 
