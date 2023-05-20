@@ -28,14 +28,15 @@
     <form action="{{ url_for('answers')}}" method="post">
         I 
         {% for i in range (1, 6) %}
+        {% set key = 'I' + i|string %}
         <div class="radio-container">
             &ensp;
             ({{ i }})
             <label>
-                <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A" {% if ans [i - 1] = 'A' %}checked{% endif %}>A
+                <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
             </label>
             <label>
-                <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B" {% if ans [i - 1] = 'B' %}checked{% endif %}>B
+                <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
             </label>
         </div>
         {% endfor %}
