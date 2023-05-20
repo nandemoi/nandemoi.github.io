@@ -41,12 +41,7 @@ def login():
 			cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
-			return """
-				<script>
-					window.open('/questions', {{session ['account']['name']}}題目");
-				</script>
-				<meta http-equiv="refresh" content="3; url='answers'">
-				"""		
+			return render_template('redirect.html', name=account ['name'])
 		else:
 			msg = '登入資料錯誤!'
 	return render_template('login.html', msg=msg)
@@ -55,6 +50,17 @@ def login():
 @app.route('/answers', methods=['GET', 'POST'])
 def answers():
 	if 'loggedin' in session:
+		if request.method == 'POST':
+			ans = ""
+			for i in range (1, 6):
+				a = request.form.get (f'I{i}')
+				ans += '.' if a is None else a [-1]
+			for i in [ 'II', 'III' ]:
+				for j in range (1, 3):
+					a = request.form.get (f'{i}{j}')
+					ans += '.' if a is None else a [-1]
+			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{ans}' WHERE id = {session['account']['id']}")
+			mysql.connection.commit()
 		return render_template('answers.html', name = session ['account']['name'])
 	else:
 		return redirect(url_for('login'))
