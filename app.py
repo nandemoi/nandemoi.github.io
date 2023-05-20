@@ -21,7 +21,7 @@ def addLogin (logins):
     if logins is None:
         return today
     else:
-        if re.search (logins, rf"{re.escape(today)}$"):
+        if re.search (rf"{re.escape(today)}$", logins):
             return logins
         else:
             return f"{logins}, {today}"
@@ -38,9 +38,10 @@ def login():
             session['loggedin'] = True
             session['id'] = account['id']
             session['username'] = account['name']
-            cursor.execute(f"UPDATE accounts SET logins = '{addLogin(account['logins'])}' WHERE id = {session['id']}")
-            cursor.fetchall()
-            return render_template('index.html', msg=f"{session['username']}，今天繼續加油喔！")
+            logins = addLogin(account['logins'])
+            cursor.execute(f"UPDATE accounts SET logins = '{logins}' WHERE id = {session['id']}")
+            mysql.connection.commit()
+            return render_template('index.html', name=session['username'], logins=logins)
         else:
             msg = 'Incorrect username / password !'
     return render_template('login.html', msg=msg)
@@ -55,18 +56,18 @@ def logout():
 @app.route("/index")
 def index():
 	if 'loggedin' in session:
-		return render_template("index.html", msg=f"{session['username']}，今天繼續加油喔！")
+		return render_template("index.html", name=session['username'])
 	return redirect(url_for('login'))
 
 
-@app.route("/display")
-def display():
+@app.route("/questions")
+def questions():
 	if 'loggedin' in session:
 		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
 		cursor.execute('SELECT * FROM accounts WHERE id = % s',
 					(session['id'], ))
 		account = cursor.fetchone()
-		return render_template("display.html", account=account)
+		return render_template("questions.html", account=account)
 	return redirect(url_for('login'))
 
 
