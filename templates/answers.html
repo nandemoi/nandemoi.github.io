@@ -1,0 +1,31 @@
+<!--Store this code in 'index.html' file inside the 'templates' folder-->
+<meta charset="utf-8" />
+<html lang="en">
+	<head>
+		<title>{{ name }}加油</title>
+		<link rel="stylesheet" href="../static/style.css">
+	</head>
+
+	<body bgcolor="#e6ffee">
+		<div class="one">
+			<div class="two">
+				<h2>中崙高中黃老師科技課程</h2>
+				<ul>
+					<!--li class="active"><a href="{{url_for('index')}}">Index</a></li-->
+					<li><a href="{{url_for('questions')}}">題目</a></li>
+					<li><a href="{{url_for('answers')}}">作答</a></li>
+					<li><a href="{{url_for('logout')}}">登出</a></li>
+				</ul>
+			</div>
+			<div class="content" align="center">
+				<div class="topbar">
+					<h2>{{ name }}同學，今天繼續加油喔！</h2>				
+				</div></br></br>
+				<div class="contentbar">
+					<div class="msg">登入記錄：{{ logins }}</div>
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>
