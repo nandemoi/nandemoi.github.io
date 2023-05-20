@@ -1,42 +1,156 @@
-from flask import Flask, render_template, redirect, url_for, request
-from flask_login import LoginManager
+# Store this code in 'app.py' file
+from flask import Flask, render_template, request, redirect, url_for, session
+from flask_mysqldb import MySQL
+import MySQLdb.cursors
+import re
 
 app = Flask(__name__)
 
-@login_manager.user_loader
-def load_user(user_id):
-    return User.get(user_id)
+app.secret_key = 'whatfor'
 
-# Route for handling the login page logic
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = input ('mysql root password: ')
+app.config['MYSQL_DB'] = 'test'
+
+mysql = MySQL(app)
+
+@app.route('/')
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    # Here we use a class of some kind to represent and validate our
-    # client-side form data. For example, WTForms is a library that will
-    # handle this for us, and we use a custom LoginForm to validate.
-    form = LoginForm()
-    if form.validate_on_submit():
-        # Login and validate the user.
-        # user should be an instance of your `User` class
-        login_user(user)
+	msg = ''
+	if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
+		username = request.form['username']
+		password = request.form['password']
+		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+		cursor.execute(
+			'SELECT * FROM accounts WHERE username = % s \
+			AND password = % s', (username, password, ))
+		account = cursor.fetchone()
+		if account:
+			session['loggedin'] = True
+			session['id'] = account['id']
+			session['username'] = account['username']
+			msg = 'Logged in successfully !'
+			return render_template('index.html', msg=msg)
+		else:
+			msg = 'Incorrect username / password !'
+	return render_template('login.html', msg=msg)
 
-        flask.flash('Logged in successfully.')
 
-        next = flask.request.args.get('next')
-        # url_has_allowed_host_and_scheme should check if the url is safe
-        # for redirects, meaning it matches the request host.
-        # See Django's url_has_allowed_host_and_scheme for an example.
-        if not url_has_allowed_host_and_scheme(next, request.host):
-            return flask.abort(400)
+@app.route('/logout')
+def logout():
 
-        return flask.redirect(next or flask.url_for('index'))
-    return flask.render_template('login.html', form=form)
 
-@app.route("/", methods=['GET', 'POST'])
+session.pop('loggedin', None)
+session.pop('id', None)
+session.pop('username', None)
+return redirect(url_for('login'))
+
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+	msg = ''
+	if request.method == 'POST' and 'username' in
+	request.form and 'password' in request.form and
+	'email' in request.form and 'address' in
+	request.form and 'city' in request.form and
+	'country' in request.form and 'postalcode'
+	in request.form and 'organisation' in request.form:
+		username = request.form['username']
+		password = request.form['password']
+		email = request.form['email']
+		organisation = request.form['organisation']
+		address = request.form['address']
+		city = request.form['city']
+		state = request.form['state']
+		country = request.form['country']
+		postalcode = request.form['postalcode']
+		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+		cursor.execute(
+			'SELECT * FROM accounts WHERE username = % s', (username, ))
+		account = cursor.fetchone()
+		if account:
+			msg = 'Account already exists !'
+		elif not re.match(r'[^@]+@[^@]+\.[^@]+', email):
+			msg = 'Invalid email address !'
+		elif not re.match(r'[A-Za-z0-9]+', username):
+			msg = 'name must contain only characters and numbers !'
+		else:
+			cursor.execute('INSERT INTO accounts VALUES \
+			(NULL, % s, % s, % s, % s, % s, % s, % s, % s, % s)',
+						(username, password, email,
+							organisation, address, city,
+							state, country, postalcode, ))
+			mysql.connection.commit()
+			msg = 'You have successfully registered !'
+	elif request.method == 'POST':
+		msg = 'Please fill out the form !'
+	return render_template('register.html', msg=msg)
+
+
+@app.route("/index")
 def index():
-    error = None
-    return render_template('index.html', error=error)
+	if 'loggedin' in session:
+		return render_template("index.html")
+	return redirect(url_for('login'))
 
-if __name__ == '__main__':
-    login_manager = LoginManager()
-    login_manager.init_app(app)
-    app.run()
+
+@app.route("/display")
+def display():
+	if 'loggedin' in session:
+		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+		cursor.execute('SELECT * FROM accounts WHERE id = % s',
+					(session['id'], ))
+		account = cursor.fetchone()
+		return render_template("display.html", account=account)
+	return redirect(url_for('login'))
+
+
+@app.route("/update", methods=['GET', 'POST'])
+def update():
+	msg = ''
+	if 'loggedin' in session:
+		if request.method == 'POST' and 'username' in request.form
+		and 'password' in request.form and 'email' in request.form and
+		'address' in request.form and 'city' in request.form and 'country'
+		in request.form and 'postalcode' in request.form and
+		'organisation' in request.form:
+			username = request.form['username']
+			password = request.form['password']
+			email = request.form['email']
+			organisation = request.form['organisation']
+			address = request.form['address']
+			city = request.form['city']
+			state = request.form['state']
+			country = request.form['country']
+			postalcode = request.form['postalcode']
+			cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+			cursor.execute(
+				'SELECT * FROM accounts WHERE username = % s',
+					(username, ))
+			account = cursor.fetchone()
+			if account:
+				msg = 'Account already exists !'
+			elif not re.match(r'[^@]+@[^@]+\.[^@]+', email):
+				msg = 'Invalid email address !'
+			elif not re.match(r'[A-Za-z0-9]+', username):
+				msg = 'name must contain only characters and numbers !'
+			else:
+				cursor.execute('UPDATE accounts SET username =% s,\
+				password =% s, email =% s, organisation =% s, \
+				address =% s, city =% s, state =% s, \
+				country =% s, postalcode =% s WHERE id =% s', (
+					username, password, email, organisation,
+				address, city, state, country, postalcode,
+				(session['id'], ), ))
+				mysql.connection.commit()
+				msg = 'You have successfully updated !'
+		elif request.method == 'POST':
+			msg = 'Please fill out the form !'
+		return render_template("update.html", msg=msg)
+	return redirect(url_for('login'))
+
+
+if __name__ == "__main__":
+	app.run(host="localhost", port=int("5000"))
