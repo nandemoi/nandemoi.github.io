@@ -55,22 +55,12 @@ def logout():
     session.pop('qa', None)
     return redirect(url_for('login'))
 
-@app.route("/index")
-def index():
-	if 'loggedin' in session:
-		return render_template("index.html", name=session['account']['name'])
-	return redirect(url_for('login'))
-
 @app.route("/questions")
 def questions():
-	if 'loggedin' in session:
-		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-		cursor.execute('SELECT * FROM accounts WHERE id = % s',
-					(session['id'], ))
-		account = cursor.fetchone()
-		return render_template("questions.html", name=session['account']['name'])
-	return redirect(url_for('login'))
-
+    if 'loggedin' in session:
+        return render_template("questions.html", name = session ['account']['name'], pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"))
+    else:
+        return redirect(url_for('login'))
 
 @app.route("/answers", methods=['GET', 'POST'])
 def answers():
