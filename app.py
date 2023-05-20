@@ -36,29 +36,30 @@ def login():
         account = cursor.fetchone()
         if account:
             session['loggedin'] = True
-            session['id'] = account['id']
-            session['username'] = account['name']
+            session['account'] = account
             logins = addLogin(account['logins'])
-            cursor.execute(f"UPDATE accounts SET logins = '{logins}' WHERE id = {session['id']}")
+            cursor.execute(f"UPDATE accounts SET logins = '{logins}' WHERE id = {account['id']}")
             mysql.connection.commit()
-            return render_template('index.html', name=session['username'], logins=logins)
+            cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
+            ml = cursor.fetchone()
+            session['qa'] = f"{ml ['qa']:02}"
+            return render_template('index.html', name=account['name'], logins=logins)
         else:
-            msg = 'Incorrect username / password !'
+            msg = '登入資料錯誤!'
     return render_template('login.html', msg=msg)
 
 @app.route('/logout')
 def logout():
     session.pop('loggedin', None)
-    session.pop('id', None)
-    session.pop('username', None)
+    session.pop('account', None)
+    session.pop('qa', None)
     return redirect(url_for('login'))
 
 @app.route("/index")
 def index():
 	if 'loggedin' in session:
-		return render_template("index.html", name=session['username'])
+		return render_template("index.html", name=session['account']['name'])
 	return redirect(url_for('login'))
-
 
 @app.route("/questions")
 def questions():
@@ -67,12 +68,12 @@ def questions():
 		cursor.execute('SELECT * FROM accounts WHERE id = % s',
 					(session['id'], ))
 		account = cursor.fetchone()
-		return render_template("questions.html", account=account)
+		return render_template("questions.html", name=session['account']['name'])
 	return redirect(url_for('login'))
 
 
-@app.route("/update", methods=['GET', 'POST'])
-def update():
+@app.route("/answers", methods=['GET', 'POST'])
+def answers():
 	msg = ''
 	if 'loggedin' in session:
 		if request.method == 'POST' and 'username' in request.form and 'password' in request.form and 'email' in request.form and 'address' in request.form and 'city' in request.form and 'country' in request.form and 'postalcode' in request.form and 'organisation' in request.form:
@@ -108,7 +109,7 @@ def update():
 				msg = 'You have successfully updated !'
 		elif request.method == 'POST':
 			msg = 'Please fill out the form !'
-		return render_template("update.html", msg=msg)
+		return render_template("answers.html", msg=msg)
 	return redirect(url_for('login'))
 
 if __name__ == "__main__":
