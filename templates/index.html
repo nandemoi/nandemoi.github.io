@@ -2,8 +2,14 @@
 <meta charset="utf-8" />
 <html lang="en">
 	<head>
-		<title>index</title>
+		<title>{{ name }}加油</title>
 		<link rel="stylesheet" href="../static/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                window.open('/display_pdf', '{{ name }}題目');
+            });
+        </script>
 	</head>
 
 	<body bgcolor="#e6ffee">
@@ -11,9 +17,8 @@
 			<div class="two">
 				<h2>中崙高中黃老師科技課程</h2>
 				<ul>
-					<li class="active"><a href="{{url_for('index')}}">Index</a></li>
-					<li><a href="{{url_for('display')}}">題目</a></li>
-					<li><a href="{{url_for('update')}}">作答</a></li>
+					<li><a href="{{url_for('questions')}}">題目</a></li>
+					<li><a href="{{url_for('answers')}}">作答</a></li>
 					<li><a href="{{url_for('logout')}}">登出</a></li>
 				</ul>
 			</div>
