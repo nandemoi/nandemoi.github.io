@@ -18,7 +18,7 @@ mysql = MySQL(app)
 
 def addLogin (logins):
     today = date.today().strftime("%m/%d")
-    if len (logins) == 0:
+    if logins is None:
         return today
     else:
         if re.search (logins, rf"{re.escape(today)}$"):
@@ -29,23 +29,21 @@ def addLogin (logins):
 @app.route('/')
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-	msg = ''
-	if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
-		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-		cursor.execute(
-			'SELECT * FROM accounts WHERE id = % s \
-			AND pw = % s', (id, pw, ))
-		account = cursor.fetchone()
-		if account:
-			session['loggedin'] = True
-			session['id'] = account['id']
-			session['username'] = account['name']
-            cursor.execute('UPDATE accounts SET logins = % s \
-                WHERE id = % s', (addLogin(account['logins']), session['id'], ))
+    msg = ''
+    if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
+        cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+        cursor.execute(f"SELECT * FROM accounts WHERE id = {request.form['username']} AND pw = {request.form['password']}")
+        account = cursor.fetchone()
+        if account:
+            session['loggedin'] = True
+            session['id'] = account['id']
+            session['username'] = account['name']
+            cursor.execute(f"UPDATE accounts SET logins = '{addLogin(account['logins'])}' WHERE id = {session['id']}")
+            cursor.fetchall()
             return render_template('index.html', msg=f"{session['username']}，今天繼續加油喔！")
-		else:
-			msg = 'Incorrect username / password !'
-	return render_template('login.html', msg=msg)
+        else:
+            msg = 'Incorrect username / password !'
+    return render_template('login.html', msg=msg)
 
 @app.route('/logout')
 def logout():
