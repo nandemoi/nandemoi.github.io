@@ -55,20 +55,9 @@ def logout():
     session.pop('qa', None)
     return redirect(url_for('login'))
 
-@app.route('/display_pdf')
-def display_pdf():
-    return send_file (url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"), mimetype='application/pdf')
-    
 @app.route("/questions")
 def questions():
-    if 'loggedin' in session:
-        return """
-        <script>
-            window.open('/display_pdf', f"{session ['account']['name']}題目");
-        </script>
-        """
-    else:
-        return redirect(url_for('login'))
+    return render_template('questions.html', pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"), name = session ['account']['name'])
 
 @app.route("/answers", methods=['GET', 'POST'])
 def answers():
