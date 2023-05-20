@@ -9,20 +9,20 @@
 	<body bgcolor="#e6ffee">
 		<div class="one">
 			<div class="two">
-				<h1>中崙高中黃老師科技課程</h1>
+				<h2>中崙高中黃老師科技課程</h2>
 				<ul>
 					<li class="active"><a href="{{url_for('index')}}">Index</a></li>
-					<li><a href="{{url_for('display')}}">Display</a></li>
-					<li><a href="{{url_for('update')}}">Update</a></li>
+					<li><a href="{{url_for('display')}}">題目</a></li>
+					<li><a href="{{url_for('update')}}">作答</a></li>
 					<li><a href="{{url_for('logout')}}">登出</a></li>
 				</ul>
 			</div>
 			<div class="content" align="center">
 				<div class="topbar">
-					<h2>Welcome!! You are in Index Page!! </h2>				
+					<h2>{{ name }}同學，今天繼續加油喔！</h2>				
 				</div></br></br>
 				<div class="contentbar">
-					<div class="msg">{{ msg }}</div>
+					<div class="msg">登入記錄：{{ logins }}</div>
 				</div>
 				
 			</div>
