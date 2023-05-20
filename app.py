@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
 import re, getpass
+from flask_socketio import SocketIO
 
 app = Flask(__name__)
 
@@ -14,8 +15,7 @@ app.config['MYSQL_PASSWORD'] = getpass.getpass ('mysql password: ')
 app.config['MYSQL_DB'] = 'test'
 
 mysql = MySQL(app)
-
-logins = {}
+socketio = SocketIO(app)
 
 @app.route('/')
 @app.route('/login', methods=['GET', 'POST'])
@@ -33,8 +33,7 @@ def login():
 			session['loggedin'] = True
 			session['id'] = account['id']
 			session['username'] = account['name']
-			msg = f"{account['name']}，今天繼續加油喔！"
-			return render_template('index.html', msg=msg)
+			return render_template('index.html', msg=f"{session['username']}，今天繼續加油喔！")
 		else:
 			msg = 'Incorrect username / password !'
 	return render_template('login.html', msg=msg)
@@ -49,7 +48,7 @@ def logout():
 @app.route("/index")
 def index():
 	if 'loggedin' in session:
-		return render_template("index.html")
+		return render_template("index.html", msg=f"{session['username']}，今天繼續加油喔！")
 	return redirect(url_for('login'))
 
 
@@ -106,4 +105,5 @@ def update():
 
 
 if __name__ == "__main__":
-	app.run(host="localhost", port=int("5000"))
+    socketio.run(app)
+	# app.run(host="localhost", port=int("5000"))
