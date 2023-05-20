@@ -15,7 +15,7 @@
                 flex-direction: row;
             }
             .radio-container input[type="radio"] {
-                margin-right: 5px;
+                margin-right: 0px;
             }
             body {
                 font-family: "Times New Roman", Times, serif;
@@ -29,47 +29,47 @@
         I 
         {% for i in range (1, 6) %}
         <div class="radio-container">
+            &ensp;
             ({{ i }})
-            <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">
-            <label for="I{{i}}A">A</label>
-            <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">
-            <label for="I{{i}}B">B</label>
+            <label>
+                <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">A
+            </label>
+            <label>
+                <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">B
+            </label>
         </div>
         {% endfor %}
 
-        <script>
-            var numeralsContainer = document.getElementById('numerals');
-            var numerals = ['II', 'III'];
-            for (var i = 0; i < numerals.length; i++) {
-                var listItem = document.createElement('li');
-                listItem.textContent = numerals[i];
-                numeralsContainer.appendChild(listItem);
-            }
-        </script>
+        {% for i in ['II', 'III'] %}
+        <br>
+            {{ i }}
+            <div class="radio-container">
+                &ensp;
+                (1)
+                <label>
+                    <input type="radio" name="{{ i }}1" id="{{ i }}1A" value="{{ i }}1A">A
+                </label>
+                <label>
+                    <input type="radio" name="{{ i }}1" id="{{ i }}1B" value="{{ i }}1B">B
+                </label>
+            </div>
+            <div class="radio-container">
+                &ensp;
+                (2)
+                <label>
+                    <input type="radio" name="{{ i }}2" id="{{ i }}2A" value="{{ i }}2A">A
+                </label>
+                <label>
+                    <input type="radio" name="{{ i }}2" id="{{ i }}2B" value="{{ i }}2B">B
+                </label>
+                <label>
+                    <input type="radio" name="{{ i }}2" id="{{ i }}2C" value="{{ i }}2C">C
+                </label>
+            </div>
+        {% endfor %}
 
-        II
-        <div class="radio-container">
-            (1)
-  
-            <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">
-            <label for="I{{i}}A">A</label>
-
-            <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">
-            <label for="I{{i}}B">B</label>
-        </div>
-
-        III
-        <div class="radio-container">
-            ({{ i }})
-  
-            <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">
-            <label for="I{{i}}A">A</label>
-
-            <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">
-            <label for="I{{i}}B">B</label>
-        </div>
-
-        <button type="submit">Submit</button>
+        <br>
+        <button type="submit">提交</button>
     </form>
 	</body>
 </html>
