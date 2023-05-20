@@ -25,21 +25,20 @@
 
 	<body bgcolor="#e6ffee">
     <h3>{{ name }}作答:</h3>
-    <form>
+    <form action="{{ url_for('answers')}}" method="post">
         I 
         {% for i in range (1, 6) %}
         <div class="radio-container">
             &ensp;
             ({{ i }})
             <label>
-                <input type="radio" name="ml" id="I{{i}}A" value="I{{i}}A">A
+                <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A" {% if ans [i - 1] = 'A' %}checked{% endif %}>A
             </label>
             <label>
-                <input type="radio" name="ml" id="I{{i}}B" value="I{{i}}B">B
+                <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B" {% if ans [i - 1] = 'B' %}checked{% endif %}>B
             </label>
         </div>
         {% endfor %}
-
         {% for i in ['II', 'III'] %}
         <br>
             {{ i }}
@@ -47,23 +46,23 @@
                 &ensp;
                 (1)
                 <label>
-                    <input type="radio" name="ml" id="{{ i }}1A" value="{{ i }}1A">A
+                    <input type="radio" name="{{ i }}1" id="{{ i }}1A" value="{{ i }}1A">A
                 </label>
                 <label>
-                    <input type="radio" name="ml" id="{{ i }}1B" value="{{ i }}1B">B
+                    <input type="radio" name="{{ i }}1" id="{{ i }}1B" value="{{ i }}1B">B
                 </label>
             </div>
             <div class="radio-container">
                 &ensp;
                 (2)
                 <label>
-                    <input type="radio" name="ml" id="{{ i }}2A" value="{{ i }}2A">A
+                    <input type="radio" name="{{ i }}2" id="{{ i }}2A" value="{{ i }}2A">A
                 </label>
                 <label>
-                    <input type="radio" name="ml" id="{{ i }}2B" value="{{ i }}2B">B
+                    <input type="radio" name="{{ i }}2" id="{{ i }}2B" value="{{ i }}2B">B
                 </label>
                 <label>
-                    <input type="radio" name="ml" id="{{ i }}2C" value="{{ i }}2C">C
+                    <input type="radio" name="{{ i }}2" id="{{ i }}2C" value="{{ i }}2C">C
                 </label>
             </div>
         {% endfor %}
