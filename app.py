@@ -41,8 +41,12 @@ def login():
 			cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
-			send_file (f"static/qs/{ session ['qa'] }q.pdf", mimetype='application/pdf')
-			return redirect (url_for('answers'))
+			return """
+				<script>
+					window.open('/questions', {{session ['account']['name']}}題目");
+				</script>
+				<meta http-equiv="refresh" content="3; url='answers'">
+				"""		
 		else:
 			msg = '登入資料錯誤!'
 	return render_template('login.html', msg=msg)
