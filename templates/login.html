@@ -1,8 +1,9 @@
 <!--Store this code in 'login.html' file inside the 'templates' folder-->
+<meta charset="utf-8" />
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title> Login </title>
+		<title> 中崙高中黃老師科技課程 </title>
 		<link rel="stylesheet" href="../static/style.css">
 	</head>
 	<body>
@@ -13,11 +14,10 @@
 			<div class="loginbottom">
 			<form action="{{ url_for('login')}}" method="post" autocomplete="off">
 			<div class="msg">{{ msg }}</div>
-			<input type="text" name="username" placeholder="Enter Your Username" class="textbox" id="username" required></br></br>
-			<input type="password" name="password" placeholder="Enter Your Password" class="textbox" id="password" required></br></br></br>
-			<input type="submit" class="btn" value="Login">
+			<input type="text" name="username" placeholder="輸入班級座號共 5 碼" class="textbox" id="username" required></br></br>
+			<input type="password" name="password" placeholder="輸入學號末 4 碼" class="textbox" id="password" required></br></br></br>
+			<input type="submit" class="btn" value="登入">
 			</form></br></br>
-			<p class="worddark">New to this page? <a class="worddark" href="{{ url_for('register')}}">Register here</a></p>
 			</div>
 		</div>
 	</body>
