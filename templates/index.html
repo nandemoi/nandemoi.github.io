@@ -2,35 +2,74 @@
 <meta charset="utf-8" />
 <html lang="en">
 	<head>
-		<title>{{ name }}加油</title>
-		<link rel="stylesheet" href="../static/style.css">
+		<title>{{ name }}作答</title>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
             $(document).ready(function() {
-                window.open('/display_pdf', '{{ name }}題目');
+                window.open('/questions', '{{ name }}題目');
             });
         </script>
-	</head>
+        <style>
+            .radio-container {
+                display: flex;
+                flex-direction: row;
+            }
+            .radio-container input[type="radio"] {
+                margin-right: 5px;
+            }
+            body {
+                font-family: "Times New Roman", Times, serif;
+            }     
+        </style>	
+    </head>
 
 	<body bgcolor="#e6ffee">
-		<div class="one">
-			<div class="two">
-				<h2>中崙高中黃老師科技課程</h2>
-				<ul>
-					<li><a href="{{url_for('questions')}}">題目</a></li>
-					<li><a href="{{url_for('answers')}}">作答</a></li>
-					<li><a href="{{url_for('logout')}}">登出</a></li>
-				</ul>
-			</div>
-			<div class="content" align="center">
-				<div class="topbar">
-					<h2>{{ name }}同學，今天繼續加油喔！</h2>				
-				</div></br></br>
-				<div class="contentbar">
-					<div class="msg">登入記錄：{{ logins }}</div>
-				</div>
-				
-			</div>
-		</div>
+    <h3>{{ name }}作答:</h3>
+    <form>
+        I 
+        {% for i in range (1, 6) %}
+        <div class="radio-container">
+            ({{ i }})
+            <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">
+            <label for="I{{i}}A">A</label>
+            <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">
+            <label for="I{{i}}B">B</label>
+        </div>
+        {% endfor %}
+
+        <script>
+            var numeralsContainer = document.getElementById('numerals');
+            var numerals = ['II', 'III'];
+            for (var i = 0; i < numerals.length; i++) {
+                var listItem = document.createElement('li');
+                listItem.textContent = numerals[i];
+                numeralsContainer.appendChild(listItem);
+            }
+        </script>
+
+        II
+        <div class="radio-container">
+            (1)
+  
+            <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">
+            <label for="I{{i}}A">A</label>
+
+            <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">
+            <label for="I{{i}}B">B</label>
+        </div>
+
+        III
+        <div class="radio-container">
+            ({{ i }})
+  
+            <input type="radio" name="I{{i}}" id="I{{i}}A" value="I{{i}}A">
+            <label for="I{{i}}A">A</label>
+
+            <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B">
+            <label for="I{{i}}B">B</label>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
 	</body>
 </html>
