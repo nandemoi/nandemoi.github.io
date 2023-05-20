@@ -41,27 +41,36 @@ def login():
 			cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
+			ans = ml ['qa']
+			session['ans'] = "......." if ans is None else ans 
 			return render_template('redirect.html', name=account ['name'])
 		else:
 			msg = '登入資料錯誤!'
 	return render_template('login.html', msg=msg)
+
+QS = [ ]
+
+def unzip (ans):
+    
 
 @app.route('/')
 @app.route('/answers', methods=['GET', 'POST'])
 def answers():
 	if 'loggedin' in session:
 		if request.method == 'POST':
-			ans = ""
+			c = 0
 			for i in range (1, 6):
 				a = request.form.get (f'I{i}')
-				ans += '.' if a is None else a [-1]
+				session ['ans'][c] = '.' if a is None else a [-1]
+				c += 1
 			for i in [ 'II', 'III' ]:
 				for j in range (1, 3):
 					a = request.form.get (f'{i}{j}')
-					ans += '.' if a is None else a [-1]
-			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{ans}' WHERE id = {session['account']['id']}")
+					session ['ans'][c] = '.' if a is None else a [-1]
+					c += 1
+			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{session ['ans']}' WHERE id = {session['account']['id']}")
 			mysql.connection.commit()
-		return render_template('answers.html', name = session ['account']['name'])
+		return render_template('answers.html', ans = unzip (session ['ans']), name = session ['account']['name'])
 	else:
 		return redirect(url_for('login'))
 
@@ -70,6 +79,7 @@ def logout():
     session.pop('loggedin', None)
     session.pop('account', None)
     session.pop('qa', None)
+    session.pop('ans', None)
     return redirect (url_for('login'))
 
 @app.route("/questions")
