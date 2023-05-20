@@ -1,0 +1,75 @@
+<!--Store this code in 'index.html' file inside the 'templates' folder-->
+<meta charset="utf-8" />
+<html lang="en">
+	<head>
+		<title>{{ name }}作答</title>
+        <!--script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                window.open('/questions', '{{ name }}題目');
+            });
+        </script-->
+        <style>
+            .radio-container {
+                display: flex;
+                flex-direction: row;
+            }
+            .radio-container input[type="radio"] {
+                margin-right: 0px;
+            }
+            body {
+                font-family: "Times New Roman", Times, serif;
+            }     
+        </style>	
+    </head>
+
+	<body bgcolor="#e6ffee">
+    <h3>{{ name }}作答:</h3>
+    <form>
+        I 
+        {% for i in range (1, 6) %}
+        <div class="radio-container">
+            &ensp;
+            ({{ i }})
+            <label>
+                <input type="radio" name="ml" id="I{{i}}A" value="I{{i}}A">A
+            </label>
+            <label>
+                <input type="radio" name="ml" id="I{{i}}B" value="I{{i}}B">B
+            </label>
+        </div>
+        {% endfor %}
+
+        {% for i in ['II', 'III'] %}
+        <br>
+            {{ i }}
+            <div class="radio-container">
+                &ensp;
+                (1)
+                <label>
+                    <input type="radio" name="ml" id="{{ i }}1A" value="{{ i }}1A">A
+                </label>
+                <label>
+                    <input type="radio" name="ml" id="{{ i }}1B" value="{{ i }}1B">B
+                </label>
+            </div>
+            <div class="radio-container">
+                &ensp;
+                (2)
+                <label>
+                    <input type="radio" name="ml" id="{{ i }}2A" value="{{ i }}2A">A
+                </label>
+                <label>
+                    <input type="radio" name="ml" id="{{ i }}2B" value="{{ i }}2B">B
+                </label>
+                <label>
+                    <input type="radio" name="ml" id="{{ i }}2C" value="{{ i }}2C">C
+                </label>
+            </div>
+        {% endfor %}
+
+        <br>
+        <button type="submit">提交</button>
+    </form>
+	</body>
+</html>
