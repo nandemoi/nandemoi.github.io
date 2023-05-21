@@ -6,38 +6,40 @@
         <style>
             body, html {
                 height: 100%;
-                width: 100%;
+                font-size: 20px; /* Set the overall font size to 16 pixels */
+                overflow-x: hidden; /* Prevent horizontal scrolling */
             }            
             .container {
                 display: flex;
                 height: 100%;
-                width: 100%;
+                overflow-y: hidden; /* Prevent vertical scrolling */
             }
-
             .q-container {
                 flex: 1;
                 padding: 20px;
                 height: 100%;
+                width: 100%;
                 overflow: auto;
             }
-
             .a-container {
                 flex: 1;
                 padding: 20px;
                 box-sizing: border-box;
                 height: 100%;
-                overflow: auto;
+                max-width: 300px;
+                flex: 0 0 auto;
             }
             .pdf-embed {
                 width: 100%;
-                height: 100vh;
+                height: 100%;
             }            
             .radio-container {
                 display: flex;
+                gap: 3px;
                 flex-direction: row;
             }
             .radio-container input[type="radio"] {
-                margin-right: 0px;
+                margin-left: 1px;
             }
             body {
                 font-family: "Times New Roman", Times, serif;
