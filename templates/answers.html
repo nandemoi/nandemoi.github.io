@@ -36,7 +36,7 @@
                 <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
             </label>
             <label>
-                <input type="radio" name="I{{i}}" id="I{{i}}B" value="I{{i}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
+                <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
             </label>
         </div>
         {% endfor %}
@@ -44,26 +44,28 @@
         <br>
             {{ i }}
             <div class="radio-container">
+                {% set key = i ~ '1' %}
                 &ensp;
                 (1)
                 <label>
-                    <input type="radio" name="{{ i }}1" id="{{ i }}1A" value="{{ i }}1A">A
+                    <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
                 </label>
                 <label>
-                    <input type="radio" name="{{ i }}1" id="{{ i }}1B" value="{{ i }}1B">B
+                    <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
                 </label>
             </div>
             <div class="radio-container">
+                {% set key = i ~ '2' %}
                 &ensp;
                 (2)
                 <label>
-                    <input type="radio" name="{{ i }}2" id="{{ i }}2A" value="{{ i }}2A">A
+                    <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
                 </label>
                 <label>
-                    <input type="radio" name="{{ i }}2" id="{{ i }}2B" value="{{ i }}2B">B
+                    <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
                 </label>
                 <label>
-                    <input type="radio" name="{{ i }}2" id="{{ i }}2C" value="{{ i }}2C">C
+                    <input type="radio" name="{{key}}" id="{{key}}C" value="{{key}}C" {% if ans [key] == 'C' %}checked{% endif %}>C
                 </label>
             </div>
         {% endfor %}
