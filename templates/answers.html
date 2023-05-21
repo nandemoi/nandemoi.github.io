@@ -2,7 +2,7 @@
 <meta charset="utf-8" />
 <html lang="en">
 	<head>
-		<title>{{ session ['account']['name'] }}作答</title>
+		<title>{{ name }}作答</title>
         <style>
             body, html {
                 height: 100%;
@@ -53,7 +53,7 @@
             <embed class="pdf-embed" src="{{ pdf }}"" type="application/pdf" width="100%" height="100%"></embed>
         </div>
         <div class="a-container">
-            <h3>{{ session ['account']['name'] }}作答:</h3>
+            <h3>{{ name }}作答:</h3>
             <form action="{{ url_for('answers')}}" method="post">
                 I 
                 {% for i in range (1, 6) %}
@@ -62,10 +62,10 @@
                     &ensp;
                     ({{ i }})
                     <label>
-                        <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if session ['ans'][key] == 'A' %}checked{% endif %}>A
+                        <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
                     </label>
                     <label>
-                        <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if session ['ans'][key] == 'B' %}checked{% endif %}>B
+                        <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
                     </label>
                 </div>
                 {% endfor %}
@@ -77,10 +77,10 @@
                         &ensp;
                         (1)
                         <label>
-                            <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if session ['ans'][key] == 'A' %}checked{% endif %}>A
+                            <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
                         </label>
                         <label>
-                            <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if session ['ans'][key] == 'B' %}checked{% endif %}>B
+                            <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
                         </label>
                     </div>
                     <div class="radio-container">
@@ -88,18 +88,19 @@
                         &ensp;
                         (2)
                         <label>
-                            <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if session ['ans'][key] == 'A' %}checked{% endif %}>A
+                            <input type="radio" name="{{key}}" id="{{key}}A" value="{{key}}A" {% if ans [key] == 'A' %}checked{% endif %}>A
                         </label>
                         <label>
-                            <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if session ['ans'][key] == 'B' %}checked{% endif %}>B
+                            <input type="radio" name="{{key}}" id="{{key}}B" value="{{key}}B" {% if ans [key] == 'B' %}checked{% endif %}>B
                         </label>
                         <label>
-                            <input type="radio" name="{{key}}" id="{{key}}C" value="{{key}}C" {% if session ['ans'][key] == 'C' %}checked{% endif %}>C
+                            <input type="radio" name="{{key}}" id="{{key}}C" value="{{key}}C" {% if ans [key] == 'C' %}checked{% endif %}>C
                         </label>
                     </div>
                 {% endfor %}
 
                 <br>
+                
                 <button type="submit">提交</button>
             </form>
         </div>
