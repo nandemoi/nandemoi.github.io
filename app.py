@@ -41,36 +41,37 @@ def login():
 			cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
-			ans = ml ['qa']
-			session['ans'] = "......." if ans is None else ans 
+			session['ans'] = unzip ("........." if ml ['ans'] is None else ml ['ans'])
 			return render_template('redirect.html', name=account ['name'])
 		else:
 			msg = '登入資料錯誤!'
 	return render_template('login.html', msg=msg)
 
-QS = [ ]
+QS = [ 'I1', 'I2', 'I3', 'I4', 'I5', 'II1', 'II2', 'III1', 'III2' ]
 
 def unzip (ans):
-    
+	ansd = {}
+	for a, q in zip (ans, QS):
+		ansd [q] = a
+	return ansd
+
+def zipit (ansd):
+	ans = ""
+	for q in QS:
+		ans += ansd [q]
+	return ans
 
 @app.route('/')
 @app.route('/answers', methods=['GET', 'POST'])
 def answers():
 	if 'loggedin' in session:
 		if request.method == 'POST':
-			c = 0
-			for i in range (1, 6):
-				a = request.form.get (f'I{i}')
-				session ['ans'][c] = '.' if a is None else a [-1]
-				c += 1
-			for i in [ 'II', 'III' ]:
-				for j in range (1, 3):
-					a = request.form.get (f'{i}{j}')
-					session ['ans'][c] = '.' if a is None else a [-1]
-					c += 1
-			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{session ['ans']}' WHERE id = {session['account']['id']}")
+			for q in QS:
+				a = request.form.get (q)
+				session ['ans'][q] = '.' if a is None else a [-1]
+			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{zipit (session ['ans'])}' WHERE id = {session['account']['id']}")
 			mysql.connection.commit()
-		return render_template('answers.html', ans = unzip (session ['ans']), name = session ['account']['name'])
+		return render_template('answers.html', ans = session ['ans'], name = session ['account']['name'])
 	else:
 		return redirect(url_for('login'))
 
