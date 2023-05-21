@@ -42,7 +42,7 @@ def login():
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
 			session['ans'] = unzip ("........." if ml ['ans'] is None else ml ['ans'])
-			return render_template('redirect.html', name=account ['name'])
+			return redirect (url_for ('answers'))
 		else:
 			msg = '登入資料錯誤!'
 	return render_template('login.html', msg=msg)
@@ -71,7 +71,7 @@ def answers():
 				session ['ans'][q] = '.' if a is None else a [-1]
 			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{zipit (session ['ans'])}' WHERE id = {session['account']['id']}")
 			mysql.connection.commit()
-		return render_template('answers.html', ans = session ['ans'], name = session ['account']['name'])
+		return render_template('answers.html', pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf", session = session)) # ans = session ['ans'], name = session ['account']['name'])
 	else:
 		return redirect(url_for('login'))
 
@@ -83,9 +83,9 @@ def logout():
     session.pop('ans', None)
     return redirect (url_for('login'))
 
-@app.route("/questions")
-def questions():
-    return render_template('questions.html', pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"), name = session ['account']['name'])
+# @app.route("/questions")
+# def questions():
+#     return render_template('questions.html', pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"), name = session ['account']['name'])
 
 if __name__ == "__main__":
 	app.run(host="localhost", port=int("5000"))
