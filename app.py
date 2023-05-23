@@ -41,13 +41,14 @@ def login():
 			cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
-			session['ans'] = unzip ("........." if ml ['ans'] is None else ml ['ans'])
+			session['ans'] = "........." if ml ['ans'] is None else ml ['ans'] # unzip ("........." if ml ['ans'] is None else ml ['ans'])
 			return redirect (url_for ('answers'))
 		else:
-			msg = '登入資料錯誤!'
+			msg = '登入資料錯誤！請重新輸入...'
 	return render_template('login.html', msg=msg)
 
 QS = [ 'I1', 'I2', 'I3', 'I4', 'I5', 'II1', 'II2', 'III1', 'III2' ]
+ps = [ 1, 1, 1, 1, 1, 2, 3, 2, 3 ]
 
 def unzip (ans):
 	ansd = {}
@@ -66,12 +67,23 @@ def zipit (ansd):
 def answers():
 	if 'loggedin' in session:
 		if request.method == 'POST':
+			anss = ""
 			for q in QS:
 				a = request.form.get (q)
-				session ['ans'][q] = '.' if a is None else a [-1]
-			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{zipit (session ['ans'])}' WHERE id = {session['account']['id']}")
+				anss += '.' if a is None else a [-1]
+			session ['ans'] = anss
+			mysql.connection.cursor(MySQLdb.cursors.DictCursor).execute(f"UPDATE ml SET ans = '{anss}' WHERE id = {session['account']['id']}")
 			mysql.connection.commit()
-		return render_template('answers.html', pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf", session = session)) # ans = session ['ans'], name = session ['account']['name'])
+			with open (f"ss/{session['qa']}t.txt", 'r') as f:
+				sols = f.read ()
+			# print (anss)
+			# print (sols)
+			chks = ''.join ([ '✅' if a == s else '❌' for a, s in zip (anss, sols) ])
+			# print (chks)
+			pts = sum ([ps [i] if chks [i] == '✅' else 0 for i in range (len(chks))])
+			return render_template('answers.html', yet_submitted = False, chk = chks,     pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = anss, name = f"{session ['account']['name']}已交卷")
+		else:
+			return render_template('answers.html', yet_submitted = True,  chk = ['　']*9, pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = session ['ans'], name = f"{session ['account']['name']}作答")
 	else:
 		return redirect(url_for('login'))
 
@@ -83,9 +95,5 @@ def logout():
     session.pop('ans', None)
     return redirect (url_for('login'))
 
-# @app.route("/questions")
-# def questions():
-#     return render_template('questions.html', pdf = url_for ('static', filename=f"qs/{ session ['qa'] }q.pdf"), name = session ['account']['name'])
-
 if __name__ == "__main__":
-	app.run(host="localhost", port=int("5000"))
+	app.run(host="localhost", port=int("4000"))
