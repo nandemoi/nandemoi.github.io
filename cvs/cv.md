@@ -12,7 +12,7 @@
   南湖高中 106 學年度：[生活科技](https://nandemoi.github.io/ck109/microbit%20by%20missions.pdf)  
 * 其他：  
   [C++/APCS 入門](https://nandemoi.github.io/ck109/apcs.pdf)、[Python 營隊](https://nandemoi.github.io/ck109/python-camp.pdf) (108、110 學年度)、  
-  [敦化國小 (105 學年度)](https://hackmd.io/@nandemoi/H1iP4ENzt)、雙語 ([@教會 104、103、96 學年度](https://www.bsfinternational.org/student-groups/))、[巨匠電腦 (Flash, 民 89 年)](https://drive.google.com/file/d/1KkkmL_S42bjR4-1EoNpgzsC-2k50DixK/view?usp=sharing)、  
+  [敦化國小 (105 學年度)](http://nandemoi.github.io/cvs/cv-dunxiao.md)、雙語 ([@教會 104、103、96 學年度](https://www.bsfinternational.org/student-groups/))、[巨匠電腦 (Flash, 民 89 年)](https://drive.google.com/file/d/1KkkmL_S42bjR4-1EoNpgzsC-2k50DixK/view?usp=sharing)、  
   C++/APCS、Python 家教 (公私立各校高中生、國立大學電機碩士和工科學生、在職教師進修)  
 * 推薦正取 111 學年度入學：清華大學拾穗計畫 (特殊選才) 資工系、陽明交通大學資工系、  
   Computer Engineering, University of Illinois Urbana-Champaign、  
