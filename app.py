@@ -80,10 +80,10 @@ def answers():
 			# print (sols)
 			chks = ''.join ([ '✅' if a == s else '❌' for a, s in zip (anss, sols) ])
 			# print (chks)
-			pts = sum ([ps [i] if chks [i] == '✅' else 0 for i in range (len(chks))])
-			return render_template('answers.html', yet_submitted = False, chk = chks,     pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = anss, name = f"{session ['account']['name']}已交卷")
+			ptss = sum ([ps [i] if chks [i] == '✅' else 0 for i in range (len(chks))])
+			return render_template('answers.html', pts = ptss, chk = chks,     pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = anss, name = f"{session ['account']['name']}已交卷")
 		else:
-			return render_template('answers.html', yet_submitted = True,  chk = ['　']*9, pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = session ['ans'], name = f"{session ['account']['name']}作答")
+			return render_template('answers.html', pts = None, chk = ['　']*9, pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = session ['ans'], name = f"{session ['account']['name']}作答")
 	else:
 		return redirect(url_for('login'))
 
