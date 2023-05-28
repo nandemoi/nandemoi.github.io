@@ -24,12 +24,7 @@ class Ui_HuangTech(object):
         self.chklogin = QtWidgets.QPushButton(self.centralwidget)
         self.chklogin.setGeometry(QtCore.QRect(160, 230, 113, 32))
         self.chklogin.setObjectName("chklogin")
-        self.stuname = QtWidgets.QLabel(self.centralwidget)
-        self.stuname.setGeometry(QtCore.QRect(100, 200, 141, 16))
-        self.stuname.setText("")
-        self.stuname.setObjectName("stuname")
         self.name = QtWidgets.QLabel(self.centralwidget)
-        self.name.setGeometry(QtCore.QRect(100, 180, 60, 16))
         self.name.setText("")
         self.name.setObjectName("name")
         self.title = QtWidgets.QLabel(self.centralwidget)
@@ -54,6 +49,8 @@ class Ui_HuangTech(object):
         HuangTech.setWindowTitle(_translate("HuangTech", "黃老師科技課程登入"))
         self.clr.setText(_translate("HuangTech", "清除"))
         self.chklogin.setText(_translate("HuangTech", "查詢"))
+        self.pw_label.setText(_translate("HuangTech", "學號末 4 碼"))
+        self.id_label.setText(_translate("HuangTech", "班級座號 (共 5 碼)"))
         self.title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
 
     def checklogin (self):
