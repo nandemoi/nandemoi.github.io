@@ -9,7 +9,10 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import re
+import re, request as rq
+from getmac import get_mac_address
+
+SIGNINSRVR = 'http://elton-m1.local:4000/'
 
 class Ui_HuangTech(object):
     
@@ -25,8 +28,25 @@ class Ui_HuangTech(object):
         self.chklogin.setGeometry(QtCore.QRect(160, 230, 113, 32))
         self.chklogin.setObjectName("chklogin")
         self.name = QtWidgets.QLabel(self.centralwidget)
+        self.name.setGeometry(QtCore.QRect(100, 200, 141, 16))
         self.name.setText("")
         self.name.setObjectName("name")
+        self.name_label = QtWidgets.QLabel(self.centralwidget)
+        self.name_label.setGeometry(QtCore.QRect(100, 180, 60, 16))
+        self.name_label.setText("")
+        self.name_label.setObjectName("name_label")
+        self.pw = QtWidgets.QLineEdit(self.centralwidget)
+        self.pw.setGeometry(QtCore.QRect(100, 140, 113, 21))
+        self.pw.setObjectName("pw")
+        self.pw_label = QtWidgets.QLabel(self.centralwidget)
+        self.pw_label.setGeometry(QtCore.QRect(100, 120, 81, 16))
+        self.pw_label.setObjectName("pw_label")
+        self.id = QtWidgets.QLineEdit(self.centralwidget)
+        self.id.setGeometry(QtCore.QRect(100, 80, 113, 21))
+        self.id.setObjectName("id")
+        self.id_label = QtWidgets.QLabel(self.centralwidget)
+        self.id_label.setGeometry(QtCore.QRect(100, 60, 121, 16))
+        self.id_label.setObjectName("id_label")
         self.title = QtWidgets.QLabel(self.centralwidget)
         self.title.setGeometry(QtCore.QRect(100, 10, 131, 31))
         self.title.setObjectName("title")
@@ -54,14 +74,25 @@ class Ui_HuangTech(object):
         self.title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
 
     def checklogin (self):
-        if self.bYetLogin:
-            if re.match ('^[1-3][0-9][0-9][0-4][0-9]$', self.id.text()):
-                self.statusbar.setText ('')
+        if self.chkid():
+            resp = rq.post (SIGNINSRVR + 'login', json = {'username':self.id.text(), 'password':self.pw.text()})
+            if resp.status_code == 200:
+                resp = rq.post (SIGNINSRVR + 'confirm', json = { 'mac':(get_mac_address()) })
             else:
-                self.statusbar.setText ('test')
+                self.statusbar.showMessage ('請通知老師：連不上伺服器！')
+            
+    def chkid (self):
+        # if self.bYetLogin:
+        if re.match ('^[1-3][0-9][0-9][0-4][0-9]$', self.id.text()):
+            self.statusbar.clearMessage ()
+            return True
+        else:
+            self.statusbar.showMessage ('班級座號錯誤')
+            return False
             
     def identer (self):
-        pass
+        if self.chkid():
+            self.pw.setFocus()
     
     def clear (self):
         pass
