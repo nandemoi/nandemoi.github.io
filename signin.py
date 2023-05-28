@@ -9,9 +9,10 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+import re
 
 class Ui_HuangTech(object):
+    
     def setupUi(self, HuangTech):
         HuangTech.setObjectName("HuangTech")
         HuangTech.resize(328, 294)
@@ -50,9 +51,15 @@ class Ui_HuangTech(object):
         self.statusbar = QtWidgets.QStatusBar(HuangTech)
         self.statusbar.setObjectName("statusbar")
         HuangTech.setStatusBar(self.statusbar)
-
+        
         self.retranslateUi(HuangTech)
         QtCore.QMetaObject.connectSlotsByName(HuangTech)
+
+        self.bYetLogin = True
+        self.clr.clicked.connect      (self.clear)
+        self.chklogin.clicked.connect (self.checklogin)
+        self.pw.returnPressed.connect (self.checklogin)
+        self.id.returnPressed.connect (self.identer)
 
     def retranslateUi(self, HuangTech):
         _translate = QtCore.QCoreApplication.translate
@@ -63,14 +70,24 @@ class Ui_HuangTech(object):
         self.id.setText(_translate("HuangTech", "班級座號 (共 5 碼)"))
         self.title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
 
-
+    def checklogin (self):
+        if self.bYetLogin:
+            if re.match ('^[1-3][0-9][0-9][0-4][0-9]$', self.id.text()):
+                self.statusbar.setText ('')
+            else:
+                self.statusbar.setText ('test')
+            
+    def identer (self):
+        pass
+    
+    def clear (self):
+        pass
+        
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     HuangTech = QtWidgets.QMainWindow()
     ui = Ui_HuangTech()
     ui.setupUi(HuangTech)
-    ui.chklogin.clicked.connect (chklogin)
-    ui.pw.returnPressed.connect (chklogin)
     HuangTech.show()
     sys.exit(app.exec_())
