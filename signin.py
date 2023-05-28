@@ -70,5 +70,7 @@ if __name__ == "__main__":
     HuangTech = QtWidgets.QMainWindow()
     ui = Ui_HuangTech()
     ui.setupUi(HuangTech)
+    ui.chklogin.clicked.connect (chklogin)
+    ui.pw.returnPressed.connect (chklogin)
     HuangTech.show()
     sys.exit(app.exec_())
