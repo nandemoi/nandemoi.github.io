@@ -9,11 +9,23 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import re, request as rq
+from PyQt5.QtCore import Qt
+import re, requests as rq
 from getmac import get_mac_address
 
 SIGNINSRVR = 'http://elton-m1.local:4000/'
 
+class MainWindow (QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__()
+    def closeEvent(self, event):
+        event.ignore()
+    def changeEvent(self, event):
+        # Override the change event to prevent window minimize
+        if event.type() == event.WindowStateChange:
+            if self.windowState() & Qt.WindowMinimized:
+                self.setWindowState(Qt.WindowNoState)
+        
 class Ui_HuangTech(object):
     
     def setupUi(self, HuangTech):
@@ -63,6 +75,7 @@ class Ui_HuangTech(object):
         self.chklogin.clicked.connect (self.checklogin)
         self.pw.returnPressed.connect (self.checklogin)
         self.id.returnPressed.connect (self.identer)
+        self.id.setFocus()
 
     def retranslateUi(self, HuangTech):
         _translate = QtCore.QCoreApplication.translate
@@ -80,6 +93,9 @@ class Ui_HuangTech(object):
                 resp = rq.post (SIGNINSRVR + 'confirm', json = { 'mac':(get_mac_address()) })
             else:
                 self.statusbar.showMessage ('請通知老師：連不上伺服器！')
+        else:
+            self.statusbar.showMessage ('班級座號錯誤')
+            self.id.setFocus()
             
     def chkid (self):
         # if self.bYetLogin:
@@ -95,12 +111,14 @@ class Ui_HuangTech(object):
             self.pw.setFocus()
     
     def clear (self):
-        pass
+        self.pw.clear()
+        self.id.clear()
+        self.id.setFocus()
         
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    HuangTech = QtWidgets.QMainWindow()
+    HuangTech = MainWindow()
     ui = Ui_HuangTech()
     ui.setupUi(HuangTech)
     HuangTech.show()
