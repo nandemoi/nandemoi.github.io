@@ -41,5 +41,4 @@
 * [部分作品](https://www.flickr.com/photos/nandemoi)  
 * [技術翻譯文章見諸於 CIO 企業經理人等期刊約十數篇](https://drive.google.com/file/d/1_dfrQlh10X7Es8WPGBD2ZpAq99a4yHZ-/view?usp=sharing)  
 * [<img src="https://nandemoi.github.io/slides/IBM_Quantum_Challenge_Fall_2021_Achievement_Advanced.png" alt="IBM Quantum Challenge Africa 2021" width="100x"/>](https://www.credly.com/badges/9d939394-6286-44cc-bed7-cd5c1280830e) [<img src="https://nandemoi.github.io/slides/IBM_Quantum_Challenge_Africa_2021_Achievement_Advanced.png" alt="IBM Quantum Challenge Africa 2021" width="100x"/>](https://www.credly.com/badges/8da9ffbe-fe23-4a6c-98f5-f813f2743107) [<img src="https://nandemoi.github.io/slides/DLI_C-RX-02_Deep_Learning_Institute.jpg" alt="Jetson Nano" height="100x"/>](https://nandemoi.github.io/slides/DLI_C-RX-02_Deep_Learning_Institute.pdf)  
-<!--* [理念 ...](https://nandemoi.github.io/ck109/aspiration.pdf)
-* Maker Faire Taipei 2021 參展-->  
+<!--* [理念 ...](https://nandemoi.github.io/ck109/aspiration.pdf)* Maker Faire Taipei 2021 參展-->  
