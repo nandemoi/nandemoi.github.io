@@ -9,7 +9,7 @@
 ### 毛◯◯
 
 * 個人申請錄取清大資工
-* [學習歷程字數](https://nandemoi.github.io/zl111/EricMao/Bio.pdf)、[多元表現綜整心得](https://nandemoi.github.io/zl111/EricMao/Multi.pdf)
+* [學習歷程自述](https://nandemoi.github.io/zl111/EricMao/Bio.pdf)、[多元表現綜整心得](https://nandemoi.github.io/zl111/EricMao/Multi.pdf)
 * 可能有 (不是記得很清楚) 勾選歷程：[生活科技專題](https://nandemoi.github.io/zl111/EricMao/Adder.pdf)、[大數據應用專題](https://nandemoi.github.io/zl111/EricMao/BigData.pdf)
 * 毛同學自述：  
   「... 對我來說，備審確實是很有用，因為我備審也算是比較高分的，錄取的名次也比較高」
