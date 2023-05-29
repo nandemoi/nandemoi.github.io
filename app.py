@@ -16,8 +16,8 @@ app.config['MYSQL_DB'] = 'test'
 
 mysql = MySQL(app)
 
-def addLogin (logins):
-    today = date.today().strftime("%m/%d")
+def addLogin (logins, mac):
+    today = date.today().strftime(f"%m/%d{'' if mac is None else f' ({mac})'}")
     if logins is None:
         return today
     else:
@@ -26,27 +26,46 @@ def addLogin (logins):
         else:
             return f"{logins}, {today}"
 
-@app.route('/login', methods=['GET', 'POST'])
-def login():
+def getDbCrsr ():
+	cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+	cursor.execute(f"SELECT * FROM accounts WHERE id = {request.form['username']} AND pw = {request.form['password']}")
+	return cursor
+
+def procLogin (account, cursor, mac):
+	session['loggedin'] = True
+	session['account'] = account
+	cursor.execute(f"UPDATE accounts SET logins = '{addLogin(account['logins'], mac)}' WHERE id = {account['id']}")
+	mysql.connection.commit()
+	cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
+	ml = cursor.fetchone()
+	session['qa'] = f"{ml ['qa']:02}"
+	session['ans'] = "........." if ml ['ans'] is None else ml ['ans'] # unzip ("........." if ml ['ans'] is None else ml ['ans'])
+
+@app.route('/')
+@app.route('/weblogin', methods=['GET', 'POST'])
+def weblogin():
 	msg = ''
 	if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
-		cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-		cursor.execute(f"SELECT * FROM accounts WHERE id = {request.form['username']} AND pw = {request.form['password']}")
+		cursor = getDbCrsr()
 		account = cursor.fetchone()
 		if account:
-			session['loggedin'] = True
-			session['account'] = account
-			cursor.execute(f"UPDATE accounts SET logins = '{addLogin(account['logins'])}' WHERE id = {account['id']}")
-			mysql.connection.commit()
-			cursor.execute(f"SELECT * FROM ml WHERE id = {account['id']}")
-			ml = cursor.fetchone()
-			session['qa'] = f"{ml ['qa']:02}"
-			session['ans'] = "........." if ml ['ans'] is None else ml ['ans'] # unzip ("........." if ml ['ans'] is None else ml ['ans'])
-			return jsonify ({ "name": session ['account']['name'] })
-			# return redirect (url_for ('answers'))
+			procLogin (account, cursor, None)
+			return redirect (url_for ('answers'))
 		else:
 			msg = '登入資料錯誤！請重新輸入...'
 	return render_template('login.html', msg=msg)
+
+@app.route('/applogin', methods=['GET', 'POST'])
+def applogin():
+	if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
+		cursor = getDbCrsr()
+		account = cursor.fetchone()
+		if account:
+			procLogin (account, cursor, request.form ['mac'])
+			return jsonify ({ "name": session ['account']['name'] })
+		else:
+			return jsonify ({ "name": None })
+	return None
 
 QS = [ 'I1', 'I2', 'I3', 'I4', 'I5', 'II1', 'II2', 'III1', 'III2' ]
 ps = [ 1, 1, 1, 1, 1, 2, 3, 2, 3 ]
@@ -63,7 +82,6 @@ def zipit (ansd):
 		ans += ansd [q]
 	return ans
 
-@app.route('/')
 @app.route('/answers', methods=['GET', 'POST'])
 def answers():
 	if 'loggedin' in session:
@@ -86,7 +104,7 @@ def answers():
 		else:
 			return render_template('answers.html', pts = None, chk = ['　']*9, pdf = url_for ('static', filename=f"qs/{ session ['qa'] }tstr.pdf"), ans = session ['ans'], name = f"{session ['account']['name']}作答")
 	else:
-		return redirect(url_for('login'))
+		return redirect(url_for('weblogin'))
 
 @app.route('/logout')
 def logout():
