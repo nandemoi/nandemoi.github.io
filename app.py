@@ -1,5 +1,5 @@
 # Store this code in 'app.py' file
-from flask import Flask, render_template, request, redirect, url_for, session, send_file
+from flask import Flask, jsonify, render_template, request, redirect, url_for, session, send_file
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
 import re, getpass
@@ -42,7 +42,8 @@ def login():
 			ml = cursor.fetchone()
 			session['qa'] = f"{ml ['qa']:02}"
 			session['ans'] = "........." if ml ['ans'] is None else ml ['ans'] # unzip ("........." if ml ['ans'] is None else ml ['ans'])
-			return redirect (url_for ('answers'))
+			return jsonify ({ "name": session ['account']['name'] })
+			# return redirect (url_for ('answers'))
 		else:
 			msg = '登入資料錯誤！請重新輸入...'
 	return render_template('login.html', msg=msg)
