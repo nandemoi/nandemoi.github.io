@@ -40,7 +40,7 @@
      <string>查詢</string>
     </property>
    </widget>
-   <widget class="QLabel" name="stuname">
+   <widget class="QLabel" name="name">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -53,7 +53,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="name">
+   <widget class="QLabel" name="name_label">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -66,7 +66,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="pw">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -76,7 +76,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="pw">
+   <widget class="QLabel" name="pw_label">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -89,7 +89,7 @@
      <string>學號末 4 碼</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="id">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -99,7 +99,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="id">
+   <widget class="QLabel" name="id_label">
     <property name="geometry">
      <rect>
       <x>100</x>
