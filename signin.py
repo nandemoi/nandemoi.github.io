@@ -29,7 +29,7 @@ class MainWindow (QtWidgets.QMainWindow):
             self.showMaximized()
         else:
             t = datetime.now().time()
-            if (t.hour > 15 and 15 < t.minute < 21) or 5 < t.minute < 11: # short circuit evaluation
+            if (t.hour > 15 and t.minute > 10 and 15 < t.minute < 21) or 5 < t.minute < 11: # short circuit evaluation
                 self.bYetLogIn = True
                 # Todo: relayout for login + test timer accuracy
                 self.showMaximized()
@@ -90,12 +90,16 @@ class Ui_HuangTech(object):
 
     def checklogin (self):
         if self.chkid():
-            resp = rq.post (SIGNINSRVR + 'login', json = {'username':self.id.text(), 'password':self.pw.text(), 'mac':get_mac_address() })
+            resp = rq.post (SIGNINSRVR + 'applogin', json = {'username':self.id.text(), 'password':self.pw.text(), 'mac':get_mac_address() })
             if resp.status_code == 200:
-                _translate = QtCore.QCoreApplication.translate
-                self.pw_label.setText(_translate("HuangTech", "姓名"))
-                self.layout.replaceWidget(self.pw, label)
-                webbrowser.open (SIGNINSRVR + 'answers')
+                if resp.json ['name'] is None:
+                    self.statusbar.showMessage ('登入資料錯誤！請重新輸入...')
+                    self.clear (self)
+                else:
+                    _translate = QtCore.QCoreApplication.translate
+                    self.pw_label.setText(_translate("HuangTech", "姓名"))
+                    self.layout.replaceWidget(self.pw, label)
+                    webbrowser.open (SIGNINSRVR + 'answers')
             else:
                 self.statusbar.showMessage ('請通知老師：連不上伺服器！')
         else:
