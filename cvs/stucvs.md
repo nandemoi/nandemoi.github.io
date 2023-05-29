@@ -27,5 +27,5 @@
 ### 林◯毅
 
 * 個人申請錄取清大工程與系統科學系 (智慧奈米系統組)
-* [自我介紹](https://nandemoi.github.io/zl111/BruceLin/Bio.pdf)、[資訊領域學習成果](https://nandemoi.github.io/zl111/RichardKuo/Info.pdf)、[PYTHON 自主學習計畫](https://nandemoi.github.io/zl111/Self.pdf)
+* [自我介紹](https://nandemoi.github.io/zl111/BruceLin/Bio.pdf)、[資訊領域學習成果](https://nandemoi.github.io/zl111/BruceLin/Info.pdf)、[PYTHON 自主學習計畫](https://nandemoi.github.io/zl111/BruceLin/Self.pdf)
 * 林同學自述備審分數也很高
