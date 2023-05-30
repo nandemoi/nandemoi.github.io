@@ -14,35 +14,27 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, HuangTech):
         HuangTech.setObjectName("MainWindow")
-        HuangTech.resize(285, 252)
+        HuangTech.resize(285, 252)        
+
+        self.mw = HuangTech
+        HuangTech.setCentralWidget(self.makeLogin ())
         
-        self.centralwidget_on = QtWidgets.QWidget(HuangTech)
-        self.centralwidget_on.setObjectName("centralwidget_on")
-        self.on_wgt = QtWidgets.QWidget(self.centralwidget_on)
-        self.on_wgt.setGeometry(QtCore.QRect(20, 20, 241, 201))
-        self.on_wgt.setObjectName("on_wgt")
-        self.on_nm = QtWidgets.QLabel(self.on_wgt)
-        self.on_nm.setGeometry(QtCore.QRect(70, 120, 121, 16))
-        self.on_nm.setText("")
-        self.on_nm.setObjectName("on_nm")
-        self.logout_btn = QtWidgets.QPushButton(self.on_wgt)
-        self.logout_btn.setGeometry(QtCore.QRect(60, 150, 113, 32))
-        self.logout_btn.setObjectName("logout_btn")
-        self.on_title = QtWidgets.QLabel(self.on_wgt)
-        self.on_title.setGeometry(QtCore.QRect(60, 10, 131, 31))
-        self.on_title.setObjectName("on_title")
-        self.on_id_label = QtWidgets.QLabel(self.on_wgt)
-        self.on_id_label.setGeometry(QtCore.QRect(70, 50, 121, 16))
-        self.on_id_label.setObjectName("on_id_label")
-        self.on_id = QtWidgets.QLabel(self.on_wgt)
-        self.on_id.setGeometry(QtCore.QRect(70, 70, 121, 16))
-        self.on_id.setText("")
-        self.on_id.setObjectName("on_id")
-        self.on_nm_label = QtWidgets.QLabel(self.on_wgt)
-        self.on_nm_label.setGeometry(QtCore.QRect(70, 100, 121, 16))
-        self.on_nm_label.setObjectName("on_nm_label")
-        
-        self.centralwidget_login = QtWidgets.QWidget(HuangTech)
+        self.statusbar = QtWidgets.QStatusBar(HuangTech)
+        self.statusbar.setObjectName("statusbar")
+        HuangTech.setStatusBar(self.statusbar)
+
+        _translate = QtCore.QCoreApplication.translate
+        HuangTech.setWindowTitle(_translate("HuangTech", "MainWindow"))
+        QtCore.QMetaObject.connectSlotsByName(HuangTech)
+
+    def tryLogin(self):
+        self.mw.setCentralWidget(self.makeOn ())
+
+    def doLogout(self):
+        self.mw.setCentralWidget(self.makeLogin ())
+
+    def makeLogin (self):
+        self.centralwidget_login = QtWidgets.QWidget(self.mw)
         self.centralwidget_login.setObjectName("centralwidget_login")
         self.login_wgt = QtWidgets.QWidget(self.centralwidget_login)
         self.login_wgt.setGeometry(QtCore.QRect(20, 20, 241, 201))
@@ -69,37 +61,48 @@ class Ui_MainWindow(object):
         self.login_btn.setGeometry(QtCore.QRect(120, 170, 113, 32))
         self.login_btn.setObjectName("login_btn")
         self.login_id.setFocus ()
-
-        HuangTech.setCentralWidget(self.centralwidget_login)
-        self.statusbar = QtWidgets.QStatusBar(HuangTech)
-        self.statusbar.setObjectName("statusbar")
-        HuangTech.setStatusBar(self.statusbar)
-
-        self.retranslateUi(HuangTech)
-        QtCore.QMetaObject.connectSlotsByName(HuangTech)
-
-        self.mw = HuangTech
-        self.login_btn.clicked.connect (self.tryLogin)
-        self.logout_btn.clicked.connect (self.doLogout)
-
-    def tryLogin(self):
-        self.mw.setCentralWidget(self.centralwidget_on)
-
-    def doLogout(self):
-        self.mw.setCentralWidget(self.centralwidget_login)
-
-    def retranslateUi(self, HuangTech):
         _translate = QtCore.QCoreApplication.translate
-        HuangTech.setWindowTitle(_translate("HuangTech", "HuangTech"))
         self.login_id_label.setText(_translate("HuangTech", "班級座號 (共 5 碼)"))
         self.login_title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
         self.clr_btn.setText(_translate("HuangTech", "清除"))
         self.login_pw_label.setText(_translate("HuangTech", "學號末 4 碼"))
         self.login_btn.setText(_translate("HuangTech", "登入"))
+        self.login_btn.clicked.connect (self.tryLogin)
+        return self.centralwidget_login
+
+    def makeOn (self):
+        self.centralwidget_on = QtWidgets.QWidget(self.mw)
+        self.centralwidget_on.setObjectName("centralwidget_on")
+        self.on_wgt = QtWidgets.QWidget(self.centralwidget_on)
+        self.on_wgt.setGeometry(QtCore.QRect(20, 20, 241, 201))
+        self.on_wgt.setObjectName("on_wgt")
+        self.on_nm = QtWidgets.QLabel(self.on_wgt)
+        self.on_nm.setGeometry(QtCore.QRect(70, 120, 121, 16))
+        self.on_nm.setText("")
+        self.on_nm.setObjectName("on_nm")
+        self.logout_btn = QtWidgets.QPushButton(self.on_wgt)
+        self.logout_btn.setGeometry(QtCore.QRect(60, 150, 113, 32))
+        self.logout_btn.setObjectName("logout_btn")
+        self.on_title = QtWidgets.QLabel(self.on_wgt)
+        self.on_title.setGeometry(QtCore.QRect(60, 10, 131, 31))
+        self.on_title.setObjectName("on_title")
+        self.on_id_label = QtWidgets.QLabel(self.on_wgt)
+        self.on_id_label.setGeometry(QtCore.QRect(70, 50, 121, 16))
+        self.on_id_label.setObjectName("on_id_label")
+        self.on_id = QtWidgets.QLabel(self.on_wgt)
+        self.on_id.setGeometry(QtCore.QRect(70, 70, 121, 16))
+        self.on_id.setText("")
+        self.on_id.setObjectName("on_id")
+        self.on_nm_label = QtWidgets.QLabel(self.on_wgt)
+        self.on_nm_label.setGeometry(QtCore.QRect(70, 100, 121, 16))
+        self.on_nm_label.setObjectName("on_nm_label")
+        _translate = QtCore.QCoreApplication.translate
         self.logout_btn.setText(_translate("HuangTech", "登出"))
         self.on_title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
         self.on_id_label.setText(_translate("HuangTech", "班級座號"))
         self.on_nm_label.setText(_translate("HuangTech", "姓名"))
+        self.logout_btn.clicked.connect (self.doLogout)
+        return self.centralwidget_on
         
 if __name__ == "__main__":
     import sys
