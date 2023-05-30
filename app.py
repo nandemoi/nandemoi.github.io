@@ -1,5 +1,5 @@
 # Store this code in 'app.py' file
-from flask import Flask, jsonify, render_template, request, redirect, url_for, session, send_file
+from flask import Flask, jsonify, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
 import re, getpass
@@ -26,9 +26,10 @@ def addLogin (logins, mac):
         else:
             return f"{logins}, {today}"
 
-def getDbCrsr ():
+def getDbCrsr (nm, pw):
 	cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-	cursor.execute(f"SELECT * FROM accounts WHERE id = {request.form['username']} AND pw = {request.form['password']}")
+	# print(f"SELECT * FROM accounts WHERE id = {nm} AND pw = {pw}")
+	cursor.execute(f"SELECT * FROM accounts WHERE id = {nm} AND pw = {pw}")
 	return cursor
 
 def procLogin (account, cursor, mac):
@@ -41,12 +42,11 @@ def procLogin (account, cursor, mac):
 	session['qa'] = f"{ml ['qa']:02}"
 	session['ans'] = "........." if ml ['ans'] is None else ml ['ans'] # unzip ("........." if ml ['ans'] is None else ml ['ans'])
 
-@app.route('/')
 @app.route('/weblogin', methods=['GET', 'POST'])
 def weblogin():
 	msg = ''
 	if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
-		cursor = getDbCrsr()
+		cursor = getDbCrsr(request.form['username'], request.form['password'])
 		account = cursor.fetchone()
 		if account:
 			procLogin (account, cursor, None)
@@ -55,17 +55,15 @@ def weblogin():
 			msg = '登入資料錯誤！請重新輸入...'
 	return render_template('login.html', msg=msg)
 
-@app.route('/applogin', methods=['GET', 'POST'])
+@app.route('/applogin', methods=['POST'])
 def applogin():
-	if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
-		cursor = getDbCrsr()
-		account = cursor.fetchone()
-		if account:
-			procLogin (account, cursor, request.form ['mac'])
-			return jsonify ({ "name": session ['account']['name'] })
-		else:
-			return jsonify ({ "name": None })
-	return None
+	cursor = getDbCrsr(request.form.get ('username'), request.form.get ('password'))
+	account = cursor.fetchone()
+	if account:
+		procLogin (account, cursor, request.form.get ('mac'))
+		return jsonify ({ "name": session ['account']['name'] })
+	else:
+		return jsonify ({ "name": None })
 
 QS = [ 'I1', 'I2', 'I3', 'I4', 'I5', 'II1', 'II2', 'III1', 'III2' ]
 ps = [ 1, 1, 1, 1, 1, 2, 3, 2, 3 ]
@@ -82,6 +80,7 @@ def zipit (ansd):
 		ans += ansd [q]
 	return ans
 
+@app.route('/')
 @app.route('/answers', methods=['GET', 'POST'])
 def answers():
 	if 'loggedin' in session:
