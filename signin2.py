@@ -88,18 +88,18 @@ class Ui_MainWindow(object):
     def doLogout(self):
         self.mw.setCentralWidget(self.centralwidget_login)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, HuangTech):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.login_id_label.setText(_translate("MainWindow", "班級座號 (共 5 碼)"))
-        self.login_title.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
-        self.clr_btn.setText(_translate("MainWindow", "清除"))
-        self.login_pw_label.setText(_translate("MainWindow", "學號末 4 碼"))
-        self.login_btn.setText(_translate("MainWindow", "登入"))
-        self.logout_btn.setText(_translate("MainWindow", "登出"))
-        self.on_title.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
-        self.on_id_label.setText(_translate("MainWindow", "班級座號"))
-        self.on_nm_label.setText(_translate("MainWindow", "姓名"))
+        HuangTech.setWindowTitle(_translate("HuangTech", "HuangTech"))
+        self.login_id_label.setText(_translate("HuangTech", "班級座號 (共 5 碼)"))
+        self.login_title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
+        self.clr_btn.setText(_translate("HuangTech", "清除"))
+        self.login_pw_label.setText(_translate("HuangTech", "學號末 4 碼"))
+        self.login_btn.setText(_translate("HuangTech", "登入"))
+        self.logout_btn.setText(_translate("HuangTech", "登出"))
+        self.on_title.setText(_translate("HuangTech", "<html><head/><body><p><span style=\" font-size:18pt;\">黃老師科技課程</span></p></body></html>"))
+        self.on_id_label.setText(_translate("HuangTech", "班級座號"))
+        self.on_nm_label.setText(_translate("HuangTech", "姓名"))
         
 if __name__ == "__main__":
     import sys
