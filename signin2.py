@@ -16,6 +16,24 @@ from PyQt5 import QtCore, QtWidgets
 
 SIGNINSRVR = 'http://elton-m1.local:4000/'
 
+APP_KEY = "HuangTechKey"
+
+class SingleApplication(QtWidgets.QApplication):
+    def __init__(self, argv):
+        super().__init__(argv)
+
+        self.mutex = QtCore.QMutex(QtCore.QMutex.NonRecursive)
+        self.shared_memory = QtCore.QSharedMemory(APP_KEY)
+
+        if self.shared_memory.attach():
+            self.is_running = True
+        else:
+            self.is_running = False
+            if not self.mutex.tryLock():
+                QtWidgets.QMessageBox.critical(None, "Error", "Another instance is already running.")
+                sys.exit()
+            self.shared_memory.create(1)
+            
 class MainWindow (QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -175,7 +193,9 @@ class Ui_MainWindow(object):
         
 if __name__ == "__main__":
     import sys
-    app = QtWidgets.QApplication(sys.argv)
+    app = SingleApplication(sys.argv)
+    if app.is_running:
+        sys.exit()
     HuangTech = MainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(HuangTech)
