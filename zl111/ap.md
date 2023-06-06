@@ -26,4 +26,4 @@ I think it may be primarily for waiving credits after you get in college than th
 
 I asked my brother in the U.S. My nephew just graduated from USC mechanical engeering and will start working at Space X. He was admitted in U.C. Santa Barbara and transferred to USC for sophomore. My niece is studying in Boston U.
 
-![img](https://nandemoi.github.io/zl111/imgs/ap.png)
+<img src="https://nandemoi.github.io/zl111/imgs/ap.png" width=300px>
