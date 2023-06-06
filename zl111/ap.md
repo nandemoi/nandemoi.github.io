@@ -24,6 +24,6 @@ I think it may be primarily for waiving credits after you get in college than th
 [ARE AP CLASSES RIGHT FOR YOU?](https://www.elitehometutoring.com/are-ap-classes-right-for-you/
 )
 
-I asked my brother in the U.S. My nephew just graduated from USC mechanical engeering and will start working at Space X. My niece is studyin in Boston U.
+I asked my brother in the U.S. My nephew just graduated from USC mechanical engeering and will start working at Space X. My niece is studying in Boston U.
 
 ![img](https://nandemoi.github.io/zl111/imgs/ap.png)
