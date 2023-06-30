@@ -1,7 +1,5 @@
 # 進階程式設計
 
-中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
-
 課程安排：利用刷題解題的方式幫助大家學習與練習學會 Python 程式設計，學會之後你可以選擇挑戰更困難的題目或是做自己想做的專題
 
 **點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
