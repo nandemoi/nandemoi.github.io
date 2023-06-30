@@ -1,25 +1,51 @@
 # 進階程式設計
 
-課程安排：利用刷題解題的方式幫助大家學習與練習學會 Python 程式設計，學會之後你可以選擇挑戰更困難的題目或是做自己想做的專題
-
 **點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
 
-規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
+**課程安排**：利用刷題解題的方式幫助大家學習與練習學會 Python 程式設計，學會之後你可以選擇挑戰更困難的題目或是做自己想做的專題
 
-## 講義
+<!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。-->
+
+## 課前作業
+
+* 註冊 [Zerojudge](https://zerojudge.tw/) (首頁右上角)：
+  * 「公開暱稱」請設定班級座號共 5 碼為例如：20Xxx
+  * 「真實姓名」使用自己真實姓名
+  * 如果你已經註冊過了，請登入後點擊右上角帳戶暱稱下拉第 5 項「修改個人資訊」做上述修改。**<span style="color:red">如果設定和學校註冊的資訊不符合將導致成績無法計算，學期成績會以 0 分計！</span>**
+  * 一定要有 Zerojudge 帳號，整學年的課程會在這個平台練習、評量，根據平台紀錄結果計分
+
+* 加入 [Zerojudge](https://zerojudge.tw/) 課程
+  * 登入 [Zerojudge](https://zerojudge.tw/) (首頁右上角)
+  * 點擊右上角帳戶暱稱下拉第 6 項「**+** 參加課程」
+  * 複製貼上課程代碼：**HuMyKb**
+
+* 註冊 [replit](repl.it) (首頁右上角藍色 "Sing Up")：
+  * 可以用 Google 帳號 Create a Replit account 比較簡單
+  * 有帳號後每次用首頁右上角 "Log In" 登入
+  * 如果你已經有熟悉的程式開發 (編寫與執行) 環境 (例如 Google Colab)，你可以使用自己熟悉的開發工具就好，不一定要註冊使用 replit
+
+## 熟悉刷題環境 / 課程前測
+
+## 第一課：
+
+## (進度已完成)
+
+## 其他
+
+### 參考資料
 
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
 
-## 進階題
+### 進階題
 
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
 
-## 應用
+### 應用
 
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
 
-## A.I.
+### A.I.
 
 * [機器學習](https://nandemoi.github.io/zl111/AI.pdf)  
 * [和 AI 做朋友](https://nandemoi.github.io/zl111/AI_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
