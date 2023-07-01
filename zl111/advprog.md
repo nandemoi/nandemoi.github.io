@@ -18,24 +18,29 @@
   * 登入 [Zerojudge](https://zerojudge.tw/) (首頁右上角)
   * 點擊右上角帳戶暱稱下拉第 6 項「**+** 參加課程」
   * 複製貼上課程代碼：**HuMyKb**
+  * 加入課程後每次上課
 
 * 註冊 [replit](repl.it) (首頁右上角藍色 "Sing Up")：
   * 可以用 Google 帳號 Create a Replit account 比較簡單
-  * 有帳號後每次用首頁右上角 "Log In" 登入
-  * 如果你已經有熟悉的程式開發 (編寫與執行) 環境 (例如 Google Colab)，你可以使用自己熟悉的開發工具就好，不一定要註冊使用 replit
+  * 有帳號後每次上課用首頁右上角 "Log In" 登入
+  <!--* 如果你已經有熟悉的程式開發 (編寫與執行) 環境 (例如 Google Colab)，你可以使用自己熟悉的開發工具就好，不一定要註冊使用 replit-->
 
-## 熟悉刷題環境 / 課程前測
+## 第 0 課：熟悉刷題環境 / 課程前測
 
-## 第一課：
+* 解題流程：
+  1. 根據題目在 replit 編寫、執行程式成功後
+  1. 測試執行：針對測資測試執行
 
-## [已完成進度](https://nandemoi.github.io/zl111/advprogdone)
+## 第 1 課：循序結構
+
+## 已完成進度 [(點擊)](https://nandemoi.github.io/zl111/advprogdone)
 
 ## 參考資料
 
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
 
-## [更多參考資料](https://nandemoi.github.io/zl111/moreprog)
+## 更多參考資料 [(點擊)](https://nandemoi.github.io/zl111/moreprog)
 <!--
 ## 學期計分方式
 
