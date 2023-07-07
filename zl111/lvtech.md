@@ -2,7 +2,7 @@
 
 中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
 
-**點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
+**點擊看[「課程常規」](https://nandemoi.github.io/zl111/rules)不定期更新**
 
 課程目標：藉由結構體的設計製圖、建模、模擬組裝與製作，[機構裝置](https://www.flickr.com/photos/196543042@N06/)的[設計](https://cad.onshape.com/documents/29f77d1e61ff89edff076753/w/cc07af9851e10e5ea7058369/e/1ab1c3e089a868ce1feca1e6?renderMode=0&uiState=630147d0a366dc0353a959e4)製圖、建模與組合模擬、電子電路的組成與模擬等課程活動，體驗如何利用工程設計流程以解決工程問題的歷程，認識工程設計的原理與過程。
 
