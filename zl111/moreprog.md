@@ -5,6 +5,8 @@
 ### 應用
 
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
+* [巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)
+* [物理現象模擬](https://nandemoi.github.io/zl111/vpython.pdf)
 
 ### A.I.
 
