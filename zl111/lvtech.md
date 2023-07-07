@@ -24,6 +24,7 @@
 | [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf) (課本 1-1 ~ 1-2)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf)| 選擇題 |  
 | [工程視圖](https://nandemoi.github.io/zl111/EngrDrawing.pdf) | 作業：三視圖 |
 | [註冊 Onshape 與 BYOD 設備需求](https://nandemoi.github.io/zl111/Onshape_Reg.pdf) ||  
+
 <span style="color:red">註冊 Onshape 驗證電子郵件信箱在行動裝置上無法操作，
 手機不行，使用 iPad 者請在家先用筆電或桌機完成。</span>  
 <span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：  
@@ -31,6 +32,7 @@
 密碼忘記重置同樣無法以手機操作，而且很浪費時間，上課你會跟不上。  
 密碼常常忘記會登記扣分。</span>  
   <!--* [Onshape.com](https://www.onshape.com/en/)-->  
+  
 | 內容 | 評量 |
 |:--|:--|
 | [Onshape 滑鼠操作與工作環境](https://nandemoi.github.io/zl111/Onshape0.pdf) ||
