@@ -6,22 +6,24 @@
 
 課程目標：藉由[結構體](https://nandemoi.github.io/zl111/Examples.html)的設計製圖、建模、模擬組裝與製作，[機構裝置](https://www.flickr.com/photos/196543042@N06/)的[設計](https://cad.onshape.com/documents/29f77d1e61ff89edff076753/w/cc07af9851e10e5ea7058369/e/1ab1c3e089a868ce1feca1e6?renderMode=0&uiState=630147d0a366dc0353a959e4)製圖、建模與組合模擬、電子電路的組成與模擬等課程活動，體驗如何利用工程設計流程以解決工程問題的歷程，認識工程設計的原理與過程。
 
-<span style="color:red">請注意課程已根據上學期觀察到的一些問題調整，評量方式也是。請同學毋須詢問上學期對開班級的同學上課經驗，因為會有顯著的不同。</span>
+<!--span style="color:red">請注意課程已根據上學期觀察到的一些問題調整，評量方式也是。請同學毋須詢問上學期對開班級的同學上課經驗，因為會有顯著的不同。</span-->
 
 <!--[上課地點](https://nandemoi.github.io/zl111/schedule.pdf)，-->
 
-規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
-**<span style="color:red">需要滑鼠</span>**，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠。  
+<!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
+**<span style="color:red">需要滑鼠</span>**，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠。-->  
   
 講義：  
-* [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf) (課本 1-1 ~ 1-2)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf)  
-* [工程視圖 (三視圖)](https://nandemoi.github.io/zl111/EngrDrawing.pdf)  
+* [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf) (課本 1-1 ~ 1-2)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf) → 評量 (選擇題)  
+* [工程視圖](https://nandemoi.github.io/zl111/EngrDrawing.pdf) → 作業：三視圖  
 * [註冊 Onshape 與 BYOD 設備需求](https://nandemoi.github.io/zl111/Onshape_Reg.pdf)  
   <span style="color:red">註冊 Onshape 驗證電子郵件信箱在行動裝置上無法操作，
   手機不行，使用 iPad 者請在家先用筆電或桌機完成。</span>  
   <span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：例如寫在筆記本、或是課本內頁。密碼忘記重置同樣無法以手機操作，而且很浪費時間，上課你會跟不上。密碼常常忘記會登記扣分。</span>  
-  * [Onshape.com](https://www.onshape.com/en/)  
-* [Onshape 建模與工程設計](https://nandemoi.github.io/zl111/onshape)  
+  <!--* [Onshape.com](https://www.onshape.com/en/)-->  
+* [Onshape 滑鼠操作與工作環境](https://nandemoi.github.io/zl111/Onshape0.pdf)
+* [Onshape 操作示範：盒子 (包括作業要交什麼)](https://nandemoi.github.io/zl111/Onshape1.pdf) → 作業：盒子  
+* [Onshape 建模與工程設計](https://nandemoi.github.io/zl111/onshape) → 作業：立方體  
   * [第 1 課：盒子 (包括作業要交什麼)](https://nandemoi.github.io/zl111/Onshape1.pdf)  
   <!--* [範例們](https://app.box.com/s/2h1j3wm1niglm4ny5te20254036ekts8)-->  
   * 機構部分：課本第 4 章：機構。4-2 Ⓑ 四連桿  
@@ -29,7 +31,7 @@
   * [Arduino 機電整合](https://nandemoi.github.io/zl111/Arduino.pdf)
 * [認識工程學系與產業](https://nandemoi.github.io/zl111/engrs.html)、[學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) ([如何上傳](https://docs.google.com/presentation/d/1aMvKKsgO2DZWiTfOpt0caiETmFdhGXN1x3cZg6d-ydc/edit#slide=id.p))、[112 大學入學](https://www.cac.edu.tw/cacportal/index.php)  
 
-混成教學時，請<span style="color:red">資訊股長</span>單純就學校指示的作法替遠距上課的同學架好設備<!--，到專科教室上課時也是一樣：將設備帶到專科教室架好-->。  
+<!--混成教學時，請<span style="color:red">資訊股長</span>單純就學校指示的作法替遠距上課的同學架好設備。<!--，到專科教室上課時也是一樣：將設備帶到專科教室架好-->  
 
 課程中的操作示範如果需要會使用 Google Classroom 中整合的 Meet。  
 
