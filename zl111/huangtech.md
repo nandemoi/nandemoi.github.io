@@ -5,3 +5,5 @@
 * [科技應用專題](http://nandemoi.github.io/zl111/techapp) (高三科技領域加深加廣選修)
 * [工程設計專題](http://nandemoi.github.io/zl111/ed) (高三科技領域加深加廣選修)
 
+<button onclick="history.back()">返回課程</button>
+
