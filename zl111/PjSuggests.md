@@ -27,6 +27,7 @@
   "Download DXF" → 
   Onshape 左下角「+」匯入 → 
   編輯草圖：「插入 DXF」工具
+  * Onshape 齒輪關係：點選兩個轉動結合
   * [Onshape How To: Gears](https://www.youtube.com/watch?v=AxCgO_eJocc)
   * [齒輪技術入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf)、[齒輪技術實用篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide2.pdf)
 
