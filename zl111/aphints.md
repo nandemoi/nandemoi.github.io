@@ -8,10 +8,12 @@
 a, b, c = map (int, input().split())
 ...
 print (...)
+
 ```
 或
 ```python
 nums = list (map (int, input().split()))
 ...
 print (...)
+
 ```
