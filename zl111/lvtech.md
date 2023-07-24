@@ -2,7 +2,7 @@
 
 中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
 
-**點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
+**點擊看[「課程常規」](https://nandemoi.github.io/zl111/rules)不定期更新**
 
 課程目標：藉由結構體的設計製圖、建模、模擬組裝與製作，[機構裝置](https://www.flickr.com/photos/196543042@N06/)的[設計](https://cad.onshape.com/documents/29f77d1e61ff89edff076753/w/cc07af9851e10e5ea7058369/e/1ab1c3e089a868ce1feca1e6?renderMode=0&uiState=630147d0a366dc0353a959e4)製圖、建模與組合模擬、電子電路的組成與模擬等課程活動，體驗如何利用工程設計流程以解決工程問題的歷程，認識工程設計的原理與過程。
 
@@ -27,8 +27,7 @@
 
 <span style="color:red">註冊 Onshape 驗證電子郵件信箱在行動裝置上無法操作，
 手機不行，使用 iPad 者請在家先用筆電或桌機完成。</span>  
-<span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：  
-例如寫在筆記本、或是課本內頁。  
+<span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：例如寫在筆記本、或是課本內頁。  
 密碼忘記重置同樣無法以手機操作，而且很浪費時間，上課你會跟不上。  
 密碼常常忘記會登記扣分。</span>  
   <!--* [Onshape.com](https://www.onshape.com/en/)-->  
@@ -36,7 +35,7 @@
 | 內容 | 評量 |
 |:--|:--|
 | [Onshape 滑鼠操作與工作環境](https://nandemoi.github.io/zl111/Onshape0.pdf) ||
-| 草圖設計與緊固結合<br>[Onshape 操作示範：盒子 (包括作業要交什麼)](https://nandemoi.github.io/zl111/Onshape1.pdf) | 作業：盒子 |
+| 草圖設計與緊固結合<br>[Onshape 操作示範：盒子<br>(包括作業要怎麼交)](https://nandemoi.github.io/zl111/Onshape1.pdf) | 作業：盒子 |
 | 拉新的平面、重合共點 (對齊)<br>[Onshape 操作概念複習](https://nandemoi.github.io/zl111/onshape) | 作業：立方體 |  
 
 ### 2. 雷切專題設計
