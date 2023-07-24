@@ -35,8 +35,8 @@
 | 內容 | 評量 |
 |:--|:--|
 | [Onshape 滑鼠操作與工作環境](https://nandemoi.github.io/zl111/Onshape0.pdf) ||
-| [Onshape 操作示範：盒子<br>(包括作業要怎麼交)](https://nandemoi.github.io/zl111/Onshape1.pdf) | 作業：盒子 |
-| [Onshape 操作概念複習](https://nandemoi.github.io/zl111/onshape) | 作業：立方體 |  
+| 草圖設計與緊固結合<br>[Onshape 操作示範：盒子<br>(包括作業要怎麼交)](https://nandemoi.github.io/zl111/Onshape1.pdf) | 作業：盒子 |
+| 拉新的平面、重合共點 (對齊)<br>[Onshape 操作概念複習](https://nandemoi.github.io/zl111/onshape) | 作業：立方體 |  
 
 ### 2. 雷切專題設計
 
@@ -52,7 +52,11 @@
 
 | 內容 | 評量 |
 |:--|:--|
+| 滑動結合 | 作業：大盒蓋小盒或抽屜 |
 | 轉動結合 | 作業：掀蓋盒 |
+| 相切結合 | 
+| 四連桿 ||
+| 曲柄滑件 ||
 
 ### 3. 電子電路、工程學系與產業認識、學習歷程
 
