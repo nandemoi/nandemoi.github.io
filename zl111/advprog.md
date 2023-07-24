@@ -42,6 +42,7 @@
 
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
+* [(建中同學談資訊競賽 Podcast)](https://open.spotify.com/episode/3lhesRuCQavvzmQRtVIT2w?si=659e425be16d4b36)
 
 ## 更多參考資料 [(點擊)](https://nandemoi.github.io/zl111/moreprog)
 <!--
