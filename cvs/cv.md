@@ -8,7 +8,7 @@
   [高中量子科技課程 (民 110 年科技部計畫)](https://nandemoi.github.io/spqc.pdf)：Python 授課教師  
   物理教育學會、量子科學推展平台 2022 第一屆量子科技科普壁報展評審  
 * 建國高中 109 學年度：[科技應用](https://nandemoi.github.io/ck109/ta_plan.pdf)、[數位邏輯設計微課程](https://nandemoi.github.io/ck109/verilog.pdf)、[工程設計](https://nandemoi.github.io/ck109/ed_plan.pdf)、[生活科技](https://nandemoi.github.io/ck109/lt_plan.pdf)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110 學年上學期：生活科技/工程設計短期代課  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110 學年上學期：生活科技/工程設計短期代課  
   南湖高中 106 學年度：[生活科技](https://nandemoi.github.io/ck109/microbit%20by%20missions.pdf)  
 * 其他：  
   [C++/APCS 入門](https://nandemoi.github.io/ck109/apcs.pdf)、[Python 營隊](https://nandemoi.github.io/ck109/python-camp.pdf) (108、110 學年度)、  
