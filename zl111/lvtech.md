@@ -1,4 +1,4 @@
-# 生活科技 (高ㄧ) 
+# 生活科技  
 
 中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
 
