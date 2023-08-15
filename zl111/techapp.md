@@ -15,7 +15,12 @@
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
 **<span style="color:red">需要滑鼠</span>**，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠。-->  
   
-## Teachable Machine
+## 
+
+|||
+|:--|:--|
+|[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)|[AI Tutorial: Adding an AI Model to a Mobile App with App Inventor](https://www.youtube.com/watch?v=bY71HR8gK9s)|
+|[PersonalImageClassifier](https://mit-cml.github.io/extensions/data/extensions/PersonalImageClassifier.aix)<br>(滑鼠右鍵 → 複製網址)|[MIT App Inventor Extensions](https://mit-cml.github.io/extensions/)<br>|
 
 
 * [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
