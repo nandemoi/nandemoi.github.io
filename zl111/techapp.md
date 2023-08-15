@@ -15,55 +15,9 @@
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
 **<span style="color:red">需要滑鼠</span>**，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠。-->  
   
-## 課程講義：<!--(分數為學期總分)-->
+## Teachable Machine
 
-### 1. 雷切建模基礎
 
-| 內容 | 評量 |
-|:--|:--|
-| [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf) (課本 1-1 ~ 1-2)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf)| 選擇題 |  
-| [工程視圖](https://nandemoi.github.io/zl111/EngrDrawing.pdf) | 作業：三視圖 |
-| [註冊 Onshape 與 BYOD 設備需求](https://nandemoi.github.io/zl111/Onshape_Reg.pdf) ||  
-
-<span style="color:red">註冊 Onshape 驗證電子郵件信箱在行動裝置上無法操作，
-手機不行，使用 iPad 者請在家先用筆電或桌機完成。</span>  
-<span style="color:orange">Onshape 註冊後的帳號密碼要想辦法不要忘記：
-例如寫在筆記本、或是課本內頁。  
-密碼忘記重置同樣無法以手機操作，而且很浪費時間，上課你會跟不上。  
-密碼常常忘記會登記扣分。</span>  
-  <!--* [Onshape.com](https://www.onshape.com/en/)-->  
-  
-| 內容 | 評量 |
-|:--|:--|
-| [Onshape 滑鼠操作與工作環境](https://nandemoi.github.io/zl111/Onshape0.pdf) ||
-| 草圖設計與緊固結合<br>[Onshape 操作示範：盒子<br>(包括作業要怎麼交)](https://nandemoi.github.io/zl111/Onshape1.pdf) | 作業：盒子 |
-| 拉新的平面、重合共點 (對齊)<br>[Onshape 操作概念複習](https://nandemoi.github.io/zl111/onshape) | 作業：立方體 |  
-
-### 2. 雷切專題設計
-
-接下來如果你需要學習歷程或是分數高一點，你可以選擇做專題 (2.1)；  
-而如果你只需要及格分數，請跟著老師示範接下來的操作並完成作業繳交 (2.2)
-
-#### 2.1 雷切專題設計
-
-* [雷切建模專題設計注意事項](https://nandemoi.github.io/zl111/PjReqs.pdf)  
-* [Onshape 專題設計建議](https://nandemoi.github.io/zl111/PjSuggests)  
-
-#### 2.2 更多雷切建模練習
-
-| 內容 | 評量 |
-|:--|:--|
-| 滑動結合 | 作業：大盒蓋小盒或抽屜 |
-| 轉動結合 | 作業：掀蓋盒 |
-| 相切結合 | 
-| 四連桿 ||
-| 曲柄滑件 ||
-
-### 3. 電子電路、工程學系與產業認識、學習歷程
-
-* [麵包板的拓樸學＋電子電路の工程設計](https://nandemoi.github.io/zl111/BB.pdf) (課本第 5 章)  
-  * [Arduino 機電整合](https://nandemoi.github.io/zl111/Arduino.pdf)
-* [認識工程學系與產業](https://nandemoi.github.io/zl111/engrs.html)
 * [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
   * [如何上傳](https://docs.google.com/presentation/d/1aMvKKsgO2DZWiTfOpt0caiETmFdhGXN1x3cZg6d-ydc/edit#slide=id.p)
 * [112 大學入學](https://www.cac.edu.tw/cacportal/index.php)  
