@@ -19,8 +19,8 @@
 
 |||
 |:--|:--|
-|[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)|[AI Tutorial: Adding an AI Model to a Mobile App with App Inventor](https://www.youtube.com/watch?v=bY71HR8gK9s)|
-|[PersonalImageClassifier](https://mit-cml.github.io/extensions/data/extensions/PersonalImageClassifier.aix)<br>(滑鼠右鍵 → 複製網址)|[MIT App Inventor Extensions](https://mit-cml.github.io/extensions/)<br>|
+|[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)|[透過teachable Machine與app inventor 2製作辨識app](https://www.youtube.com/watch?v=bY71HR8gK9s)|
+|[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|[App Inventor Extension for the Deployment of Image Classification Models Exported from Teachable Machine](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)<br>|
 
 
 * [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
