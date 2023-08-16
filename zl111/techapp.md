@@ -19,12 +19,11 @@
 
 [簡單範例](https://www.chipwaygo.com/rps_wizard/)
 
-|方法|模型訓練|應用開發|資源連結與參考資料|
+|方法|訓練模型|推論應用|資源連結與參考資料|
 |:-:|:--|:--|:--|
 |1|[Teachable Machine (Image Project)](https://teachablemachine.withgoogle.com/train/image)<br>|[MIT App Inventor](https://appinventor.mit.edu/):<br>下載：[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|1. [參考教學](https://www.youtube.com/watch?v=bY71HR8gK9s)<br>2. [TMIC extension 介紹](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)|
-|2|[App Inventor Personal Image Classifier](https://classifier.appinventor.mit.edu/)|[MIT App Inventor](https://appinventor.mit.edu/):<br>[PersonalImageClassifier](https://mit-cml.github.io/extensions/data/extensions/PersonalImageClassifier.aix)<br>(滑鼠右鍵 → 複製網址)|1. [參考教學](https://www.youtube.com/watch?v=K8qsy2ftG18)<br>2. [App Inventor Extensions](https://mit-cml.github.io/extensions/)<br>3. [參考範例](https://blog.cavedu.com/2019/12/02/mit-app-inventor-fruit-classifier/)|
-|3|[Teachable Machine (Pose Project)](https://teachablemachine.withgoogle.com/train/pose)|[Scratch for T.M.](https://playground.raise.mit.edu/create/)|1. [參考教學](https://www.youtube.com/watch?v=f3ImZXTCcBs)|
-4|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python (Google Colab)](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|
+|2|[Teachable Machine (Pose Project)](https://teachablemachine.withgoogle.com/train/pose)|[*Scratch for T.M.*](https://playground.raise.mit.edu/create/)<br><b><span style="color:red">程式須下載！！！<br>儲存到雲端或雖身碟</span></b>|[參考教學](https://www.youtube.com/watch?v=A7TXRVR5Of0)|
+|3|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python (Google Colab)](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|
 
 * [機器學習基礎簡介](https://nandemoi.github.io/zl111/ml.pdf)
 * [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
