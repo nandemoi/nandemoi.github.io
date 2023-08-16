@@ -15,12 +15,13 @@
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
 **<span style="color:red">需要滑鼠</span>**，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠。-->  
   
-## 
+## AI 應用開發
 
-|||
-|:--|:--|
-|[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)|[透過teachable Machine與app inventor 2製作辨識app](https://www.youtube.com/watch?v=bY71HR8gK9s)|
-|[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|[App Inventor Extension for the Deployment of Image Classification Models Exported from Teachable Machine](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)<br>|
+|方法|模型訓練|應用開發|教學影片|參考資料|
+|:-:|:--|:--|:--|:--|
+|1|[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)<br>|App Inventor<br>([TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix))||[... for the Deployment of Image Classification Models Exported from Teachable Machine](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)||[透過teachable Machine與app inventor 2製作辨識app](https://www.youtube.com/watch?v=bY71HR8gK9s)|
+|2|
+
 
 
 * [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
