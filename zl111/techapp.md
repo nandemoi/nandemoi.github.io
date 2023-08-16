@@ -15,7 +15,7 @@
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
 **<span style="color:red">需要滑鼠</span>**，最好用筆電或 Chromebook，如果用 iPad 請準備藍芽滑鼠。-->  
   
-## AI 應用開發
+## 課程內容
 
 [簡單範例](https://www.chipwaygo.com/rps_wizard/)
 
@@ -24,14 +24,17 @@
 |1|[Teachable Machine (Image Project)](https://teachablemachine.withgoogle.com/train/image)<br>|[MIT App Inventor](https://appinventor.mit.edu/):<br>下載：[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|1. [參考教學](https://www.youtube.com/watch?v=bY71HR8gK9s)<br>2. [TMIC extension 介紹](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)|
 |2|[App Inventor Personal Image Classifier](https://classifier.appinventor.mit.edu/)|[MIT App Inventor](https://appinventor.mit.edu/):<br>[PersonalImageClassifier](https://mit-cml.github.io/extensions/data/extensions/PersonalImageClassifier.aix)<br>(滑鼠右鍵 → 複製網址)|1. [參考教學](https://www.youtube.com/watch?v=K8qsy2ftG18)<br>2. [App Inventor Extensions](https://mit-cml.github.io/extensions/)<br>3. [參考範例](https://blog.cavedu.com/2019/12/02/mit-app-inventor-fruit-classifier/)|
 |3|[Teachable Machine (Pose Project)](https://teachablemachine.withgoogle.com/train/pose)|[Scratch for T.M.](https://playground.raise.mit.edu/create/)|1. [參考教學](https://www.youtube.com/watch?v=f3ImZXTCcBs)|
-4|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python with Google Colab](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|
-
-其他模型來源：[Hugging Face](https://huggingface.co/models), [Model Zoo](https://modelzoo.co/), [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home), [OpenPose](https://viso.ai/deep-learning/openpose/), [Edge Impulse](https://edgeimpulse.com/),<br>[Top 9 Pose Estimation Models of 2022](https://medium.com/augmented-startups/top-9-pose-estimation-models-of-2022-70d00b11db43), [Pose Detection](https://github.com/tensorflow/tfjs-models/tree/master/pose-detection)
-
-## 其他
+4|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python (Google Colab)](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|
 
 * [機器學習基礎簡介](https://nandemoi.github.io/zl111/ml.pdf)
 * [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
+
+## 其他
+
+* [Artificial Intelligence with App Inventor](https://www.youtube.com/playlist?list=PLGJQenY714f1nDxdYi3FgrbKmIFjt78AD)
+* 其他模型來源：[Hugging Face](https://huggingface.co/models), [Model Zoo](https://modelzoo.co/), [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home), [OpenPose](https://viso.ai/deep-learning/openpose/), [Edge Impulse](https://edgeimpulse.com/),<br>[Top 9 Pose Estimation Models of 2022](https://medium.com/augmented-startups/top-9-pose-estimation-models-of-2022-70d00b11db43), [Pose Detection](https://github.com/tensorflow/tfjs-models/tree/master/pose-detection)
+<br>
+
 * [類神經網路機器學習 (Tensoflow 應用)](https://nandemoi.github.io/zl111/nn.pdf)
 * [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
