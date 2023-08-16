@@ -1,4 +1,4 @@
-# 進階程式設計
+# 程式設計 (基礎與進階)
 
 **點擊看[「課程常規」](https://nandemoi.github.io/zl111/rules)不定期更新**
 
@@ -6,7 +6,9 @@
 
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。-->
 
-## 課前作業
+## 課程內容
+
+### 課前作業
 
 * 註冊 [Zerojudge](https://zerojudge.tw/) (首頁右上角)：
   * 頁面最上方藍色「以現有的 Google 帳號創建身份」：用學校 Google 帳號建立帳號
@@ -28,15 +30,15 @@
   * 有帳號後每次上課用首頁右上角 "Log In" 登入
   <!--* 如果你已經有熟悉的程式開發 (編寫與執行) 環境 (例如 Google Colab)，你可以使用自己熟悉的開發工具就好，不一定要註冊使用 replit-->
 
-## 第 0 課：熟悉刷題環境 / 課程前測
+### 第 0 課：熟悉刷題環境 / 課程前測
 
 * 解題流程：
   1. 根據題目在 replit 編寫、執行程式成功後
   1. 測試執行：針對測資測試執行
 
-## 第 1 課：循序結構
+### 第 1 課：循序結構
 
-## 已完成進度 [(點擊)](https://nandemoi.github.io/zl111/advprogdone)
+## 已完成之進度
 
 ## 參考資料
 
@@ -44,7 +46,13 @@
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
 * [(建中同學談資訊競賽 Podcast)](https://open.spotify.com/episode/3lhesRuCQavvzmQRtVIT2w?si=659e425be16d4b36)
 
-## 更多參考資料 [(點擊)](https://nandemoi.github.io/zl111/moreprog)
+## 更多參考資料
+
+* [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
+* [《科技應用》課程](https://nandemoi.github.io/zl111/techapp)
+* [物理現象模擬](https://nandemoi.github.io/zl111/vpython.pdf)
+* [Free Python Games](https://grantjenks.com/docs/freegames/)、[PyGame](https://realpython.com/pygame-a-primer/)
+
 <!--
 ## 學期計分方式
 
