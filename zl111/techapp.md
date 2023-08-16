@@ -17,23 +17,30 @@
   
 ## AI 應用開發
 
-|方法|模型訓練|應用開發|教學影片|參考資料|
-|:-:|:--|:--|:--|:--|
-|1|[Teachable Machine](https://teachablemachine.withgoogle.com/train/image)<br>|App Inventor<br>([TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix))||[... for the Deployment of Image Classification Models Exported from Teachable Machine](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)||[透過teachable Machine與app inventor 2製作辨識app](https://www.youtube.com/watch?v=bY71HR8gK9s)|
-|2|
+[簡單範例](https://www.chipwaygo.com/rps_wizard/)
 
+|方法|模型訓練|應用開發|資源連結與參考資料|
+|:-:|:--|:--|:--|
+|1|[Teachable Machine (Image Project)](https://teachablemachine.withgoogle.com/train/image)<br>|[MIT App Inventor](https://appinventor.mit.edu/):<br>下載：[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|1. [參考教學](https://www.youtube.com/watch?v=bY71HR8gK9s)<br>2. [TMIC extension 介紹](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)|
+|2|[App Inventor Personal Image Classifier](https://classifier.appinventor.mit.edu/)|[MIT App Inventor](https://appinventor.mit.edu/):<br>[PersonalImageClassifier](https://mit-cml.github.io/extensions/data/extensions/PersonalImageClassifier.aix)<br>(滑鼠右鍵 → 複製網址)|1. [參考教學](https://www.youtube.com/watch?v=K8qsy2ftG18)<br>2. [App Inventor Extensions](https://mit-cml.github.io/extensions/)<br>3. [參考範例](https://blog.cavedu.com/2019/12/02/mit-app-inventor-fruit-classifier/)|
+|3|[Teachable Machine (Pose Project)](https://teachablemachine.withgoogle.com/train/pose)|[Scratch for T.M.](https://playground.raise.mit.edu/create/)|1. [參考教學](https://www.youtube.com/watch?v=f3ImZXTCcBs)|
+4|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python with Google Colab](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|
 
+其他模型來源：[Hugging Face](https://huggingface.co/models), [Model Zoo](https://modelzoo.co/), [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home), [OpenPose](https://viso.ai/deep-learning/openpose/), [Edge Impulse](https://edgeimpulse.com/),<br>[Top 9 Pose Estimation Models of 2022](https://medium.com/augmented-startups/top-9-pose-estimation-models-of-2022-70d00b11db43), [Pose Detection](https://github.com/tensorflow/tfjs-models/tree/master/pose-detection)
+
+## 其他
+
+* [機器學習基礎簡介](https://nandemoi.github.io/zl111/ml.pdf)
+* [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
+* [類神經網路機器學習 (Tensoflow 應用)](https://nandemoi.github.io/zl111/nn.pdf)
+* [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)
+<br>
 
 * [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
   * [如何上傳](https://docs.google.com/presentation/d/1aMvKKsgO2DZWiTfOpt0caiETmFdhGXN1x3cZg6d-ydc/edit#slide=id.p)
 * [112 大學入學](https://www.cac.edu.tw/cacportal/index.php)  
-
-<!--混成教學時，請<span style="color:red">資訊股長</span>單純就學校指示的作法替遠距上課的同學架好設備。<!--，到專科教室上課時也是一樣：將設備帶到專科教室架好-->  
-
-## 專題
-
-課程中的操作示範如果需要會使用 Google Classroom 中整合的 Meet。  
-
+<!--混成教學時，請<span style="color:red">資訊股長</span>單純就學校指示的作法替遠距上課的同學架好設備。到專科教室上課時也是一樣：將設備帶到專科教室架好
+課程中的操作示範如果需要會使用 Google Classroom 中整合的 Meet。-->  
 <b><span style="color:red">
 作業、專題一定要誠實自己做，做了多少就說多少：和這個原則違背的瑕疵是各位在求學過程以及以後的職涯中不能有的
 </span></b>
