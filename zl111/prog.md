@@ -2,9 +2,11 @@
 
 **點擊看[「課程常規」](https://nandemoi.github.io/zl111/rules)不定期更新**
 
-**課程安排**：利用刷題解題的方式幫助大家學習與練習學會 Python 程式設計，學會之後你可以選擇挑戰更困難的題目或是做自己想做的專題
+**課程安排**：利用刷題解題的方式幫助大家學習與練習學會 Python 程式設計，學會之後你可以選擇挑戰更困難的題目或是做自己想做的專題。([更多內容...](https://docs.google.com/document/d/1Qe5vf8Jx-YFIkDVaVYJXPisn8E4zSGhfUsqcxErGsO4/edit))
 
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。-->
+
+APCS <span style="color:red"><b>8/30</b>～9/8</span> 9AM~6PM 報名，10/22 (週日) 考試：[重要日程](https://apcs.csie.ntnu.edu.tw/index.php/timeline-2/)
 
 ## 課程內容
 
@@ -35,10 +37,14 @@
 * 解題流程：
   1. 根據題目在 replit 編寫、執行程式成功後
   1. 測試執行：針對測資測試執行
+  <span style="color:red">注意 ZeroJudge 有一個 bug 題號不對！如果執行有錯，用答案去對應測資</span>
 
 ### 第 1 課：循序結構
 
-## 已完成之進度
+## <span style="color:gray">已完成之進度</span>
+
+<span style="color:lightgray">
+</span>
 
 ## 參考資料
 
