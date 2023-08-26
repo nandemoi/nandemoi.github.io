@@ -2,10 +2,41 @@
 
 ## Dynamic Programming  
 
+### [Subset Sum Problem](https://www.youtube.com/watch?v=s6FhG--P7z0)
+
+Exhaustive: O ($2^n$) vs. DP: O ($n \times sum$)
+
+$S_{sum,j} = S_{sum,j-1} \lor S_{sum - {\color{red}A_j},j-1}$ (from a lost link)
+
+<img src="https://nandemoi.github.io/slides/subset_sum.png" alt="subset_sum" width="600">
+
+```C++
+    for (unsigned k = 1; k < w + 1; k++) {
+
+        abSubsetS [k][0] = false;
+        vuit vitS = viS.begin ();
+        bool bS = false;
+        for (unsigned l = 1; l < viS.size (); l++, vitS++) {
+            if (k >= *vitS)
+                abSubsetS [k][l] = abSubsets [k][l - 1] ||
+                                    abSubsetS [k - *vitS][l - 1];
+            else
+                abSubsetS [k][l] = abSubsetS [k][l - 1];
+            if (abSubsets [k][l])
+                bS = true;
+        }
+
+        // repeat the code paragraph above replaceing ending S's with D's
+        
+        if (bS && bD)
+            uMaxAns = k;
+    }
+```
+
 ### Problems
 Fibonacci
 [棋盤格城市](https://zerojudge.tw/ShowProblem?problemid=l581)
-knapsak
+knapsack
 [台中女中程式解題](https://web.archive.org/web/20210923030209/http://www.tcgs.tc.edu.tw:1218/Problems?tab=tab01&page=2)
 
 [LCS video by Abdul Bari](https://www.youtube.com/watch?v=sSno9rV8Rhg)
@@ -36,33 +67,6 @@ polygon triangulation (1990)
 [Difference between BFS and Dijkstra’s algorithms when looking for shortest path? - GeekforGeeks](https://www.geeksforgeeks.org/difference-between-bfs-and-dijkstras-algorithms-when-looking-for-shortest-path/)
 [What is difference between BFS and Dijkstra's algorithms when looking for shortest path? - Stack Overflow](https://stackoverflow.com/questions/25449781/what-is-difference-between-bfs-and-dijkstras-algorithms-when-looking-for-shorte)
 
-### [Subset Sum Problem](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
-
-$S_{sum,j} = S_{sum,j-1} \lor S_{sum - {\color{red}A_j},j-1}$
-
-<img src="https://nandemoi.github.io/slides/subset_sum.png" alt="subset_sum" width="600">
-
-```C++
-    for (unsigned k = 1; k < w + 1; k++) {
-
-        abSubsetS [k][0] = false;
-        vuit vitS = viS.begin ();
-        bool bS = false;
-        for (unsigned l = 1; l < viS.size (); l++, vitS++) {
-            if (k >= *vitS)
-                abSubsetS [k][l] = abSubsets [k][l - 1] ||
-                                    abSubsetS [k - *vitS][l - 1];
-            else
-                abSubsetS [k][l] = abSubsetS [k][l - 1];
-            if (abSubsets [k][l])
-                bS = true;
-        }
-
-        // repeat the code paragraph above replaceing ending S's with D's
-        
-        if (bS && bD)
-            uMaxAns = k;
-```
 ### Rod-cutting
 
 1. We can cut up a rod of length $n$ in $2^{n-1}$ different ways:  
