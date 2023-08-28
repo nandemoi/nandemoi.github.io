@@ -22,7 +22,7 @@
 | 內容 | 評量 |
 |:--|:--|
 | [工程設計流程](https://nandemoi.github.io/zl111/flow.pdf) (課本 1-1 ~ 1-2)、[加工技術](https://nandemoi.github.io/zl111/processing.pdf)| 選擇題 |  
-| [工程視圖](https://nandemoi.github.io/zl111/EngrDrawing.pdf) | 作業：三視圖 |
+| [工程視圖](https://nandemoi.github.io/zl111/EngrDrawing.pdf) (生活科技基礎) | 作業：三視圖 |
 | [註冊 Onshape 與 BYOD 設備需求](https://nandemoi.github.io/zl111/Onshape_Reg.pdf) ||  
 
 <span style="color:red">註冊 Onshape 驗證電子郵件信箱在行動裝置上無法操作，
@@ -47,7 +47,7 @@
 #### 2.1 雷切專題設計
 
 * [雷切建模專題設計注意事項](https://nandemoi.github.io/zl111/PjReqs.pdf)  
-* [Onshape 專題設計建議](https://nandemoi.github.io/zl111/PjSuggests)  
+  * [Onshape 專題設計建議](https://nandemoi.github.io/zl111/PjSuggests)  
 
 #### 2.2 更多雷切建模練習
 
