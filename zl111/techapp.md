@@ -25,7 +25,9 @@
 |2|[Teachable Machine (Image Project)](https://teachablemachine.withgoogle.com/train/image)<br>|[MIT App Inventor](https://appinventor.mit.edu/):<br>下載：[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|1. [參考教學](https://www.youtube.com/watch?v=bY71HR8gK9s)<br>2. [TMIC extension 介紹](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)|
 |3|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python (Google Colab)](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|  
 
-以 Scratch 和 App Inventor 製作的 App 每大塊相連在一起的積木循序執行；但每大塊以某個系統的事件 (包括使用者的操作) 啟動，每大塊之間在概念上執行順序不分前後，他們同時 (concuurently) 輪詢著 (polling) 系統的事件。
+以 Scratch 和 App Inventor 製作的 App 每大塊相連在一起的積木循序執行；  
+但每大塊以某個系統的事件 (包括使用者的操作) 啟動，每大塊之間在概念上執行順序不分前後，  
+他們同時 (concuurently) 輪詢著 (polling) 系統的事件。
 
 * [機器學習基礎簡介](https://nandemoi.github.io/zl111/ml.pdf)
 * [和 AI 做朋友](https://nandemoi.github.io/zl111/ai_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
@@ -41,7 +43,7 @@
 <br>
 
 * 更多 AI 參考資料：
-[蔡炎龍等 (2022)《少年Py的大冒險－成為 Python AI 深度學習達人的第一門課》](https://www.books.com.tw/products/0010936350?sloc=main)
+[蔡炎龍等 (2022)《少年Py的大冒險－成為 Python AI 深度學習達人的第一門課》](https://www.books.com.tw/products/0010936350?sloc=main)  
 （[蔡炎龍老師 2021 北一女 Python 人工智慧工作坊](https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE)）  
 [大規模視覺基礎模型之機會與挑戰](https://www.youtube.com/watch?v=sRyBsFjyNpE)
 [李宏毅老師 ChatGPT (可能)是怎麼煉成的 - GPT 社會化的過程](https://youtu.be/e0aKI2GGZNg)  
