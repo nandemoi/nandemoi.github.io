@@ -23,7 +23,8 @@
 |:-:|:--|:--|:--|
 |1|[Teachable Machine (Pose Project)](https://teachablemachine.withgoogle.com/train/pose)|[adacraft](https://www.adacraft.org)<br><b><span style="color:red">使用以下客製版 Scratch<br>須每次程式下載自己的作品<br>儲存到雲端或雖身碟 !!!</span></b><br>[stretch3](https://stretch3.github.io)<br>[scratch *(sp. ed.)*](https://playground.raise.mit.edu/create/)|<br>1. [石原淳也等 (2023)<br>&ensp;&ensp;&ensp;《邊玩邊學，使用<br>&ensp;&ensp;&ensp;&ensp;Scratch 學習 AI 程式<br>&ensp;&ensp;&ensp;&ensp;設計專案大集合》](https://www.books.com.tw/products/0010957408)<br>2. [參考教學](https://www.youtube.com/watch?v=A7TXRVR5Of0)|
 |2|[Teachable Machine (Image Project)](https://teachablemachine.withgoogle.com/train/image)<br>|[MIT App Inventor](https://appinventor.mit.edu/):<br>下載：[TMIC extension](https://codigos.ufsc.br/gqs/tmic/-/blob/master/dist/br.ufsc.gqs.teachablemachineimageclassifier.aix)|1. [參考教學](https://www.youtube.com/watch?v=bY71HR8gK9s)<br>2. [TMIC extension 介紹](https://community.appinventor.mit.edu/t/tmic-app-inventor-extension-for-the-deployment-of-image-classification-models-exported-from-teachable-machine/64411)|
-|3|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python (Google Colab)](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|
+|3|[Teachable Machine](https://teachablemachine.withgoogle.com/train)|[Python (Google Colab)](https://colab.research.google.com/?hl=zh-tw)|1. [參考教學](https://youtu.be/dPy4GRpHshk?t=874)<br>2. [參考範例](https://steam.oxxostudio.tw/category/python/ai/ai-teachable-machine.html#a3)|  
+
 以 Scratch 和 App Inventor 製作的 App 每大塊相連在一起的積木循序執行；但每大塊以某個系統的事件 (包括使用者的操作) 啟動，每大塊之間在概念上執行順序不分前後，他們同時 (concuurently) 輪詢著 (polling) 系統的事件。
 
 * [機器學習基礎簡介](https://nandemoi.github.io/zl111/ml.pdf)
