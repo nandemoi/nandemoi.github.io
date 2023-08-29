@@ -40,7 +40,6 @@
 * [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)  
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
 <br>
-
 * 更多 AI 參考資料：
 [蔡炎龍等 (2022)《少年Py的大冒險－成為 Python AI 深度學習達人的第一門課》](https://www.books.com.tw/products/0010936350?sloc=main)  
 （[蔡炎龍老師 2021 北一女 Python 人工智慧工作坊](https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE)）  
