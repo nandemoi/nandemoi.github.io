@@ -34,11 +34,10 @@
 
 ## 其他
 
-* [Artificial Intelligence with App Inventor](https://www.youtube.com/playlist?list=PLGJQenY714f1nDxdYi3FgrbKmIFjt78AD)
-* [Getting Started With Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE&t=290s)<!--* 其他模型來源：[Hugging Face](https://huggingface.co/models), [Model Zoo](https://modelzoo.co/), [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/home), [OpenPose](https://viso.ai/deep-learning/openpose/), [Edge Impulse](https://edgeimpulse.com/),<br>[Top 9 Pose Estimation Models of 2022](https://medium.com/augmented-startups/top-9-pose-estimation-models-of-2022-70d00b11db43), [Pose Detection](https://github.com/tensorflow/tfjs-models/tree/master/pose-detection)
-<br>-->
-* [類神經網路機器學習 (Tensoflow 應用)](https://nandemoi.github.io/zl111/nn.pdf)
-* [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)
+* [Artificial Intelligence with App Inventor](https://www.youtube.com/playlist?list=PLGJQenY714f1nDxdYi3FgrbKmIFjt78AD)  
+* [Getting Started With Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE&t=290s)  
+* [類神經網路機器學習 (Tensoflow 應用)](https://nandemoi.github.io/zl111/nn.pdf)  
+* [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)  
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
 <br>
 
