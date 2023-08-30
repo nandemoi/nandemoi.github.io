@@ -40,7 +40,7 @@
 * [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)  
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
 
-## 成績  
+## 成績計算  
 
 作業 (30%) + 專題 (70%) 或考試 (30%)  
 專題依序看以下幾點做總體的評分：  
