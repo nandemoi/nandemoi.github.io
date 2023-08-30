@@ -39,8 +39,17 @@
 * [類神經網路機器學習 (Tensoflow 應用)](https://nandemoi.github.io/zl111/nn.pdf)  
 * [Python 巨量資料應用](https://nandemoi.github.io/zl111/Python_BigData.pdf)  
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)  
-<br>
-* 更多 AI 參考資料：
+
+## 成績  
+
+作業 (30%) + 專題 (70%) 或考試 (30%)  
+專題依序看以下幾點做總體的評分：  
+(1) 困難度/報告內容、
+(2) 完整度 (設計是否成立、資訊類再看功能是否完整)、
+(3) 創意與美感  
+(盡力做，上課要做、螢幕錄影)
+
+## 更多參考資料：
 [蔡炎龍等 (2022)《少年Py的大冒險－成為 Python AI 深度學習達人的第一門課》](https://www.books.com.tw/products/0010936350?sloc=main)  
 （[蔡炎龍老師 2021 北一女 Python 人工智慧工作坊](https://youtube.com/playlist?list=PLpltJwWB6egIKy68TSew5cbKamQdjccEE)）  
 [大規模視覺基礎模型之機會與挑戰](https://www.youtube.com/watch?v=sRyBsFjyNpE)
@@ -50,7 +59,6 @@
 [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?fbclid=IwAR0bHScxV7fTytaoUCM_c14ApnAsNG-pxv9YiAMJWfC8Ky3kO9wb-GNvSAI)  
 [How to Train TensorFlow Lite Models Using Google Colab](https://www.youtube.com/watch?v=XZ7FYAMCc4M)  
 [DeepMind AI參賽寫程式，AlphaCode擊敗近半數工程師！為何專家說取代人類還很遙遠？](https://www.bnext.com.tw/article/67613/deepmind-alphacode)
-<br>
 
 * [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
 * [112 大學入學](https://www.cac.edu.tw/cacportal/index.php)  
