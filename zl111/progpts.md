@@ -1,6 +1,6 @@
 # Python 重點整理
 
-## [程式是什麼？寫程式要幹什麼？](https://nanedmoi.github.io/zl111/prog.pdf)
+## [程式是什麼？寫程式要幹什麼？](https://nandemoi.github.io/zl111/prog.pdf)
 
 ## 輸出
 
