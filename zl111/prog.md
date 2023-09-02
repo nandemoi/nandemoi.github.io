@@ -10,7 +10,7 @@ APCS <span style="color:red"><b>8/30</b>～9/8</span> 9AM~6PM 報名，10/22 (�
 
 ## 課程內容
 
-### [重點整粒](https://nandemoi.github.io/zl111/progpts)
+### [重點整理](https://nandemoi.github.io/zl111/progpts)
 
 ### 課前作業
 
