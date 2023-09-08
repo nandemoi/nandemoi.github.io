@@ -1,4 +1,4 @@
-# 科技應用專題  
+# AI  
 
 中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
 
