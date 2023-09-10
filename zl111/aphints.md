@@ -1,5 +1,13 @@
 # 參考提示
 
+## j286
+
+```python
+a, b, c = map (int, input().split())
+...
+print (...)
+```
+
 ## f312
 
 ```python
