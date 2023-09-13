@@ -12,6 +12,8 @@ APCS <span style="color:red"><b>8/30</b>～9/8</span> 9AM~6PM 報名，10/22 (�
 
 ### [重點整理](https://nandemoi.github.io/zl111/progpts)
 
+* Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
+
 ### 第 0 課：熟悉刷題環境 / 課程前測
 
 * 註冊 [replit](https://replit.com) (首頁右上角藍色 "Sign Up")：
@@ -63,7 +65,6 @@ APCS <span style="color:red"><b>8/30</b>～9/8</span> 9AM~6PM 報名，10/22 (�
 ## 參考資料
 
 * 陳宗和等 (民 110 再版)《資訊科技》科友 (你的高一資訊課本)
-* Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
 * [(建中同學談資訊競賽 Podcast)](https://open.spotify.com/episode/3lhesRuCQavvzmQRtVIT2w?si=659e425be16d4b36)
 
