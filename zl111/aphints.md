@@ -8,6 +8,14 @@ a, b, c = map (int, input().split())
 print (...)
 ```
 
+## a053
+
+```python
+n = int (input ())
+...
+print (...)
+```
+
 ## f312
 
 ```python
@@ -50,7 +58,7 @@ print (...)
 
 ### Python 輸出文字
 
-把你要的文字放在 "..." 裡，然後整個連 "" 放在 print (...) 的括弧裡就可以了，例如：
+把你要的文字放在 ```"..."``` 裡，然後整個連 "" 放在 ```print (...)``` 的括弧裡就可以了，例如：
 
 ```python
 print ("hello world")
