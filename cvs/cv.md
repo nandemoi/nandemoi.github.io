@@ -4,7 +4,7 @@
 ### 教學簡歷 ([成果](http://nandemoi.github.io/cvs/stuworks))  
 
 * 中崙高中 111~112 學年度：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf) ([範例](https://nandemoi.github.io/zl111/Examples.html))、工程設計、科技應用、機器人專題  
-  2023 資訊學科能力競賽校內初選 (出題、規劃)、[國中部社團](https://nandemoi.github.io/zl111/club1.pdf)
+  2023 校內資訊學科能力競賽 (出題、規劃、執行)、[國中部社團](https://nandemoi.github.io/zl111/club1.pdf)
 * [高雄大學應用物理系科學實作 Python 課程業師 (2021 秋季)](https://drive.google.com/file/d/1leTFYsUEwqJMVMBxXOsKNGyOhtJG-ZKI/view?usp=sharing)  
   [高中量子科技課程 (民 110 年科技部計畫)](https://nandemoi.github.io/spqc.pdf)：Python 授課教師  
   物理教育學會、量子科學推展平台 2022 第一屆量子科技科普壁報展評審  
