@@ -1,6 +1,6 @@
 # 參考提示
 
-## a053, a799
+## a053, a799, c290 ([原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1060304APCSImplementation.pdf))
 
 ```python
 n = int (input ())
@@ -68,16 +68,6 @@ print ("hello world")
 
 ```
 hello world
-```
-
-## c290
-
-[原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1060304APCSImplementation.pdf)
-
-```python
-n = int (input ())
-...
-print (...)
 ```
 
 ## c294
