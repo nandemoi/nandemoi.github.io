@@ -1,17 +1,25 @@
 # 參考提示
 
-## j286
+## a053, a799, c290 ([原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1060304APCSImplementation.pdf))
 
 ```python
-a, b, c = map (int, input().split())
+n = int (input ())
 ...
 print (...)
 ```
 
-## a053
+## d226
 
 ```python
-n = int (input ())
+v, t = map (int, input().split())
+...
+print (...)
+```
+
+## j286
+
+```python
+a, b, c = map (int, input().split())
 ...
 print (...)
 ```
@@ -26,19 +34,11 @@ n = int (input ())
 print (...)
 ```
 
-## a053
+## [d587](https://officeguide.cc/python-sort-sorted-tutorial-examples/), b294
 
 ```python
 n = int (input ())
-...
-print (...)
-```
-
-## [d587](https://officeguide.cc/python-sort-sorted-tutorial-examples/)
-
-```python
-n = int (input ())
-list123 = list (map (int, input().split()))
+nums = list (map (int, input().split()))
 ...
 print (...)
 ```
@@ -68,16 +68,6 @@ print ("hello world")
 
 ```
 hello world
-```
-
-## c290
-
-[原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1060304APCSImplementation.pdf)
-
-```python
-n = int (input ())
-...
-print (...)
 ```
 
 ## c294
