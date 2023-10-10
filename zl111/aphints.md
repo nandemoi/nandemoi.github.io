@@ -43,6 +43,13 @@ nums = list (map (int, input().split()))
 print (...)
 ```
 
+## [d587](https://officeguide.cc/python-sort-sorted-tutorial-examples/)
+
+```python
+# alist 是一個 List, 下面這句程式把 alist 內容印出來，每個元素之間用一個空格分開
+print (*alist) 
+```
+
 ## b964
 
 [原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2022/10/實作題_題型範例.pdf)
