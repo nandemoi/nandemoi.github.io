@@ -56,8 +56,8 @@
 | 滑動結合 | 作業：大盒蓋小盒或抽屜 |
 | 轉動結合 | 作業：掀蓋盒 |
 | 相切結合 | 
-| 四連桿 ||
-| 曲柄滑件 ||
+| [四連桿](https://nandemoi.github.io/zl111/Mech_Design.pdf) ||
+| [曲柄滑件](https://nandemoi.github.io/zl111/Mech_Design.pdf) ||
 
 ## 電子電路
 
