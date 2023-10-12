@@ -15,7 +15,7 @@
 (18) [Webots](https://cyberbotics.com)  
 (19) [RoboDK](https://robodk.com/download)  
 (20) [Godot](https://godotengine.org/download/windows/)  
-(21) [OpenCV](https://opencv.org/releases/)
+(21) [OpenCV](https://opencv.org/releases/)  
 (22) [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/download.html?VERSION=v_2023_1_0&OP_SYSTEM=WINDOWS&DISTRIBUTION=ARCHIVE)
 
 (23) Python 3.11.5: pip3 install beautifulsoup4 getmac google-api-core google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib googleapis-common-protos graphviz html5lib httplib2 importlib-metadata ipykernel ipython ipywidgets Jinja2 jupyter_client jupyter_core jupyterlab-widgets mariadb matplotlib matplotlib-inline Seaborn mysqlclient nest-asyncio numpy oauthlib obscure-password openpyxl ordered-set packaging pandas pip pygame Pygments pyinstaller pyinstaller-hooks-contrib PyLaTeX PyMySQL pyngrok PyOpenGL pyparsing PyQt5 PyQt5-Qt5 PyQt5-sip pyserial python-dateutil python-socketio pytz PyYAML requests requests-oauthlib rsa rumps scikit-learn SciPy sympy qiskit kivy vpython tensorflow  
