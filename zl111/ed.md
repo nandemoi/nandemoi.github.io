@@ -47,7 +47,7 @@
 #### 2.1 雷切專題設計
 
 * [雷切建模專題設計注意事項](https://nandemoi.github.io/zl111/PjReqs.pdf)  
-  * [Onshape 專題設計建議](https://nandemoi.github.io/zl111/PjSuggests)  
+  * [Onshape 專題設計建議](https://nandemoi.github.io/zl111/PjSuggests) (齒輪)
 
 #### 2.2 更多雷切建模練習
 
