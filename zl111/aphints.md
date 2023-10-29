@@ -34,6 +34,81 @@ n = int (input ())
 print (...)
 ```
 
+### Python 輸出以空格相隔的多個數字
+
+在 ```print (...)``` 的括弧中把要輸出的數字<span style="color:red">或變數</span>依序以逗號分開，例如：
+
+```python
+a = 1
+c = 3
+print (a, 2, c)
+```
+
+就會在螢幕上輸出
+
+```python
+1 2 3
+```
+
+## j605
+
+```python
+k = int (input ())
+
+while k > 0:
+    t, s = map (int, input().split())
+    ...
+    k = k - 1
+    
+print (..., ...)
+```
+
+## i428 <span style="color:red">(此提示評量時會隱藏)</span>
+
+題目補充：行進時間 ＝ 行進距離 × 1
+
+```python
+n = int (input())
+x1, y1 = map (int, input().split())
+xx, yy = map (int, input().split())
+
+mxmx = abs (xx - x1) + abs (yy - y1)
+mnmn = mxmx
+
+for _ in range(2, n):
+    nx, ny = map (int, input().split())
+    ...
+    xx = nx
+    yy = ny
+    
+print (mxmx, mnmn)
+```
+
+### Python 輸出文字
+
+把你要的文字放在 ```"..."``` 裡，然後整個連 "" 放在 ```print (...)``` 的括弧裡就可以了，例如：
+
+```python
+print ("hello world")
+```
+
+就會在螢幕上輸出
+
+```python
+hello world
+```
+
+## c294
+
+[原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2022/10/實作題_題型範例.pdf) (往下捲第 3 頁)
+
+```python
+a, b, c = map (int, input ().split())
+...
+print (...)
+print ("...")
+```
+
 ## [d587](https://officeguide.cc/python-sort-sorted-tutorial-examples/), b294
 
 ```python
@@ -63,43 +138,3 @@ print (...)
 print (...)
 ```
 
-### Python 輸出以空格相隔的多個數字
-
-在 ```print (...)``` 的括弧中把要輸出的數字<span style="color:red">或變數</span>依序以逗號分開，例如：
-
-```python
-a = 1
-c = 3
-print (a, 2, c)
-```
-
-就會在螢幕上輸出
-
-```
-1 2 3
-```
-
-### Python 輸出文字
-
-把你要的文字放在 ```"..."``` 裡，然後整個連 "" 放在 ```print (...)``` 的括弧裡就可以了，例如：
-
-```python
-print ("hello world")
-```
-
-就會在螢幕上輸出
-
-```
-hello world
-```
-
-## c294
-
-[原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2022/10/實作題_題型範例.pdf) (往下捲第 3 頁)
-
-```python
-a, b, c = map (int, input ().split())
-...
-print (...)
-print ("...")
-```
