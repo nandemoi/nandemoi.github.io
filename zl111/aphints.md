@@ -69,14 +69,14 @@ print (..., ...)
 
 ```python
 n = int (input())
-x1, y1 = map (int, input().split())
-xx, yy = map (int, input().split())
+x1, y1 = map (int, input().split()) # 第一站的座標
+xx, yy = map (int, input().split()) # 第二站的座標
 
-mxmx = abs (xx - x1) + abs (yy - y1)
-mnmn = mxmx
+mxmx = abs (xx - x1) + abs (yy - y1) # 目前最大距離
+mnmn = mxmx                          # 目前最小距離
 
 for _ in range(2, n):
-    nx, ny = map (int, input().split())
+    nx, ny = map (int, input().split()) # 讀入下一站的座標
     ...
     xx = nx
     yy = ny
