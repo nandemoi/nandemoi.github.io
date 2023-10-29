@@ -69,8 +69,8 @@ print (..., ...)
 
 ```python
 n = int (input())
-x1, y1 = map (int, input().split()) # 第一站的座標
-xx, yy = map (int, input().split()) # 第二站的座標
+x1, y1 = map (int, input().split()) # 讀入第一站的座標
+xx, yy = map (int, input().split()) # 讀入下一站的座標
 
 mxmx = abs (xx - x1) + abs (yy - y1) # 目前最大距離
 mnmn = mxmx                          # 目前最小距離
@@ -82,6 +82,25 @@ for _ in range(2, n):
     yy = ny
     
 print (mxmx, mnmn)
+```
+
+## k731 <span style="color:red">(此提示評量時會隱藏)</span>
+
+```python
+n = int (input())
+xx, yy = map (int, input().split()) # 讀入第一個的座標
+
+ltc = 0 # 左轉計數
+rtc = 0 # 右轉計數
+utc = 0 # 迴轉計數
+
+for _ in range(2, n):
+    nx, ny = map (int, input().split()) # 讀入下一個的座標
+    ...
+    xx = nx
+    yy = ny
+    
+print (ltc, rtc, utc)
 ```
 
 ### Python 輸出文字
