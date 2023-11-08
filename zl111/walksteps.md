@@ -1,5 +1,10 @@
 # 行走機構完成步驟
 
+轉動結合：
+* 一樓天花板接二樓地板
+* 一樓地板和二樓地板不在同一層平面
+* 一樓天花板接不到三樓地板
+
 參考影片：[第 1 版](https://www.youtube.com/watch?v=Lr9cCsh8WKs&authuser=0)、[第 2 版](https://youtube.com/shorts/2CAeg648HeE?feature=share&authuser=0)、[第 3 版](https://youtube.com/shorts/9pnYUpbbxhY?feature=share&authuser=0)
 
 ## 先做左腳
