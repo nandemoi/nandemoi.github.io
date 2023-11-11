@@ -6,7 +6,7 @@
 
 <!--規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。-->
 
-APCS <span style="color:red"><b>8/30</b>～9/8</span> 9AM~6PM 報名，10/22 (週日) 考試：[重要日程](https://apcs.csie.ntnu.edu.tw/index.php/timeline-2/)
+[APCS 重要日程](https://apcs.csie.ntnu.edu.tw/index.php/timeline-2/)
 
 ## 課程內容
 
