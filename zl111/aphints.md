@@ -157,3 +157,7 @@ print (...)
 print (...)
 ```
 
+## b526
+
+[Introduction to Priority Queues in Python](https://builtin.com/data-science/priority-queues-in-python)
+
