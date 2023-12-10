@@ -5,7 +5,7 @@
 * 一樓地板和二樓地板不在同一層平面
 * 一樓天花板接不到三樓地板
 
-參考：[影片](https://youtube.com/shorts/H1iwLd8_MyQ?feature=share)、[模型](https://cad.onshape.com/documents/4c110d09bdf5554a7430363d/w/c4e2f10b63d866876f8b7ca0/e/fdd9f35863b2bc35ee63c351?renderMode=0&uiState=656fe0be07e9a2349c6a81a0)
+[參考影片](https://youtube.com/shorts/H1iwLd8_MyQ?feature=share)<!--、[模型](https://cad.onshape.com/documents/4c110d09bdf5554a7430363d/w/c4e2f10b63d866876f8b7ca0/e/fdd9f35863b2bc35ee63c351?renderMode=0&uiState=656fe0be07e9a2349c6a81a0)-->
 
 ## 先做左腳
 
