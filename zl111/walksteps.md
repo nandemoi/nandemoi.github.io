@@ -23,8 +23,8 @@
 1. <span style="color: red">每隻腳都是一組<ins>**四連桿機構**</ins>，四根桿件中：
    * <ins>**固定件**</ins>固定不動
    * <ins>**主動件**</ins>會轉滿 360&deg; 
-2. <span style="color: red">設計一連接零件將左右腳的<ins>**固定件**</ins>以緊固結合的方式連接在一起
-3. <span style="color: red">設計另一個連接零件將左右腳的<ins>**主動件**</ins>以緊固結合的方式連接在一起</span> → 同步連動
+2. <span style="color: red">設計一連接零件 (不要用圓柱) 將左右腳的<ins>**固定件**</ins>以緊固結合的方式連接在一起
+3. <span style="color: red">設計另一個連接零件 (不要用圓柱) 將左右腳的<ins>**主動件**</ins>以緊固結合的方式連接在一起</span> → 同步連動
 
 注意：
 
