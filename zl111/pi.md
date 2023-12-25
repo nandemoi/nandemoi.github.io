@@ -16,7 +16,7 @@ Python 是一列一列輸入的，用 ```input ()``` 這個函式讀一列符號
    ```python
    a, b, c = map (int, input().split())
    ```
-3. 如果這列符號包含了你不知道數量是幾個的數字，可以把他們 ```input().split()``` 後 ```map ()``` 到一個整數的 list，例如：
+3. 如果這列符號包含了你不知道數量是幾個的數字，可以把他們 ```input().split()``` 後 ```map ()``` 成一個整數的 list，例如：
     ```python
     numbers = list (map (int, input().split()))
     ```
