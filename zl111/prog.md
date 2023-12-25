@@ -8,7 +8,11 @@
 
 [APCS 重要日程](https://apcs.csie.ntnu.edu.tw/index.php/timeline-2/)
 
-## 課程內容
+## 講義彙整
+
+### [Python 輸入](https://nandemoi.github.io/zl111/pi)
+
+### [複雜度們](https://nandemoi.github.io/zl111/Complexities.pdf)、[二分搜尋](https://nandemoi.github.io/zl111/Binsrch.pdf)
 
 ### [重點整理](https://nandemoi.github.io/zl111/progpts)
 
