@@ -2,10 +2,11 @@
 
 ### [建中同學申請 111 學年度大學入學備審資料分享](http://nandemoi.github.io/cvs/stucvs)
 
-### 111 學年度上學期
+### 112 學年度上學期
 
-[![張◯欣]]
-[![陳◯璇](http://nandemoi.github.io/cvs/media/11210310os.png)](https://cad.onshape.com/documents/688327a9d10a40ff8bf87661/w/04d30ee6c357625ca7260d65/e/d4abfa090252382080f64e1e)![留聲機](http://nandemoi.github.io/cvs/media/11210310ph.webp)
+[<img src="http://nandemoi.github.io/cvs/media/11210310os.png" alt="張◯欣" height="200"/>](https://cad.onshape.com/documents/688327a9d10a40ff8bf87661/w/04d30ee6c357625ca7260d65/e/d4abfa090252382080f64e1e)<img src="http://nandemoi.github.io/cvs/media/11210310ph.webp" alt="留聲機" height="200">
+[<img src="http://nandemoi.github.io/cvs/media/11210310os.png" alt="陳◯瑄" height="200"/>](https://cad.onshape.com/documents/688327a9d10a40ff8bf87661/w/04d30ee6c357625ca7260d65/e/d4abfa090252382080f64e1e)<img src="http://nandemoi.github.io/cvs/media/11210309ph.gif" alt="腳踏車" height="200">
+[<img src="http://nandemoi.github.io/cvs/media/11210310os.png" alt="陳◯璇" height="200"/>](https://cad.onshape.com/documents/688327a9d10a40ff8bf87661/w/04d30ee6c357625ca7260d65/e/d4abfa090252382080f64e1e)<img src="http://nandemoi.github.io/cvs/media/11210310ph.webp" alt="留聲機" height="200">
 
 ### [111 學年度下學期](https://youtu.be/P_oTNiAy4ZI)
 
