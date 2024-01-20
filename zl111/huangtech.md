@@ -11,11 +11,11 @@
 
 * [數位邏輯⼯程設計極簡體驗](http://nandemoi.github.io/zl111/DLD.pdf)
 * 巨量資料應用
-  - [Python 巨量資料應用學習參考](http://nandemoi.github.io/zl111/Python.pdf)  
-  - [MIT App Inventor 巨量資料應用專題設計/製作](http://nandemoi.github.io/zl111/AppInventor_BigData.pdf)  
+  * [Python 巨量資料應用學習參考](http://nandemoi.github.io/zl111/Python.pdf)  
+  * [MIT App Inventor 巨量資料應用專題設計/製作](http://nandemoi.github.io/zl111/AppInventor_BigData.pdf)  
 * 量子計算
-  - [認識量子計算](http://nandemoi.github.io/zl111/qc.pdf)  
-  - [Python/Qiskit 入⾨](http://nandemoi.github.io/zl111/AppInventor_BigData.pdf)
+  * [認識量子計算](http://nandemoi.github.io/zl111/qc.pdf)  
+  * [Python/Qiskit 入⾨](http://nandemoi.github.io/zl111/AppInventor_BigData.pdf)
 * [台積電在做什麼？](http://nandemoi.github.io/zl111/tsmc.pdf)
 * [Python for Physics](http://nandemoi.github.io/hsqc.pdf)
 * [micro:bit by missions](http://nandemoi.github.io/zl111/mbm.pdf)
@@ -23,4 +23,6 @@
 ### 其他參考資料
 
 * [專題報告可以怎麼寫](http://nandemoi.github.io/zl111/how2report.pdf)
-* [學習歷程可以整理提示](http://nandemoi.github.io/zl111/cv_prep.pdf)
+* [認識工程學系與產業](https://nandemoi.github.io/zl111/engrs.html)
+* [學習歷程整理](https://nandemoi.github.io/zl111/cv_prep.pdf) 
+  * [如何上傳](https://docs.google.com/presentation/d/1aMvKKsgO2DZWiTfOpt0caiETmFdhGXN1x3cZg6d-ydc/edit#slide=id.p)
