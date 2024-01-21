@@ -39,7 +39,52 @@
 
 ### 其他
 
-* [部分作品](https://www.flickr.com/photos/nandemoi)  
 * [技術翻譯文章見諸於 CIO 企業經理人等期刊約十數篇](https://drive.google.com/file/d/1_dfrQlh10X7Es8WPGBD2ZpAq99a4yHZ-/view?usp=sharing)  
 * [<img src="https://nandemoi.github.io/slides/IBM_Quantum_Challenge_Fall_2021_Achievement_Advanced.png" alt="IBM Quantum Challenge Africa 2021" width="100x"/>](https://www.credly.com/badges/9d939394-6286-44cc-bed7-cd5c1280830e) [<img src="https://nandemoi.github.io/slides/IBM_Quantum_Challenge_Africa_2021_Achievement_Advanced.png" alt="IBM Quantum Challenge Africa 2021" width="100x"/>](https://www.credly.com/badges/8da9ffbe-fe23-4a6c-98f5-f813f2743107) [<img src="https://nandemoi.github.io/slides/DLI_C-RX-02_Deep_Learning_Institute.jpg" alt="Jetson Nano" height="100x"/>](https://nandemoi.github.io/slides/DLI_C-RX-02_Deep_Learning_Institute.pdf)  
 <!--* [理念 ...](https://nandemoi.github.io/ck109/aspiration.pdf)* Maker Faire Taipei 2021 參展-->  
+* [部分作品](https://www.flickr.com/photos/nandemoi)  
+<p>
+<img src="http://nandemoi.github.io/cvs/media/claw2.gif" alt="claw2" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/claw4.gif" alt="claw4" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/arm1.gif" alt="arm1" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/a1.gif" alt="a1" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/all.gif" alt="all" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/omni.gif" alt="omni" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/jump.gif" alt="jump" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/c2.gif" alt="c2" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/c1.gif" alt="c1" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/eye2.gif" alt="eye2" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/eye1.gif" alt="eye1" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/e1.gif" alt="e1" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/catapul1.gif" alt="catapul1" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/catapul2.gif" alt="catapul2" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/ujoint.gif" alt="ujoint" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/geneva.gif" alt="geneva" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/fegg.gif" alt="fegg" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/target.gif" alt="target" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/meme.gif" alt="meme" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/bus.gif" alt="bus" height="150"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/dazhibridge.jpg" alt="dazhibridge" height="120"/>
+<img src="http://nandemoi.github.io/cvs/media/dvbridge.gif" alt="dvbridge" height="120"/>
+</p>
+<p>
+<img src="http://nandemoi.github.io/cvs/media/plane1.jpg" alt="plane1" height="100"/>
+<img src="http://nandemoi.github.io/cvs/media/plane2.jpg" alt="plane2" height="100"/>
+<img src="http://nandemoi.github.io/cvs/media/plane3.jpg" alt="plane3" height="100"/>
+</p>
