@@ -52,9 +52,9 @@
 <p>
 <img src="http://nandemoi.github.io/cvs/media/all.gif" alt="all" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/omni.gif" alt="omni" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/jump.gif" alt="jump" height="150"/>
 </p>
 <p>
-<img src="http://nandemoi.github.io/cvs/media/jump.gif" alt="jump" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/c2.gif" alt="c2" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/c1.gif" alt="c1" height="150"/>
 </p>
@@ -64,15 +64,15 @@
 <img src="http://nandemoi.github.io/cvs/media/e1.gif" alt="e1" height="150"/>
 </p>
 <p>
-<img src="http://nandemoi.github.io/cvs/media/catapul1.gif" alt="catapul1" height="150"/>
-<img src="http://nandemoi.github.io/cvs/media/catapul2.gif" alt="catapul2" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/catapult1.gif" alt="catapult1" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/catapult2.gif" alt="catapult2" height="150"/>
 </p>
 <p>
 <img src="http://nandemoi.github.io/cvs/media/ujoint.gif" alt="ujoint" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/geneva.gif" alt="geneva" height="150"/>
 </p>
 <p>
-<img src="http://nandemoi.github.io/cvs/media/fegg.gif" alt="fegg" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/flyegg.gif" alt="flyegg" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/target.gif" alt="target" height="150"/>
 </p>
 <p>
@@ -81,7 +81,7 @@
 </p>
 <p>
 <img src="http://nandemoi.github.io/cvs/media/dazhibridge.jpg" alt="dazhibridge" height="120"/>
-<img src="http://nandemoi.github.io/cvs/media/dvbridge.gif" alt="dvbridge" height="120"/>
+<img src="http://nandemoi.github.io/cvs/media/dvbridge.jpg" alt="dvbridge" height="120"/>
 </p>
 <p>
 <img src="http://nandemoi.github.io/cvs/media/plane1.jpg" alt="plane1" height="100"/>
