@@ -47,8 +47,12 @@
 <img src="http://nandemoi.github.io/cvs/media/kitty.gif" alt="kitty" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/walk.gif" alt="walk" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/mc.gif" alt="mc" height="150"/>
+</p>
+<p>
 <img src="http://nandemoi.github.io/cvs/media/marble.gif" alt="marble" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/marble_ph.gif" alt="marble" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/maze.png" alt="maze" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/maze_ph.png" alt="maze" height="150"/>
 </p>
 <p>
 <img src="http://nandemoi.github.io/cvs/media/claw2.gif" alt="claw2" height="150"/>
