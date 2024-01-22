@@ -47,6 +47,7 @@
 <img src="http://nandemoi.github.io/cvs/media/kitty.gif" alt="kitty" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/walk.gif" alt="walk" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/mc.gif" alt="mc" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/petit.gif" alt="petit" height="150"/>
 </p>
 <p>
 <img src="http://nandemoi.github.io/cvs/media/marble.gif" alt="marble" height="150"/>
