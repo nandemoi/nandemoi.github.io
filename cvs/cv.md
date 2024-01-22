@@ -44,6 +44,13 @@
 <!--* [理念 ...](https://nandemoi.github.io/ck109/aspiration.pdf)* Maker Faire Taipei 2021 參展-->  
 * [部分作品](https://www.flickr.com/photos/nandemoi)  
 <p>
+<img src="http://nandemoi.github.io/cvs/media/kitty.gif" alt="kitty" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/walk.gif" alt="walk" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/mc.gif" alt="mc" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/marble.gif" alt="marble" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/maze.png" alt="maze" height="150"/>
+</p>
+<p>
 <img src="http://nandemoi.github.io/cvs/media/claw2.gif" alt="claw2" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/claw4.gif" alt="claw4" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/arm1.gif" alt="arm1" height="150"/>
