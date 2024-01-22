@@ -51,7 +51,7 @@
 </p>
 <p>
 <img src="http://nandemoi.github.io/cvs/media/marble.gif" alt="marble" height="150"/>
-<img src="http://nandemoi.github.io/cvs/media/marble_ph.gif" alt="marble" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/marble_ph.png" alt="marble" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/maze.png" alt="maze" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/maze_ph.png" alt="maze" height="150"/>
 </p>
