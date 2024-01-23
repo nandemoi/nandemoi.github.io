@@ -1,6 +1,6 @@
 # AI  
 
-中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
+中崙高中 / [黃敦紀](https://nandemoi.github.io/cvs/cv)  
 
 **點擊看[「課程常規」](https://nandemoi.github.io/zl111/rules)不定期更新**
 

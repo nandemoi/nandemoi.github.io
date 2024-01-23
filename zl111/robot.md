@@ -1,20 +1,19 @@
 # 機器人專題
 
-中崙高中 / [黃敦紀](http://nandemoi.github.io/cvs/cv)  
+中崙高中 / [黃敦紀](https://nandemoi.github.io/cvs/cv)  
 
 **點擊[黃老師科技課程主頁](https://nandemoi.github.io/zl111/index.html)看「課程常規」不定期更新**
 
-規劃全學期 BYOD (自帶電腦)，每次上課前一天請確保電池蓄電充足。如有問題請第一週上課提出。  
-
 ## 講義
 
-* [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)、[Googles's NEW INSANE PALM-E](https://youtu.be/2BYC4_MMs8I)
+* [Robotics](https://nandemoi.github.io/zl111/Robotics.pdf)  
 * Python 複習：[PDF](https://nandemoi.github.io/zl111/Python.pdf)、[影片](https://nandemoi.github.io/zl111/Python.html)
 * [LineBot](https://nandemoi.github.io/zl111/LineBot.pdf)
 * [ZeroJudge e287 解題](https://nandemoi.github.io/zl111/ZJe287.html)  
 * [Python/C++/Java 語法參照](https://nandemoi.github.io/zl111/apcs_resrcs.pdf)  
-* [機器學習](https://nandemoi.github.io/zl111/AI.pdf)  
-* [和 AI 做朋友](https://nandemoi.github.io/zl111/AI_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)
+* [機器學習](https://nandemoi.github.io/zl111/ml.pdf)  
+* [和 AI 做朋友](https://nandemoi.github.io/zl111/AI_friend.pdf) (此文件 108 年出版，第 3 頁頁首關於[圖靈測試](https://www.techradar.com/opinion/chatgpt-has-passed-the-turing-test-and-if-youre-freaked-out-youre-not-alone)的敘述或須修改)  
+* [類神經網路機器學習](https://nandemoi.github.io/zl111/nn.pdf)
 
 <!--
 ## 學期計分方式
