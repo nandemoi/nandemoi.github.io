@@ -1,6 +1,6 @@
 
 |item|price|units|
-|---|---|---|
+|---|--:|---|
 |[micro:bit Motor Drive Board馬達驅動擴展板](https://www.icshop.com.tw/products/368031200152)|369|每套 x1, 主要|
 |[MG995 55G金屬齒輪伺服器](https://www.icshop.com.tw/products/368060100074)|125|每套 x1|
 |[MG90S 14g 180度 金屬齒輪伺服馬達](https://www.icshop.com.tw/products/368060200007)|90|數個，每套最好>2|
