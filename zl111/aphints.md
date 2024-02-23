@@ -1,5 +1,69 @@
 # 參考提示
 
+## Python 輸出入
+
+### 輸入一個整數
+
+```python
+n = int (input ())
+```
+
+### 輸入一列幾個整數
+
+例如輸入三個整數
+```python
+a, b, c = map (int, input ().split ())
+```
+
+### 輸入一列數個整數至一個 list
+
+```python
+nums = list (map (int, input ().split ())
+```
+
+### 輸出以空格相隔的多個數字
+
+在 ```print (...)``` 的括弧中把要輸出的數字<span style="color:red">或變數</span>依序以逗號分開，例如：
+
+```python
+a = 1
+c = 3
+print (a, 2, c)
+```
+
+就會在螢幕上輸出
+
+```python
+1 2 3
+```
+
+### 輸出文字
+
+把你要的文字放在 ```"..."``` 裡，然後整個連 "" 放在 ```print (...)``` 的括弧裡就可以了，例如：
+
+```python
+print ("hello world")
+```
+
+就會在螢幕上輸出
+
+```python
+hello world
+```
+
+### 輸出 list 內容，各個元素以空格分開
+
+```python
+alist = [ 1, 2, 3 ]
+print (*alist)
+```
+
+就會在螢幕上輸出
+
+```python
+1 2 3
+```
+
 ## a053, a799, c290 ([原題 PDF](https://apcs.csie.ntnu.edu.tw/wp-content/uploads/2018/12/1060304APCSImplementation.pdf))
 
 ```python
@@ -34,22 +98,6 @@ n = int (input ())
 print (...)
 ```
 
-### Python 輸出以空格相隔的多個數字
-
-在 ```print (...)``` 的括弧中把要輸出的數字<span style="color:red">或變數</span>依序以逗號分開，例如：
-
-```python
-a = 1
-c = 3
-print (a, 2, c)
-```
-
-就會在螢幕上輸出
-
-```python
-1 2 3
-```
-
 ## j605
 
 ```python
@@ -63,7 +111,7 @@ while k > 0:
 print (..., ...)
 ```
 
-## i428 <span style="color:red">(此提示評量時會隱藏)</span>
+## i428 <span style="color:red">(此提示評量時或會隱藏)</span>
 
 題目補充：行進時間 ＝ 行進距離 × 1
 
@@ -84,7 +132,7 @@ for _ in range(2, n):
 print (mxmx, mnmn)
 ```
 
-## k731 <span style="color:red">(此提示評量時會隱藏)</span>
+## k731 <span style="color:red">(此提示評量時或會隱藏)</span>
 
 ```python
 n = int (input())
@@ -101,20 +149,6 @@ for _ in range(2, n):
     yy = ny
     
 print (ltc, rtc, utc)
-```
-
-### Python 輸出文字
-
-把你要的文字放在 ```"..."``` 裡，然後整個連 "" 放在 ```print (...)``` 的括弧裡就可以了，例如：
-
-```python
-print ("hello world")
-```
-
-就會在螢幕上輸出
-
-```python
-hello world
 ```
 
 ## c294
