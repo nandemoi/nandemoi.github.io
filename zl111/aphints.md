@@ -18,7 +18,7 @@ a, b, c = map (int, input ().split ())
 ### 輸入一列數個整數至一個 list
 
 ```python
-nums = list (map (int, input ().split ())
+nums = list (map (int, input ().split ()))
 ```
 
 ### 輸出以空格相隔的多個數字
