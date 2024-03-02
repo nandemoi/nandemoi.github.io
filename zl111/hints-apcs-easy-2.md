@@ -49,9 +49,18 @@ print ("...")
 
 ## m370
 
+這題思路和《成績指標》相似。  
 題目如果要寫得更清楚的話，第一句我會改成：  
 
 **<span style="color:red">在整數數線上</span>**，有 $n$ 個位置上有食物，有一隻老鼠一開始位於位置 $x$。
+
+```python
+x, n = map (int, input ().split ())
+foods = list (map (int, input ().split ()))
+...
+print (..., ...)
+```
+
 <!--
 
 ## m931
