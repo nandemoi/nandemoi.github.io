@@ -191,6 +191,32 @@ print (...)
 print (...)
 ```
 
+## j605
+
+```python
+k = int (input ())
+...
+i = 0
+while i < k:
+    t, s = map (int, input().split())
+    ...
+    i = i + 1
+...
+print (..., ...)
+```
+
+或
+
+```python
+k = int (input ())
+...
+for _ in range (k):
+    t, s = map (int, input().split())
+    ...
+...
+print (..., ...)
+```
+
 ## b526
 
 [Introduction to Priority Queues in Python](https://builtin.com/data-science/priority-queues-in-python)
