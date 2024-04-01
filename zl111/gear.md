@@ -40,4 +40,15 @@
 
 接著你就可以複製它到別的草圖。你可以全選後複製，不過因為這個草圖只有這個齒輪，更簡單的做法是到左邊「特徵」欄，在這個草圖項目按右鍵 →「複製草圖」
 
-## Module 參數設定示範
+## 其他設計要點
+
+### Module 參數設定示範
+
+<img src="http://nandemoi.github.io/zl111/gear/modulecmp.png" alt="modulecmp" height="500"/>
+
+## 更多資料
+
+[KHK 齒輪 ABC 入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gearabc_a.pdf
+)  
+[齒輪技術入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf)
+[齒輪技術實用篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide2.pdf)  
