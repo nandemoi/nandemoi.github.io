@@ -34,7 +34,7 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/importit.png" alt="importit" height="300"/>
 
-點它之後就會出現在草圖中央，以原點為中心畫出軸孔，例如
+點它之後齒輪就會出現在草圖中央，以原點為中心畫出軸孔，例如
 
 <img src="http://nandemoi.github.io/zl111/gear/centered.png" alt="centered" height="500"/>
 
