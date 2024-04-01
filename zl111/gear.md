@@ -30,6 +30,12 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/import.png" alt="import" height="500"/>
 
-選取你剛剛從 Inkscape 儲存的 .dxf 檔後按「打開」
+選取你剛剛從 Inkscape 儲存的 .dxf 檔後按「打開」，就會出現在「插入 DXF ...」的下拉選單
+
+<img src="http://nandemoi.github.io/zl111/gear/import.png" alt="import" height="500"/>
+
+點它之後就會出現在草圖中央，以原點為中心畫出軸孔，例如
+
+<img src="http://nandemoi.github.io/zl111/gear/centered.png" alt="centered" height="500"/>
 
 ## Module 參數設定示範
