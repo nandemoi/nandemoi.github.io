@@ -60,7 +60,7 @@
 
 「齒輪關係」設定兩個轉動結合之間的關係
 
-## 更多資料
+## 更多參考資料
 
 [KHK 齒輪 ABC 入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gearabc_a.pdf
 )  
