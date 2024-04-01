@@ -8,10 +8,12 @@
 
 參數設定，update 後捲到頁面下端
 
-<img src="http://nandemoi.github.io/zl111/gear/download.png" alt="download" height="400"/>
+<img src="http://nandemoi.github.io/zl111/gear/download.png" alt="download" height="300"/>
 
-<img src="http://nandemoi.github.io/zl111/gear/opensvg.png" alt="opensvg" height="400"/>
+<img src="http://nandemoi.github.io/zl111/gear/opensvg.png" alt="opensvg" height="300"/>
 
-<img src="http://nandemoi.github.io/zl111/gear/saveas.png" alt="saveas" height="400"/>
+<img src="http://nandemoi.github.io/zl111/gear/saveas.png" alt="saveas" height="300"/>
+
+<img src="http://nandemoi.github.io/zl111/gear/saveasdxf.png" alt="saveasdxf" height="300"/>
 
 ## 在你的設計中使用
