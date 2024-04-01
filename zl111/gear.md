@@ -6,7 +6,7 @@
 
 [點擊此到模板產生網站](https://evolventdesign.com/pages/spur-gear-generator)
 
-<img src="http://nandemoi.github.io/zl111/gear/params.png" alt="params" height="400"/>
+[<img src="http://nandemoi.github.io/zl111/gear/params.png" alt="params" height="400"/>](#module-參數設定示範)
 
 **參數設定好、update 後捲到頁面下端**
 
@@ -31,3 +31,5 @@
 <img src="http://nandemoi.github.io/zl111/gear/import.png" alt="import" height="500"/>
 
 選取你剛剛從 Inkscape 儲存的 .dxf 檔
+
+## Module 參數設定示範
