@@ -30,6 +30,6 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/import.png" alt="import" height="500"/>
 
-選取你剛剛從 Inkscape 儲存的 .dxf 檔
+選取你剛剛從 Inkscape 儲存的 .dxf 檔後按「打開」
 
 ## Module 參數設定示範
