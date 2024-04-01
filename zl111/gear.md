@@ -16,9 +16,9 @@
 
 ### 轉檔
 
-<img src="http://nandemoi.github.io/zl111/gear/saveas.png" alt="saveas" height="300"/>
+<img src="http://nandemoi.github.io/zl111/gear/saveas.png" alt="saveas" height="300"/>  
 
-<img src="http://nandemoi.github.io/zl111/gear/saveasdxf.png" alt="saveasdxf" height="300"/>
+<img src="http://nandemoi.github.io/zl111/gear/saveasdxf.png" alt="saveasdxf" height="400"/>
 
 ## 在你的設計中使用
 
@@ -32,7 +32,7 @@
 
 選取你剛剛從 Inkscape 儲存的 .dxf 檔後按「打開」，就會出現在「插入 DXF ...」的下拉選單
 
-<img src="http://nandemoi.github.io/zl111/gear/import.png" alt="import" height="500"/>
+<img src="http://nandemoi.github.io/zl111/gear/importit.png" alt="importit" height="300"/>
 
 點它之後就會出現在草圖中央，以原點為中心畫出軸孔，例如
 
@@ -44,7 +44,7 @@
 
 ### Module 參數設定示範
 
-<img src="http://nandemoi.github.io/zl111/gear/modulecmp.png" alt="modulecmp" height="500"/>
+<img src="http://nandemoi.github.io/zl111/gear/modulecmp.png" alt="modulecmp" height="400"/>
 
 ### 齒輪使用
 
@@ -52,7 +52,7 @@
 1. 齒數 (Tooth Count) 可以不一樣，但其他參數 (包括 Module 模數)  
 2. <font color="red">節圓相切</font>
 
-<img src="http://nandemoi.github.io/zl111/gear/geared.png" alt="geared" height="500"/>
+<img src="http://nandemoi.github.io/zl111/gear/geared.png" alt="geared" height="400"/>
 
 ### Onshape Assembly 組合
 
