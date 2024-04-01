@@ -20,6 +20,8 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/saveasdxf.png" alt="saveasdxf" height="300"/>
 
-### 匯入 Onshape
-
 ## 在你的設計中使用
+
+### 匯入 Onshape 草圖中
+
+<img src="http://nandemoi.github.io/zl111/gear/insertdxf.png" alt="insertdxf" height="300"/>
