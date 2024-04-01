@@ -48,7 +48,11 @@
 
 ### 齒輪使用
 
-兩個齒輪要咬合，齒數 (Tooth Count) 可以不一樣，但其他參數 (包括 Module 模數)
+兩個齒輪要咬合：  
+1. 齒數 (Tooth Count) 可以不一樣，但其他參數 (包括 Module 模數)  
+2. <font color="red">節圓相切</font>
+
+<img src="http://nandemoi.github.io/zl111/gear/geared.png" alt="geared" height="500"/>
 
 ## 更多資料
 
