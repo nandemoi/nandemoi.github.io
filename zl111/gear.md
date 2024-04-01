@@ -38,4 +38,6 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/centered.png" alt="centered" height="500"/>
 
+接著你就可以複製它到別的草圖。你可以全選後複製，不過因為這個草圖只有這個齒輪，更簡單的做法是到左邊「特徵」欄，在這個草圖項目按右鍵 →「複製草圖」
+
 ## Module 參數設定示範
