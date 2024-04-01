@@ -8,7 +8,7 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/params.png" alt="params" height="400"/>
 
-參數設定，update 後捲到頁面下端
+**參數設定好、update 後捲到頁面下端**
 
 <img src="http://nandemoi.github.io/zl111/gear/download.png" alt="download" height="300"/>
 
@@ -24,4 +24,10 @@
 
 ### 匯入 Onshape 草圖中
 
+**建議你開一個新的草圖，處理好再複製到其他的地方**
+
 <img src="http://nandemoi.github.io/zl111/gear/insertdxf.png" alt="insertdxf" height="300"/>
+
+<img src="http://nandemoi.github.io/zl111/gear/import.png" alt="import" height="500"/>
+
+選取你剛剛從 Inkscape 儲存的 .dxf 檔
