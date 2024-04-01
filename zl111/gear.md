@@ -62,5 +62,5 @@
 
 [KHK 齒輪 ABC 入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gearabc_a.pdf
 )  
-[齒輪技術入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf)
+[齒輪技術入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide1.pdf)  
 [齒輪技術實用篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gear_guide2.pdf)  
