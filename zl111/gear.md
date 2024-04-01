@@ -46,6 +46,10 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/modulecmp.png" alt="modulecmp" height="500"/>
 
+### 齒輪使用
+
+兩個齒輪要咬合，齒數 (Tooth Count) 可以不一樣，但其他參數 (包括 Module 模數)
+
 ## 更多資料
 
 [KHK 齒輪 ABC 入門篇](https://www.khkgears.co.jp/tw/gear_technology/pdf/gearabc_a.pdf
