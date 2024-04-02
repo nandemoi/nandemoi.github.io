@@ -48,7 +48,7 @@
 
 <img src="http://nandemoi.github.io/zl111/gear/modulecmp.png" alt="modulecmp" height="400"/>
 
-<img src="http://nandemoi.github.io/zl111/gear/cmppic.jpg" alt="cmppic" height="400"/>
+<img src="http://nandemoi.github.io/zl111/gear/cmppic.JPG" alt="cmppic" height="400"/>
 
 ### 齒輪使用
 
