@@ -8,7 +8,7 @@
 
 ### 可以在哪裡做？
 
-<img src="http://nandemoi.github.io/zl111/lc/lc.002.jpeg" alt="where_export" height="120">
+<img src="http://nandemoi.github.io/zl111/lc/lc.002.jpg" alt="where_export" height="120">
 
 ### 怎麼做？
 
@@ -22,7 +22,9 @@
 
 ### 在哪裡做？
 
-<img src="http://nandemoi.github.io/zl111/lc/lc.006.jpeg" alt="where_lc" height="120">
+<img src="http://nandemoi.github.io/zl111/lc/lcm.jpeg" alt="lcm" height="120">
+
+<img src="http://nandemoi.github.io/zl111/lc/lc.013.jpg" alt="where_lc" height="120">
 
 ### 4. 雷切
 
