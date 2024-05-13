@@ -1,6 +1,6 @@
 # 雷射切割操作
 
-## 1. 零件攤平要排密
+## 1. 零件攤平要排密，珍惜資源永續發展愛地球
 
 <img src="http://nandemoi.github.io/zl111/lc/lc.001.jpg" alt="攤平" height="400">
 
@@ -8,7 +8,7 @@
 
 ### 可以在哪裡做？
 
-<img src="http://nandemoi.github.io/zl111/lc/lc.002.jpg" alt="where_export" height="120">
+<img src="http://nandemoi.github.io/zl111/lc/lc.002.jpg" alt="where_export" height="400">
 
 ### 怎麼做？
 
