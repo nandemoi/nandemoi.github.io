@@ -2,7 +2,7 @@
 
 ## 1. 零件攤平要排密
 
-<img src="http://nandemoi.github.io/zl111/lc/lc.001.jpeg" alt="攤平" height="500">
+<img src="http://nandemoi.github.io/zl111/lc/lc.001.jpg" alt="攤平" height="500">
 
 ## 2. 匯出 DXF
 
