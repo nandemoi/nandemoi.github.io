@@ -1,6 +1,6 @@
 # 雷射切割操作
 
-## 1. 零件攤平要排密，珍惜資源永續發展愛地球
+## 1. [零件攤平](https://www.youtube.com/watch?v=8ScFOyA0KnU&authuser=0&hl=zh-TW)要排密，珍惜資源永續發展愛地球
 
 <img src="http://nandemoi.github.io/zl111/lc/lc.001.jpg" alt="攤平" height="300">
 
