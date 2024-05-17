@@ -4,6 +4,7 @@
 
 <img src="http://nandemoi.github.io/zl111/lc/lc.001.jpg" alt="攤平" height="300">
 
+- [教學影片](https://www.youtube.com/watch?v=8ScFOyA0KnU&authuser=0&hl=zh-TW)中板材大小 A4 的地方選 A3
 - 太小的零件切好後容易掉下蜂巢板，可以多複製幾個預備。
 - 你如果是從草圖匯出，注意有實線的地方就會被雷射切斷，所以如果你不需要實線地方，要用「剪刀」點掉，包括避免切出不需要的小碎料的地方。
 
