@@ -20,7 +20,9 @@
 
 <img src="http://nandemoi.github.io/zl111/lc/lc.004.jpeg" alt="fname" height="300">
 
-<img src="http://nandemoi.github.io/zl111/lc/lc.005.jpeg" alt="exportpath" height="300">
+<img src="http://nandemoi.github.io/zl111/lc/lc.005.jpeg" alt="exportpath" height="300">  
+
+如果看不到「Google Drive」的檔案夾，到螢幕右下角確定連上網。
 
 ### 3. 送檔案到雷切機
 
