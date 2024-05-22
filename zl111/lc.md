@@ -4,7 +4,9 @@
 
 <img src="http://nandemoi.github.io/zl111/lc/lc.001.jpg" alt="攤平" height="300">
 
-- [教學影片](https://www.youtube.com/watch?v=8ScFOyA0KnU&authuser=0&hl=zh-TW)中板材大小 A4 的地方選 A3
+- [教學影片](https://www.youtube.com/watch?v=8ScFOyA0KnU&authuser=0&hl=zh-TW)中板材大小 A4 的地方選 A3，單位：毫米
+- 注意插入視圖比例必須是 1:1
+- 工程圖中如果你的圓形有十字的中心符號線，雖然那個看起來是虛線，但是工程圖中的線匯出後雷切就會切。去除的方法：滑鼠游標移到圓上，按右鍵 → 顯示/隱藏 → 隱藏中心符號線   
 - 太小的零件切好後容易掉下蜂巢板，可以多複製幾個預備。
 - 你如果是從草圖匯出，注意有實線的地方就會被雷射切斷，所以如果你不需要實線地方，要用「剪刀」點掉，包括避免切出不需要的小碎料的地方。
 
