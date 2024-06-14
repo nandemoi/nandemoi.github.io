@@ -13,7 +13,7 @@ int walk () {
     for (int i = 0; i < s; i++) {
         int steps;
         cin >> steps;
-        nowat = warps [(nowat + steps) % n]; // 瞬間轉移
+        nowat = warps [(nowat + steps) % n]; // 走 steps 步之後瞬間轉移
     }
     return nowat;
 }
