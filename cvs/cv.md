@@ -3,8 +3,10 @@
 
 ### 教學簡歷 ([成果](http://nandemoi.github.io/cvs/stuworks))  
 
-* 中崙高中 111~112 學年度：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf) ([範例](https://nandemoi.github.io/zl111/Examples.html))、工程設計、科技應用、機器人專題  
-  2023 校內資訊學科能力競賽 (出題、規劃、執行)、[國中部社團](https://nandemoi.github.io/zl111/club1.pdf)
+* 中崙高中
+  * 112 學年度：(同 111 學年度)、進階程式設計
+  * 111 學年度：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf) ([範例](https://nandemoi.github.io/zl111/Examples.html))、工程設計、科技應用、機器人專題、[國中部社團](https://nandemoi.github.io/zl111/club1.pdf)
+  * 校內資訊學科能力競賽：2023 (出題、規劃、執行)、2024 (出題、架構平台)
 * [高雄大學應用物理系科學實作 Python 課程業師 (2021 秋季)](https://drive.google.com/file/d/1leTFYsUEwqJMVMBxXOsKNGyOhtJG-ZKI/view?usp=sharing)  
   [高中量子科技課程 (民 110 年科技部計畫)](https://nandemoi.github.io/spqc.pdf)：Python 授課教師  
   物理教育學會、量子科學推展平台 2022 第一屆量子科技科普壁報展評審  
@@ -12,12 +14,12 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110 學年上學期：生活科技/工程設計短期代課  
   南湖高中 106 學年度：[生活科技](https://nandemoi.github.io/ck109/microbit%20by%20missions.pdf)  
 * 其他：  
-  [C++/APCS 入門](https://nandemoi.github.io/ck109/apcs.pdf)、[Python 營隊](https://nandemoi.github.io/ck109/python-camp.pdf) (108、110 學年度)、  
+  [C++/APCS 入門](https://nandemoi.github.io/ck109/apcs.pdf)、[Python 營隊](https://nandemoi.github.io/ck109/python-camp.pdf) (2019~2021)、  
   [敦化國小 (105 學年度)](http://nandemoi.github.io/cvs/cv-dunxiao.md)、雙語 ([@教會 104、103、96 學年度](https://www.bsfinternational.org/student-groups/))、[巨匠電腦 (Flash, 民 89 年)](https://drive.google.com/file/d/1KkkmL_S42bjR4-1EoNpgzsC-2k50DixK/view?usp=sharing)、  
   C++/APCS、Python 家教 (公私立各校高中生、國立大學電機碩士和工科學生、在職教師進修)  
 * 推薦正取 111 學年度入學：清華大學拾穗計畫 (特殊選才) 資工系、陽明交通大學資工系、  
-  Computer Engineering, University of Illinois Urbana-Champaign、  
-  Computer Science, University of Wisconsin–Madison  
+  Computer Engineering, University of Illinois Urbana-Champaign (2022 Fall)、  
+  Computer Science, University of Wisconsin–Madison (2022 Fall)  
   指導 2021 台灣高中生區塊鏈寫作大賽獲參等獎  
 
 ### 產業簡歷
