@@ -2,6 +2,13 @@
 
 ### [建中同學申請 111 學年度大學入學備審資料分享](http://nandemoi.github.io/cvs/stucvs)
 
+### 112 學年度下學期
+
+<img src="http://nandemoi.github.io/cvs/media/袁◯立.png" alt="袁◯立" height="120"/><img src="http://nandemoi.github.io/cvs/media/袁◯立.gif" alt="Geneva" height="120">袁◯立  
+<img src="http://nandemoi.github.io/cvs/media/周◯宇model.gif" alt="周◯宇" height="120"/><img src="http://nandemoi.github.io/cvs/media/周◯宇.gif" alt="摩天輪" height="120">周◯宇
+<img src="http://nandemoi.github.io/cvs/media/黃◯芸.gif" alt="黃◯芸" height="120"/>黃◯芸
+<img src="http://nandemoi.github.io/cvs/media/張◯昕.png" alt="張◯昕" height="120"/>張◯昕
+
 ### 112 學年度上學期
 
 [<img src="http://nandemoi.github.io/cvs/media/11210108os.gif" alt="張◯欣" height="120"/>](https://cad.onshape.com/documents/9bae4048d2cac795a75c13fb/w/52f0942a0d3a4fbf51b6d4eb/e/2ec57fd2f48da3aca1c05859)<img src="http://nandemoi.github.io/cvs/media/11210108ph.gif" alt="打怪" height="120">張◯欣  
