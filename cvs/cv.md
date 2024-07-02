@@ -5,7 +5,7 @@
 
 * 中崙高中
   * 112 學年度：(同 111 學年度)、進階程式設計
-  * 111 學年度：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf) ([範例](https://nandemoi.github.io/zl111/Examples.html))、工程設計、科技應用、機器人專題、[國中部社團](https://nandemoi.github.io/zl111/club1.pdf)
+  * 111 學年度：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf)、工程設計、科技應用、機器人專題、[國中部社團](https://nandemoi.github.io/zl111/club1.pdf)
   * 校內資訊學科能力競賽：2023 (出題、規劃、執行)、2024 (出題、架構平台)
 * [高雄大學應用物理系科學實作 Python 課程業師 (2021 秋季)](https://drive.google.com/file/d/1leTFYsUEwqJMVMBxXOsKNGyOhtJG-ZKI/view?usp=sharing)  
   [高中量子科技課程 (民 110 年科技部計畫)](https://nandemoi.github.io/spqc.pdf)：Python 授課教師  
