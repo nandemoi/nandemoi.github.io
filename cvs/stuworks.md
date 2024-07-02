@@ -5,27 +5,74 @@
 ### 112 學年度下學期
 
 <img src="http://nandemoi.github.io/cvs/media/袁◯立.png" alt="袁◯立" height="150"/><img src="http://nandemoi.github.io/cvs/media/袁◯立.gif" alt="Geneva" height="150">袁◯立  
-<img src="http://nandemoi.github.io/cvs/media/謝◯霈.gif" alt="齒輪" height="150">謝◯霈  
+
+<img src="http://nandemoi.github.io/cvs/media/謝◯霈.png" alt="謝◯霈" height="150"/><img src="http://nandemoi.github.io/cvs/media/謝◯霈.gif" alt="齒輪" height="150">謝◯霈  
+
 <img src="http://nandemoi.github.io/cvs/media/周◯宇model.gif" alt="周◯宇" height="150"/><img src="http://nandemoi.github.io/cvs/media/周◯宇.gif" alt="摩天輪" height="150">周◯宇
 <img src="http://nandemoi.github.io/cvs/media/黃◯芸.gif" alt="鳥屋" height="150"/>黃◯芸  
-<img src="http://nandemoi.github.io/cvs/media/粘◯程.png" alt="粘◯程" height="200"/><img src="http://nandemoi.github.io/cvs/media/粘◯程.gif" alt="砲車" height="200"/>粘◯程  
+
+<img src="http://nandemoi.github.io/cvs/media/王◯豪.png" alt="王◯豪" height="200"/><img src="http://nandemoi.github.io/cvs/media/王◯豪.gif" alt="鐵金剛" height="200"/>王◯豪
+<img src="http://nandemoi.github.io/cvs/media/石◯瀚.gif" alt="引擎" height="200"/>石◯瀚
+
+<img src="http://nandemoi.github.io/cvs/media/李◯穎model.gif" alt="李◯穎" height="150"/><img src="http://nandemoi.github.io/cvs/media/李◯穎.gif" alt="吃人花" height="150">李◯穎
 <img src="http://nandemoi.github.io/cvs/media/陳◯妤model.gif" alt="陳◯妤" height="150"/><img src="http://nandemoi.github.io/cvs/media/陳◯妤.gif" alt="風車" height="150">陳◯妤  
-<img src="http://nandemoi.github.io/cvs/media/張◯昕.png" alt="張◯昕" height="120"/><img src="http://nandemoi.github.io/cvs/media/張◯昕.gif" alt="天秤" height="200">張◯昕  
-<img src="http://nandemoi.github.io/cvs/media/周◯智.gif" alt="盒子" height="150">周◯智
+
+<img src="http://nandemoi.github.io/cvs/media/粘◯程.png" alt="粘◯程" height="200"/><img src="http://nandemoi.github.io/cvs/media/粘◯程.gif" alt="砲車" height="200"/>粘◯程
+<img src="http://nandemoi.github.io/cvs/media/陳◯洋.png" alt="陳◯洋" height="200"/><img src="http://nandemoi.github.io/cvs/media/陳◯洋.gif" alt="砲車" height="200"/>陳◯洋
+
+<img src="http://nandemoi.github.io/cvs/media/陳◯昱.gif" alt="小摩天輪" height="150">陳◯昱
+<img src="http://nandemoi.github.io/cvs/media/陳◯薰.gif" alt="風車" height="150">陳◯薰
+<img src="http://nandemoi.github.io/cvs/media/任◯珊.gif" alt="小摩天輪" height="150">任◯珊
+<img src="http://nandemoi.github.io/cvs/media/蔡◯倫.gif" alt="小摩天輪" height="150">蔡◯倫
+
+<img src="http://nandemoi.github.io/cvs/media/張◯昕.png" alt="張◯昕" height="120"/><img src="http://nandemoi.github.io/cvs/media/張◯昕.gif" alt="天秤" height="200">張◯昕
+<img src="http://nandemoi.github.io/cvs/media/周◯恩.gif" alt="戰鬥機" height="200"/>周◯恩
+
 <img src="http://nandemoi.github.io/cvs/media/丁◯一.png" alt="丁◯一" height="120"/><img src="http://nandemoi.github.io/cvs/media/丁◯一.gif" alt="彈射" height="200">丁◯一
 <img src="http://nandemoi.github.io/cvs/media/陳◯睿.png" alt="陳◯睿" height="120"/><img src="http://nandemoi.github.io/cvs/media/陳◯睿.gif" alt="刀" height="200">陳◯睿  
-<img src="http://nandemoi.github.io/cvs/media/蔡◯安.gif" alt="購物車" height="120">蔡◯安
+
+<img src="http://nandemoi.github.io/cvs/media/崔◯融.png" alt="崔◯融" height="180"/><img src="http://nandemoi.github.io/cvs/media/崔◯融.gif" alt="扭蛋機" height="180">崔◯融
+<img src="http://nandemoi.github.io/cvs/media/鍾◯竹.png" alt="鍾◯竹" height="180"/><img src="http://nandemoi.github.io/cvs/media/鍾◯竹.gif" alt="水母" height="180">鍾◯竹
+
+<img src="http://nandemoi.github.io/cvs/media/吳◯霖.png" alt="吳◯霖" height="180"/><img src="http://nandemoi.github.io/cvs/media/吳◯霖.gif" alt="Gyro" height="180">吳◯霖
+<img src="http://nandemoi.github.io/cvs/media/林◯諺.png" alt="林◯諺" height="180"/><img src="http://nandemoi.github.io/cvs/media/林◯諺.gif" alt="quadike" height="180">林◯諺  
+
+<img src="http://nandemoi.github.io/cvs/media/王◯宇.png" alt="王◯宇" height="180"/><img src="http://nandemoi.github.io/cvs/media/王◯宇.gif" alt="列車車廂" height="180">王◯宇
+<img src="http://nandemoi.github.io/cvs/media/李◯妘.png" alt="李◯妘" height="150"/>李◯妘
+
+<img src="http://nandemoi.github.io/cvs/media/林◯嘉.png" alt="林◯嘉" height="150"/><img src="http://nandemoi.github.io/cvs/media/林◯嘉.gif" alt="車" height="150">林◯嘉
+
+<img src="http://nandemoi.github.io/cvs/media/游◯洋2.png" alt="游◯洋" height="180"/><img src="http://nandemoi.github.io/cvs/media/游◯洋2.gif" alt="蠑螈" height="180">游◯洋  
+
+<img src="http://nandemoi.github.io/cvs/media/游◯洋1.png" alt="游◯洋" height="180"/><img src="http://nandemoi.github.io/cvs/media/游◯洋1.gif" alt="桌邊櫃" height="180">游◯洋  
+
+<img src="http://nandemoi.github.io/cvs/media/周◯智.gif" alt="盒子" height="150">周◯智
+<img src="http://nandemoi.github.io/cvs/media/王◯穎.gif" alt="抽屜櫃" height="150">王◯穎
+<img src="http://nandemoi.github.io/cvs/media/蔡◯安.gif" alt="購物車" height="150">蔡◯安
+
+<img src="http://nandemoi.github.io/cvs/media/劉◯甄.gif" alt="劉◯甄" height="150"/>劉◯甄
+<img src="http://nandemoi.github.io/cvs/media/顧◯嘉.png" alt="劉◯甄" height="150"/>顧◯嘉
 
 ### 112 學年度上學期
 
 [<img src="http://nandemoi.github.io/cvs/media/11210108os.gif" alt="張◯欣" height="150"/>](https://cad.onshape.com/documents/9bae4048d2cac795a75c13fb/w/52f0942a0d3a4fbf51b6d4eb/e/2ec57fd2f48da3aca1c05859)<img src="http://nandemoi.github.io/cvs/media/11210108ph.gif" alt="打怪" height="150">張◯欣  
+
 [<img src="http://nandemoi.github.io/cvs/media/11210224os.gif" alt="徐◯廷" height="150"/>](https://cad.onshape.com/documents/7186a865bfe32d7e5eac1e3a/w/90bfb29a2f915d8a177e1f10/e/7f2bf54a2b6922f403341ef8)<img src="http://nandemoi.github.io/cvs/media/11210224ph.gif" alt="Chopper" height="150">徐◯廷  
+
 [<img src="http://nandemoi.github.io/cvs/media/11210309os.png" alt="陳◯瑄" height="150"/>](https://cad.onshape.com/documents/e17f589c8fa7f12932464104/w/87ce736a0cf046e16ad84658/e/99a3d81c41d3547baf200c58)<img src="http://nandemoi.github.io/cvs/media/11210309ph.gif" alt="Bike" height="150">陳◯瑄  
+
 [<img src="http://nandemoi.github.io/cvs/media/11210136os.png" alt="鄭◯閎" height="150"/>](https://cad.onshape.com/documents/2d452d6a572559f941704567/w/3bb57d4be74a93dd395ef09f/e/2f34875e9e5edf4d4611f058)<img src="http://nandemoi.github.io/cvs/media/11210136ph.gif" alt="Tank" height="150">鄭◯閎  
+
 [<img src="http://nandemoi.github.io/cvs/media/11210230os.png" alt="陳◯宇" height="150"/>](https://cad.onshape.com/documents/8cede4748966ea0e154ee353/w/2830e5eaf4cdf92dc82a103b/e/1a8fb038999769b591d3b9a8)<img src="http://nandemoi.github.io/cvs/media/11210230ph.gif" alt="Ladder" height="150">陳◯宇  
+
 [<img src="http://nandemoi.github.io/cvs/media/11210101os.png" alt="方◯穎" height="120"/>](https://cad.onshape.com/documents/42bf95c4f71fa50331f9a436/w/d49a4b8d331f7e19e6a0faf4/e/c063f93aa23e66869c6644d0)<img src="http://nandemoi.github.io/cvs/media/11210101ph.gif" alt="Robot" height="120">方◯穎  
+
 [<img src="http://nandemoi.github.io/cvs/media/11210110os.png" alt="莊◯皓" height="120"/>](https://cad.onshape.com/documents/d59082d36bdda3d512de44e2/w/c149d42fd300786298d4bb3f/e/a3ceb93abad72882a9e44a89)<img src="http://nandemoi.github.io/cvs/media/11210110ph.gif" alt="Car" height="120">莊◯皓  
-[<img src="http://nandemoi.github.io/cvs/media/11210310os.png" alt="陳◯璇" height="120"/>](https://cad.onshape.com/documents/688327a9d10a40ff8bf87661/w/04d30ee6c357625ca7260d65/e/d4abfa090252382080f64e1e)<img src="http://nandemoi.github.io/cvs/media/11210310ph.webp" alt="Phonograph" height="120">陳◯璇[<img src="http://nandemoi.github.io/cvs/media/112103081os.png" alt="張◯盈" height="120"/>](https://cad.onshape.com/documents/9d69a97fdbadecda323450fd/w/49c3252ff8eaaa608bbee59f/e/a34ba6753162b8b9884cba36)<img src="http://nandemoi.github.io/cvs/media/112103081ph.gif" alt="clock" height="120">[<img src="http://nandemoi.github.io/cvs/media/112103082os.png" alt="張◯盈" height="120"/>](https://cad.onshape.com/documents/16e36da206517308009effa7/w/3f932492754eca3fc8a2b9c3/e/45ac68b256fbec839dd6de8f)<img src="http://nandemoi.github.io/cvs/media/112103082ph.gif" alt="xmas" height="120">張◯盈  
+
+[<img src="http://nandemoi.github.io/cvs/media/11210310os.png" alt="陳◯璇" height="120"/>](https://cad.onshape.com/documents/688327a9d10a40ff8bf87661/w/04d30ee6c357625ca7260d65/e/d4abfa090252382080f64e1e)<img src="http://nandemoi.github.io/cvs/media/11210310ph.webp" alt="Phonograph" height="120">陳◯璇
+<img src="http://nandemoi.github.io/cvs/media/李◯澄.gif" alt="李◯澄" height="120">李◯澄
+
+[<img src="http://nandemoi.github.io/cvs/media/112103081os.png" alt="張◯盈" height="120"/>](https://cad.onshape.com/documents/9d69a97fdbadecda323450fd/w/49c3252ff8eaaa608bbee59f/e/a34ba6753162b8b9884cba36)<img src="http://nandemoi.github.io/cvs/media/112103081ph.gif" alt="clock" height="120">[<img src="http://nandemoi.github.io/cvs/media/112103082os.png" alt="張◯盈" height="120"/>](https://cad.onshape.com/documents/16e36da206517308009effa7/w/3f932492754eca3fc8a2b9c3/e/45ac68b256fbec839dd6de8f)<img src="http://nandemoi.github.io/cvs/media/112103082ph.gif" alt="xmas" height="120">張◯盈  
 
 [<img src="http://nandemoi.github.io/cvs/media/11230524.gif" alt="clock" height="120"/>](https://cad.onshape.com/documents/34e9fd179803945437e690be/w/5ed74b8537c8c51d5d758d29/e/de96d8e109e6d2f77225bf44)胡◯霆  
 [<img src="http://nandemoi.github.io/cvs/media/112306221.gif" alt="Differential" height="120"/><img src="http://nandemoi.github.io/cvs/media/112306222.gif" alt="Differential" height="120"/>](https://cad.onshape.com/documents/ffb518ebaa181db9e7d701b6/w/d48a4435364865550f1e5384/e/c090cb33a166d113d4ae8fda)林◯彥  
