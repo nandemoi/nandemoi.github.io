@@ -45,6 +45,7 @@
 <img src="http://nandemoi.github.io/cvs/media/游◯洋2.png" alt="游◯洋" height="180"/><img src="http://nandemoi.github.io/cvs/media/游◯洋2.gif" alt="蠑螈" height="180">游◯洋  
 
 <img src="http://nandemoi.github.io/cvs/media/游◯洋1.png" alt="游◯洋" height="180"/><img src="http://nandemoi.github.io/cvs/media/游◯洋1.gif" alt="桌邊櫃" height="180">游◯洋  
+<img src="http://nandemoi.github.io/cvs/media/蕭◯恩.gif" alt="蕭◯恩" height="180">蕭◯恩
 
 <img src="http://nandemoi.github.io/cvs/media/周◯智.gif" alt="盒子" height="150">周◯智
 <img src="http://nandemoi.github.io/cvs/media/王◯穎.gif" alt="抽屜櫃" height="150">王◯穎
