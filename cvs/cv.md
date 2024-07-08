@@ -50,7 +50,7 @@
 <img src="http://nandemoi.github.io/cvs/media/gyro.gif" alt="gyro" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/walk.gif" alt="walk" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/mc.gif" alt="mc" height="150"/>
-<img src="http://nandemoi.github.io/cvs/media/petite.gif" alt="petit" height="150">
+<!--img src="http://nandemoi.github.io/cvs/media/petite.gif" alt="petit" height="150"-->
 <img src="http://nandemoi.github.io/cvs/media/bounces.gif" alt="bounces" height="150">
 </p>
 <p>
@@ -66,7 +66,8 @@
 <img src="http://nandemoi.github.io/cvs/media/a1.gif" alt="a1" height="150"/>
 </p>
 <p>
-<img src="http://nandemoi.github.io/cvs/media/all.gif" alt="all" height="150"/>
+<img src="http://nandemoi.github.io/cvs/media/all.gif" alt="all" height="150"/>  
+
 <img src="http://nandemoi.github.io/cvs/media/omni.gif" alt="omni" height="150"/>
 <img src="http://nandemoi.github.io/cvs/media/jump.gif" alt="jump" height="150"/>
 </p>
