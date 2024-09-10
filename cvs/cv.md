@@ -4,6 +4,7 @@
 ### 教學簡歷 ([成果](http://nandemoi.github.io/cvs/stuworks))  
 
 * 中崙高中
+  * 113 學年度：國中部資訊科技與生活科技
   * 112 學年度：(同 111 學年度)、進階程式設計
   * 111 學年度：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf)、工程設計、科技應用、機器人專題、棋藝社 ([國中部](https://nandemoi.github.io/zl111/club1.pdf))
   * 校內資訊學科能力競賽：2023 (出題、規劃設計、執行)、2024 (出題、架構建置平台)
