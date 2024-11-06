@@ -1,11 +1,25 @@
-## slide 1
+# Title Slide
 
-- 1 point <!-- .element: class="fragment" -->
-- 2 point <!-- .element: class="fragment" -->
-- 3 point <!-- .element: class="fragment" -->
+Welcome to the presentation!
 
-## slide 2
+---
 
-- 4 point <!-- .element: class="fragment" -->
-- 5 point <!-- .element: class="fragment" -->
-- 6 point <!-- .element: class="fragment" -->
+# Slide with Bullet Points
+
+- Point 1 <!-- .element: class="fragment" -->
+- Point 2 <!-- .element: class="fragment" -->
+- Point 3 <!-- .element: class="fragment" -->
+
+---
+
+# Another Slide
+
+Some introductory text.
+
+-- 
+
+## Nested Bullet Reveal
+
+- Main Point
+    - Subpoint 1 <!-- .element: class="fragment" -->
+    - Subpoint 2 <!-- .element: class="fragment" -->
