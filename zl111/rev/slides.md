@@ -16,7 +16,7 @@ Welcome to the presentation!
 
 Some introductory text.
 
--- 
+--
 
 ## Nested Bullet Reveal
 
