@@ -1,4 +1,3 @@
-- First point <!-- .element: class="fragment highlight-line" -->
-- Second point <!-- .element: class="fragment highlight-line" -->
-- Third point <!-- .element: class="fragment highlight-line" -->
-- Final point <!-- .element: class="fragment highlight-line" -->
+- First point <!-- .element: class="fragment" -->
+- Second point <!-- .element: class="fragment" -->
+- Third point <!-- .element: class="fragment" -->
