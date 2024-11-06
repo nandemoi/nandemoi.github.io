@@ -46,16 +46,18 @@
 </html>
 
 <style>
-	/* Define the highlight color */
-	.highlight {
-	  color: #e74c3c; /* Change this color to customize the highlight */
-	  font-weight: bold;
+	/* Normal fragment styling */
+	.fragment {
+	  opacity: 0.5;
+	  transition: color 0.3s, opacity 0.3s;
 	}
   
-	/* Apply highlight to the last visible fragment */
-	.fragment.visible + .highlight {
-	  color: #e74c3c;
+	/* Highlight only the last visible fragment */
+	.fragment.highlight-line.visible:not(.highlighted) + .fragment.highlight-line {
+	  color: #e74c3c; /* Customize this color for highlight */
 	  font-weight: bold;
+	  opacity: 1;
 	}
 </style>
+  
   
