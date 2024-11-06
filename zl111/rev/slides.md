@@ -6,13 +6,22 @@ Welcome to the presentation!
 
 # Slide with Bullet Points
 
-- Point 1 <!-- .element: class="fragment" -->
-- Point 2 <!-- .element: class="fragment" -->
-- Point 3 <!-- .element: class="fragment" -->
+test
 
 Note:
 This slide introduces the main points we'll be discussing.
 Explain each point in more detail as you reveal them one by one.
+
+--
+
+## Nested Bullet Reveal
+
+- Main Point
+    - Subpoint 1 <!-- .element: class="fragment" -->
+    - Subpoint 2 <!-- .element: class="fragment" -->
+
+Note:
+For each subpoint, highlight specific examples or relevant details.
 
 ---
 
