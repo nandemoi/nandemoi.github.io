@@ -1,11 +1,11 @@
 ## slide 1
 
-- First point <!-- .element: class="fragment" -->
-- Second point <!-- .element: class="fragment" -->
-- Third point <!-- .element: class="fragment" -->
+- 1 point <!-- .element: class="fragment" -->
+- 2 point <!-- .element: class="fragment" -->
+- 3 point <!-- .element: class="fragment" -->
 
 ## slide 2
 
-- First point <!-- .element: class="fragment" -->
-- Second point <!-- .element: class="fragment" -->
-- Third point <!-- .element: class="fragment" -->
+- 4 point <!-- .element: class="fragment" -->
+- 5 point <!-- .element: class="fragment" -->
+- 6 point <!-- .element: class="fragment" -->
