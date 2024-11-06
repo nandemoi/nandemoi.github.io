@@ -46,8 +46,16 @@
 </html>
 
 <style>
-  .highlight {
-    color: #e74c3c; /* Customize this color for your highlight */
-    font-weight: bold;
-  }
+	/* Define the highlight color */
+	.highlight {
+	  color: #e74c3c; /* Change this color to customize the highlight */
+	  font-weight: bold;
+	}
+  
+	/* Apply highlight to the last visible fragment */
+	.fragment.visible + .highlight {
+	  color: #e74c3c;
+	  font-weight: bold;
+	}
 </style>
+  
