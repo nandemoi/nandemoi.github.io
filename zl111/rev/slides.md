@@ -1,4 +1,5 @@
-- First point <!-- .element: class="fragment" -->
-- Second point <!-- .element: class="fragment" -->
-- Third point <!-- .element: class="fragment" -->
-- **Highlighted last point** <!-- .element: class="fragment highlight" -->
+# Slide Title
+
+- First point <!-- .element: class="fragment last-line" -->
+- Second point <!-- .element: class="fragment last-line" -->
+- **Last line that stays highlighted** <!-- .element: class="fragment highlight" -->
