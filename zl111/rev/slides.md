@@ -2,4 +2,4 @@
 
 - First point <!-- .element: class="fragment" -->
 - Second point <!-- .element: class="fragment" -->
-- Third point <!-- .element: class="fragment" -->
+- **Highlighted last point** <!-- .element: class="fragment highlight" -->
