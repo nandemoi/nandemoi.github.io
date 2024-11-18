@@ -21,15 +21,20 @@
 
 接著一一比較兩小隊的小兵勝負輸贏
 
-<img src="http://nandemoi.github.io/zl111/media/bluered21.png" alt="bluered21" height="450"/>
+<img src="http://nandemoi.github.io/zl111/media/bluered21.png" alt="bluered21" height="550"/>
 
 也可以如同課本 p.165 改寫 p.164 用「重複」迴圈的積木讓程式看起來更短。
 
-<img src="http://nandemoi.github.io/zl111/media/bluered22.png" alt="bluered22" height="250"/>
+<img src="http://nandemoi.github.io/zl111/media/bluered22.png" alt="bluered22" height="200"/>
 
 ### 第三步
 
-## 進階版
+計算完就可以告訴我們哪隊贏了！
+
+<img src="http://nandemoi.github.io/zl111/media/bluered3.png" alt="bluered3" height="200"/>
+
+
+## 挑戰版
 
 使用「隨機取數」
 
