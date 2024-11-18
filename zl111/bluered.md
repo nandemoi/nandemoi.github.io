@@ -16,7 +16,7 @@
 <img src="http://nandemoi.github.io/zl111/media/bluered1.png" alt="bluered1" height="500"/>
 <br>
 
-10 個數字自己決定填入。你可以考慮用隨機取數。
+10 個數字自己決定填入。或者你也可以用「隨機取數」。不過隨機取數可能會平手，你後面就要處理平手的狀況。
 
 <img src="http://nandemoi.github.io/zl111/media/random.png" alt="random" height="40"/>  
 <br>
