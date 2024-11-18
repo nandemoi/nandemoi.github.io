@@ -33,7 +33,6 @@
 
 <img src="http://nandemoi.github.io/zl111/media/bluered3.png" alt="bluered3" height="200"/>
 
-
 ## 挑戰版
 
 使用「隨機取數」
@@ -48,5 +47,5 @@ blue 和 red 兩個清單的 10 個數字你也可以用「隨機取數」。
 
 ### 第二步
 
-◉ 隨機取數可能會平手，要處理可能平手的狀況。
+**◉ 隨機取數可能會平手，要處理可能平手的狀況。**
 
