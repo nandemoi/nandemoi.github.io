@@ -19,15 +19,17 @@
 
 ### 第二步
 
-建立並各添加 5 個隨機項目到 blue 和 red 清單
+接著一一比較兩小隊的小兵
 
-<img src="http://nandemoi.github.io/zl111/media/bluered21.png" alt="bluered21" height="600"/>
-<br>
-想一想：上面是沿用課本的做法。如何用「重複的積木」讓添加 5 個雖機取數到清單用 2 個積木就可以完成，而不須要用 5 個積木
+<img src="http://nandemoi.github.io/zl111/media/bluered21.png" alt="bluered21" height="450"/>
+
+也可以如同課本 p.165 改寫 p.164 用「重複」迴圈的積木讓程式看起來更短。
+
+<img src="http://nandemoi.github.io/zl111/media/bluered22.png" alt="bluered22" height="250"/>
 
 ## 進階版
 
-## 第一步
+### 第一步
 
 blue 和 red 兩個清單的 10 個數字你也可以用「隨機取數」。  
 **◉ 不過隨機取數可能會平手，你後面就要處理平手的狀況。**
