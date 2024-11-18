@@ -9,20 +9,21 @@
 
 ## 提示
 
-### 第一步：
+### 第一步
 
 建立並各添加 5 個數字到 blue 和 red 清單
 
-<img src="http://nandemoi.github.io/zl111/media/bluered1.png" alt="bluered1" height="500"/>  
+<img src="http://nandemoi.github.io/zl111/media/bluered1.png" alt="bluered1" height="500"/>
 <br>
 
 10 個數字自己決定填入。你可以考慮用隨機取數。
 
-如果用「隨機取數」用「重複 ... 次」的積木讓添加 5 個數字到清單用 2 個積木就可以完成，而不須要用 5 個積木
+<img src="http://nandemoi.github.io/zl111/media/random.png" alt="random" height="40"/>  
+<br>
 
+如果用「隨機取數」，就可以用「重複 ... 次」的積木讓添加 5 個數字到清單用 2 個積木就可以完成，而不須要用 5 個積木。
 
-
-### 第一步：
+### 第二步
 
 建立並各添加 5 個隨機項目到 blue 和 red 清單
 
