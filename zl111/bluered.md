@@ -14,12 +14,11 @@
 建立並各添加 5 個數字到 blue 和 red 清單
 
 <img src="http://nandemoi.github.io/zl111/media/bluered1.png" alt="bluered1" height="500"/>
-<br>
 
-10 個數字自己決定填入。或者你也可以用「隨機取數」。不過隨機取數可能會平手，你後面就要處理平手的狀況。
+10 個數字自己決定填入。或者你也可以用「隨機取數」。  
+**◉ 不過隨機取數可能會平手，你後面就要處理平手的狀況。**
 
-<img src="http://nandemoi.github.io/zl111/media/random.png" alt="random" height="40"/>  
-<br>
+<img src="http://nandemoi.github.io/zl111/media/random.png" alt="random" height="50"/>
 
 如果用「隨機取數」，就可以用「重複 ... 次」的積木讓添加 5 個數字到清單用 2 個積木就可以完成，而不須要用 5 個積木。
 
