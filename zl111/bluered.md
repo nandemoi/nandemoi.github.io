@@ -31,6 +31,10 @@
 
 一一比較兩小隊的小兵勝負輸贏不會是
 
+<img src="http://nandemoi.github.io/zl111/media/bluered2e3.png" alt="bluered2e3" height="200"/>
+
+也不會是
+
 <img src="http://nandemoi.github.io/zl111/media/bluered2e1.png" alt="bluered2e1" height="200"/>
 
 也不會是
