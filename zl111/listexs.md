@@ -14,7 +14,7 @@
 
 簡單版
 
-<img src="http://nandemoi.github.io/zl111/media/countdownhint0.png" alt="countdownhint0" height="600"/>
+<img src="http://nandemoi.github.io/zl111/media/countdownhint0.png" alt="countdownhint0" height="400"/>
 
 參考課本 p.164 到 p.165 如何用迴圈（重複積木）改寫
 <img src="http://nandemoi.github.io/zl111/media/countdownhint.png" alt="countdownhint" height="400"/>
