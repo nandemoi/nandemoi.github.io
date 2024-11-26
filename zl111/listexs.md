@@ -8,25 +8,25 @@
 
 請貓咪隨機產生 5 個數字，然後倒著數出來：  
 
-<img src="http://nandemoi.github.io/zl111/media/countdown.gif" alt="countdown" height="550"/>
+<img src="http://nandemoi.github.io/zl111/media/countdown.gif" alt="countdown" height="300"/>
 
 ### 參考提示
 
-<img src="http://nandemoi.github.io/zl111/media/countdownhint.png" alt="countdownhint" height="550"/>
+<img src="http://nandemoi.github.io/zl111/media/countdownhint.png" alt="countdownhint" height="400"/>
 
 ## 第 3 題：[經濟大恐荒](https://zerojudge.tw/ShowProblem?problemid=b294)
 
 西元 2505 年 1 月 1 日，發生了世界經濟大恐荒。從那天起，物價飛漲。第一天一個饅頭只要一元，第二天就要二元，第三天要賣三元，以此類推。
 給你從第一天起三天貓咪每天所買的饅頭數，請問他到 1 月 3 日結束總共花了多少錢？
 
-<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="550"/>
+<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="300"/>
 
 ## 第 4 題：最大最小
 
 ### 題目：
 
-<img src="http://nandemoi.github.io/zl111/media/maxmin.png" alt="maxmin" height="550"/>
-<img src="http://nandemoi.github.io/zl111/media/maxminsay.png" alt="maxminsay" height="100"/>
+<img src="http://nandemoi.github.io/zl111/media/maxmin.png" alt="maxmin" height="400"/>
+<img src="http://nandemoi.github.io/zl111/media/maxminsay.png" alt="maxminsay" height="90"/>
 
 ### 提示
 
