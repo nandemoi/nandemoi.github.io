@@ -2,7 +2,19 @@
 
 ## 第一題：[哪隊小兵贏了?](https://nandemoi.github.io/zl111/bluered)
 
-## 第二題：最大最小
+## 第二題：倒數
+
+### 題目：
+
+請貓咪隨機產生 5 個數字，然後倒著數出來：  
+
+<img src="http://nandemoi.github.io/zl111/media/countdown.png" alt="countdown" height="550"/>
+
+### 參考提示
+
+<img src="http://nandemoi.github.io/zl111/media/countdownhint.png" alt="countdownhint" height="550"/>
+
+## 第三題：最大最小
 
 ### 題目：
 
