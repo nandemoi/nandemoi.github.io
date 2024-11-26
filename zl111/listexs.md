@@ -2,7 +2,7 @@
 
 ## 第 1 題：[哪隊小兵贏了?](https://nandemoi.github.io/zl111/bluered)
 
-## 第 2 題：倒數
+## 第 2 題：倒（ㄉㄠˋ）數（ㄕㄨˇ）
 
 ### 題目：
 
@@ -12,6 +12,11 @@
 
 ### 參考提示
 
+簡單版
+
+<img src="http://nandemoi.github.io/zl111/media/countdownhint0.png" alt="countdownhint0" height="600"/>
+
+參考課本 p.164 到 p.165 如何用迴圈（重複積木）改寫
 <img src="http://nandemoi.github.io/zl111/media/countdownhint.png" alt="countdownhint" height="400"/>
 
 <br>  
