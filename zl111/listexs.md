@@ -25,6 +25,8 @@
 
 <img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="300"/>
 
+做完要驗算執行得結果是否正確。  
+
 <br>  
 
 ([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
