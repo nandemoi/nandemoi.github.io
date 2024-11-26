@@ -7,6 +7,7 @@
 ### 題目：
 
 請貓咪隨機產生 5 個數字，然後倒著數出來：  
+([出處](https://web.archive.org/web/20211021082130/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=b001))
 
 <img src="http://nandemoi.github.io/zl111/media/countdown.gif" alt="countdown" height="300"/>
 
@@ -22,20 +23,16 @@
 
 <br>  
 
-([出處](https://web.archive.org/web/20211021082130/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=b001))
-
 ## 第 3 題：經濟大恐荒
 
 西元 2505 年 1 月 1 日，發生了世界經濟大恐荒。從那天起，物價飛漲。第一天一個饅頭只要一元，第二天就要二元，第三天要賣三元，以此類推。
-給你從第一天起三天貓咪每天所買的饅頭數，請問他到 1 月 3 日結束總共花了多少錢？
+給你從第一天起三天貓咪每天所買的饅頭數，請問他到 1 月 3 日結束總共花了多少錢？  
+
+([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
 
 <img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="300"/>
 
 做完要驗算執行得結果是否正確。  
-
-<br>  
-
-([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
 
 ## 第 4 題：最大最小
 
