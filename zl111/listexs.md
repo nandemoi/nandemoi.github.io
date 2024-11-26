@@ -9,6 +9,10 @@
 <img src="http://nandemoi.github.io/zl111/media/maxmin.png" alt="maxmin" height="550"/>
 <img src="http://nandemoi.github.io/zl111/media/maxminsay.png" alt="maxminsay" height="100"/>
 
+### 提示
+
+先讓第一項坐上寶座，後面的一個一個挑戰坐在寶座上的，如果比贏的就換下來。最後看坐在寶座的是誰。
+
 ### 建議順序
 
 1. 先做最大
