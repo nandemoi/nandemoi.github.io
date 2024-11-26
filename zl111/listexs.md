@@ -42,7 +42,7 @@
 
 ### 建議順序
 
-1. 先做最大
+1. 先做最大[　](http://nandemoi.github.io/zl111/media/maxminhint1.png)
 2. 再加最小
 3. 再加在第幾項
 
