@@ -39,6 +39,9 @@
 ### 題目：
 
 <img src="http://nandemoi.github.io/zl111/media/maxmin.png" alt="maxmin" height="400"/>
+
+只要最後能夠找出最大最小和在第幾項就可以了，可以不說出。如果要完整的說出，可以參考下面的字串組合。
+
 <img src="http://nandemoi.github.io/zl111/media/maxminsay.png" alt="maxminsay" height="90"/>
 
 ### 提示
