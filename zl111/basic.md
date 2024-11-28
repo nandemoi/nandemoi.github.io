@@ -1,10 +1,12 @@
-# 運算/「如果」練習
+# 循序／運算／「如果」／迴圈等基礎語法結構練習／複習
+
+## 運算/「如果」練習
 
 **<span style="color:red">做完要測試執行並驗算結果是否正確。</span>**  
 
-## 第 1 題：民國與西元的換算
+### 第 1 題：民國與西元的換算
 
-### 題目
+#### 題目
 
 相對於世界上絕大多數的國家都是使用西元紀年，而台灣地區則是使用民國紀年，我們可以將民國幾年加上1911，即可得到其對應的是西元幾年。
 
@@ -12,11 +14,11 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a004.gif" alt="a004" height="300"/>
 
-### 提示
+#### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a004hint.png" alt="a004hint" height="150"/>
 
-## 第 2 題：及格
+### 第 2 題：及格
 
 ### 題目
 
@@ -26,13 +28,13 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a011.gif" alt="a011" height="300"/>
 
-### 提示
+#### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a011hint.png" alt="a011hint" height="250"/>
 
-## 第 3 題：正值國
+### 第 3 題：正值國
 
-### 題目
+#### 題目
 
 很久很久以前，有一個國家叫做「正值國」，這個國家的人做什麼事都非常正直，做人坦蕩蕩。也因此，國家平安和樂、生活富足。  
 但是，這個國家有一個不成文的習俗，就是他們不喜歡負數，他們把負數視為邪惡的象徵，所以他們非常討厭看到負數。他們只要看到負數，就會直接把負號去掉，例如”-1”會變成”1”。  
@@ -42,13 +44,13 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a799.gif" alt="a799" height="300"/>
 
-### 提示
+#### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
 
-## 第 4 題：成績等第
+### 第 4 題：成績等第
 
-### 題目
+#### 題目
 
 某校為了不讓學生互相比較成績，所以成績上記錄的是成績等第而不是分數，它的規則如下：  
 
@@ -64,8 +66,14 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a017.gif" alt="a017" height="300"/>
 
-### 提示
+#### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a017hint.png" alt="a017hint" height="600"/>
+
+## 迴圈複習
+
+### [語法包覆結構](http://nandemoi.github.io/zl111/media/repeats.gif)
+
+### [用重複積木 (迴圈) 數󠇡數](http://nandemoi.github.io/zl111/media/loop.gif)
 
 <!--## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)-->
