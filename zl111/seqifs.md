@@ -1,6 +1,6 @@
 # 循序/「如果」練習
 
-做完要驗算執行得結果是否正確。  
+**<span style="color:red">做完要驗算執行得結果是否正確。</span>**  
 
 ## 第 1 題：民國與西元的換算
 
@@ -14,9 +14,23 @@
 
 ### 提示
 
-<img src="http://nandemoi.github.io/zl111/media/a004hint.png" alt="a004hint" height="250"/>
+<img src="http://nandemoi.github.io/zl111/media/a004hint.png" alt="a004hint" height="150"/>
 
-## 第 2 題：正值國
+## 第 2 題：及格
+
+### 題目
+
+一般來說，我們會以60分做為及格與否的標準，60分(含)以上為及格，不滿60分則是不及格，現在給你一個分數，請你判斷是否及格。
+
+([出處](https://web.archive.org/web/20210919044122/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a011))
+
+<img src="http://nandemoi.github.io/zl111/media/a799.gif" alt="a799" height="300"/>
+
+### 提示
+
+<img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
+
+## 第 3 題：正值國
 
 ### 題目
 
@@ -31,25 +45,5 @@
 ### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
-
-## 第 4 題：最大最小
-
-### 題目：
-
-<img src="http://nandemoi.github.io/zl111/media/maxmin.png" alt="maxmin" height="400"/>
-
-只要最後能夠找出最大最小和在第幾項就可以了，可以不說出。如果要完整的說出，可以參考下面的字串組合。
-
-<img src="http://nandemoi.github.io/zl111/media/maxminsay.png" alt="maxminsay" height="90"/>
-
-### 提示
-
-先讓第一項坐上寶座，後面的一個一個挑戰坐在寶座上的，如果比贏的就換下來。最後看坐在寶座的是誰。
-
-### 建議順序
-
-1. 先做最大[　](http://nandemoi.github.io/zl111/media/maxminhint1.png)
-2. 再加在第幾項
-3. 會做最大就會做最小了
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
