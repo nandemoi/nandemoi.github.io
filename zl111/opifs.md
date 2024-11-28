@@ -68,4 +68,4 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a017hint.png" alt="a017hint" height="600"/>
 
-## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
+<!--## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)-->
