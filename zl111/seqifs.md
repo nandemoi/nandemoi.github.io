@@ -14,7 +14,7 @@
 
 ### 提示
 
-<img src="http://nandemoi.github.io/zl111/media/a004.png" alt="buns" height="250"/>
+<img src="http://nandemoi.github.io/zl111/media/a004hint.png" alt="a004hint" height="250"/>
 
 ## 第 2 題：正值國
 
