@@ -48,7 +48,7 @@
 ### 建議順序
 
 1. 先做最大[　](http://nandemoi.github.io/zl111/media/maxminhint1.png)
-2. 再加最小
-3. 再加在第幾項
+2. 再加在第幾項
+3. 會做最大就會做最小了
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
