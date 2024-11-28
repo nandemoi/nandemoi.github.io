@@ -24,11 +24,11 @@
 
 ([出處](https://web.archive.org/web/20210919044122/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a011))
 
-<img src="http://nandemoi.github.io/zl111/media/a799.gif" alt="a799" height="300"/>
+<img src="http://nandemoi.github.io/zl111/media/a011.gif" alt="a011" height="300"/>
 
 ### 提示
 
-<img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
+<img src="http://nandemoi.github.io/zl111/media/a011hint.png" alt="a011hint" height="250"/>
 
 ## 第 3 題：正值國
 
@@ -45,5 +45,27 @@
 ### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
+
+## 第 3 題：成績等第
+
+### 題目
+
+某校為了不讓學生互相比較成績，所以成績上記錄的是成績等第而不是分數，它的規則如下：  
+
+1. 90分(含)~100分(含)為A等  
+2. 80分(含)~90分(不含)為B等  
+3. 70分(含)~80分(不含)為C等  
+4. 60分(含)~70分(不含)為D等  
+5. 不滿60分者為E等  
+
+現在給你一個成績，請你判斷它是哪一個等第。  
+
+([出處](https://web.archive.org/web/20210725145705/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a017))
+
+<img src="http://nandemoi.github.io/zl111/media/a017.gif" alt="a799" height="300"/>
+
+### 提示
+
+<img src="http://nandemoi.github.io/zl111/media/a017hint.png" alt="a799hint" height="600"/>
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
