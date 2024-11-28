@@ -1,4 +1,4 @@
-# 循序/「如果」練習
+# 運算/「如果」/迴圈練習
 
 **<span style="color:red">做完要驗算執行得結果是否正確。</span>**  
 
@@ -46,7 +46,7 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
 
-## 第 3 題：成績等第
+## 第 4 題：成績等第
 
 ### 題目
 
@@ -62,10 +62,10 @@
 
 ([出處](https://web.archive.org/web/20210725145705/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a017))
 
-<img src="http://nandemoi.github.io/zl111/media/a017.gif" alt="a799" height="300"/>
+<img src="http://nandemoi.github.io/zl111/media/a017.gif" alt="a017" height="300"/>
 
 ### 提示
 
-<img src="http://nandemoi.github.io/zl111/media/a017hint.png" alt="a799hint" height="600"/>
+<img src="http://nandemoi.github.io/zl111/media/a017hint.png" alt="a017hint" height="600"/>
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
