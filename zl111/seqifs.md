@@ -1,6 +1,22 @@
 # 循序/「如果」練習
 
-## 第 1 題：正值國
+做完要驗算執行得結果是否正確。  
+
+## 第 1 題：民國與西元的換算
+
+### 題目
+
+相對於世界上絕大多數的國家都是使用西元紀年，而台灣地區則是使用民國紀年，我們可以將民國幾年加上1911，即可得到其對應的是西元幾年。
+
+([出處](https://web.archive.org/web/20210729223105/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a004))
+
+<img src="http://nandemoi.github.io/zl111/media/a004.gif" alt="a004" height="300"/>
+
+### 提示
+
+<img src="http://nandemoi.github.io/zl111/media/a004.png" alt="buns" height="250"/>
+
+## 第 2 題：正值國
 
 ### 題目
 
@@ -15,19 +31,6 @@
 ### 提示
 
 <img src="http://nandemoi.github.io/zl111/media/a799hint.png" alt="a799hint" height="250"/>
-
-## 第 2 題：
-
-### 經濟大恐荒
-
-西元 2505 年 1 月 1 日，發生了世界經濟大恐荒。從那天起，物價飛漲。第一天一個饅頭只要一元，第二天就要二元，第三天要賣三元，以此類推。
-給你從第一天起三天貓咪每天所買的饅頭數，請問他到 1 月 3 日結束總共花了多少錢？  
-
-([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
-
-<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="300"/>
-
-做完要驗算執行得結果是否正確。  
 
 ## 第 4 題：最大最小
 
