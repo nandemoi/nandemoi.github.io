@@ -6,4 +6,8 @@
 
 <img src="http://nandemoi.github.io/zl111/media/swap0.gif" alt="swap0" height="300"/>
 
+為什麼下面這個做法不會成功？應該要怎麼改？
+
+<img src="http://nandemoi.github.io/zl111/media/cantswap.png" alt="cantswap" height="300"/>
+
 [hint](http://nandemoi.github.io/zl111/media/swap_ani.gif)
