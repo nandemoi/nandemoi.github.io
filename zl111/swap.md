@@ -5,7 +5,7 @@
 2. 畫面中要看得到 x, y 的標示和值，交換前要等待 3 秒，其他說明文字和畫面效果不必一樣
 
 <img src="http://nandemoi.github.io/zl111/media/swap0.gif" alt="swap0" height="300"/>
-
+<br>
 為什麼下面這個做法不會成功？應該要怎麼改？
 
 <img src="http://nandemoi.github.io/zl111/media/cantswap.png" alt="cantswap" height="300"/>
