@@ -25,3 +25,23 @@
 電路 5
 
 <img src="http://nandemoi.github.io/zl111/media/bulb5.png" alt="bulb5" height="500"/>
+
+電路 6
+
+<img src="http://nandemoi.github.io/zl111/media/bulb6.png" alt="bulb6" height="500"/>
+
+電路 7
+
+<img src="http://nandemoi.github.io/zl111/media/bulb7.png" alt="bulb7" height="500"/>
+
+電路 8
+
+<img src="http://nandemoi.github.io/zl111/media/bulb8.png" alt="bulb8" height="500"/>
+
+電路 9
+
+<img src="http://nandemoi.github.io/zl111/media/bulb9.png" alt="bulb9" height="500"/>
+
+電路 10
+
+<img src="http://nandemoi.github.io/zl111/media/bulb10.png" alt="bulb10" height="500"/>
