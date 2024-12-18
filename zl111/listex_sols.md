@@ -1,6 +1,6 @@
-# 清單／陣列練習
+# 清單／陣列練習（解答）
 
-## 第 1 題：[哪隊小兵贏了?](https://nandemoi.github.io/zl111/bluered)
+## 第 1 題：[哪隊小兵贏了?](https://nandemoi.github.io/zl111/blueredsol)
 
 ## 第 2 題：倒（ㄉㄠˋ）過來數（ㄕㄨˇ）
 
