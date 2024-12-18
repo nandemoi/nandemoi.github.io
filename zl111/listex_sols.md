@@ -11,15 +11,15 @@
 
 <img src="http://nandemoi.github.io/zl111/media/countdown.gif" alt="countdown" height="300"/>
 
-### 參考提示
+### 參考解答
 
 簡單版
 
-<img src="http://nandemoi.github.io/zl111/media/countdownhint0.png" alt="countdownhint0" height="400"/>
+<img src="http://nandemoi.github.io/zl111/media/countdownsol0.png" alt="countdownsol0" height="400"/>
 
 參考[《用重複積木 (迴圈) 數󠇡數》](http://nandemoi.github.io/zl111/media/loop.gif)或課本 p.164 到 p.165 如何用迴圈（重複積木）改寫  
 
-<img src="http://nandemoi.github.io/zl111/media/countdownhint.png" alt="countdownhint" height="400"/>
+<img src="http://nandemoi.github.io/zl111/media/countdownsol.png" alt="countdownsol" height="400"/>
 
 <br>  
 
@@ -30,9 +30,13 @@
 
 ([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
 
-<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="550"/>
+<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="300"/>
 
 做完要驗算執行得結果是否正確。  
+
+### 參考解答
+
+<img src="http://nandemoi.github.io/zl111/media/buns_sol.png" alt="buns_sol" height="400"/>
 
 ## 第 4 題：最大最小
 
@@ -44,14 +48,22 @@
 
 <img src="http://nandemoi.github.io/zl111/media/maxminsay.png" alt="maxminsay" height="90"/>
 
-### 提示
+### 解答
 
 先讓第一項坐上寶座，後面的一個一個挑戰坐在寶座上的，如果比贏的就換下來。最後看坐在寶座的是誰。
 
 ### 建議順序
 
-1. 先做最大[　](http://nandemoi.github.io/zl111/media/maxminhint1.png)
+1. 先做最大
+
+<img src="http://nandemoi.github.io/zl111/media/maxminsol1.png" alt="maxminsol1" height="400"/>
+
 2. 再加在第幾項
+
+<img src="http://nandemoi.github.io/zl111/media/maxminsol2.png" alt="maxminsol2" height="450"/>
+
 3. 會做最大就會做最小了
+
+<img src="http://nandemoi.github.io/zl111/media/maxminsol3.png" alt="maxminsol3" height="550"/>
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
