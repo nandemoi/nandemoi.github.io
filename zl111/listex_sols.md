@@ -2,7 +2,7 @@
 
 ## 第 1 題：倒（ㄉㄠˋ）過來數（ㄕㄨˇ）
 
-### 題目：
+### 題目
 
 請貓咪隨機產生 5 個數字，然後倒著數出來：  
 ([出處](https://web.archive.org/web/20211021082130/http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=b001))
@@ -20,6 +20,8 @@
 
 ## 第 2 題：經濟大恐荒
 
+### 題目
+
 西元 2505 年 1 月 1 日，發生了世界經濟大恐荒。從那天起，物價飛漲。第一天一個饅頭只要一元，第二天就要二元，第三天要賣三元，以此類推。
 給你從第一天起三天貓咪每天所買的饅頭數，請問他到 1 月 3 日結束總共花了多少錢？  
 
@@ -34,11 +36,31 @@
 <img src="http://nandemoi.github.io/zl111/media/buns_sol0.png" alt="buns_sol0" height="400"/>
 <img src="http://nandemoi.github.io/zl111/media/buns_sol.png" alt="buns_sol" height="400"/>
 
-## 第 3 題：[哪隊小兵贏了?](https://nandemoi.github.io/zl111/blueredsol)
+## 第 3 題：哪隊小兵贏了?
+
+## 題目
+
+設定一個 5 個項目名稱是 blueteam 的清單存 5 個小兵的戰鬥值。  
+設定一個 5 個項目名稱是 redteam 的清單存 5 個小兵的戰鬥值。  
+用一個迴圈個別比較這 5 對數值看看兩隊對戰哪隊小兵會贏。  
+假設 blueteam 的第一個小兵和 redteam 的第一個小兵對戰、  
+第二個和第二個，依此類推。  
+(參考課本 p.159)
+
+## 解答
+
+### 沒有處理平手
+
+<img src="http://nandemoi.github.io/zl111/media/blueredsol1.png" alt="blueredsol1" height="600"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol10.png" alt="blueredsol10" height="600"/>
+
+### 處理平手
+
+<img src="http://nandemoi.github.io/zl111/media/blueredsol2.png" alt="blueredsol2" height="650"/>
 
 ## 第 4 題：最大最小
 
-### 題目：
+### 題目
 
 <img src="http://nandemoi.github.io/zl111/media/maxmin.png" alt="maxmin" height="400"/>
 

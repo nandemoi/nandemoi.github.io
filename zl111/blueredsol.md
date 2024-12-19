@@ -13,9 +13,10 @@
 
 ### 沒有處理平手
 
-<img src="http://nandemoi.github.io/zl111/media/blueredsol1.png" alt="random" height="600"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol1.png" alt="blueredsol1" height="600"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol10.png" alt="blueredsol10" height="600"/>
 
 ### 處理平手
 
-<img src="http://nandemoi.github.io/zl111/media/blueredsol2.png" alt="random" height="650"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol2.png" alt="blueredsol2" height="650"/>
 
