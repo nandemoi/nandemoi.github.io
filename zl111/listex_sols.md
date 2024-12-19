@@ -76,14 +76,14 @@
 
 1. 先做最大
 
-<img src="http://nandemoi.github.io/zl111/media/maxminsol1.png" alt="maxminsol1" height="400"/>
+    <img src="http://nandemoi.github.io/zl111/media/maxminsol1.png" alt="maxminsol1" height="400"/>
 
 2. 再加在第幾項
 
-<img src="http://nandemoi.github.io/zl111/media/maxminsol2.png" alt="maxminsol2" height="450"/>
+    <img src="http://nandemoi.github.io/zl111/media/maxminsol2.png" alt="maxminsol2" height="450"/>
 
 3. 會做最大就會做最小了
 
-<img src="http://nandemoi.github.io/zl111/media/maxminsol3.png" alt="maxminsol3" height="550"/>
+    <img src="http://nandemoi.github.io/zl111/media/maxminsol3.png" alt="maxminsol3" height="550"/>
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
