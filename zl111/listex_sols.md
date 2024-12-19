@@ -16,9 +16,6 @@
 簡單版
 
 <img src="http://nandemoi.github.io/zl111/media/countdownsol0.png" alt="countdownsol0" height="400"/>
-
-參考[《用重複積木 (迴圈) 數󠇡數》](http://nandemoi.github.io/zl111/media/loop.gif)或課本 p.164 到 p.165 如何用迴圈（重複積木）改寫  
-
 <img src="http://nandemoi.github.io/zl111/media/countdownsol.png" alt="countdownsol" height="400"/>
 
 <br>  
@@ -36,6 +33,7 @@
 
 ### 參考解答
 
+<img src="http://nandemoi.github.io/zl111/media/buns_sol0.png" alt="buns_sol0" height="400"/>
 <img src="http://nandemoi.github.io/zl111/media/buns_sol.png" alt="buns_sol" height="400"/>
 
 ## 第 4 題：最大最小
