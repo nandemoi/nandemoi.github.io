@@ -27,7 +27,7 @@
 
 ([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
 
-<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="300"/>
+<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="400"/>
 
 做完要驗算執行得結果是否正確。  
 
@@ -51,12 +51,12 @@
 
 ### 沒有處理平手
 
-<img src="http://nandemoi.github.io/zl111/media/blueredsol1.png" alt="blueredsol1" height="600"/>
-<img src="http://nandemoi.github.io/zl111/media/blueredsol10.png" alt="blueredsol10" height="600"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol1.png" alt="blueredsol1" height="650"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol10.png" alt="blueredsol10" height="650"/>
 
 ### 處理平手
 
-<img src="http://nandemoi.github.io/zl111/media/blueredsol2.png" alt="blueredsol2" height="650"/>
+<img src="http://nandemoi.github.io/zl111/media/blueredsol2.png" alt="blueredsol2" height="700"/>
 
 ## 第 4 題：最大最小
 
@@ -76,14 +76,14 @@
 
 1. 先做最大
 
-    <img src="http://nandemoi.github.io/zl111/media/maxminsol1.png" alt="maxminsol1" height="400"/>
+    <img src="http://nandemoi.github.io/zl111/media/maxminsol1.png" alt="maxminsol1" height="500"/>
 
 2. 再加在第幾項
 
-    <img src="http://nandemoi.github.io/zl111/media/maxminsol2.png" alt="maxminsol2" height="450"/>
+    <img src="http://nandemoi.github.io/zl111/media/maxminsol2.png" alt="maxminsol2" height="550"/>
 
 3. 會做最大就會做最小了
 
-    <img src="http://nandemoi.github.io/zl111/media/maxminsol3.png" alt="maxminsol3" height="550"/>
+    <img src="http://nandemoi.github.io/zl111/media/maxminsol3.png" alt="maxminsol3" height="600"/>
 
 ## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)
