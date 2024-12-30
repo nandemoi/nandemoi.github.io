@@ -70,6 +70,6 @@
 
 #### 第 4 題：[交換變數值（點擊看題目）](http://nandemoi.github.io/zl111/swap)
 
-### 用重複積木 (迴圈) 數󠇡數：[(1)](http://nandemoi.github.io/zl111/media/loop.gif)[(2)](http://nandemoi.github.io/zl111/media/loop.gif)
+### 用重複積木 (迴圈) 數󠇡數：[(1)](http://nandemoi.github.io/zl111/media/loop.gif)[(2)](http://nandemoi.github.io/zl111/media/loop2.gif)
 
 <!--## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)-->
