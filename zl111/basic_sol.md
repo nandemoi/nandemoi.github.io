@@ -32,23 +32,7 @@
 
 <img src="http://nandemoi.github.io/zl111/media/a011sol.png" alt="a011sol" height="250"/>
 
-### 第 3 題：正值國
-
-#### 題目
-
-很久很久以前，有一個國家叫做「正值國」，這個國家的人做什麼事都非常正直，做人坦蕩蕩。也因此，國家平安和樂、生活富足。  
-但是，這個國家有一個不成文的習俗，就是他們不喜歡負數，他們把負數視為邪惡的象徵，所以他們非常討厭看到負數。他們只要看到負數，就會直接把負號去掉，例如”-1”會變成”1”。  
-筱華是剛從其他國家搬來正值國的一位中學生，他每次只要告訴貓咪一個數字，貓咪就會回他這個數的絕對值。  
-
-([出處](https://zerojudge.tw/ShowProblem?problemid=a799))
-
-<img src="http://nandemoi.github.io/zl111/media/a799.gif" alt="a799" height="300"/>
-
-#### 解答
-
-<img src="http://nandemoi.github.io/zl111/media/a799sol.png" alt="a799sol" height="250"/>
-
-### 第 4 題：成績等第
+### 第 3 題：成績等第
 
 #### 題目
 
@@ -84,8 +68,8 @@
 
 那麼，想想看下面這題怎麼做？
 
-#### 第 5 題：[交換變數值（點擊看題目）](http://nandemoi.github.io/zl111/swap)
+#### 第 4 題：[交換變數值（點擊看題目）](http://nandemoi.github.io/zl111/swap)
 
-### [用重複積木 (迴圈) 數󠇡數](http://nandemoi.github.io/zl111/media/loop.gif)
+### 用重複積木 (迴圈) 數󠇡數：[(1)](http://nandemoi.github.io/zl111/media/loop.gif)[(2)](http://nandemoi.github.io/zl111/media/loop2.gif)
 
 <!--## 附註：[Scratch 無法命名或改名變數/清單怎麼辦？](https://nandemoi.github.io/zl111/scratchinput)-->
