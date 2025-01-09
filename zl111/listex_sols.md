@@ -27,7 +27,7 @@
 
 ([出處](https://zerojudge.tw/ShowProblem?problemid=b294))
 
-<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="400"/>
+<img src="http://nandemoi.github.io/zl111/media/buns.png" alt="buns" height="600"/>
 
 做完要驗算執行得結果是否正確。  
 
