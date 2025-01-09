@@ -33,7 +33,8 @@
 
 ### 參考解答
 
-<img src="http://nandemoi.github.io/zl111/media/buns_sol0.png" alt="buns_sol0" height="500"/>
+<img src="http://nandemoi.github.io/zl111/media/buns_sol0.png" alt="buns_sol0" height="500"/>  
+<br>
 <img src="http://nandemoi.github.io/zl111/media/buns_sol1.png" alt="buns_sol1" height="500"/>
 <img src="http://nandemoi.github.io/zl111/media/buns_sol.png" alt="buns_sol" height="500"/>
 
