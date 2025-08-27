@@ -4,7 +4,7 @@
 ### 教學簡歷 ([成果](http://nandemoi.github.io/cvs/stuworks))  
 
 * 中崙高中
-  * 113 學年度：國中部資訊科技與生活科技
+  * 113 學年度上學期：國中部資訊科技與生活科技代課
   * 112 學年度：高中部進階程式設計 + 其餘同 111 學年度
   * 111 學年度：  
     高中部：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf)、工程設計、科技應用、機器人專題  
@@ -23,6 +23,7 @@
 * 推薦正取 111 學年度入學：清華大學拾穗計畫 (特殊選才) 資工系、陽明交通大學資工系、  
   Computer Engineering, University of Illinois Urbana-Champaign (2022 Fall)、  
   Computer Science, University of Wisconsin–Madison (2022 Fall)  
+  Computer Engineering, University of Wisconsin–Madison (2025 Fall)  
   指導 2021 台灣高中生區塊鏈寫作大賽獲參等獎  
 
 ### 產業簡歷
