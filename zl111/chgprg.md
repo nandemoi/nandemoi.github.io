@@ -8,4 +8,12 @@
 
 你可以很快完成第一版，如果還有時間試著增加功能。記得有成功的版本就要先複製存下來，因為你新增功能的版本有可能來不及完成。
 
-登入 ChatGPT 後對話的紀錄會保留在 ChatGPT 雲端上，Google Colab 的東西也都在雲端；但是你如果用 Python IDLE 在本機上儲存的程式會在關機後消失，記得要在 Google Drive 上保存須要保存的檔案。
+請注意要有 **ChatGPT 帳號** (可新創建) 開始對話前**登入**才能保留並延續對話。Google Colab 的東西也都在雲端；但是你如果用 Python IDLE 在本機上儲存的程式會在關機後消失，記得要在 Google Drive 上保存須要保存的檔案。
+
+繳交：
+
+1. Python 程式檔或 Google Colab 連結 (記得開分享)
+2. 測試執行截圖
+3. 專題開發過程和 ChatGPT 的對話歷史（用 Google 或 ChatGPT 詢問「如何下載 ChatGPT 對話紀錄」或「How to down load ChatGPT conversation history」）
+
+同組組員交同樣的東西，留言註明你們同組的所有組員班級座號姓名
