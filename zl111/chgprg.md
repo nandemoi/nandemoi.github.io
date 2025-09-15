@@ -3,7 +3,7 @@
 舉例：你們可以問 ChatGPT：「請和我一起用 Python 開發一個英文單字小測驗的程式？」、「我希望程式和使用者的互動模式是 ...」。程式的規格設定和需求不必在第一次問題就完整提出，你們可以和 ChatGPT 持續對話修改。例如「請幫我在單字庫中增加 50 個台灣高中學測程度的單字」、「或是這樣的互動介面太陽春了，請幫我增加一點比較有趣的互動介面」等等。  
 
 [示範一](https://youtu.be/7pJ7QFZLpOY)  
-[示範二](https://youtu.be/7pJ7QFZLpOY)  
+[示範二](https://youtu.be/v3VX0WohoR0)  
 
 不過你們要儘量做到程式可以執行，用 Python IDLE、高一學過的 Google Colab 或是其他可以執行 Python 的環境都可以。這過程中你們如果有不會的都可以問我、ChatGPT、Google 或其他 AI 或網路工具。  
 
