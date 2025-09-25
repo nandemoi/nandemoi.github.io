@@ -8,215 +8,239 @@
         <style>
             body { font-family: Arial, sans-serif; margin: 20px; }
             h1 { color: #333; }
-            table { border-collapse: collapse; width: 100%; }
-            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-            th { background-color: #f2f2f2; }
-            tr:nth-child(even) { background-color: #f9f9f9; }
-            tr:nth-child(odd) { background-color: #ffffff; }
+            .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+            .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #f9f9f9; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            .card:nth-child(even) { background-color: #ffffff; }
+            .card h3 { margin: 0 0 10px 0; color: #333; }
+            .card p { margin: 5px 0; }
+            .label { font-weight: bold; color: #666; }
             img { max-width: 100%; height: auto; margin-top: 20px; }
         </style>
     </head>
     <body>
         <h1>同學參考一下，把握時間多練習～～～</h1>
         <p>本週你在課堂的努力：（亂序排列）</p>
-        <table>
-            <thead>
-                <tr>
-            <th>名字</th>
-        <th>ACΔ</th>
-        <th>耗時Δ</th>
-        <th>分數Δ</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>林◯萱</td>
-        <td>3</td>
-        <td>95608</td>
-        <td>3.0</td>
-      </tr>
-      <tr>
-        <td>詹◯◯</td>
-        <td>3</td>
-        <td>70233</td>
-        <td>3.0</td>
-      </tr>
-      <tr>
-        <td>吳◯廷</td>
-        <td>7</td>
-        <td>46903</td>
-        <td>3.5</td>
-      </tr>
-      <tr>
-        <td>吳◯衡</td>
-        <td>6</td>
-        <td>40231</td>
-        <td>3.0</td>
-      </tr>
-      <tr>
-        <td>陳◯鑫</td>
-        <td>5</td>
-        <td>133870</td>
-        <td>5.0</td>
-      </tr>
-      <tr>
-        <td>林◯鈞</td>
-        <td>11</td>
-        <td>73676</td>
-        <td>5.5</td>
-      </tr>
-      <tr>
-        <td>許◯◯</td>
-        <td>2</td>
-        <td>63762</td>
-        <td>2.0</td>
-      </tr>
-      <tr>
-        <td>林◯橙</td>
-        <td>7</td>
-        <td>46911</td>
-        <td>3.5</td>
-      </tr>
-      <tr>
-        <td>黃◯宸</td>
-        <td>9</td>
-        <td>93709</td>
-        <td>5.5</td>
-      </tr>
-      <tr>
-        <td>邱◯◯</td>
-        <td>13</td>
-        <td>32399</td>
-        <td>6.5</td>
-      </tr>
-      <tr>
-        <td>季◯◯</td>
-        <td>4</td>
-        <td>93595</td>
-        <td>4.0</td>
-      </tr>
-      <tr>
-        <td>杜◯◯</td>
-        <td>7</td>
-        <td>46928</td>
-        <td>3.5</td>
-      </tr>
-      <tr>
-        <td>王◯◯</td>
-        <td>6</td>
-        <td>140325</td>
-        <td>6.0</td>
-      </tr>
-      <tr>
-        <td>黃◯杰</td>
-        <td>8</td>
-        <td>78778</td>
-        <td>4.5</td>
-      </tr>
-      <tr>
-        <td>孫◯◯</td>
-        <td>3</td>
-        <td>70195</td>
-        <td>3.7</td>
-      </tr>
-      <tr>
-        <td>吳◯澤</td>
-        <td>2</td>
-        <td>63764</td>
-        <td>2.0</td>
-      </tr>
-      <tr>
-        <td>張◯◯</td>
-        <td>10</td>
-        <td>233942</td>
-        <td>10.0</td>
-      </tr>
-      <tr>
-        <td>李◯玲</td>
-        <td>7</td>
-        <td>163735</td>
-        <td>7.9</td>
-      </tr>
-      <tr>
-        <td>陳◯羽</td>
-        <td>6</td>
-        <td>40146</td>
-        <td>3.0</td>
-      </tr>
-      <tr>
-        <td>劉◯婕</td>
-        <td>4</td>
-        <td>93577</td>
-        <td>4.0</td>
-      </tr>
-      <tr>
-        <td>葉◯◯</td>
-        <td>4</td>
-        <td>26859</td>
-        <td>2.0</td>
-      </tr>
-      <tr>
-        <td>彭◯◯</td>
-        <td>1</td>
-        <td>31851</td>
-        <td>1.0</td>
-      </tr>
-      <tr>
-        <td>陳◯宇</td>
-        <td>2</td>
-        <td>63717</td>
-        <td>2.0</td>
-      </tr>
-      <tr>
-        <td>蔡◯◯</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <td>官◯◯</td>
-        <td>3</td>
-        <td>95611</td>
-        <td>3.0</td>
-      </tr>
-      <tr>
-        <td>李◯宣</td>
-        <td>14</td>
-        <td>110491</td>
-        <td>7.5</td>
-      </tr>
-      <tr>
-        <td>黃◯傑</td>
-        <td>16</td>
-        <td>157171</td>
-        <td>9.5</td>
-      </tr>
-      <tr>
-        <td>劉◯昇</td>
-        <td>12</td>
-        <td>80354</td>
-        <td>6.0</td>
-      </tr>
-      <tr>
-        <td>田◯◯</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <td>黃◯齊</td>
-        <td>9</td>
-        <td>60261</td>
-        <td>4.5</td>
-      </tr>
-      <tr>
-        <td>馬◯◯</td>
-        <td>11</td>
-        <td>257269</td>
-        <td>11.0</td>
-      </tr>
-    </tbody>
-  </table>
-<p>統計：《入門題》,《循序與選擇結構練習》,《課程前測》</p>
+        <div class="container">
+    
+            <div class="card">
+                <h3>林◯萱</h3>
+                <p><span class="label">ACΔ:</span> 3</p>
+                <p><span class="label">耗時Δ:</span> 95608</p>
+                <p><span class="label">分數Δ:</span> 3.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>詹◯◯</h3>
+                <p><span class="label">ACΔ:</span> 3</p>
+                <p><span class="label">耗時Δ:</span> 70233</p>
+                <p><span class="label">分數Δ:</span> 3.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>吳◯廷</h3>
+                <p><span class="label">ACΔ:</span> 7</p>
+                <p><span class="label">耗時Δ:</span> 46903</p>
+                <p><span class="label">分數Δ:</span> 3.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>吳◯衡</h3>
+                <p><span class="label">ACΔ:</span> 6</p>
+                <p><span class="label">耗時Δ:</span> 40231</p>
+                <p><span class="label">分數Δ:</span> 3.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>陳◯鑫</h3>
+                <p><span class="label">ACΔ:</span> 5</p>
+                <p><span class="label">耗時Δ:</span> 133870</p>
+                <p><span class="label">分數Δ:</span> 5.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>林◯鈞</h3>
+                <p><span class="label">ACΔ:</span> 11</p>
+                <p><span class="label">耗時Δ:</span> 73676</p>
+                <p><span class="label">分數Δ:</span> 5.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>許◯◯</h3>
+                <p><span class="label">ACΔ:</span> 2</p>
+                <p><span class="label">耗時Δ:</span> 63762</p>
+                <p><span class="label">分數Δ:</span> 2.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>林◯橙</h3>
+                <p><span class="label">ACΔ:</span> 7</p>
+                <p><span class="label">耗時Δ:</span> 46911</p>
+                <p><span class="label">分數Δ:</span> 3.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>黃◯宸</h3>
+                <p><span class="label">ACΔ:</span> 9</p>
+                <p><span class="label">耗時Δ:</span> 93709</p>
+                <p><span class="label">分數Δ:</span> 5.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>邱◯◯</h3>
+                <p><span class="label">ACΔ:</span> 13</p>
+                <p><span class="label">耗時Δ:</span> 32399</p>
+                <p><span class="label">分數Δ:</span> 6.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>季◯◯</h3>
+                <p><span class="label">ACΔ:</span> 4</p>
+                <p><span class="label">耗時Δ:</span> 93595</p>
+                <p><span class="label">分數Δ:</span> 4.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>杜◯◯</h3>
+                <p><span class="label">ACΔ:</span> 7</p>
+                <p><span class="label">耗時Δ:</span> 46928</p>
+                <p><span class="label">分數Δ:</span> 3.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>王◯◯</h3>
+                <p><span class="label">ACΔ:</span> 6</p>
+                <p><span class="label">耗時Δ:</span> 140325</p>
+                <p><span class="label">分數Δ:</span> 6.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>黃◯杰</h3>
+                <p><span class="label">ACΔ:</span> 8</p>
+                <p><span class="label">耗時Δ:</span> 78778</p>
+                <p><span class="label">分數Δ:</span> 4.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>孫◯◯</h3>
+                <p><span class="label">ACΔ:</span> 3</p>
+                <p><span class="label">耗時Δ:</span> 70195</p>
+                <p><span class="label">分數Δ:</span> 3.7</p>
+            </div>
+        
+            <div class="card">
+                <h3>吳◯澤</h3>
+                <p><span class="label">ACΔ:</span> 2</p>
+                <p><span class="label">耗時Δ:</span> 63764</p>
+                <p><span class="label">分數Δ:</span> 2.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>張◯◯</h3>
+                <p><span class="label">ACΔ:</span> 10</p>
+                <p><span class="label">耗時Δ:</span> 233942</p>
+                <p><span class="label">分數Δ:</span> 10.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>李◯玲</h3>
+                <p><span class="label">ACΔ:</span> 7</p>
+                <p><span class="label">耗時Δ:</span> 163735</p>
+                <p><span class="label">分數Δ:</span> 7.9</p>
+            </div>
+        
+            <div class="card">
+                <h3>陳◯羽</h3>
+                <p><span class="label">ACΔ:</span> 6</p>
+                <p><span class="label">耗時Δ:</span> 40146</p>
+                <p><span class="label">分數Δ:</span> 3.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>劉◯婕</h3>
+                <p><span class="label">ACΔ:</span> 4</p>
+                <p><span class="label">耗時Δ:</span> 93577</p>
+                <p><span class="label">分數Δ:</span> 4.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>葉◯◯</h3>
+                <p><span class="label">ACΔ:</span> 4</p>
+                <p><span class="label">耗時Δ:</span> 26859</p>
+                <p><span class="label">分數Δ:</span> 2.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>彭◯◯</h3>
+                <p><span class="label">ACΔ:</span> 1</p>
+                <p><span class="label">耗時Δ:</span> 31851</p>
+                <p><span class="label">分數Δ:</span> 1.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>陳◯宇</h3>
+                <p><span class="label">ACΔ:</span> 2</p>
+                <p><span class="label">耗時Δ:</span> 63717</p>
+                <p><span class="label">分數Δ:</span> 2.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>蔡◯◯</h3>
+                <p><span class="label">ACΔ:</span> 0</p>
+                <p><span class="label">耗時Δ:</span> 0</p>
+                <p><span class="label">分數Δ:</span> 0.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>官◯◯</h3>
+                <p><span class="label">ACΔ:</span> 3</p>
+                <p><span class="label">耗時Δ:</span> 95611</p>
+                <p><span class="label">分數Δ:</span> 3.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>李◯宣</h3>
+                <p><span class="label">ACΔ:</span> 14</p>
+                <p><span class="label">耗時Δ:</span> 110491</p>
+                <p><span class="label">分數Δ:</span> 7.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>黃◯傑</h3>
+                <p><span class="label">ACΔ:</span> 16</p>
+                <p><span class="label">耗時Δ:</span> 157171</p>
+                <p><span class="label">分數Δ:</span> 9.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>劉◯昇</h3>
+                <p><span class="label">ACΔ:</span> 12</p>
+                <p><span class="label">耗時Δ:</span> 80354</p>
+                <p><span class="label">分數Δ:</span> 6.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>田◯◯</h3>
+                <p><span class="label">ACΔ:</span> 0</p>
+                <p><span class="label">耗時Δ:</span> 0</p>
+                <p><span class="label">分數Δ:</span> 0.0</p>
+            </div>
+        
+            <div class="card">
+                <h3>黃◯齊</h3>
+                <p><span class="label">ACΔ:</span> 9</p>
+                <p><span class="label">耗時Δ:</span> 60261</p>
+                <p><span class="label">分數Δ:</span> 4.5</p>
+            </div>
+        
+            <div class="card">
+                <h3>馬◯◯</h3>
+                <p><span class="label">ACΔ:</span> 11</p>
+                <p><span class="label">耗時Δ:</span> 257269</p>
+                <p><span class="label">分數Δ:</span> 11.0</p>
+            </div>
+        
+        </div>
+    <p>統計：《入門題》,《循序與選擇結構練習》,《課程前測》</p>
 <img src="media/ranksum.png" alt="Ranking Summary Histogram">
     </body>
     </html>
