@@ -1,330 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>進階程式設計</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 20px; }
+        .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .card h3 { margin: 0 0 10px 0; color: #333; }
+        .card p { margin: 5px 0; }
+        .label { font-weight: bold; color: #666; }
+        .empty-card { display: none; align-items: center; justify-content: center; font-size: 48px; }
+        img { max-width: 100%; height: auto; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>同學參考一下，把握時間多練習～～～</h1>
+    <p>2025-10-01 你的努力： <button id="shuffle-btn">亂序排列</button></p>
+    <div class="container">
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>進階程式設計</title>
-        <style>
-            body { font-family: Arial, sans-serif; margin: 20px; }
-            h1 { color: #333; }
-            .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 20px; }
-            .card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-            .card h3 { margin: 0 0 10px 0; color: #333; }
-            .card p { margin: 5px 0; }
-            .label { font-weight: bold; color: #666; }
-            img { max-width: 100%; height: auto; margin-top: 20px; }
-        </style>
-    </head>
-    <body>
-        <h1>同學參考一下，把握時間多練習～～～</h1>
-        <p>本週你在課堂的努力： <button id="shuffle-btn">亂序排列</button></p>
-        <div class="container">
-    
-            <div class="card" style="background-color: hsl(23, 30%, 90%);">
-                <h3>◯◯辰</h3>
-                <p><span class="label">ACΔ:</span> 4</p>
-                <p><span class="label">耗時Δ:</span> 93595</p>
-                <p><span class="label">分數Δ:</span> 4.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(127, 30%, 90%);">
-                <h3>◯兆◯</h3>
-                <p><span class="label">ACΔ:</span> 0</p>
-                <p><span class="label">耗時Δ:</span> 0</p>
-                <p><span class="label">分數Δ:</span> 0.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(348, 30%, 90%);">
-                <h3>◯柏◯</h3>
-                <p><span class="label">ACΔ:</span> 2</p>
-                <p><span class="label">耗時Δ:</span> 63717</p>
-                <p><span class="label">分數Δ:</span> 2.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(197, 30%, 90%);">
-                <h3>◯◯臻</h3>
-                <p><span class="label">ACΔ:</span> 0</p>
-                <p><span class="label">耗時Δ:</span> 0</p>
-                <p><span class="label">分數Δ:</span> 0.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(185, 30%, 90%);">
-                <h3>◯◯杰</h3>
-                <p><span class="label">ACΔ:</span> 8</p>
-                <p><span class="label">耗時Δ:</span> 78778</p>
-                <p><span class="label">分數Δ:</span> 4.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(243, 30%, 90%);">
-                <h3>◯子◯</h3>
-                <p><span class="label">ACΔ:</span> 9</p>
-                <p><span class="label">耗時Δ:</span> 60261</p>
-                <p><span class="label">分數Δ:</span> 4.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(232, 30%, 90%);">
-                <h3>◯◯軒</h3>
-                <p><span class="label">ACΔ:</span> 13</p>
-                <p><span class="label">耗時Δ:</span> 32399</p>
-                <p><span class="label">分數Δ:</span> 6.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(325, 30%, 90%);">
-                <h3>◯澤◯</h3>
-                <p><span class="label">ACΔ:</span> 5</p>
-                <p><span class="label">耗時Δ:</span> 133870</p>
-                <p><span class="label">分數Δ:</span> 5.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(301, 30%, 90%);">
-                <h3>◯紘◯</h3>
-                <p><span class="label">ACΔ:</span> 2</p>
-                <p><span class="label">耗時Δ:</span> 63762</p>
-                <p><span class="label">分數Δ:</span> 2.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(162, 30%, 90%);">
-                <h3>◯靖◯</h3>
-                <p><span class="label">ACΔ:</span> 16</p>
-                <p><span class="label">耗時Δ:</span> 157171</p>
-                <p><span class="label">分數Δ:</span> 9.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(290, 30%, 90%);">
-                <h3>◯以◯</h3>
-                <p><span class="label">ACΔ:</span> 12</p>
-                <p><span class="label">耗時Δ:</span> 80354</p>
-                <p><span class="label">分數Δ:</span> 6.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(58, 30%, 90%);">
-                <h3>◯◯宸</h3>
-                <p><span class="label">ACΔ:</span> 9</p>
-                <p><span class="label">耗時Δ:</span> 93709</p>
-                <p><span class="label">分數Δ:</span> 5.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(69, 30%, 90%);">
-                <h3>◯◯羽</h3>
-                <p><span class="label">ACΔ:</span> 6</p>
-                <p><span class="label">耗時Δ:</span> 40146</p>
-                <p><span class="label">分數Δ:</span> 3.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(81, 30%, 90%);">
-                <h3>◯◯穎</h3>
-                <p><span class="label">ACΔ:</span> 4</p>
-                <p><span class="label">耗時Δ:</span> 26859</p>
-                <p><span class="label">分數Δ:</span> 2.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(209, 30%, 90%);">
-                <h3>◯威◯</h3>
-                <p><span class="label">ACΔ:</span> 3</p>
-                <p><span class="label">耗時Δ:</span> 95611</p>
-                <p><span class="label">分數Δ:</span> 3.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(34, 30%, 91%);">
-                <h3>◯嘉◯</h3>
-                <p><span class="label">ACΔ:</span> 10</p>
-                <p><span class="label">耗時Δ:</span> 233942</p>
-                <p><span class="label">分數Δ:</span> 10.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(267, 30%, 91%);">
-                <h3>◯◯澤</h3>
-                <p><span class="label">ACΔ:</span> 2</p>
-                <p><span class="label">耗時Δ:</span> 63764</p>
-                <p><span class="label">分數Δ:</span> 2.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(150, 30%, 91%);">
-                <h3>◯◯緯</h3>
-                <p><span class="label">ACΔ:</span> 11</p>
-                <p><span class="label">耗時Δ:</span> 257269</p>
-                <p><span class="label">分數Δ:</span> 11.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(116, 30%, 91%);">
-                <h3>◯◯玲</h3>
-                <p><span class="label">ACΔ:</span> 7</p>
-                <p><span class="label">耗時Δ:</span> 163735</p>
-                <p><span class="label">分數Δ:</span> 7.9</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(11, 30%, 91%);">
-                <h3>◯◯煦</h3>
-                <p><span class="label">ACΔ:</span> 7</p>
-                <p><span class="label">耗時Δ:</span> 46928</p>
-                <p><span class="label">分數Δ:</span> 3.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(92, 30%, 91%);">
-                <h3>◯奕◯</h3>
-                <p><span class="label">ACΔ:</span> 1</p>
-                <p><span class="label">耗時Δ:</span> 31851</p>
-                <p><span class="label">分數Δ:</span> 1.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(336, 30%, 91%);">
-                <h3>◯◯橙</h3>
-                <p><span class="label">ACΔ:</span> 7</p>
-                <p><span class="label">耗時Δ:</span> 46911</p>
-                <p><span class="label">分數Δ:</span> 3.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(139, 30%, 91%);">
-                <h3>◯◯元</h3>
-                <p><span class="label">ACΔ:</span> 3</p>
-                <p><span class="label">耗時Δ:</span> 70233</p>
-                <p><span class="label">分數Δ:</span> 3.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(278, 30%, 91%);">
-                <h3>◯存◯</h3>
-                <p><span class="label">ACΔ:</span> 11</p>
-                <p><span class="label">耗時Δ:</span> 73676</p>
-                <p><span class="label">分數Δ:</span> 5.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(46, 30%, 91%);">
-                <h3>◯◯宣</h3>
-                <p><span class="label">ACΔ:</span> 14</p>
-                <p><span class="label">耗時Δ:</span> 110491</p>
-                <p><span class="label">分數Δ:</span> 7.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(220, 30%, 91%);">
-                <h3>◯◯廷</h3>
-                <p><span class="label">ACΔ:</span> 7</p>
-                <p><span class="label">耗時Δ:</span> 46903</p>
-                <p><span class="label">分數Δ:</span> 3.5</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(255, 30%, 91%);">
-                <h3>◯◯禾</h3>
-                <p><span class="label">ACΔ:</span> 6</p>
-                <p><span class="label">耗時Δ:</span> 140325</p>
-                <p><span class="label">分數Δ:</span> 6.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(104, 30%, 91%);">
-                <h3>◯◯婕</h3>
-                <p><span class="label">ACΔ:</span> 4</p>
-                <p><span class="label">耗時Δ:</span> 93577</p>
-                <p><span class="label">分數Δ:</span> 4.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(174, 30%, 91%);">
-                <h3>◯◯萱</h3>
-                <p><span class="label">ACΔ:</span> 3</p>
-                <p><span class="label">耗時Δ:</span> 95608</p>
-                <p><span class="label">分數Δ:</span> 3.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(0, 30%, 91%);">
-                <h3>◯昱◯</h3>
-                <p><span class="label">ACΔ:</span> 6</p>
-                <p><span class="label">耗時Δ:</span> 40231</p>
-                <p><span class="label">分數Δ:</span> 3.0</p>
-            </div>
-        
-            <div class="card" style="background-color: hsl(313, 30%, 92%);">
-                <h3>◯◯洺</h3>
-                <p><span class="label">ACΔ:</span> 3</p>
-                <p><span class="label">耗時Δ:</span> 70195</p>
-                <p><span class="label">分數Δ:</span> 3.7</p>
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
-            <div class="empty-card card" style="background-color: white !important; display: none; align-items: center; justify-content: center; font-size: 48px;">
-                ❓
-            </div>
-        
+        <div class="card" style="background-color: hsl(69, 30%, 90%);">
+            <h3>◯◯羽</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>100651</p>
+            <p><span class="label">分數Δ：</span>3.0</p>
         </div>
-    <p>統計：《入門題》,《循序與選擇結構練習》,《課程前測》</p>
+
+        <div class="card" style="background-color: hsl(209, 30%, 90%);">
+            <h3>◯昱◯</h3>
+            <p><span class="label">ＡＣΔ：</span>4</p>
+            <p><span class="label">耗時Δ：</span>67119</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(278, 30%, 90%);">
+            <h3>◯◯辰</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>33466</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(336, 30%, 90%);">
+            <h3>◯奕◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>41925</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(162, 30%, 90%);">
+            <h3>◯◯傑</h3>
+            <p><span class="label">ＡＣΔ：</span>3</p>
+            <p><span class="label">耗時Δ：</span>108262</p>
+            <p><span class="label">分數Δ：</span>3.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(243, 30%, 90%);">
+            <h3>◯◯佑</h3>
+            <p><span class="label">ＡＣΔ：</span>12</p>
+            <p><span class="label">耗時Δ：</span>226592</p>
+            <p><span class="label">分數Δ：</span>6.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(0, 30%, 90%);">
+            <h3>◯◯洺</h3>
+            <p><span class="label">ＡＣΔ：</span>12</p>
+            <p><span class="label">耗時Δ：</span>201419</p>
+            <p><span class="label">分數Δ：</span>6.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(58, 30%, 90%);">
+            <h3>◯安◯</h3>
+            <p><span class="label">ＡＣΔ：</span>9</p>
+            <p><span class="label">耗時Δ：</span>217876</p>
+            <p><span class="label">分數Δ：</span>5.6</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(127, 30%, 90%);">
+            <h3>◯◯軒</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>136250</p>
+            <p><span class="label">分數Δ：</span>8.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(116, 30%, 90%);">
+            <h3>◯◯杰</h3>
+            <p><span class="label">ＡＣΔ：</span>13</p>
+            <p><span class="label">耗時Δ：</span>334976</p>
+            <p><span class="label">分數Δ：</span>10.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(174, 30%, 90%);">
+            <h3>◯◯臻</h3>
+            <p><span class="label">ＡＣΔ：</span>3</p>
+            <p><span class="label">耗時Δ：</span>75585</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(11, 30%, 90%);">
+            <h3>◯◯萱</h3>
+            <p><span class="label">ＡＣΔ：</span>3</p>
+            <p><span class="label">耗時Δ：</span>75533</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(220, 30%, 90%);">
+            <h3>◯承◯</h3>
+            <p><span class="label">ＡＣΔ：</span>4</p>
+            <p><span class="label">耗時Δ：</span>67127</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(104, 30%, 90%);">
+            <h3>◯茗◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>33005</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(92, 30%, 90%);">
+            <h3>◯◯廷</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>184612</p>
+            <p><span class="label">分數Δ：</span>5.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(81, 30%, 91%);">
+            <h3>◯柏◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>28434</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(290, 30%, 91%);">
+            <h3>◯◯元</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>200959</p>
+            <p><span class="label">分數Δ：</span>6.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(325, 30%, 91%);">
+            <h3>◯◯玲</h3>
+            <p><span class="label">ＡＣΔ：</span>16</p>
+            <p><span class="label">耗時Δ：</span>318673</p>
+            <p><span class="label">分數Δ：</span>9.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(301, 30%, 91%);">
+            <h3>◯囷◯</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>167683</p>
+            <p><span class="label">分數Δ：</span>5.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(185, 30%, 91%);">
+            <h3>◯子◯</h3>
+            <p><span class="label">ＡＣΔ：</span>0</p>
+            <p><span class="label">耗時Δ：</span>0</p>
+            <p><span class="label">分數Δ：</span>0.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(23, 30%, 91%);">
+            <h3>◯以◯</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>226513</p>
+            <p><span class="label">分數Δ：</span>5.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(348, 30%, 91%);">
+            <h3>◯◯緯</h3>
+            <p><span class="label">ＡＣΔ：</span>7</p>
+            <p><span class="label">耗時Δ：</span>234367</p>
+            <p><span class="label">分數Δ：</span>7.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(313, 30%, 91%);">
+            <h3>◯紹◯</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>100741</p>
+            <p><span class="label">分數Δ：</span>3.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(255, 30%, 91%);">
+            <h3>◯◯碩</h3>
+            <p><span class="label">ＡＣΔ：</span>0</p>
+            <p><span class="label">耗時Δ：</span>0</p>
+            <p><span class="label">分數Δ：</span>0.9</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(150, 30%, 91%);">
+            <h3>◯孟◯</h3>
+            <p><span class="label">ＡＣΔ：</span>2</p>
+            <p><span class="label">耗時Δ：</span>75426</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(232, 30%, 91%);">
+            <h3>◯◯飛</h3>
+            <p><span class="label">ＡＣΔ：</span>0</p>
+            <p><span class="label">耗時Δ：</span>0</p>
+            <p><span class="label">分數Δ：</span>0.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(46, 30%, 91%);">
+            <h3>◯◯鈞</h3>
+            <p><span class="label">ＡＣΔ：</span>4</p>
+            <p><span class="label">耗時Δ：</span>133300</p>
+            <p><span class="label">分數Δ：</span>4.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(197, 30%, 91%);">
+            <h3>◯◯鑫</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>200976</p>
+            <p><span class="label">分數Δ：</span>6.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(139, 30%, 91%);">
+            <h3>◯◯煦</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>117363</p>
+            <p><span class="label">分數Δ：</span>3.6</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(34, 30%, 91%);">
+            <h3>◯◯容</h3>
+            <p><span class="label">ＡＣΔ：</span>16</p>
+            <p><span class="label">耗時Δ：</span>318569</p>
+            <p><span class="label">分數Δ：</span>9.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(267, 30%, 92%);">
+            <h3>◯◯宣</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>41941</p>
+            <p><span class="label">分數Δ：</span>1.6</p>
+        </div>
+
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+        <div class="empty-card card">
+            ❓
+        </div>
+
+    </div>
+<p>統計：</p>
 <img src="media/ranksum.png" alt="Ranking Summary Histogram">
     <script>
-    const emojis = ["⚽️", "🏐", "📎", "🧭", "🐼", "🎲" ] // , "🥝", "🏀", "❤️", "🎵", "🔔", "🍎", "🐻‍❄️", "🪙"];
+    const emojis = ["⚽️", "🏐", "📎", "🧭", "🐼", "🎲"];
 
-    function getEmptyPositions(cols, numEmpties, total) { // empty cards slots are set here
+    function getEmptyPositions(cols, numEmpties, total) {
         const rows = total / cols;
         const positions = [];
         for (let y = 0; y < rows; y++) {
@@ -333,41 +334,31 @@
             }
         }
         const emptyPositions = [];
-        let available = [...positions]; // spread the elements of the positions array, creates a shallow copy of the positions
-        // Function to filter out edges
+        let available = [...positions];
         const filterEdges = (candidates) => {
             return candidates.filter(pos => {
-                // const isEdge = pos.x === 0 || pos.x === cols - 1 || pos.y === 0 || pos.y === rows - 1;
-                // if (isEdge) {
-                // const is00 = ;
                 if (pos.x === 0 && pos.y === 0) {
-                        // return Math.random() > 0.97; // 3% chance to keep edge                    
-                    // } else {
-                    return Math.random() > 0.9; // 10% chance to keep edge
-                    // }
+                    return Math.random() > 0.9;
                 } else {
                     return true;
                 }
             });
         };
-        // Place first empty randomly, avoiding edges
         if (numEmpties > 0) {
             let filteredAvailable = filterEdges(available);
             if (filteredAvailable.length === 0) {
-                filteredAvailable = available; // fallback
+                filteredAvailable = available;
             }
             const randomIndex = Math.floor(Math.random() * filteredAvailable.length);
             const selectedPos = filteredAvailable[randomIndex];
             emptyPositions.push(selectedPos);
             available.splice(available.indexOf(selectedPos), 1);
         }
-        // Place rest with least same column or row placement, reduce edge chance
         for (let i = 1; i < numEmpties; i++) {
             let candidates = filterEdges(available);
             if (candidates.length === 0) {
-                candidates = available; // fallback
+                candidates = available;
             }
-            // For each candidate, count how many existing empties share row or column
             let minShared = Infinity;
             for (let pos of candidates) {
                 let shared = 0;
@@ -380,7 +371,6 @@
                     minShared = shared;
                 }
             }
-            // Select candidates with minimal shared
             const bestCandidates = candidates.filter(pos => {
                 let shared = 0;
                 for (let epos of emptyPositions) {
@@ -399,19 +389,16 @@
     }
 
     function updateEmpties(layout, mptPos) {
-        // Shuffle available positions for students
         for (let i = mptPos.available.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [mptPos.available[i], mptPos.available[j]] = [mptPos.available[j], mptPos.available[i]];
         }
-        // Create positions array in order
         const positions = [];
         for (let y = 0; y < layout.total / layout.cols; y++) {
             for (let x = 0; x < layout.cols; x++) {
                 positions.push({x, y});
             }
         }
-        // Assign cards to positions
         let studentIndex = 0;
         let emptyIndex = 0;
         const newOrder = [];
@@ -423,18 +410,14 @@
                 newOrder.push(layout.studentCards[studentIndex++]);
             }
         }
-        // Append remaining empty cards (hidden)
         for (let i = emptyIndex; i < layout.emptyCards.length; i++) {
             newOrder.push(layout.emptyCards[i]);
         }
-        // Reorder container
         layout.container.innerHTML = '';
         newOrder.forEach(card => layout.container.appendChild(card));
-        // Show/hide empties
         layout.emptyCards.forEach((card, i) => {
             card.style.display = i < layout.numEmptiesNeeded ? 'flex' : 'none';
         });
-        // Set unique random emojis for visible empties
         const visibleEmptyCards = layout.emptyCards.filter(c => c.style.display === 'flex');
         if (visibleEmptyCards.length > 0) {
             const shuffledEmojis = [...emojis];
@@ -445,7 +428,6 @@
             visibleEmptyCards.forEach((card, i) => {
                 card.innerHTML = shuffledEmojis[i];
             });
-            // Assign random colors from student cards to visible empty cards
             const studentColors = layout.studentCards.map(card => card.style.backgroundColor);
             visibleEmptyCards.forEach(card => {
                 const randomColor = studentColors[Math.floor(Math.random() * studentColors.length)];
@@ -455,24 +437,20 @@
     }
 
     function shuffleAndColor(layout, mptPos) {
-        // Shuffle student cards
         for (let i = layout.studentCards.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [layout.studentCards[i], layout.studentCards[j]] = [layout.studentCards[j], layout.studentCards[i]];
         }
-        // Shuffle available positions
         for (let i = mptPos.available.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [mptPos.available[i], mptPos.available[j]] = [mptPos.available[j], mptPos.available[i]];
         }
-        // Create positions array in order
         const positions = [];
         for (let y = 0; y < layout.total / layout.cols; y++) {
             for (let x = 0; x < layout.cols; x++) {
                 positions.push({x, y});
             }
         }
-        // Assign cards to positions
         let studentIndex = 0;
         let emptyIndex = 0;
         const newOrder = [];
@@ -484,18 +462,14 @@
                 newOrder.push(layout.studentCards[studentIndex++]);
             }
         }
-        // Append remaining empty cards (hidden)
         for (let i = emptyIndex; i < layout.emptyCards.length; i++) {
             newOrder.push(layout.emptyCards[i]);
         }
-        // Reorder container
         layout.container.innerHTML = '';
         newOrder.forEach(card => layout.container.appendChild(card));
-        // Show/hide empties
         layout.emptyCards.forEach((card, i) => {
             card.style.display = i < layout.numEmptiesNeeded ? 'flex' : 'none';
         });
-        // Set unique random emojis for visible empties
         const visibleEmptyCards = layout.emptyCards.filter(c => c.style.display === 'flex');
         if (visibleEmptyCards.length > 0) {
             const shuffledEmojis = [...emojis];
@@ -507,12 +481,10 @@
                 card.innerHTML = shuffledEmojis[i];
             });
         }
-        // Assign colors to student cards
         const hues = [];
         for (let i = 0; i < layout.numStudents; i++) {
             hues.push((i * 360) / layout.numStudents);
         }
-        // Shuffle hues
         for (let i = hues.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [hues[i], hues[j]] = [hues[j], hues[i]];
@@ -530,10 +502,9 @@
         btn.disabled = true;
         btn.textContent = 'Shuffling...';
         let steps = 28;
-        let delay = 1; // Start fast
-        let d2 = 1
-        const layout = getLayout()
-
+        let delay = 1;
+        let d2 = 1;
+        const layout = getLayout();
         function doStep() {
             shuffleAndColor(layout, getEmptyPositions(layout.cols, layout.numEmptiesNeeded, layout.total));
             steps--;
@@ -541,7 +512,6 @@
                 btn.disabled = false;
                 btn.textContent = '亂序排列';
             } else {
-                // Gradually slow down exponentially
                 delay += d2;
                 d2 *= 1.2;
                 setTimeout(doStep, delay);
@@ -550,7 +520,7 @@
         doStep();
     }
 
-    function getLayout () {
+    function getLayout() {
         const container = document.querySelector('.container');
         const allCards = Array.from(container.children);
         const studentCards = allCards.filter(c => !c.classList.contains('empty-card'));
@@ -563,11 +533,11 @@
         return {container, allCards, studentCards, numStudents, cols, remainder, numEmptiesNeeded, emptyCards, total};
     }
 
-    function evtListenPortal (bDoSAC) {
+    function evtListenPortal(bDoSAC) {
         const layout = getLayout();
         const mptPos = getEmptyPositions(layout.cols, layout.numEmptiesNeeded, layout.total);
         if (bDoSAC) {
-            shuffleAndColor(layout, mptPos); // Initial shuffle
+            shuffleAndColor(layout, mptPos);
         }
         updateEmpties(layout, mptPos);
     }
@@ -575,15 +545,12 @@
     document.addEventListener('DOMContentLoaded', function() {
         evtListenPortal(true);
         const btn = document.getElementById('shuffle-btn');
-        btn.addEventListener('click', () => {
-            animateShuffle();
-        });
+        btn.addEventListener('click', animateShuffle);
     });
 
-    window.addEventListener('resize', function () {
+    window.addEventListener('resize', function() {
         evtListenPortal(false);
     });
     </script>
-    </body>
-    </html>
-    
+</body>
+</html>
