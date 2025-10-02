@@ -14,6 +14,11 @@
         .label { font-weight: bold; color: #666; }
         .empty-card { display: none; align-items: center; justify-content: center; font-size: 48px; }
         img { max-width: 100%; height: auto; margin-top: 20px; }
+        #shuffle-btn {
+            width: 100px;
+            min-width: 100px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -21,165 +26,207 @@
     <p>2025-10-01 你的努力： <button id="shuffle-btn">亂序排列</button></p>
     <div class="container">
 
-        <div class="card" style="background-color: hsl(69, 30%, 90%);">
-            <h3>◯◯羽</h3>
-            <p><span class="label">ＡＣΔ：</span>6</p>
-            <p><span class="label">耗時Δ：</span>100651</p>
-            <p><span class="label">分數Δ：</span>3.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(209, 30%, 90%);">
-            <h3>◯昱◯</h3>
-            <p><span class="label">ＡＣΔ：</span>4</p>
-            <p><span class="label">耗時Δ：</span>67119</p>
-            <p><span class="label">分數Δ：</span>2.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(278, 30%, 90%);">
-            <h3>◯◯辰</h3>
-            <p><span class="label">ＡＣΔ：</span>1</p>
-            <p><span class="label">耗時Δ：</span>33466</p>
-            <p><span class="label">分數Δ：</span>1.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(336, 30%, 90%);">
-            <h3>◯奕◯</h3>
-            <p><span class="label">ＡＣΔ：</span>1</p>
-            <p><span class="label">耗時Δ：</span>41925</p>
-            <p><span class="label">分數Δ：</span>1.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(162, 30%, 90%);">
-            <h3>◯◯傑</h3>
-            <p><span class="label">ＡＣΔ：</span>3</p>
-            <p><span class="label">耗時Δ：</span>108262</p>
-            <p><span class="label">分數Δ：</span>3.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(243, 30%, 90%);">
-            <h3>◯◯佑</h3>
-            <p><span class="label">ＡＣΔ：</span>12</p>
-            <p><span class="label">耗時Δ：</span>226592</p>
-            <p><span class="label">分數Δ：</span>6.5</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(0, 30%, 90%);">
-            <h3>◯◯洺</h3>
-            <p><span class="label">ＡＣΔ：</span>12</p>
-            <p><span class="label">耗時Δ：</span>201419</p>
-            <p><span class="label">分數Δ：</span>6.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(58, 30%, 90%);">
-            <h3>◯安◯</h3>
-            <p><span class="label">ＡＣΔ：</span>9</p>
-            <p><span class="label">耗時Δ：</span>217876</p>
-            <p><span class="label">分數Δ：</span>5.6</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(127, 30%, 90%);">
-            <h3>◯◯軒</h3>
-            <p><span class="label">ＡＣΔ：</span>8</p>
-            <p><span class="label">耗時Δ：</span>136250</p>
-            <p><span class="label">分數Δ：</span>8.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(116, 30%, 90%);">
-            <h3>◯◯杰</h3>
-            <p><span class="label">ＡＣΔ：</span>13</p>
-            <p><span class="label">耗時Δ：</span>334976</p>
-            <p><span class="label">分數Δ：</span>10.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(174, 30%, 90%);">
-            <h3>◯◯臻</h3>
-            <p><span class="label">ＡＣΔ：</span>3</p>
-            <p><span class="label">耗時Δ：</span>75585</p>
-            <p><span class="label">分數Δ：</span>2.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(11, 30%, 90%);">
-            <h3>◯◯萱</h3>
-            <p><span class="label">ＡＣΔ：</span>3</p>
-            <p><span class="label">耗時Δ：</span>75533</p>
-            <p><span class="label">分數Δ：</span>2.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(220, 30%, 90%);">
-            <h3>◯承◯</h3>
-            <p><span class="label">ＡＣΔ：</span>4</p>
-            <p><span class="label">耗時Δ：</span>67127</p>
-            <p><span class="label">分數Δ：</span>2.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(104, 30%, 90%);">
-            <h3>◯茗◯</h3>
-            <p><span class="label">ＡＣΔ：</span>1</p>
-            <p><span class="label">耗時Δ：</span>33005</p>
-            <p><span class="label">分數Δ：</span>1.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(92, 30%, 90%);">
-            <h3>◯◯廷</h3>
-            <p><span class="label">ＡＣΔ：</span>8</p>
-            <p><span class="label">耗時Δ：</span>184612</p>
-            <p><span class="label">分數Δ：</span>5.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(81, 30%, 91%);">
-            <h3>◯柏◯</h3>
-            <p><span class="label">ＡＣΔ：</span>1</p>
-            <p><span class="label">耗時Δ：</span>28434</p>
-            <p><span class="label">分數Δ：</span>1.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(290, 30%, 91%);">
-            <h3>◯◯元</h3>
-            <p><span class="label">ＡＣΔ：</span>6</p>
-            <p><span class="label">耗時Δ：</span>200959</p>
-            <p><span class="label">分數Δ：</span>6.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(325, 30%, 91%);">
-            <h3>◯◯玲</h3>
-            <p><span class="label">ＡＣΔ：</span>16</p>
-            <p><span class="label">耗時Δ：</span>318673</p>
-            <p><span class="label">分數Δ：</span>9.5</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(301, 30%, 91%);">
-            <h3>◯囷◯</h3>
-            <p><span class="label">ＡＣΔ：</span>8</p>
-            <p><span class="label">耗時Δ：</span>167683</p>
-            <p><span class="label">分數Δ：</span>5.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(185, 30%, 91%);">
-            <h3>◯子◯</h3>
-            <p><span class="label">ＡＣΔ：</span>0</p>
-            <p><span class="label">耗時Δ：</span>0</p>
-            <p><span class="label">分數Δ：</span>0.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(23, 30%, 91%);">
+        <div class="card" style="background-color: hsl(185, 30%, 90%);">
             <h3>◯以◯</h3>
             <p><span class="label">ＡＣΔ：</span>6</p>
             <p><span class="label">耗時Δ：</span>226513</p>
             <p><span class="label">分數Δ：</span>5.5</p>
         </div>
 
-        <div class="card" style="background-color: hsl(348, 30%, 91%);">
+        <div class="card" style="background-color: hsl(92, 30%, 90%);">
+            <h3>◯◯羽</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>100651</p>
+            <p><span class="label">分數Δ：</span>3.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(290, 30%, 90%);">
+            <h3>◯◯玲</h3>
+            <p><span class="label">ＡＣΔ：</span>16</p>
+            <p><span class="label">耗時Δ：</span>318673</p>
+            <p><span class="label">分數Δ：</span>9.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(0, 30%, 90%);">
+            <h3>◯◯杰</h3>
+            <p><span class="label">ＡＣΔ：</span>13</p>
+            <p><span class="label">耗時Δ：</span>334976</p>
+            <p><span class="label">分數Δ：</span>10.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(139, 30%, 90%);">
+            <h3>◯◯容</h3>
+            <p><span class="label">ＡＣΔ：</span>16</p>
+            <p><span class="label">耗時Δ：</span>318569</p>
+            <p><span class="label">分數Δ：</span>9.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(313, 30%, 90%);">
+            <h3>◯◯廷</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>184612</p>
+            <p><span class="label">分數Δ：</span>5.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(23, 30%, 90%);">
+            <h3>◯靖◯</h3>
+            <p><span class="label">ＡＣΔ：</span>3</p>
+            <p><span class="label">耗時Δ：</span>108262</p>
+            <p><span class="label">分數Δ：</span>3.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(209, 30%, 90%);">
+            <h3>◯◯鑫</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>200976</p>
+            <p><span class="label">分數Δ：</span>6.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(174, 30%, 90%);">
+            <h3>◯可◯</h3>
+            <p><span class="label">ＡＣΔ：</span>12</p>
+            <p><span class="label">耗時Δ：</span>201419</p>
+            <p><span class="label">分數Δ：</span>6.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(46, 30%, 90%);">
+            <h3>◯◯齊</h3>
+            <p><span class="label">ＡＣΔ：</span>0</p>
+            <p><span class="label">耗時Δ：</span>0</p>
+            <p><span class="label">分數Δ：</span>0.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(11, 30%, 90%);">
+            <h3>◯柏◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>28434</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(220, 30%, 90%);">
+            <h3>◯孟◯</h3>
+            <p><span class="label">ＡＣΔ：</span>2</p>
+            <p><span class="label">耗時Δ：</span>75426</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(116, 30%, 90%);">
             <h3>◯◯緯</h3>
             <p><span class="label">ＡＣΔ：</span>7</p>
             <p><span class="label">耗時Δ：</span>234367</p>
             <p><span class="label">分數Δ：</span>7.0</p>
         </div>
 
-        <div class="card" style="background-color: hsl(313, 30%, 91%);">
-            <h3>◯紹◯</h3>
+        <div class="card" style="background-color: hsl(301, 30%, 90%);">
+            <h3>◯亮◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>41941</p>
+            <p><span class="label">分數Δ：</span>1.6</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(348, 30%, 90%);">
+            <h3>◯茗◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>33005</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(69, 30%, 91%);">
+            <h3>◯斐◯</h3>
             <p><span class="label">ＡＣΔ：</span>6</p>
-            <p><span class="label">耗時Δ：</span>100741</p>
-            <p><span class="label">分數Δ：</span>3.0</p>
+            <p><span class="label">耗時Δ：</span>200959</p>
+            <p><span class="label">分數Δ：</span>6.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(278, 30%, 91%);">
+            <h3>◯富◯</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>136250</p>
+            <p><span class="label">分數Δ：</span>8.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(197, 30%, 91%);">
+            <h3>◯囷◯</h3>
+            <p><span class="label">ＡＣΔ：</span>8</p>
+            <p><span class="label">耗時Δ：</span>167683</p>
+            <p><span class="label">分數Δ：</span>5.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(104, 30%, 91%);">
+            <h3>◯克◯</h3>
+            <p><span class="label">ＡＣΔ：</span>6</p>
+            <p><span class="label">耗時Δ：</span>117363</p>
+            <p><span class="label">分數Δ：</span>3.6</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(267, 30%, 91%);">
+            <h3>◯◯穎</h3>
+            <p><span class="label">ＡＣΔ：</span>4</p>
+            <p><span class="label">耗時Δ：</span>67127</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(325, 30%, 91%);">
+            <h3>◯◯婕</h3>
+            <p><span class="label">ＡＣΔ：</span>9</p>
+            <p><span class="label">耗時Δ：</span>217876</p>
+            <p><span class="label">分數Δ：</span>5.6</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(150, 30%, 91%);">
+            <h3>◯奕◯</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>41925</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(34, 30%, 91%);">
+            <h3>◯◯鈞</h3>
+            <p><span class="label">ＡＣΔ：</span>4</p>
+            <p><span class="label">耗時Δ：</span>133300</p>
+            <p><span class="label">分數Δ：</span>4.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(81, 30%, 91%);">
+            <h3>◯◯臻</h3>
+            <p><span class="label">ＡＣΔ：</span>3</p>
+            <p><span class="label">耗時Δ：</span>75585</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(127, 30%, 91%);">
+            <h3>◯◯佑</h3>
+            <p><span class="label">ＡＣΔ：</span>12</p>
+            <p><span class="label">耗時Δ：</span>226592</p>
+            <p><span class="label">分數Δ：</span>6.5</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(336, 30%, 91%);">
+            <h3>◯◯辰</h3>
+            <p><span class="label">ＡＣΔ：</span>1</p>
+            <p><span class="label">耗時Δ：</span>33466</p>
+            <p><span class="label">分數Δ：</span>1.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(58, 30%, 91%);">
+            <h3>◯怡◯</h3>
+            <p><span class="label">ＡＣΔ：</span>3</p>
+            <p><span class="label">耗時Δ：</span>75533</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(232, 30%, 91%);">
+            <h3>◯◯衡</h3>
+            <p><span class="label">ＡＣΔ：</span>4</p>
+            <p><span class="label">耗時Δ：</span>67119</p>
+            <p><span class="label">分數Δ：</span>2.0</p>
+        </div>
+
+        <div class="card" style="background-color: hsl(243, 30%, 91%);">
+            <h3>◯兆◯</h3>
+            <p><span class="label">ＡＣΔ：</span>0</p>
+            <p><span class="label">耗時Δ：</span>0</p>
+            <p><span class="label">分數Δ：</span>0.0</p>
         </div>
 
         <div class="card" style="background-color: hsl(255, 30%, 91%);">
@@ -189,53 +236,11 @@
             <p><span class="label">分數Δ：</span>0.9</p>
         </div>
 
-        <div class="card" style="background-color: hsl(150, 30%, 91%);">
-            <h3>◯孟◯</h3>
-            <p><span class="label">ＡＣΔ：</span>2</p>
-            <p><span class="label">耗時Δ：</span>75426</p>
-            <p><span class="label">分數Δ：</span>2.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(232, 30%, 91%);">
-            <h3>◯◯飛</h3>
-            <p><span class="label">ＡＣΔ：</span>0</p>
-            <p><span class="label">耗時Δ：</span>0</p>
-            <p><span class="label">分數Δ：</span>0.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(46, 30%, 91%);">
-            <h3>◯◯鈞</h3>
-            <p><span class="label">ＡＣΔ：</span>4</p>
-            <p><span class="label">耗時Δ：</span>133300</p>
-            <p><span class="label">分數Δ：</span>4.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(197, 30%, 91%);">
-            <h3>◯◯鑫</h3>
-            <p><span class="label">ＡＣΔ：</span>8</p>
-            <p><span class="label">耗時Δ：</span>200976</p>
-            <p><span class="label">分數Δ：</span>6.0</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(139, 30%, 91%);">
-            <h3>◯◯煦</h3>
+        <div class="card" style="background-color: hsl(162, 30%, 92%);">
+            <h3>◯紹◯</h3>
             <p><span class="label">ＡＣΔ：</span>6</p>
-            <p><span class="label">耗時Δ：</span>117363</p>
-            <p><span class="label">分數Δ：</span>3.6</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(34, 30%, 91%);">
-            <h3>◯◯容</h3>
-            <p><span class="label">ＡＣΔ：</span>16</p>
-            <p><span class="label">耗時Δ：</span>318569</p>
-            <p><span class="label">分數Δ：</span>9.5</p>
-        </div>
-
-        <div class="card" style="background-color: hsl(267, 30%, 92%);">
-            <h3>◯◯宣</h3>
-            <p><span class="label">ＡＣΔ：</span>1</p>
-            <p><span class="label">耗時Δ：</span>41941</p>
-            <p><span class="label">分數Δ：</span>1.6</p>
+            <p><span class="label">耗時Δ：</span>100741</p>
+            <p><span class="label">分數Δ：</span>3.0</p>
         </div>
 
 
@@ -500,8 +505,8 @@
     function animateShuffle() {
         const btn = document.getElementById('shuffle-btn');
         btn.disabled = true;
-        btn.textContent = 'Shuffling...';
         let steps = 28;
+        btn.textContent = `${steps}`;
         let delay = 1;
         let d2 = 1;
         const layout = getLayout();
@@ -512,6 +517,7 @@
                 btn.disabled = false;
                 btn.textContent = '亂序排列';
             } else {
+                btn.textContent = `${steps}`;
                 delay += d2;
                 d2 *= 1.2;
                 setTimeout(doStep, delay);
