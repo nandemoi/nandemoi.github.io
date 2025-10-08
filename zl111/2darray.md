@@ -8,7 +8,13 @@
   
 - 描述程式的時候我們常常說第幾「行」的程式，程式是有左到右橫著寫，所以這個時候的「行」又是橫的。  
   
-- 為避免混淆，老師會盡量使用直「欄」橫「列」的說法。也會用英文 **column** (**直行**或**直欄**) 和 **row** (**橫列**)，建議同學利用機會多使用英文，英文在這裡絕對不會混淆。幫助你記憶 column 是直的：羅馬競技場的*柱子*英文是 Roman colosseum *column*。  
+- 為避免混淆，老師會盡量使用直「欄」橫「列」的說法。也會用英文 **column** (**直行**或**直欄**) 和 **row** (**橫列**)，建議同學利用機會多使用英文，英文在這裡絕對不會混淆。幫助你記憶 column 是直的、row 是橫的：
+  - 羅馬競技場的*柱子*英文是 Roman colosseum *column*。
+  - row 當動詞時是划船的意思，有一首兒歌的歌詞是：  
+    *row, row, row your boat,*  
+    *gently down the stream,*  
+    *Merrily, merrily, merrily, merrily,*  
+    *Life is but a dream.*  
 
 ## (橫) 列優先
 
