@@ -1,44 +1,71 @@
-// Parse CLID from URL parameter
-const urlParams = new URLSearchParams(window.location.search);
-let clid = null;
-if (urlParams.has('clid')) {
-    try {
-        clid = atob(urlParams.get('clid'));
-        localStorage.setItem('clid', clid);
-    } catch(e) {
-        console.error('Invalid CLID parameter:', e);
-        alert('Invalid CLID parameter');
+// Local-only utilities and progress storage (no server, no params)
+
+// Add hover effect for nav bar (bind after DOM is ready)
+function bindNavHover() {
+  document.querySelectorAll('nav a').forEach(link => {
+    const nav = link.closest('nav');
+    if (!nav) return;
+    link.addEventListener('mouseenter', () => { nav.style.backgroundColor = '#3a5cf7'; });
+    link.addEventListener('mouseleave', () => { nav.style.backgroundColor = '#4a6cf7'; });
+  });
+}
+});
+
+// Vibe course data management (localStorage only)
+let vibeData = {
+    quiz_passed: {},
+    reflections: {}
+};
+
+function initVibeData() {
+    const stored = localStorage.getItem('vibe_course_data');
+    if (stored) {
+        try { vibeData = JSON.parse(stored); } catch(_) {}
     }
 }
-if (!clid) {
-    alert('無法連接伺服器：仍可操作唯進度將不會登錄');
+
+function saveVibeData() {
+    localStorage.setItem('vibe_course_data', JSON.stringify(vibeData));
 }
 
-if (clid) {
-    document.querySelectorAll('a[href*="lesson"]').forEach(link => {
-        const url = new URL(link.href, window.location.origin);
-        url.searchParams.set('clid', btoa(clid));
-        link.href = url.href;
-    });
+function updateVibeProgress(data) {
+  if (data.quiz_passed) Object.assign(vibeData.quiz_passed, data.quiz_passed);
+  if (data.reflections) Object.assign(vibeData.reflections, data.reflections);
+  saveVibeData();
 }
 
-// Utility function to update progress
+function getUnits() {
+    // Ordered list of units in this course
+    return ['prologue', 'unit1', 'epilogue'];
+}
+
+function unitFromHref(href) {
+    try {
+        const url = new URL(href, window.location.origin);
+        const file = url.pathname.split('/').pop();
+        if (!file) return null;
+        if (file.startsWith('unit')) return file.replace('.html', '');
+        if (file === 'prologue.html') return 'prologue';
+        if (file === 'epilogue.html') return 'epilogue';
+        return null;
+    } catch (_) { return null; }
+}
+
+// Progress gating disabled (all units enabled)
+function isUnitEnabled(unit) { return true; }
+function enforceUnitAccessOnLoad() { /* no-op */ }
+function markLockedLinks() { /* no-op */ }
+
+// Update progress locally
 async function updateProgress(data) {
-    if (!clid) return;
-    try {
-        const encodedData = btoa(JSON.stringify(data));
-        const response = await fetch('http://elton-m1.local:5050/update-progress', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ clid, prog: encodedData })
-        });
-        const result = await response.json();
-        const decoded = JSON.parse(atob(result.data));
-        if (decoded.handshake !== 'ok') {
-            alert(decoded.error || 'Progress update failed');
-        }
-    } catch (e) {
-        console.error('Progress update error:', e);
-    }
+  updateVibeProgress(data);
+  return Promise.resolve();
 }
 
+window.addEventListener('DOMContentLoaded', () => {
+    try { initVibeData(); } catch(_) {}
+    try { markLockedLinks(); } catch (_) {}
+    try { enforceUnitAccessOnLoad(); } catch (_) {}
+    try { bindNavHover(); } catch(_) {}
+});
+window.addEventListener('load', () => { try { bindNavHover(); } catch(_) {} });

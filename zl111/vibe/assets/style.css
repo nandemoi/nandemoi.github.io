@@ -71,7 +71,7 @@ input {
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #4CAF50;
+    background-color: #4a6cf7;
     color: white;
     border: none;
     border-radius: 4px;
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #3a5cf7;
 }
 
 pre {
@@ -121,6 +121,26 @@ pre {
     font-size: 1.2em;
 }
 
+
+
+.unit-buttons a:hover {
+    background-color: #3a5cf7 !important;
+}
+
+.unit-buttons a.locked {
+    opacity: 0.55;
+    filter: grayscale(0.35);
+    position: relative;
+}
+.unit-buttons a.locked::after {
+    content: "🔒 未解鎖";
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9em;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -140,3 +160,40 @@ footer {
 .center-box.pyth1-menu {
     padding-top: 45px; /* thinner top padding; adjust as needed */
 }
+
+.quiz {
+    line-height: 2em;
+}
+
+.quiz p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.quiz .quiz-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.quiz .quiz-actions #result {
+    margin: 0;
+}
+
+.reflection h3 {
+    margin-top: 2em;
+}
+
+.reflection p {
+    margin-bottom: 0.3em;
+    font-size: 1.1em;
+}
+
+/* button size */
+#quizCheck { font-size: 1.03rem !important; }
+
+/* Nav hover effect via CSS only: whole bar changes when hovering links */
+nav { transition: background-color .15s ease-in-out; }
+nav:has(a:hover) { background-color: #3a5cf7 !important; }
