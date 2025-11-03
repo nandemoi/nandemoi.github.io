@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibe Coding 學 Python：Prologue</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/common.js"></script>
+  <script src="assets/eval.js"></script>
+  <script src="assets/include.js"></script>
+</head>
+<body>
+  <div data-include="components/header.html"></div>
+  <main>
+    <section>
+      <h2>Vibe Coding 是什麼？</h2>
+      <p><strong>Vibe Coding</strong> (共感編程) 是 AI 應用最新的發展之一。想像你有一位聰明又可靠的助手：你用你平常和朋友說話的方式告訴它一個模糊的點子，它會回覆一段程式、設計草圖或一個互動範例。你再修正你的敘述，它再改一次，直到成果<strong>感覺</strong>對了。</p>
+      <p>這就是 <strong>Vibe Coding</strong>：以自然語言（我們平常講的話）和 AI 對話，用語氣、意圖與反覆修正來與 AI 共創應用程式。</p>
+      <p><strong>Vibe Coding</strong> 強調<strong>共感</strong> (Vibe)、<strong>互動</strong> (Interaction)、與<strong>創造性程式邏輯</strong> (Creative Logic)。</p>
+    </section>
+    <section>
+      <h2>課程設計</h2>
+      <p>對你初學 Python 和程式設計而言，嘗試 Vibe Coding 可能會有兩個挑戰：</p>
+      <ol>
+        <li>AI 生成的程式常常比較專業但複雜。Vibe Coding 要注意的一點是我們不希望 AI 幻想出一些沒有要求他做的事，所以還是要知道它生成的程式實際上會做什麼。太過複雜的程式對你初學想去看懂是一個學習上的負擔。</li>
+        <li>比較複雜的任務提示語如果不夠精準，會需要多次的來回迭代，需要耐心。</li>
+      </ol>
+      <p>基於這兩個潛在的困難，這套課程設計上旨在以一個模擬體驗的方式，示範你能夠如何以 Vibe Coding 的方式創造程式，同時在過程中，認識與學習 Python 程式的基礎邏輯與運作原則。</p>
+      <p>透過模擬與互動練習，你會體會如何將想法轉化為可被電腦理解的邏輯陳述，逐步了解程式邏輯如何反映人的思考，學習以結構化的方式清楚表達意圖，培養將問題拆解、表達邏輯關係、與檢驗結果的能力。這些都是與 AI 協作與創意開發的基礎。
+    </section>
+    <section>
+      <h2>你學到了嗎？</h2>
+
+<div data-include="components/quiz_open.html"></div>
+
+  <div class="question" data-q="q1">
+    <p>1. 「Vibe Coding」最主要的特點是什麼？</p>
+    <label><input type="radio" name="q1" value="A"> 用 AI 自動完成所有程式</label><br>
+    <label><input type="radio" name="q1" value="B"> 以自然語言和 AI 對話，共同創造程式</label><br>
+    <label><input type="radio" name="q1" value="C"> 手動撰寫每一行程式碼</label><br><br>
+  </div>
+
+  <div class="question" data-q="q2">
+    <p>2. 下列哪一項「不是」Vibe Coding 的關鍵概念？</p>
+    <label><input type="radio" name="q2" value="A"> 共感 (Vibe)</label><br>
+    <label><input type="radio" name="q2" value="B"> 互動 (Interaction)</label><br>
+    <label><input type="radio" name="q2" value="C"> 盲目複製程式碼 (Copy-Paste)</label><br><br>
+  </div>
+
+  <div class="question" data-q="q3">
+    <p>3. 初學者在使用 Vibe Coding 時，可能面臨哪些挑戰？(可複選)</p>
+    <label><input type="checkbox" name="q3" value="A"> AI 生成的程式可能過於複雜</label><br>
+    <label><input type="checkbox" name="q3" value="B"> 提示語不夠精準，需要多次對話</label><br>
+    <label><input type="checkbox" name="q3" value="C"> AI 自動修正所有錯誤</label><br><br>
+  </div>
+
+  <div class="question" data-q="q4">
+    <p>4. 此《Vibe Coding 學 Python》的課程設計主要在幫助同學學習什麼？</p>
+    <label><input type="radio" name="q4" value="A"> 記憶大量程式庫</label><br>
+    <label><input type="radio" name="q4" value="B"> 以結構化方式清楚表達邏輯與想法</label><br>
+    <label><input type="radio" name="q4" value="C"> 熟練快速鍵操作</label><br><br>
+  </div>
+
+<div class="question" data-q="q6">
+    <p>6. Vibe Coding 完全依賴自動生成，無需任何人類干預。</p>
+    <label><input type="radio" name="q6" value="True"> 對</label> <label><input type="radio" name="q6" value="False"> 錯</label><br><br>
+  </div>
+  
+  <div class="question" data-q="q7">
+    <p>7. 使用 Vibe Coding 學習 Python 能幫助理解程式邏輯與思維。</p>
+    <label><input type="radio" name="q7" value="True"> 對</label> <label><input type="radio" name="q7" value="False"> 錯</label><br><br>
+  </div>
+  
+<div data-include="components/quiz_cloz.html"></div>
+
+<script>
+
+function onCheckQuiz() {
+  const encryptedAnswers = {
+    q1: 'RwwbLyc+NipELB8WW1ZjCEs=',
+    q2: 'RAwbLyc+DCpELB8SW1ZjCEs=',
+    q4: 'QgwbLyc9JipELB8WW1ZjCEs=',
+    q6: 'QAwbLyc9DCpELB8FWlJ6exogDFVi',
+    q7: 'QQwbLyc9HCpELBgNS1RlYB8PM1hi'
+  };
+  const encryptedCorrectQ3 = 'RT4bLx06DBQbNB0VVg==';
+  let score = 0;
+
+  // Single choice questions
+  for (let q in encryptedAnswers) {
+    const selected = document.querySelector(`input[name="${q}"]:checked`);
+    if (selected) {
+      const encodedSelected = btoa(JSON.stringify({ [q]: selected.value }));
+      const correct = decrypt(encryptedAnswers[q], getSalt(q));
+      if (encodedSelected === correct) score++;
+    }
+  }
+
+  // Multiple choice question (q3)
+  const q3checks = document.querySelectorAll('input[name="q3"]:checked');
+  const selectedValues = Array.from(q3checks).map(input => input.value).sort();
+  const encodedSelectedQ3 = btoa(JSON.stringify(selectedValues));
+  const correctQ3 = decrypt(encryptedCorrectQ3, getSalt('q3'));
+  if (encodedSelectedQ3 === correctQ3) {
+    score++;
+  }
+
+  checkQuiz(encryptedAnswers, 5, 'prologue');
+}
+</script>
+
+  <div class="reflection" style="margin-top:20px;">
+    <h3>想一想</h3>
+    <p>1. 你覺得「與 AI 協作」跟「自己寫程式」最大的不同是什麼？又有哪些相同之處？</p>
+    <p style="margin-top:20px;">2. 你認為未來學習程式設計時，利用像 Vibe Coding 這樣的方式會帶來什麼影響？</p>
+    <p style="margin-top:20px;">3. 回想你剛剛學習的內容，寫下你希望能用 Vibe Coding 完成的一個小專案。你會怎麼描述這個專案給 AI？</p>
+    <p style="margin-top:20px;">4. 以你對程式設計的理解，Vibe Coding 可能可以如何幫助你克服學習上的挑戰？</p>
+  </div>
+
+    </section>
+    <nav style="background-color: #4a6cf7; color: white; padding: 10px; margin: 20px 0; display: flex;">
+      <div style="flex:1; text-align:left;"></div>
+      <div style="flex:1; text-align:center;"><a href="index.html" style="color: white; text-decoration: none; font-size: 1.1em;">課程目錄</a></div>
+      <div style="flex:1; text-align:right;"><a href="epilogue.html" style="color: white; text-decoration: none; font-size: 1.1em;">下一課 >></a></div>
+    </nav>
+    <div data-include="components/copyright.html"></div>
+  </main>
+</body>
+</html>

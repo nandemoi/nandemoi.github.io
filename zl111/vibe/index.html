@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibe Coding 學 Python</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/common.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Vibe Coding 學 Python</h1>
+  </header>
+  <main>
+    <section>
+      <div class="unit-buttons">
+          <a href="prologue.html" style="display: block; margin: 10px auto; padding: 20px; background-color: #4a6cf7; color: white; text-decoration: none; text-align: left; border-radius: 5px; font-size: 1.5em; width: 350px; padding-left: 70px; ">什麼是 Vibe Coding？</a>
+          <a href="epilogue.html" style="display: block; margin: 10px auto; padding: 20px; background-color: #4a6cf7; color: white; text-decoration: none; text-align: left; border-radius: 5px; font-size: 1.5em; width: 350px; padding-left: 70px; ">勇於嘗試 ...</a>
+          <a href="unit1.html" style="display: block; margin: 10px auto; padding: 20px; background-color: #4a6cf7; color: white; text-decoration: none; text-align: left; border-radius: 5px; font-size: 1.5em; width: 350px; padding-left: 70px; ">把想法變成 Python 程式 <span style="font-size: 0.7em;">(部分完成)</span></a>
+      </div>
+    </section>
+    <p style="color: #4a6cf7; font-size: 1.3em; text-align: center;"><strong>2025 (C) Elton Huang with AI</strong></p>
+  </main>
+<script>
+// Display progress
+window.addEventListener('load', () => {
+    const prog = localStorage.getItem('vibe_prog') || '000000';
+    const completed = prog.split('').map((bit, i) => bit === '1' ? `Lesson ${i+1}` : null).filter(Boolean).join(', ');
+    document.getElementById('progressDisplay').textContent = completed ? `已完成：${completed}` : '尚未完成任何單元。';
+});
+</script>
+</body>
+</html>

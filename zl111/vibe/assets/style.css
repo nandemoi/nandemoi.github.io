@@ -1,0 +1,199 @@
+/* Common styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    /* text-align: center; */
+}
+
+header {
+    background: #4a6cf7;
+    color: white;
+    text-align: center;
+    padding-top: .2rem;
+    padding-bottom: .8rem;
+    position: relative;
+    font-size: 1.1em;
+}
+
+header a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header h1 {
+    margin: 0.7rem 0 0 0;
+}
+
+header p {
+    margin-top: 0.3em;
+}
+
+main {
+    max-width: 730px;
+    margin: 1.5rem auto;
+    padding: 1rem 3rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section p {
+    text-align: left; 
+    font-size: 1.2rem; 
+    line-height: 1.5em; 
+    margin-bottom: 1
+}
+
+section ol li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #4a6cf7;
+}
+
+input {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a5cf7;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.center-box {
+    display: inline-block;
+    padding: 35px 40px 20px 40px; /* inside the border line */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 0.7em; /* the space between the top border line against the white background */
+    margin-bottom: 40px;
+}
+
+.center-box.error-shown {
+    padding-bottom: 5px;
+}
+
+.error-message {
+    font-size: 1.2em;
+    color: red;
+    font-weight: bold;
+}
+
+.name-bold {
+    font-size: 1.5em;
+}
+
+.pw_label {
+    font-size: 1.1em;
+}
+
+.copyright {
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+
+
+.unit-buttons a:hover {
+    background-color: #3a5cf7 !important;
+}
+
+.unit-buttons a.locked {
+    opacity: 0.55;
+    filter: grayscale(0.35);
+    position: relative;
+}
+.unit-buttons a.locked::after {
+    content: "🔒 未解鎖";
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* To tweak space above the welcome message (h2#welcomeMessage), adjust margin-top here or in HTML */
+#welcomeMessage {
+    margin-top: 0; /* default, increase if needed */
+}
+
+/* Thinner top padding for pyth1 menu (welcomeSection) */
+.center-box.pyth1-menu {
+    padding-top: 45px; /* thinner top padding; adjust as needed */
+}
+
+.quiz {
+    line-height: 2em;
+}
+
+.quiz p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.quiz .quiz-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.quiz .quiz-actions #result {
+    margin: 0;
+}
+
+.reflection h3 {
+    margin-top: 2em;
+}
+
+.reflection p {
+    margin-bottom: 0.3em;
+    font-size: 1.1em;
+}
+
+/* button size */
+#quizCheck { font-size: 1.03rem !important; }
+
+/* Nav hover effect via CSS only: whole bar changes when hovering links */
+nav { transition: background-color .15s ease-in-out; }
+nav:has(a:hover) { background-color: #3a5cf7 !important; }
