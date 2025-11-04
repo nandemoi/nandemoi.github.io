@@ -10,7 +10,7 @@
   * 111 學年度：  
     高中部：[生活科技](https://nandemoi.github.io/zl111/ltplan.pdf)、工程設計、科技應用、機器人專題  
     [國中部棋藝社](https://nandemoi.github.io/zl111/club1.pdf)
-  * 高中部校內資訊學科能力競賽：2023 (出題、規劃設計、執行)、2024 (出題、架構建置平台)
+  * 高中部校內資訊學科能力競賽：2023~2024 (出題、規劃設計、架構建置平台、執行)
 * [高雄大學應用物理系科學實作 Python 課程業師 (2021 秋季)](https://drive.google.com/file/d/1leTFYsUEwqJMVMBxXOsKNGyOhtJG-ZKI/view?usp=sharing)  
   [高中量子科技課程 (民 110 年科技部計畫)](https://nandemoi.github.io/spqc.pdf)：Python 授課教師  
   物理教育學會、量子科學推展平台 2022 第一屆量子科技科普壁報展評審  
