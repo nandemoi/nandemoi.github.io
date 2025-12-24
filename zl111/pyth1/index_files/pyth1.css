@@ -1,0 +1,40 @@
+/* Pyth1 unit list page specific styles */
+.pyth1-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem 0.8rem;
+}
+
+.pyth1-list li {
+    margin: 0;
+}
+
+.pyth1-list a {
+    display: block;
+    padding: .8rem;
+    padding-left: 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 1.3em;
+    width: 230px;
+}
+
+.pyth1-list a:hover {
+    background-color: #45a049;
+}
+
+.pyth1-list .disabled a {
+    background-color: lightgreen;
+    pointer-events: none;
+    cursor: default;
+}
+
+main {
+    max-width: 1000px;
+}
