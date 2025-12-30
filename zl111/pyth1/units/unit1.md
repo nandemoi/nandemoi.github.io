@@ -23,10 +23,10 @@
 <div class="twocol-uc">
 <div class="twocol-left">
 
-<span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span style="color: silver;"> 2 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 程式執行會在螢幕中寫出
 
@@ -67,10 +67,10 @@ digraph print_flow {
 <div class="twocol-uc">
 <div class="twocol-left">
 
-<span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 <span style="color: silver;"> 2 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 那程式執行時在螢幕中就會看到
 
@@ -106,12 +106,12 @@ digraph print_flow {
 
 執行程式碼：
 
-<span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 <span style="color: silver;"> 2 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">7</span><span class="p">)</span>
 <span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 <span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 時，在螢幕中會看到：
 
@@ -127,13 +127,12 @@ digraph print_flow {
 
 如果執行程式碼：
 
-<div class="highlight"><pre><span></span><code>
-<span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">220</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">220</span><span class="p">)</span>
 <span style="color: silver;"> 2 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">53</span><span class="p">)</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="o">@</span><span class="mi">9</span><span class="o">--</span><span class="p">)</span>
 <span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">817</span><span class="p">)</span>
 <span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="o">@</span><span class="mi">7</span><span class="o">--</span><span class="p">)</span>
-</code></pre></div>
+</code></pre></div></code></pre></div>
 
 時，在螢幕中會看到：
 
@@ -153,13 +152,13 @@ digraph print_flow {
 
 變數就像一個盒子，可以放進去一個整數（或其他型別的資料）。每個盒子都有一個名字，我們叫做變數名稱。在 Python 裡面，我們用等號「=」來把數值放進變數裡。例如：
 
-<span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
-
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+</code></pre></div></code></pre></div>
 
 就是把等號右邊的 5 這個整數數值放進等號左邊名字叫做 a 的盒子裡。有的基礎的書會用這樣的箭頭示意，幫助我們理解。
 
-<span class="n">a</span> <span class="err">←</span> <span class="mi">5</span>
-
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="err">←</span> <span class="mi">5</span>
+</code></pre></div></code></pre></div>
 
 ### 變數名稱規則
 
@@ -189,11 +188,11 @@ digraph print_flow {
 
 每一行程式碼依序執行，這意味著變數的值會隨著程式執行而改變，資料會在變數間遷移。
 
-<span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
 <span style="color: silver;"> 3 | </span><span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
 <span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="nd">@c</span><span class="o">--</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 框框裡應該填入哪一個變數名稱能使程式執行後會在螢幕視窗中寫出？  
 
@@ -233,10 +232,10 @@ Python 可以進行整數的加減乘除運算。填入程式碼來計算兩個�
 
 **填入程式碼：**
 
-<span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 這是要求使用者輸入一個數，輸入後會指定給變數 a</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 這是要求使用者輸入一個數，輸入後會指定給變數 a</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 要求使用者再輸入一個數，輸入後會指定給變數 b</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">v</span><span class="p">:</span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span> <span class="nb">print</span> <span class="p">(</span><span class="o">...</span><span class="p">)</span><span class="o">@</span><span class="mi">8</span><span class="o">--</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 (`#` 後面是註解，詳細說明可以看本單元最末或[點擊](#-註解-comment))
 
 **提示：** 使用 a 和 b 的運算。
@@ -245,10 +244,10 @@ Python 可以進行整數的加減乘除運算。填入程式碼來計算兩個�
 
 Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積。
 
-<span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="nd">@_a</span><span class="o">*</span><span class="n">b</span><span class="p">;</span><span class="n">b</span><span class="o">*</span><span class="n">a</span><span class="o">--</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 **提示：** 使用 a 和 b 的乘法運算。可以上網查詢 Python 乘法運算的符號是什麼？
 
@@ -256,10 +255,10 @@ Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積�
 
 變數可以被重新指定新的值。看看以下程式：
 
-<span style="color: silver;"> 1 | </span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
 <span style="color: #5d5d5d;"> 2 | </span><em><span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span></em>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 程式執行後會寫出什麼？
 
@@ -269,7 +268,7 @@ Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積�
 
 ## 思考練習
 
-<span style="color: silver;"> 1 | </span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
 <span style="color: silver;"> 2 | </span><span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="c1"># 這裡會先寫出 1 2</span>
 <span style="color: silver;"> 4 | </span>
@@ -278,7 +277,7 @@ Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積�
 <span style="color: #5d5d5d;"> 7 | </span><em><span class="n">y</span> <span class="o">=</span> <span class="n">z</span></em>
 <span style="color: silver;"> 8 | </span>
 <span style="color: silver;"> 9 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="c1"># 會寫出什麼？</span>
-
+</code></pre></div></code></pre></div>
 
 程式執行後會在螢幕視窗中寫出：
 
@@ -305,8 +304,8 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 **第一種**：浮點數除法「```/```」<span style="color: lightgray">（我們的課程比較少用到）</span>
 
-<span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">/</span> <span class="mi">2</span> <span class="p">)</span>
-
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">/</span> <span class="mi">2</span> <span class="p">)</span>
+</code></pre></div></code></pre></div>
 
 會寫出
 
@@ -318,8 +317,8 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 **第二幢：<span style="color: red">整數除法</span>**「```//```」
 
-<span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">//</span> <span class="mi">2</span> <span class="p">)</span>
-
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">//</span> <span class="mi">2</span> <span class="p">)</span>
+</code></pre></div></code></pre></div>
 
 則會寫出  
 
@@ -331,8 +330,8 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 配合整數求商的除法，有另外一個是求除法餘數的運算「%」。
 
-<span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">%</span> <span class="mi">2</span> <span class="p">)</span>
-
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">%</span> <span class="mi">2</span> <span class="p">)</span>
+</code></pre></div></code></pre></div>
 
 會寫出
 
@@ -346,14 +345,14 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 這段程式
 
-<span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
 <span style="color: silver;"> 3 | </span><span class="n">c</span> <span class="o">=</span> <span class="mi">4</span>
 <span style="color: silver;"> 4 | </span><span class="n">d</span> <span class="o">=</span> <span class="mi">5</span>
 <span style="color: silver;"> 5 | </span>
 <span style="color: silver;"> 6 | </span><span class="n">val</span> <span class="o">=</span> <span class="n">b</span> <span class="o">//</span> <span class="n">a</span> <span class="o">+</span> <span class="n">c</span> <span class="o">//</span> <span class="n">b</span> <span class="o">+</span> <span class="n">d</span> <span class="o">//</span> <span class="n">b</span>
 <span style="color: silver;"> 7 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">val</span><span class="p">)</span>
-
+</code></pre></div></code></pre></div>
 
 會印出
 
@@ -371,12 +370,12 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 輸入兩個整數 n 代表糖果數量與 k 代表學生人數，輸出每人可分得多少糖果，剩下多少顆。
 
-<span style="color: silver;"> 1 | </span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 糖果數量</span>
+<div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 糖果數量</span>
 <span style="color: silver;"> 2 | </span><span class="n">k</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 學生人數</span>
 <span style="color: silver;"> 3 | </span><span class="n">each</span> <span class="o">=</span> <span class="o">--</span><span class="n">n</span><span class="nd">@_n</span><span class="o">//</span><span class="n">k</span><span class="o">--</span>
 <span style="color: silver;"> 4 | </span><span class="n">remain</span> <span class="o">=</span> <span class="o">--</span><span class="n">n</span><span class="nd">@_n</span><span class="o">%</span><span class="n">k</span><span class="o">--</span>
 <span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">each</span><span class="p">,</span> <span class="n">remain</span><span class="p">)</span> <span class="c1"># 寫出每人可分得多少糖果、剩下多少顆</span>
-
+</code></pre></div></code></pre></div>
 
 框框內應該填入什麼運算？  
 
