@@ -1,6 +1,9 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
-<script src="polyfill.io"></script>
-<script id="MathJax-script" async src="cdn.jsdelivr.net"></script>
+<style>
+    .arithmatex {
+        font-family: "Times New Roman", Times, serif;
+    }
+</style>
 
 # 單元 11：(Time) Complexities (時間) 複雜度們
 
