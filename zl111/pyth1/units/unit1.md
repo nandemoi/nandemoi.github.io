@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../assets/css/works_inline.css">
 # 單元 1：循序與指定
 
 <span style="font-size: 1.4em">**程式碼逐行循序執行、「指定 Assign」（`=`）的作用**</span>
@@ -359,3 +360,5 @@ Python 程式裡 `#` 以及跟在其後的所有文字是用來給人類讀的�
 上面的[思考練習](#思考練習-3)說明了變數執行了被指定的程式指令後，原來放在裡面的值會受到複寫。但是要做到這個練習所做的事，Python 有更簡潔的寫法，鼓勵同學自己查找資料了解。  
 
 
+
+<span style="color: rgba(170, 170, 170, 1); font-weight: bold; font-size: 1.2em">2025 © Elton Huang</span>
