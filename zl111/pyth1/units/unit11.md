@@ -1,9 +1,4 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
-<style>
-    .span arithmatex {
-        font-family: "Times New Roman", Times, serif;
-    }
-</style>
 
 # 單元 11：(Time) Complexities (時間) 複雜度們
 
@@ -31,7 +26,7 @@
 <span style="color: silver;"> 8 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">acc</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style='font-family: "Times New Roman"'>O(?)\)</span>
 
 ---
 
