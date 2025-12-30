@@ -634,7 +634,7 @@
 <span style="color: silver;">10 | </span>    <span class="nb">print</span> <span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-這段程式碼處理分數 $0 \leq s \leq 100$ 印出積分點的規格要求應為
+這段程式碼處理分數 <span style="font-family: Times New Roman;"><em>0 ≤ s ≤ 100</em></span> 印出積分點的規格要求應為
 
 <table border="1" style="border-collapse: collapse; text-align: center;">
 <tr><th><code>s</code></th><th style="border: 1px solid gray; padding: 0 7px;">印出積分點</th></tr>
