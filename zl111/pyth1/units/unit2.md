@@ -549,8 +549,8 @@ Python 在表示比較區間的時候可以連寫，例如 ```40 <= score < 60``
 
 能使
 
-輸入為 $7$ 時，輸出為 $17$；  
-輸入為 $8$ 時，輸出為 $25$。
+輸入為 <span style="font-family: Times New Roman;"><em>7</em></span> 時，輸出為 <span style="font-family: Times New Roman;"><em>17</em></span>；  
+輸入為 <span style="font-family: Times New Roman;"><em>8</em></span> 時，輸出為 <span style="font-family: Times New Roman;"><em>25</em></span>。
 
 《APCS 106/03》
 
@@ -611,65 +611,6 @@ Python 在表示比較區間的時候可以連寫，例如 ```40 <= score < 60``
 - 善用 `if`-`else`
 
 ---
-
-## 💡 難題解答
-
-同學上面標題[小挑戰](#小挑戰)的第 3 題是笛摩根定律的應用。
-
-這個你現在高中不會很正常，你如果直接用你平常講的話套上去，碰到這種問題一定會繞得比較久。但這正是你高中要開始學習，以後到大學要接著訓練的**邏輯思考**。這是我們為什麼要上學，學平常自己學不見得學得到的東西。
-
-另外講得更直白一點，這種問題對**學測**高度相關。  
-
-我們先複習一下笛摩根定律的數學表示：
-
-> 非 ($P$ **且** $Q$) ☰ (非 $P$) **或** (非 $Q$) <span style="color: darkgray">... 這題用到這條</span>   
-> 非 ($P$ **或** $Q$) ☰ (非 $P$) **或** (非 $Q$)  
-
-或者我們用數學符號：
-
-$$ 
-\begin{aligned}
-\sim (P \land Q)~☰~(\sim P) \lor (\sim Q) \\
-\sim (P \lor Q)~☰~(\sim P) \land (\sim Q)
-\end{aligned}
-$$ 
-
-題目說「當 `score` 在 `40` (包含) 到 `60` (不包含) 之間時印出 `-1`」，程式中「`...`」必須填什麼：
-
-```ptyhon
-#@@@1
-if score < 40 ... 60 <= score:
-    print(0) 
-else:
-    print(-1)
-```
-
-我們先讓那個條件式用 $R$ 來代表，即
-
-$R$ ☰ `score < 40 ... 60 <= score`
-
-注意 `print (-1)` 是 `else:` 要做的事，而題目問的條件式 $R$ 則在 `if`。也就是說：
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*那個「`score` 在 `40` (包含) 到 `60` (不包含) 之間」是那個條件式的*<span style="color:red">***否定***<span>
-
-所以，(下面用 $s$ 代表 `score`)
-
-$$
-\begin{aligned}
-R &\equiv \mathbf{～}(40 \le s < 60) \\
-&\equiv \mathbf{～}(40 \le s \land s < 60) \\
-&\equiv \mathbf{～(40 \le s) \lor ～(s < 60)} \text{ ... by }\underline{\text{De Morgan's Law}}\\
-&\equiv s < 40 \lor 60 \le s
-\end{aligned}
-$$
-
-現階段練習寫程式，就是練習能過很熟練而正確地思考這些邏輯條理，對以後無論是工程應用或是科學研究都是不可或缺的基礎。  
-
-沒有受過訓練的話可能會很自然地套上口語「既 ... 又 ...」回答
-
-> `score < 40 and 60 <= score`
-
-你答完題或寫完程式時看一下，絕不可能有一個數又小於 40 又不比 60 小。上面那個表示式**永遠為假**，如果永遠為假，通常不會需要用那麼多字符來描述，一定是有什麼問題。  
 
 ### 程式小技巧
 
