@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
-
 # 單元 2：初探 `if`
 
 <span style="font-size: 1.4em">**用 `if`、`else` 讓程式根據條件做不同的事情、邏輯**</span>
@@ -678,3 +677,5 @@ $$
 
 - 練習的時候、特別是練習多了以後，寫程式如果遇到邏輯理不清、繞不出來的時候，就試著換一種你覺得有把握的說法，還有儘量用正面表述，也就是試著把「不是 ...」轉成「是 ...」，讓你句子儘量簡短、簡單，會比較容易把你要的邏輯清理出來。
 
+
+<span style="color: rgba(170, 170, 170, 1); font-weight: bold; font-size: 1.2em">2025 © Elton Huang</span>
