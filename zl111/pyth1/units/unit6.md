@@ -723,7 +723,7 @@ Python `for` 搭配 list 有一個很好用的用法是：
 
 <span style="font-family: Times New Roman;"><em>0</em></span>、<span style="font-family: Times New Roman;"><em>1</em></span>、<span style="font-family: Times New Roman;"><em>1</em></span>、<span style="font-family: Times New Roman;"><em>2</em></span>、<span style="font-family: Times New Roman;"><em>3</em></span>、<span style="font-family: Times New Roman;"><em>5</em></span>、<span style="font-family: Times New Roman;"><em>8</em></span>、<span style="font-family: Times New Roman;"><em>13</em></span>、<span style="font-family: Times New Roman;"><em>21</em></span>、<span style="font-family: Times New Roman;"><em>34</em></span>、<span style="font-family: Times New Roman;"><em>55</em></span>、<span style="font-family: Times New Roman;"><em>89</em></span>、⋯⋯。
 
-下面的程式用以計算費式數列第 <span style="font-family: Times New Roman;"><em>N</em></span> 個（<span style="font-family: Times New Roman;"><em>N \ge 22</em></span>）數的數值：
+下面的程式用以計算費式數列第 <span style="font-family: Times New Roman;"><em>N</em></span> 個（<span style="font-family: Times New Roman;"><em>N ≥ 22</em></span>）數的數值：
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="mi">1</span>
