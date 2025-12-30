@@ -1,0 +1,8 @@
+site_name: 黃老師 Python 課程
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax_config.js # Custom config file you create
+  - polyfill.io
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
