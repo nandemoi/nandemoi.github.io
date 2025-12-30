@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
 <style>
-    .arithmatex {
+    .span arithmatex {
         font-family: "Times New Roman", Times, serif;
     }
 </style>
