@@ -1,0 +1,157 @@
+/* One-column inline worksheet styles */
+.works-inline-page {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background: #f3f6f8;
+}
+/* Global viewport TOC */
+#global-toc { position: fixed; left: 0; top: 64px; z-index: 1001; }
+#global-toc .toc-panel { --toc-width: 260px; width: var(--toc-width); max-height: calc(100vh - 72px); overflow: auto; background: #fff; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,.08); transform: translateX(calc(-1 * var(--toc-width) - 10px)); transition: transform .2s ease-in-out; margin-left: 10px; }
+#global-toc.open .toc-panel { transform: translateX(0); }
+#toc-toggle { position: absolute; left: calc(var(--toc-width) + 10px); top: 6px; width: 36px; height: 36px; border: 1px solid #ddd; border-left: none; border-radius: 0 6px 6px 0; background: #fff; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,.06); display: flex; align-items: center; justify-content: center; font-size: 22px; line-height: 1; color: #333; }
+#global-toc.closed #toc-toggle { left: 0; border-left: 1px solid #ddd; border-radius: 6px; }
+#toc-toggle:hover { background: #f7f7f7; }
+#global-toc .toc-title { font-weight: bold; margin: .5rem .5rem .25rem .5rem; text-align: left; padding-left: 1.3rem; }
+#global-toc .toc-list { list-style: none; padding: 0 .8rem .8rem .8rem; margin: 0; text-align: left; }
+#global-toc .toc-list li { margin: .25rem 0; text-align: left; }
+#global-toc a { text-decoration: none; color: #0366d6; font-size: .98em; display: inline-block; }
+#global-toc a:hover { text-decoration: underline; }
+#global-toc .active > a { font-weight: 600; color: #2c76ff; }
+#global-toc .toc-list li.lvl-2 { padding-left: 1rem !important; }
+#global-toc .toc-list li.lvl-3 { padding-left: 3rem !important; }
+.inline-submit {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: .5rem 1rem .3rem 1rem;
+    z-index: 10;
+}
+.inline-top { display: flex; justify-content: flex-end; align-items: center; margin: 0; }
+.student-right { color: #2c76ffff; font-size: 1.5em; font-weight: bold; }
+.work-sheet {
+    background: #fff;
+    padding: 1rem 2rem 2rem 2rem;
+    text-align: left;
+}
+.work-sheet p, .work-sheet > ul li, .work-sheet > ol li { text-align: left; }
+.work-sheet pre { font-size: 1.1em; text-align: left; line-height: 1.6; }
+
+.work-sheet .highlight pre {
+    line-height: 1.6;
+}
+
+.work-sheet .highlight code {
+    line-height: 1.6;
+}
+.answer-inline {
+    min-width: 0; /* allow shrinking below 120px */
+    width: 10ch; /* character-based width for predictable sizing */
+    box-sizing: border-box;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ddd;
+    font-size: 1.05em;
+    font-family: monospace;
+    color: blue;
+    text-align: left;
+}
+select.answer-inline { text-align: left; text-align-last: left; min-width: 0; }
+.answer-inline.invalid { border-color: #ff7f7f; background: #fff7f7; }
+.inline-qn-actions { display: inline-flex; gap: .3rem; margin-left: .3rem; float: right; }
+.inline-qn-actions .btn-mini { font-size: .8em; padding: .15rem .4rem; }
+/* Marks consistent with 2-column scheme */
+.check { color: green; font-size: 1.2em; }
+.cross { color: red; font-size: 1.2em; }
+.cross.light { color: pink; font-size: 1.2em; }
+.mark { margin-left: .25rem; }
+
+/* unit 1 */
+
+.twocol-uc { /* upper closer */
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  align-items: flex-start;
+  gap: 20px; /* space between code and image */
+  margin-top: -1rem;
+}
+
+.twocol-uf { /* upper farther */
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  align-items: flex-start;
+  gap: 20px; /* space between code and image */
+  margin-top: -.7rem;
+}
+
+.twocol-left {
+  flex: 1 1 55%; /* grow, shrink, and take about 55% of width */
+  /* min-width: 300px; */
+}
+
+.twocol-rite {
+  flex: 1 1 40%;
+  /* min-width: 250px; */
+}
+
+.twocol_bigrite-left {
+  flex: 1 1 30%; /* grow, shrink, and take about 55% of width */
+  /* min-width: 300px; */
+}
+
+.twocol_bigrite-rite {
+  flex: 1 1 65%;
+  /* min-width: 250px; */
+}
+
+.twocol-uc img,
+.twocol-uf img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /* margin-left: 40px;  */
+}
+
+.twocol-rite-ctrimg img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto; 
+}
+
+.twocol-half { /* upper closer */
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  align-items: flex-start;
+  gap: 20px; /* space between code and image */
+  margin-top: -.7rem;
+}
+
+.twocol-lefthalf {
+  flex: 1 1 47.5%; /* grow, shrink, and take about 55% of width */
+  border-right: 1px solid #ccc; /* ← light gray line */
+  padding-right: 10px;
+}
+
+.twocol-ritehalf {
+  flex: 1 1 47.5%;
+}
+
+.twocol-half img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* .longer-select {
+    width: 55ch;
+}
+
+.long-select {
+    width: 30ch;
+}
+
+.short-select {
+    width: 18ch; 
+} */

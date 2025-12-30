@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ '../assets/css/works_inline.css.css' | relative_url }}">
+
 # 單元 2：初探 `if`
 
 <span style="font-size: 1.4em">**用 `if`、`else` 讓程式根據條件做不同的事情、邏輯**</span>
