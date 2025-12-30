@@ -1,18 +1,9 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
-
-<script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [['$','$'], ['\\(','\\)']],
-            displayMath: [['$$','$$'], ['\\[','\\]']],
-            processEscapes: true
-        }
-    });
-</script>
-    
+<style>
+  .arithmatex {
+    font-family: "Times New Roman",
+  }
+</style>
 # 單元 11：(Time) Complexities (時間) 複雜度們
 
 「時間複雜度」是衡量程式執行效率的一種方式。
