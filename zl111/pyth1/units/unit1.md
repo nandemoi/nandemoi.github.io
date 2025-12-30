@@ -129,9 +129,9 @@ digraph print_flow {
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">220</span><span class="p">)</span>
 <span style="color: silver;"> 2 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">53</span><span class="p">)</span>
-<span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span><span class="p">)</span>
+<span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><input type="text" class="answer-input answer-inline"><span class="p">)</span>
 <span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">817</span><span class="p">)</span>
-<span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span><span class="p">)</span>
+<span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><input type="text" class="answer-input answer-inline"><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
 時，在螢幕中會看到：
@@ -191,7 +191,7 @@ digraph print_flow {
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
 <span style="color: silver;"> 3 | </span><span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
-<span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span><span class="p">)</span>
+<span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><input type="text" class="answer-input answer-inline"><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
 框框裡應該填入哪一個變數名稱能使程式執行後會在螢幕視窗中寫出？  
@@ -234,7 +234,7 @@ Python 可以進行整數的加減乘除運算。填入程式碼來計算兩個�
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 這是要求使用者輸入一個數，輸入後會指定給變數 a</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 要求使用者再輸入一個數，輸入後會指定給變數 b</span>
-<span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span><span class="p">)</span>
+<span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><input type="text" class="answer-input answer-inline"><span class="p">)</span>
 </code></pre></div></code></pre></div>
 (`#` 後面是註解，詳細說明可以看本單元最末或[點擊](#-註解-comment))
 
@@ -246,7 +246,7 @@ Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積�
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span>
-<span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span><span class="p">)</span>
+<span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><input type="text" class="answer-input answer-inline"><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
 **提示：** 使用 a 和 b 的乘法運算。可以上網查詢 Python 乘法運算的符號是什麼？
@@ -372,8 +372,8 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 糖果數量</span>
 <span style="color: silver;"> 2 | </span><span class="n">k</span> <span class="o">=</span> <span class="nb">int</span> <span class="p">(</span><span class="nb">input</span> <span class="p">())</span> <span class="c1"># 學生人數</span>
-<span style="color: silver;"> 3 | </span><span class="n">each</span> <span class="o">=</span> <span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span>
-<span style="color: silver;"> 4 | </span><span class="n">remain</span> <span class="o">=</span> <span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;answer-input answer-inline&quot;</span><span class="o">&gt;</span>
+<span style="color: silver;"> 3 | </span><span class="n">each</span> <span class="o">=</span> <input type="text" class="answer-input answer-inline">
+<span style="color: silver;"> 4 | </span><span class="n">remain</span> <span class="o">=</span> <input type="text" class="answer-input answer-inline">
 <span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">each</span><span class="p">,</span> <span class="n">remain</span><span class="p">)</span> <span class="c1"># 寫出每人可分得多少糖果、剩下多少顆</span>
 </code></pre></div></code></pre></div>
 
