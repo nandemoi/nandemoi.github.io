@@ -127,12 +127,13 @@ digraph print_flow {
 
 如果執行程式碼：
 
+<div class="highlight"><pre><span></span><code>
 <span style="color: silver;"> 1 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">220</span><span class="p">)</span>
 <span style="color: silver;"> 2 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">53</span><span class="p">)</span>
 <span style="color: silver;"> 3 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="o">@</span><span class="mi">9</span><span class="o">--</span><span class="p">)</span>
 <span style="color: silver;"> 4 | </span><span class="nb">print</span> <span class="p">(</span><span class="mi">817</span><span class="p">)</span>
 <span style="color: silver;"> 5 | </span><span class="nb">print</span> <span class="p">(</span><span class="o">--</span><span class="n">n</span><span class="o">@</span><span class="mi">7</span><span class="o">--</span><span class="p">)</span>
-
+</code></pre></div>
 
 時，在螢幕中會看到：
 
