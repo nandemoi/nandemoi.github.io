@@ -319,7 +319,7 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 ---
 
-若 `r` 為一介於 $0$ 和 $10000$ 之間隨機產生的整數，則 `100 <=` <select class="answer-select answer-inline" style="width: 156px"><option value="">請選擇...</option><option value="r % 900 + 100">r % 900 + 100</option><option value="r % 1000 + 1">r % 1000 + 1</option><option value="r % 899 + 101">r % 899 + 101</option><option value="r % 901 + 100">r % 901 + 100</option></select> `<= 1000`。
+若 `r` 為一介於 <span style="font-family: Times New Roman;"><em>0</em></span> 和 <span style="font-family: Times New Roman;"><em>10000</em></span> 之間隨機產生的整數，則 `100 <=` <select class="answer-select answer-inline" style="width: 156px"><option value="">請選擇...</option><option value="r % 900 + 100">r % 900 + 100</option><option value="r % 1000 + 1">r % 1000 + 1</option><option value="r % 899 + 101">r % 899 + 101</option><option value="r % 901 + 100">r % 901 + 100</option></select> `<= 1000`。
 
 《APCS 106/03#12》
 
