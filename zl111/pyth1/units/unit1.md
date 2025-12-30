@@ -172,17 +172,17 @@ digraph print_flow {
 
 ---
 
-<select class="answer-select answer-inline" style="width: 312px"><option value="">請選擇...</option><option value="2value;_value2;value-2;for">2value;_value2;value-2;for</option></select> 是合法的變數名稱。
+<select class="answer-select answer-inline" style="width: 105px"><option value="">請選擇...</option><option value="2value">2value</option><option value="_value2">_value2</option><option value="value-2">value-2</option><option value="for">for</option></select> 是合法的變數名稱。
 
-<select class="answer-select answer-inline" style="width: 432px"><option value="">請選擇...</option><option value="_2nd_score;score_2;2nd_score;score2_">_2nd_score;score_2;2nd_score;score2_</option></select> 不是合法的變數名稱。
+<select class="answer-select answer-inline" style="width: 120px"><option value="">請選擇...</option><option value="_2nd_score">_2nd_score</option><option value="score_2">score_2</option><option value="2nd_score">2nd_score</option><option value="score2_">score2_</option></select> 不是合法的變數名稱。
 
-<select class="answer-select answer-inline" style="width: 276px"><option value="">請選擇...</option><option value="Age;_age;age1;以上皆">Age;_age;age1;以上皆</option></select> 是與 `age` 不同的變數名稱。
+<select class="answer-select answer-inline" style="width: 108px"><option value="">請選擇...</option><option value="Age">Age</option><option value="_age">_age</option><option value="age1">age1</option><option value="以上皆">以上皆</option></select> 是與 `age` 不同的變數名稱。
 
-<select class="answer-select answer-inline" style="width: 1404px"><option value="">請選擇...</option><option value="變數名稱可以以數字開頭;變數名稱可以包含底線;大小寫不同是不同變數;命名應該有意義">變數名稱可以以數字開頭;變數名稱可以包含底線;大小寫不同是不同變數;命名應該有意義</option></select> 是錯誤的。
+<select class="answer-select answer-inline" style="width: 396px"><option value="">請選擇...</option><option value="變數名稱可以以數字開頭">變數名稱可以以數字開頭</option><option value="變數名稱可以包含底線">變數名稱可以包含底線</option><option value="大小寫不同是不同變數">大小寫不同是不同變數</option><option value="命名應該有意義">命名應該有意義</option></select> 是錯誤的。
 
-不建議使用 <select class="answer-select answer-inline" style="width: 288px"><option value="">請選擇...</option><option value="sum;height;score1;_total">sum;height;score1;_total</option></select> 作為變數
+不建議使用 <select class="answer-select answer-inline" style="width: 105px"><option value="">請選擇...</option><option value="sum">sum</option><option value="height">height</option><option value="score1">score1</option><option value="_total">_total</option></select> 作為變數
 
-用 <select class="answer-select answer-inline" style="width: 264px"><option value="">請選擇...</option><option value="num_students;ns;x;data">num_students;ns;x;data</option></select> 表示代表「學生數量」的變數最合適。
+用 <select class="answer-select answer-inline" style="width: 144px"><option value="">請選擇...</option><option value="num_students">num_students</option><option value="ns">ns</option><option value="x">x</option><option value="data">data</option></select> 表示代表「學生數量」的變數最合適。
 
 ### 算術 (Arithmetic) 運算
 
@@ -362,7 +362,7 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 ---
 
-若 `r` 為一介於 $0$ 和 $10000$ 之間隨機產生的整數，則 `100 <=` <select class="answer-select answer-inline" style="width: 648px"><option value="">請選擇...</option><option value="r % 900 + 100;r % 1000 + 1;r % 899 + 101;r % 901 + 100">r % 900 + 100;r % 1000 + 1;r % 899 + 101;r % 901 + 100</option></select> `<= 1000`。
+若 `r` 為一介於 $0$ 和 $10000$ 之間隨機產生的整數，則 `100 <=` <select class="answer-select answer-inline" style="width: 156px"><option value="">請選擇...</option><option value="r % 900 + 100">r % 900 + 100</option><option value="r % 1000 + 1">r % 1000 + 1</option><option value="r % 899 + 101">r % 899 + 101</option><option value="r % 901 + 100">r % 901 + 100</option></select> `<= 1000`。
 
 《APCS 106/03#12》
 
