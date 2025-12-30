@@ -1,1 +1,4 @@
 markdown: kramdown
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
