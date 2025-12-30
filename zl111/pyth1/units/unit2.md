@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ '../assets/css/works_inline.css.css' | relative_url }}">
+<link rel="stylesheet" href="{../assets/css/works_inline.css.css' | relative_url }">
 
 # 單元 2：初探 `if`
 
