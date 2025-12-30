@@ -396,7 +396,7 @@ APCS 觀念題測驗時無法執行程式，可以用紙筆操作。同學做這
 
 在迴圈結構的後半句區塊裡面用到 `if` 結構這類的程式模式當中 (`for` 或 `while` 迴圈包著 `if`)，有時候可以使用 `break` 來中斷它所在那層的迴圈。<span style="color:darkgray">不過這個指令如果不會也沒關係，對於寫程式的習慣而言可能還比較好。參考[提醒](#關於-break-的提醒)的說明</span>
 
-我們看一下這個例子：它做的事是從 $1 \times 1$ 開始找 $100$ 以內第一個大於 $50$ 的平方數，如果有就印出來。
+我們看一下這個例子：它做的事是從 <span style="font-family: Times New Roman;"><em>1 × 1</em></span> 開始找 <span style="font-family: Times New Roman;"><em>100</em></span> 以內第一個大於 <span style="font-family: Times New Roman;"><em>50</em></span> 的平方數，如果有就印出來。
 
 我們把迴圈搜尋的極至設在 `n * n < 100`，就用一個 `while` 迴圈從 `1*1` 開始一個一個檢查 ...
 
@@ -422,7 +422,7 @@ APCS 觀念題測驗時無法執行程式，可以用紙筆操作。同學做這
 
 ---
 
-一個正整數 $n$ 是不是質數的定義是 $n$ 有沒有除了 $1$ 和自己 ($n$) 以外的 <input type="text" class="answer-input answer-inline"> 數。  
+一個正整數 <span style="font-family: Times New Roman;"><em>n</em></span> 是不是質數的定義是 <span style="font-family: Times New Roman;"><em>n</em></span> 有沒有除了 <span style="font-family: Times New Roman;"><em>1</em></span> 和自己 (<span style="font-family: Times New Roman;"><em>n</em></span>) 以外的 <input type="text" class="answer-input answer-inline"> 數。  
 
 檢查的程式可以這樣寫：
 
@@ -441,7 +441,7 @@ APCS 觀念題測驗時無法執行程式，可以用紙筆操作。同學做這
 
 如果 `n` 是質數印出 `1`，否則印出 `0`。
 
-但是上面的 `while i < n:` 可以改成 `while i * i < n:` 會更快完成，因為[最多只要檢查到 $\sqrt{n}$ 就可以了](https://www.youtube.com/watch?v=N5khW8NYxAc)！
+但是上面的 `while i < n:` 可以改成 `while i * i < n:` 會更快完成，因為[最多只要檢查到 <span style="font-family: Times New Roman;"><em>√n</em></span> 就可以了](https://www.youtube.com/watch?v=N5khW8NYxAc)！
 
 ---
 
