@@ -1,9 +1,7 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
-<style>
-  .arithmatex {
-    font-family: "Times New Roman",
-  }
-</style>
+<script src="polyfill.io"></script>
+<script id="MathJax-script" async src="cdn.jsdelivr.net"></script>
+
 # 單元 11：(Time) Complexities (時間) 複雜度們
 
 「時間複雜度」是衡量程式執行效率的一種方式。
