@@ -30,11 +30,9 @@
 
 程式執行會在螢幕中寫出
 
-```output
-1
+<pre class="output">1
 2
-3
-```
+3</pre>
 
 </div>
 <div class="twocol-rite">
@@ -74,11 +72,9 @@ digraph print_flow {
 
 那程式執行時在螢幕中就會看到
 
-```output
-3
+<pre class="output">3
 2
-1
-```
+1</pre>
 
 </div>
 <div class="twocol-rite">
@@ -115,13 +111,11 @@ digraph print_flow {
 
 時，在螢幕中會看到：
 
-```output
-5
+<pre class="output">5
 <input type="text" class="answer-input answer-inline">
 7
 3
-2
-```
+2</pre>
 
 ### 練習
 
@@ -136,13 +130,11 @@ digraph print_flow {
 
 時，在螢幕中會看到：
 
-```output
-220
+<pre class="output">220
 53
 9
 817
-7
-```
+7</pre>
 
 那框框內應填入什麼數字？  
 
@@ -196,9 +188,7 @@ digraph print_flow {
 
 框框裡應該填入哪一個變數名稱能使程式執行後會在螢幕視窗中寫出？  
 
-```output
-8
-```
+<pre class="output">8</pre>
 
 這段程式先將 5 存入 a ， 3 存入 b ，然後計算 a + b 並存入 c，最後寫出 c 的值。
 
@@ -262,9 +252,7 @@ Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積�
 
 程式執行後會寫出什麼？
 
-```output
-<input type="text" class="answer-input answer-inline">
-```
+<pre class="output"><input type="text" class="answer-input answer-inline"></pre>
 
 ## 思考練習
 
@@ -281,10 +269,8 @@ Python 也可以進行乘法運算。填入程式碼來計算兩個整數的積�
 
 程式執行後會在螢幕視窗中寫出：
 
-```output
-1 2
-<input type="text" class="answer-input answer-inline">
-```
+<pre class="output">1 2
+<input type="text" class="answer-input answer-inline"></pre>
 
 想想看這段程式做了什麼？最後程式會寫出什麼結果。  
 
@@ -309,9 +295,7 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 會寫出
 
-```output
-3.5
-```
+<pre class="output">3.5</pre>
 
 被除數是 7，除數是 2，浮點數除法得到結果 3.5。
 
@@ -322,9 +306,7 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 則會寫出  
 
-```output
-3
-```
+<pre class="output">3</pre>
 
 被除數是 7，除數是 2，整數除法得到商是 3。
 
@@ -335,9 +317,7 @@ Python 的除法運算有兩種：浮點數（有小數點的數）除法和<spa
 
 會寫出
 
-```output
-1
-```
+<pre class="output">1</pre>
 
 被除數是 7，除數是 2，整數除法得到餘數是 1。
 
