@@ -768,13 +768,13 @@ Lines 1~3 是 `while` 迴圈，請注意幾點：
 <span style="color: silver;"> 6 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">fact</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-把 <select class="answer-select answer-inline" style="width: 420px"><option value="">請選擇...</option><option value="line 2 改成 fact = n">line 2 改成 fact = n</option><option value="line 3 改成 if n > 0:">line 3 改成 if n > 0:</option><option value="line 4 改成 fact = n * (n - 1)">line 4 改成 fact = n * (n - 1)</option><option value="line 4 改成 fact = fact * (n - 1)">line 4 改成 fact = fact * (n - 1)</option></select> 能夠讓程式最後印出 $n$ 階乘 ($n!$)
+把 <select class="answer-select answer-inline" style="width: 420px"><option value="">請選擇...</option><option value="line 2 改成 fact = n">line 2 改成 fact = n</option><option value="line 3 改成 if n > 0:">line 3 改成 if n > 0:</option><option value="line 4 改成 fact = n * (n - 1)">line 4 改成 fact = n * (n - 1)</option><option value="line 4 改成 fact = fact * (n - 1)">line 4 改成 fact = fact * (n - 1)</option></select> 能夠讓程式最後印出 <span style="font-family: Times New Roman;"><em>n</em></span> 階乘 (<span style="font-family: Times New Roman;"><em>n!</em></span>)
 
 《改自範例題本#11》
 
 ---
 
-下面這段程式規格設定應要印出 $20$ 次 `123` 但有 bug：會印出 <input type="text" class="answer-input answer-inline"> 次。(填入整數)
+下面這段程式規格設定應要印出 <span style="font-family: Times New Roman;"><em>20</em></span> 次 `123` 但有 bug：會印出 <input type="text" class="answer-input answer-inline"> 次。(填入整數)
 
 如果將 <select class="answer-select answer-inline" style="width: 672px"><option value="">請選擇...</option><option value="i <= 100 改成 i < 20 並且 i = i + 5 改成 i = i + 1">i <= 100 改成 i < 20 並且 i = i + 5 改成 i = i + 1</option><option value="i = 0 改成 i = 5">i = 0 改成 i = 5</option><option value="i <= 100 改成 i < 100">i <= 100 改成 i < 100</option><option value="i = 0 改成 i = 5 並且 i <= 100 改成 i < 100">i = 0 改成 i = 5 並且 i <= 100 改成 i < 100</option></select> 仍**無法**使之符合規格要求。
 
@@ -821,7 +821,7 @@ Lines 1~3 是 `while` 迴圈，請注意幾點：
 
 3. 條件的結束<span style="color:red">**/持續**</span>，但記得 `while ...:` 所描述的是迴圈<span style="color:red">**持續**</span>的條件，也就是邏輯上是<span style="color:red">**相反**</span>的。
 
-舉例而言：如果我要寫一個迴圈求從 $1$ 加到 $10$ 的加總，可以用一個變數 `i` 從 `1` 改變到 `10` 來控制這個迴圈：
+舉例而言：如果我要寫一個迴圈求從 <span style="font-family: Times New Roman;"><em>1</em></span> 加到 <span style="font-family: Times New Roman;"><em>10</em></span> 的加總，可以用一個變數 `i` 從 `1` 改變到 `10` 來控制這個迴圈：
 
 1. 條件的開始：`i` 一開始會是 `1`，即 `i = 1`；
 
@@ -836,7 +836,7 @@ Lines 1~3 是 `while` 迴圈，請注意幾點：
     <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>  <span class="c1"># ... 2.     條件的改變</span>
 </code></pre></div></code></pre></div>
 
-這就是迴圈控制的結構。接著我們目的是算從 $1$ 加到 $10$ 的加總，也就是把 `i` 從 `1` 一直變化到 `10` 過程中累加起來，那麼就可以再用另外一個變數 `total` 來做累加這件事：這裡一樣可以用這 3 個重點：
+這就是迴圈控制的結構。接著我們目的是算從 <span style="font-family: Times New Roman;"><em>1</em></span> 加到 <span style="font-family: Times New Roman;"><em>10</em></span> 的加總，也就是把 `i` 從 `1` 一直變化到 `10` 過程中累加起來，那麼就可以再用另外一個變數 `total` 來做累加這件事：這裡一樣可以用這 3 個重點：
 
 1. 開始：因為是要累加，所以一開始要先將 `total` 清 0，即 `total = 0`
 
