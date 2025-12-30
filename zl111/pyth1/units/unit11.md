@@ -1,12 +1,11 @@
 <link rel="stylesheet" href="../assets/css/works_inline.css">
-
 # 單元 11：(Time) Complexities (時間) 複雜度們
 
 「時間複雜度」是衡量程式執行效率的一種方式。
 
 衡量程式執行效率，我們在意的不是程式在處理小資料量時的快慢。程式 A 在處理小資料量的時候可能比程式 B 快，卻在大資料量的時候較慢，例如有序數列的循序搜尋和[二分搜尋](#二分搜尋完整分析)的比較。
 
-我們在意的是：**當資料量變成 <span style='font-family: Computer Modern'><em>n</em></span> 倍的時候，程式處理需要花費的時間會是原來的幾倍？**
+我們在意的是：**當資料量變成 <span style="font-family: Times New Roman;">n</span> 倍的時候，程式處理需要花費的時間會是原來的幾倍？**
 
 我們會使用一個 Big-O 的標記 <span class="arithmatex">\(O\)</span>(...) 來表示一個程式/演算法來表示效率的度量，這個效率的度量又稱為「複雜度 Complexity」。<span style="color:silver"><span class="arithmatex">\(O\)</span> 是從 <span style="font-family: Times">Order</span> 縮寫來的，可以理解成「等級」。</span>
 
@@ -26,7 +25,7 @@
 <span style="color: silver;"> 8 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">acc</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span style='font-family: "Times New Roman"'>O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -40,7 +39,7 @@
 <span style="color: silver;"> 8 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">factorial</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -78,7 +77,7 @@
 </div>
 </div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -100,7 +99,7 @@
 <span style="color: silver;">16 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">mx</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -115,7 +114,7 @@
 <span style="color: silver;"> 7 | </span><span class="nb">print</span><span class="p">(</span><span class="n">pnr</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -130,7 +129,7 @@
 <span style="color: #5d5d5d;"> 9 | </span><em>    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span></em>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -145,7 +144,7 @@
 <span style="color: #5d5d5d;"> 9 | </span><em>    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span></em>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -196,7 +195,7 @@
 <span style="color: silver;"> 6 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">n</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -210,7 +209,7 @@
 <span style="color: silver;"> 8 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -248,7 +247,7 @@
 </div>
 </div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -271,7 +270,7 @@
 <span style="color: #5d5d5d;"> 9 | </span><em>    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span></em>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -289,7 +288,7 @@
 <span style="color: silver;">12 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -307,7 +306,7 @@
 <span style="color: silver;">12 | </span><span class="nb">print</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -353,7 +352,7 @@
 </div>
 </div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -367,13 +366,13 @@
     <span class="k">return</span> <span class="n">exp</span> <span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">exp</span> <span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>  <span class="c1"># 有和沒有</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
 `fact_perm (a)` 算出 a 中元素所有可能排列會有幾種。
 
-$n$ 是 `len(a)` (`a` 的長度)，即 `a` 有 $n$ 項元素。
+<span style="font-family: Times New Roman;">n</span> 是 `len(a)` (`a` 的長度)，即 `a` 有 <span style="font-family: Times New Roman;">n</span> 項元素。
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">fact_perm</span> <span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">list</span><span class="p">):</span>
     <span class="k">if</span> <span class="nb">len</span> <span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
@@ -385,7 +384,7 @@ $n$ 是 `len(a)` (`a` 的長度)，即 `a` 有 $n$ 項元素。
     <span class="k">return</span> <span class="n">total</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -458,7 +457,7 @@ vs.
         <span class="k">return</span> <span class="n">fib_rec</span> <span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">fib_rec</span> <span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
 </code></pre></div></code></pre></div>
 
-這個做法的問題是會有很多重複的動作：以求 $F (7)$ 為例
+這個做法的問題是會有很多重複的動作：以求 <span style="font-family: Times New Roman;">F (7)</span> 為例
 
 <blockquote>
 <p><span class="arithmatex">\(F (7) = F (6) + \)</span><span class="arithmatex" style="color: red">\(F (5)\)</span></span></p>
@@ -469,7 +468,7 @@ vs.
 
 <img src="../images/unit11_1.svg" alt="Graph" style="max-width: 100%; height: auto;">
 
-<span class="arithmatex">\(O(?)\)</span> ($1 \lt k \lt 2$)
+<span style="font-family: Times New Roman"><em>O(?)</em></span> (<span style="font-family: Times New Roman;">1 \lt k \lt 2</span>)
 
 ---
 
@@ -487,7 +486,7 @@ vs.
         <span class="k">return</span> <span class="n">b</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -504,7 +503,7 @@ vs.
 <span style="color: #5d5d5d;"> 9 | </span><em>    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span></em>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -668,7 +667,7 @@ vs.
 </div>
 </div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
@@ -690,7 +689,7 @@ vs.
 <span style="color: silver;">16 | </span>    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
 </code></pre></div></code></pre></div>
 
-<span class="arithmatex">\(O(?)\)</span>
+<span style="font-family: Times New Roman"><em>O(?)</em></span>
 
 ---
 
