@@ -227,11 +227,11 @@ Line 9 第 1 個框框填什麼運算符號？其他框框填什麼整數？會�
 
 ---
 
-$n$ 位同學編號 $1$ ~ $n$ 號玩小天使遊戲：我們用一個 list `angel` 表示抽籤結果：`angel [1]` 是 1 號同學的小天使編號，`angel [2]` 是 2 號同學的小天使編號，`angel [3]` 是 3 號同學的小天使編號，依此類推。
+<span style="font-family: Times New Roman;">n</span> 位同學編號 <span style="font-family: Times New Roman;">1</span> ~ <span style="font-family: Times New Roman;">n</span> 號玩小天使遊戲：我們用一個 list `angel` 表示抽籤結果：`angel [1]` 是 1 號同學的小天使編號，`angel [2]` 是 2 號同學的小天使編號，`angel [3]` 是 3 號同學的小天使編號，依此類推。
 
-$n$ 位同學分別準備 $n$ 種不同的禮物，第一天每位小天使找機會把自己準備的禮物偷偷放在自己的小主人的抽屜，第二天開始每位同學把自己前一天收到的禮物再轉給自己的小主人，這樣的操作每個人一定會在某一天收到自己的禮物。
+<span style="font-family: Times New Roman;">n</span> 位同學分別準備 <span style="font-family: Times New Roman;">n</span> 種不同的禮物，第一天每位小天使找機會把自己準備的禮物偷偷放在自己的小主人的抽屜，第二天開始每位同學把自己前一天收到的禮物再轉給自己的小主人，這樣的操作每個人一定會在某一天收到自己的禮物。
 
-例如：如果 $n$ 是 $3$，
+例如：如果 <span style="font-family: Times New Roman;">n</span> 是 <span style="font-family: Times New Roman;">3</span>，
 
 如果 `angel` 是 `[ 0, 1, 2, 3 ]` 表示每個人抽到自己是自己的小天使，第 1 天就收到自己的禮物。
 
@@ -719,11 +719,11 @@ Python `for` 搭配 list 有一個很好用的用法是：
 
 ## 📝 APCS 觀念題選
 
-一個費式數列定義第一個數為 $0$，第二個數為 $1$，之後的每個數都等於前兩個數相加，如下所示：
+一個費式數列定義第一個數為 <span style="font-family: Times New Roman;">0</span>，第二個數為 <span style="font-family: Times New Roman;">1</span>，之後的每個數都等於前兩個數相加，如下所示：
 
-$0$、$1$、$1$、$2$、$3$、$5$、$8$、$13$、$21$、$34$、$55$、$89$、⋯⋯。
+<span style="font-family: Times New Roman;">0</span>、<span style="font-family: Times New Roman;">1</span>、<span style="font-family: Times New Roman;">1</span>、<span style="font-family: Times New Roman;">2</span>、<span style="font-family: Times New Roman;">3</span>、<span style="font-family: Times New Roman;">5</span>、<span style="font-family: Times New Roman;">8</span>、<span style="font-family: Times New Roman;">13</span>、<span style="font-family: Times New Roman;">21</span>、<span style="font-family: Times New Roman;">34</span>、<span style="font-family: Times New Roman;">55</span>、<span style="font-family: Times New Roman;">89</span>、⋯⋯。
 
-下面的程式用以計算費式數列第 $N$ 個（$N \ge 22$）數的數值：
+下面的程式用以計算費式數列第 <span style="font-family: Times New Roman;">N</span> 個（<span style="font-family: Times New Roman;">N \ge 22</span>）數的數值：
 
 <div class="highlight"><pre><span></span><code><div class="highlight"><pre><span></span><code><span style="color: silver;"> 1 | </span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
 <span style="color: silver;"> 2 | </span><span class="n">b</span> <span class="o">=</span> <span class="mi">1</span>
