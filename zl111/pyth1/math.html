@@ -13662,7 +13662,29 @@ $\displaystyle \left[\begin{matrix}\frac{9}{7}\\\frac{15}{7}\\\frac{18}{7}\end{m
 <div class="prompt input_prompt">In [23]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">display</span> <span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">hstack</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="o">-</span><span class="n">B</span><span class="p">)</span><span class="o">.</span><span class="n">rref</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">C</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">hstack</span> <span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="o">-</span><span class="n">B</span><span class="p">)</span>
+<span class="n">display</span> <span class="p">(</span><span class="n">C</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_latex output_subarea">
+$\displaystyle \left[\begin{matrix}1 &amp; 1 &amp; 1 &amp; -6\\2 &amp; -1 &amp; 1 &amp; -3\\1 &amp; 2 &amp; -1 &amp; -3\end{matrix}\right]$
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered" id="cell-id=bcf0bacd">
+<div class="input">
+<div class="prompt input_prompt">In [24]:</div>
+<div class="inner_cell">
+<div class="input_area">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">display</span> <span class="p">(</span><span class="n">C</span><span class="o">.</span><span class="n">rref</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
