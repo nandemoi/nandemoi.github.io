@@ -104,9 +104,9 @@
 </g>
 <!-- 7：函式&#45;&gt;遞迴 Recursion -->
 <g id="edge6" class="edge">
-<title>7：函式&#45;&gt;遞迴 Recursion</title>
-<path fill="none" stroke="#4caf50" d="M214.87,-91.69C223.34,-89.94 232.67,-88.01 242.07,-86.07"/>
-<polygon fill="#4caf50" stroke="#4caf50" points="242.53,-89.55 251.62,-84.1 241.12,-82.69 242.53,-89.55"/>
+<title>7：函式&#45;&gt;遞迴 Recursion:w</title>
+<path fill="none" stroke="#4caf50" d="M214.19,-80.54C222.58,-77.17 231.83,-74.27 241.13,-72.88"/>
+<polygon fill="#4caf50" stroke="#4caf50" points="241.24,-76.38 250.94,-72.12 240.7,-69.41 241.24,-76.38"/>
 </g>
 <!-- ip -->
 <g id="node7" class="node">
