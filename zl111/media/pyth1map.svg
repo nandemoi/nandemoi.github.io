@@ -64,7 +64,7 @@
 <g id="node5" class="node">
 <title>10：二分搜尋</title>
 <polygon fill="#4caf50" stroke="none" points="375.93,-144 268.07,-144 268.07,-108 375.93,-108 375.93,-144"/>
-<text xml:space="preserve" text-anchor="middle" x="322" y="-122.83" font-family="Arial" font-size="14.00" fill="white">10：二分搜尋</text>
+<text xml:space="preserve" text-anchor="start" x="278.88" y="-123.83" font-family="Arial" font-weight="bold" font-size="14.00" fill="Gold">10：二分搜尋</text>
 </g>
 <!--  6：List &#45;&gt;10：二分搜尋 -->
 <g id="edge5" class="edge">
@@ -97,7 +97,7 @@
 <polygon fill="#4caf50" stroke="#4caf50" points="417.79,-234.33 427.71,-230.62 417.64,-227.33 417.79,-234.33"/>
 </g>
 <!-- 8：遞迴 Recursion -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>8：遞迴 Recursion</title>
 <polygon fill="#4caf50" stroke="none" points="390.55,-90 253.45,-90 253.45,-54 390.55,-54 390.55,-90"/>
 <text xml:space="preserve" text-anchor="middle" x="322" y="-68.83" font-family="Arial" font-size="14.00" fill="white">8：遞迴 Recursion</text>
@@ -109,7 +109,7 @@
 <polygon fill="#4caf50" stroke="#4caf50" points="241.24,-76.38 250.94,-72.12 240.7,-69.41 241.24,-76.38"/>
 </g>
 <!-- ip -->
-<g id="node7" class="node">
+<g id="node8" class="node">
 <title>ip</title>
 <polygon fill="#4caf50" stroke="none" points="390.55,-36 253.45,-36 253.45,0 390.55,0 390.55,-36"/>
 <text xml:space="preserve" text-anchor="start" x="264.25" y="-15.82" font-family="Arial" font-size="14.00" fill="white">14：</text>
@@ -123,10 +123,10 @@
 <polygon fill="#4caf50" stroke="#4caf50" points="241.5,-22.99 250.95,-18.2 240.57,-16.05 241.5,-22.99"/>
 </g>
 <!-- 11：時間複雜度 -->
-<g id="node9" class="node">
+<g id="node6" class="node">
 <title>11：時間複雜度</title>
 <polygon fill="#4caf50" stroke="none" points="553.52,-144 432.17,-144 432.17,-108 553.52,-108 553.52,-144"/>
-<text xml:space="preserve" text-anchor="middle" x="492.85" y="-122.83" font-family="Arial" font-size="14.00" fill="white">11：時間複雜度</text>
+<text xml:space="preserve" text-anchor="start" x="442.97" y="-123.83" font-family="Arial" font-weight="bold" font-size="14.00" fill="Gold">11：時間複雜度</text>
 </g>
 <!-- 9：多維資料與迴圈&#45;&gt;11：時間複雜度 -->
 <g id="edge10" class="edge">
@@ -147,7 +147,7 @@
 <polygon fill="#4caf50" stroke="#4caf50" points="460.78,-103.4 470.82,-106.79 465.09,-97.88 460.78,-103.4"/>
 </g>
 <!-- 15：與 AI 協作 -->
-<g id="node8" class="node">
+<g id="node9" class="node">
 <title>15：與 AI 協作</title>
 <polygon fill="#4caf50" stroke="none" points="550.15,-36 435.55,-36 435.55,0 550.15,0 550.15,-36"/>
 <text xml:space="preserve" text-anchor="middle" x="492.85" y="-14.82" font-family="Arial" font-size="14.00" fill="white">15：與 AI 協作</text>
