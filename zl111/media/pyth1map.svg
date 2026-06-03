@@ -79,7 +79,7 @@
 <text xml:space="preserve" text-anchor="middle" x="492.85" y="-276.82" font-family="Arial" font-size="14.00" fill="white">13：堆疊 Stack</text>
 </g>
 <!--  6：List &#45;&gt;13：堆疊 Stack -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title> 6：List &#45;&gt;13：堆疊 Stack</title>
 <path fill="none" stroke="#4caf50" d="M190.63,-171.41C202.87,-190.01 224.34,-218.09 250.45,-233 303.08,-263.05 371.56,-274.23 422.13,-278.22"/>
 <polygon fill="#4caf50" stroke="#4caf50" points="421.88,-281.71 432.1,-278.92 422.37,-274.73 421.88,-281.71"/>
@@ -91,7 +91,7 @@
 <text xml:space="preserve" text-anchor="middle" x="492.85" y="-222.82" font-family="Arial" font-size="14.00" fill="white">12：排序 Sorting</text>
 </g>
 <!--  6：List &#45;&gt;12：排序 Sorting -->
-<g id="edge13" class="edge">
+<g id="edge14" class="edge">
 <title> 6：List &#45;&gt;12：排序 Sorting</title>
 <path fill="none" stroke="#4caf50" d="M197.55,-171.45C210.89,-183.85 230.21,-199.27 250.45,-207 303.9,-227.4 368.74,-231.48 417.76,-230.83"/>
 <polygon fill="#4caf50" stroke="#4caf50" points="417.79,-234.33 427.71,-230.62 417.64,-227.33 417.79,-234.33"/>
@@ -122,6 +122,12 @@
 <path fill="none" stroke="#4caf50" d="M186.5,-80.62C195.7,-59.52 213.95,-26.87 241.15,-19.51"/>
 <polygon fill="#4caf50" stroke="#4caf50" points="241.5,-22.99 250.95,-18.2 240.57,-16.05 241.5,-22.99"/>
 </g>
+<!-- 9：多維資料與迴圈&#45;&gt;10：二分搜尋 -->
+<g id="edge11" class="edge">
+<title>9：多維資料與迴圈:s&#45;&gt;10：二分搜尋:n</title>
+<path fill="none" stroke="#4caf50" d="M322,-155.39C322,-157.21 322,-159.25 322,-162"/>
+<polygon fill="#4caf50" stroke="#4caf50" points="325.5,-155.51 322,-145.51 318.5,-155.51 325.5,-155.51"/>
+</g>
 <!-- 11：時間複雜度 -->
 <g id="node6" class="node">
 <title>11：時間複雜度</title>
@@ -135,7 +141,7 @@
 <polygon fill="#4caf50" stroke="#4caf50" points="465.65,-154.2 471.29,-145.23 461.29,-148.72 465.65,-154.2"/>
 </g>
 <!-- 10：二分搜尋&#45;&gt;11：時間複雜度 -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>10：二分搜尋&#45;&gt;11：時間複雜度</title>
 <path fill="none" stroke="#4caf50" d="M375.96,-126C390.07,-126 405.54,-126 420.45,-126"/>
 <polygon fill="#4caf50" stroke="#4caf50" points="420.2,-129.5 430.2,-126 420.2,-122.5 420.2,-129.5"/>
